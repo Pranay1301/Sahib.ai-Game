@@ -864,7 +864,7 @@
       "source_file": "tests/mapArt.test.mjs",
       "source_location": "L1",
       "id": "tests_mapart_test_mjs",
-      "community": 73,
+      "community": 74,
       "norm_label": "mapart.test.mjs"
     },
     {
@@ -873,7 +873,7 @@
       "source_file": "tests/mapArt.test.mjs",
       "source_location": "L15",
       "id": "tests_mapart_test_cwd",
-      "community": 73,
+      "community": 74,
       "norm_label": "cwd"
     },
     {
@@ -1422,7 +1422,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L1",
       "id": "tests_herocombat_test_mjs",
-      "community": 71,
+      "community": 36,
       "norm_label": "herocombat.test.mjs"
     },
     {
@@ -1431,7 +1431,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L40",
       "id": "tests_herocombat_test_hero",
-      "community": 71,
+      "community": 36,
       "norm_label": "hero"
     },
     {
@@ -1440,7 +1440,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L44",
       "id": "tests_herocombat_test_tick",
-      "community": 71,
+      "community": 36,
       "norm_label": "tick"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L115",
       "id": "tests_herocombat_test_match",
-      "community": 71,
+      "community": 36,
       "norm_label": "match"
     },
     {
@@ -1458,7 +1458,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L116",
       "id": "tests_herocombat_test_heroposition",
-      "community": 71,
+      "community": 36,
       "norm_label": "heroposition"
     },
     {
@@ -1467,7 +1467,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L117",
       "id": "tests_herocombat_test_aim",
-      "community": 71,
+      "community": 36,
       "norm_label": "aim"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L131",
       "id": "tests_herocombat_test_projectilestate",
-      "community": 71,
+      "community": 36,
       "norm_label": "projectilestate"
     },
     {
@@ -1485,7 +1485,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L132",
       "id": "tests_herocombat_test_projectiletick",
-      "community": 71,
+      "community": 36,
       "norm_label": "projectiletick"
     },
     {
@@ -1494,7 +1494,7 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L157",
       "id": "tests_herocombat_test_downed",
-      "community": 71,
+      "community": 36,
       "norm_label": "downed"
     },
     {
@@ -1503,8 +1503,35 @@
       "source_file": "tests/heroCombat.test.mjs",
       "source_location": "L208",
       "id": "tests_herocombat_test_respawned",
-      "community": 71,
+      "community": 36,
       "norm_label": "respawned"
+    },
+    {
+      "label": "baseLocalReminders.test.mjs",
+      "file_type": "code",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L1",
+      "id": "tests_baselocalreminders_test_mjs",
+      "community": 80,
+      "norm_label": "baselocalreminders.test.mjs"
+    },
+    {
+      "label": "prompt",
+      "file_type": "code",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L45",
+      "id": "tests_baselocalreminders_test_prompt",
+      "community": 80,
+      "norm_label": "prompt"
+    },
+    {
+      "label": "schedule",
+      "file_type": "code",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L58",
+      "id": "tests_baselocalreminders_test_schedule",
+      "community": 80,
+      "norm_label": "schedule"
     },
     {
       "label": "baseUpgradeTimers.test.mjs",
@@ -2214,7 +2241,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L1",
       "id": "tests_baseupgrademodalmodel_test_mjs",
-      "community": 69,
+      "community": 71,
       "norm_label": "baseupgrademodalmodel.test.mjs"
     },
     {
@@ -2223,7 +2250,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L26",
       "id": "tests_baseupgrademodalmodel_test_modal",
-      "community": 69,
+      "community": 71,
       "norm_label": "modal"
     },
     {
@@ -2232,7 +2259,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L133",
       "id": "tests_baseupgrademodalmodel_test_slots",
-      "community": 69,
+      "community": 71,
       "norm_label": "slots"
     },
     {
@@ -2241,7 +2268,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L195",
       "id": "tests_baseupgrademodalmodel_test_createslot",
-      "community": 69,
+      "community": 71,
       "norm_label": "createslot()"
     },
     {
@@ -2484,7 +2511,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L1",
       "id": "tests_baseskilltrackselection_test_mjs",
-      "community": 75,
+      "community": 69,
       "norm_label": "baseskilltrackselection.test.mjs"
     },
     {
@@ -2493,7 +2520,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L24",
       "id": "tests_baseskilltrackselection_test_selector",
-      "community": 75,
+      "community": 69,
       "norm_label": "selector"
     },
     {
@@ -2502,7 +2529,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L53",
       "id": "tests_baseskilltrackselection_test_englishoption",
-      "community": 75,
+      "community": 69,
       "norm_label": "englishoption"
     },
     {
@@ -2511,7 +2538,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L54",
       "id": "tests_baseskilltrackselection_test_aioption",
-      "community": 75,
+      "community": 69,
       "norm_label": "aioption"
     },
     {
@@ -2520,7 +2547,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L65",
       "id": "tests_baseskilltrackselection_test_profile",
-      "community": 75,
+      "community": 69,
       "norm_label": "profile"
     },
     {
@@ -2529,7 +2556,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L70",
       "id": "tests_baseskilltrackselection_test_updatedprofile",
-      "community": 75,
+      "community": 69,
       "norm_label": "updatedprofile"
     },
     {
@@ -2538,7 +2565,7 @@
       "source_file": "tests/baseSkillTrackSelection.test.mjs",
       "source_location": "L71",
       "id": "tests_baseskilltrackselection_test_patch",
-      "community": 75,
+      "community": 69,
       "norm_label": "patch"
     },
     {
@@ -2556,7 +2583,7 @@
       "source_file": "tests/projectiles.test.mjs",
       "source_location": "L1",
       "id": "tests_projectiles_test_mjs",
-      "community": 71,
+      "community": 3,
       "norm_label": "projectiles.test.mjs"
     },
     {
@@ -2565,7 +2592,7 @@
       "source_file": "tests/projectiles.test.mjs",
       "source_location": "L25",
       "id": "tests_projectiles_test_enemy",
-      "community": 71,
+      "community": 3,
       "norm_label": "enemy"
     },
     {
@@ -2574,7 +2601,7 @@
       "source_file": "tests/projectiles.test.mjs",
       "source_location": "L29",
       "id": "tests_projectiles_test_projectilestate",
-      "community": 71,
+      "community": 3,
       "norm_label": "projectilestate"
     },
     {
@@ -2583,7 +2610,7 @@
       "source_file": "tests/projectiles.test.mjs",
       "source_location": "L36",
       "id": "tests_projectiles_test_tick",
-      "community": 71,
+      "community": 3,
       "norm_label": "tick"
     },
     {
@@ -2592,7 +2619,7 @@
       "source_file": "tests/projectiles.test.mjs",
       "source_location": "L143",
       "id": "tests_projectiles_test_createtestprojectilespawn",
-      "community": 71,
+      "community": 3,
       "norm_label": "createtestprojectilespawn()"
     },
     {
@@ -2844,7 +2871,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L1",
       "id": "tests_v1quickroundloop_test_mjs",
-      "community": 21,
+      "community": 37,
       "norm_label": "v1quickroundloop.test.mjs"
     },
     {
@@ -2853,7 +2880,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L21",
       "id": "tests_v1quickroundloop_test_heartuse",
-      "community": 21,
+      "community": 37,
       "norm_label": "heartuse"
     },
     {
@@ -2862,7 +2889,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L22",
       "id": "tests_v1quickroundloop_test_match",
-      "community": 21,
+      "community": 37,
       "norm_label": "match"
     },
     {
@@ -2871,7 +2898,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L26",
       "id": "tests_v1quickroundloop_test_result",
-      "community": 21,
+      "community": 37,
       "norm_label": "result"
     },
     {
@@ -2880,7 +2907,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L62",
       "id": "tests_v1quickroundloop_test_hearts",
-      "community": 21,
+      "community": 37,
       "norm_label": "hearts"
     },
     {
@@ -2889,7 +2916,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L66",
       "id": "tests_v1quickroundloop_test_consumed",
-      "community": 21,
+      "community": 37,
       "norm_label": "consumed"
     },
     {
@@ -2898,7 +2925,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L71",
       "id": "tests_v1quickroundloop_test_noheartstart",
-      "community": 21,
+      "community": 37,
       "norm_label": "noheartstart"
     },
     {
@@ -2907,7 +2934,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L72",
       "id": "tests_v1quickroundloop_test_ended",
-      "community": 21,
+      "community": 37,
       "norm_label": "ended"
     },
     {
@@ -2916,7 +2943,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L82",
       "id": "tests_v1quickroundloop_test_refilled",
-      "community": 21,
+      "community": 37,
       "norm_label": "refilled"
     },
     {
@@ -4302,7 +4329,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L42",
       "id": "ui_imagebattlefield_imagebattlefield",
-      "community": 1,
+      "community": 16,
       "norm_label": "imagebattlefield()"
     },
     {
@@ -4410,7 +4437,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L1",
       "id": "src_ui_base_basehomescreen_js",
-      "community": 31,
+      "community": 81,
       "norm_label": "basehomescreen.js"
     },
     {
@@ -4419,7 +4446,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L14",
       "id": "base_basehomescreen_basehomescreen",
-      "community": 31,
+      "community": 81,
       "norm_label": "basehomescreen()"
     },
     {
@@ -4428,7 +4455,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L160",
       "id": "base_basehomescreen_skilltrackselector",
-      "community": 31,
+      "community": 81,
       "norm_label": "skilltrackselector()"
     },
     {
@@ -4437,7 +4464,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L207",
       "id": "base_basehomescreen_resourcepill",
-      "community": 31,
+      "community": 81,
       "norm_label": "resourcepill()"
     },
     {
@@ -4446,7 +4473,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L216",
       "id": "base_basehomescreen_buildingslot",
-      "community": 31,
+      "community": 81,
       "norm_label": "buildingslot()"
     },
     {
@@ -4455,7 +4482,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L272",
       "id": "base_basehomescreen_upgrademodal",
-      "community": 31,
+      "community": 81,
       "norm_label": "upgrademodal()"
     },
     {
@@ -4464,7 +4491,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L346",
       "id": "base_basehomescreen_proconversioncard",
-      "community": 31,
+      "community": 81,
       "norm_label": "proconversioncard()"
     },
     {
@@ -4473,7 +4500,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L363",
       "id": "base_basehomescreen_levelpill",
-      "community": 31,
+      "community": 81,
       "norm_label": "levelpill()"
     },
     {
@@ -4482,7 +4509,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L372",
       "id": "base_basehomescreen_modalinforow",
-      "community": 31,
+      "community": 81,
       "norm_label": "modalinforow()"
     },
     {
@@ -4491,7 +4518,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L381",
       "id": "base_basehomescreen_styles",
-      "community": 31,
+      "community": 81,
       "norm_label": "styles"
     },
     {
@@ -4500,7 +4527,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L1",
       "id": "src_game_constants_js",
-      "community": 16,
+      "community": 37,
       "norm_label": "constants.js"
     },
     {
@@ -4509,7 +4536,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L4",
       "id": "game_constants_core_ids",
-      "community": 16,
+      "community": 37,
       "norm_label": "core_ids"
     },
     {
@@ -4518,7 +4545,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L9",
       "id": "game_constants_match_status",
-      "community": 16,
+      "community": 37,
       "norm_label": "match_status"
     },
     {
@@ -4527,7 +4554,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L16",
       "id": "game_constants_match_outcomes",
-      "community": 16,
+      "community": 37,
       "norm_label": "match_outcomes"
     },
     {
@@ -4635,7 +4662,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L1",
       "id": "src_game_herocombat_js",
-      "community": 74,
+      "community": 36,
       "norm_label": "herocombat.js"
     },
     {
@@ -4662,7 +4689,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L39",
       "id": "game_herocombat_rifle",
-      "community": 71,
+      "community": 36,
       "norm_label": "rifle"
     },
     {
@@ -4689,7 +4716,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L88",
       "id": "game_herocombat_tickherocombat",
-      "community": 74,
+      "community": 36,
       "norm_label": "tickherocombat()"
     },
     {
@@ -4698,7 +4725,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L118",
       "id": "game_herocombat_movehero",
-      "community": 74,
+      "community": 36,
       "norm_label": "movehero()"
     },
     {
@@ -4707,7 +4734,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L156",
       "id": "game_herocombat_tickrifletimers",
-      "community": 74,
+      "community": 36,
       "norm_label": "tickrifletimers()"
     },
     {
@@ -4716,7 +4743,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L197",
       "id": "game_herocombat_firerifleburst",
-      "community": 74,
+      "community": 36,
       "norm_label": "firerifleburst()"
     },
     {
@@ -4725,7 +4752,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L271",
       "id": "game_herocombat_fireenergyburst",
-      "community": 74,
+      "community": 36,
       "norm_label": "fireenergyburst()"
     },
     {
@@ -4734,7 +4761,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L323",
       "id": "game_herocombat_startreload",
-      "community": 74,
+      "community": 36,
       "norm_label": "startreload()"
     },
     {
@@ -4743,7 +4770,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L336",
       "id": "game_herocombat_damagehero",
-      "community": 71,
+      "community": 36,
       "norm_label": "damagehero()"
     },
     {
@@ -4752,7 +4779,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L368",
       "id": "game_herocombat_tickrespawn",
-      "community": 74,
+      "community": 36,
       "norm_label": "tickrespawn()"
     },
     {
@@ -4761,7 +4788,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L388",
       "id": "game_herocombat_respawnhero",
-      "community": 74,
+      "community": 36,
       "norm_label": "respawnhero()"
     },
     {
@@ -4779,7 +4806,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L421",
       "id": "game_herocombat_getactiveweaponconfig",
-      "community": 74,
+      "community": 36,
       "norm_label": "getactiveweaponconfig()"
     },
     {
@@ -4788,7 +4815,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L427",
       "id": "game_herocombat_returntodefaultrifle",
-      "community": 74,
+      "community": 36,
       "norm_label": "returntodefaultrifle()"
     },
     {
@@ -4797,7 +4824,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L435",
       "id": "game_herocombat_getfireintervalseconds",
-      "community": 74,
+      "community": 36,
       "norm_label": "getfireintervalseconds()"
     },
     {
@@ -4815,7 +4842,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L445",
       "id": "game_herocombat_normalizevector",
-      "community": 74,
+      "community": 36,
       "norm_label": "normalizevector()"
     },
     {
@@ -4824,7 +4851,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L457",
       "id": "game_herocombat_getrifleshotdirection",
-      "community": 74,
+      "community": 36,
       "norm_label": "getrifleshotdirection()"
     },
     {
@@ -4833,7 +4860,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L466",
       "id": "game_herocombat_clamp",
-      "community": 74,
+      "community": 36,
       "norm_label": "clamp()"
     },
     {
@@ -4842,7 +4869,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L470",
       "id": "game_herocombat_aimhero",
-      "community": 74,
+      "community": 36,
       "norm_label": "aimhero()"
     },
     {
@@ -4851,7 +4878,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L486",
       "id": "game_herocombat_getriflemuzzleposition",
-      "community": 74,
+      "community": 36,
       "norm_label": "getriflemuzzleposition()"
     },
     {
@@ -4860,7 +4887,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L493",
       "id": "game_herocombat_resolvewalkablemove",
-      "community": 74,
+      "community": 36,
       "norm_label": "resolvewalkablemove()"
     },
     {
@@ -4878,7 +4905,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L539",
       "id": "game_herocombat_aresameposition",
-      "community": 74,
+      "community": 36,
       "norm_label": "aresameposition()"
     },
     {
@@ -5031,7 +5058,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L37",
       "id": "game_maplayout_hero_respawn_position",
-      "community": 71,
+      "community": 36,
       "norm_label": "hero_respawn_position"
     },
     {
@@ -5040,7 +5067,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L44",
       "id": "game_maplayout_core_areas",
-      "community": 0,
+      "community": 73,
       "norm_label": "core_areas"
     },
     {
@@ -5130,7 +5157,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L370",
       "id": "game_maplayout_map_blockers",
-      "community": 0,
+      "community": 73,
       "norm_label": "map_blockers"
     },
     {
@@ -5148,7 +5175,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L374",
       "id": "game_maplayout_iswalkablepoint",
-      "community": 76,
+      "community": 0,
       "norm_label": "iswalkablepoint()"
     },
     {
@@ -5175,7 +5202,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L406",
       "id": "game_maplayout_isdoorblockingwalkablepath",
-      "community": 76,
+      "community": 0,
       "norm_label": "isdoorblockingwalkablepath()"
     },
     {
@@ -5238,7 +5265,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L1",
       "id": "src_game_mapart_js",
-      "community": 73,
+      "community": 74,
       "norm_label": "mapart.js"
     },
     {
@@ -5247,7 +5274,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L10",
       "id": "game_mapart_map_asset_library",
-      "community": 73,
+      "community": 74,
       "norm_label": "map_asset_library"
     },
     {
@@ -5256,7 +5283,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L169",
       "id": "game_mapart_map_art_walls",
-      "community": 73,
+      "community": 74,
       "norm_label": "map_art_walls"
     },
     {
@@ -5265,7 +5292,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L245",
       "id": "game_mapart_map_tree_clusters",
-      "community": 73,
+      "community": 74,
       "norm_label": "map_tree_clusters"
     },
     {
@@ -5274,7 +5301,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L272",
       "id": "game_mapart_map_prop_placements",
-      "community": 73,
+      "community": 74,
       "norm_label": "map_prop_placements"
     },
     {
@@ -5283,7 +5310,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L308",
       "id": "game_mapart_map_character_staging",
-      "community": 73,
+      "community": 74,
       "norm_label": "map_character_staging"
     },
     {
@@ -5292,7 +5319,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L314",
       "id": "game_mapart_getreferencedassetpaths",
-      "community": 73,
+      "community": 74,
       "norm_label": "getreferencedassetpaths()"
     },
     {
@@ -5310,7 +5337,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L329",
       "id": "game_mapart_getflatassetrefs",
-      "community": 73,
+      "community": 74,
       "norm_label": "getflatassetrefs()"
     },
     {
@@ -5319,7 +5346,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L347",
       "id": "game_mapart_assetref",
-      "community": 73,
+      "community": 74,
       "norm_label": "assetref()"
     },
     {
@@ -5328,7 +5355,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L351",
       "id": "game_mapart_artwall",
-      "community": 73,
+      "community": 74,
       "norm_label": "artwall()"
     },
     {
@@ -5337,7 +5364,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L362",
       "id": "game_mapart_treecluster",
-      "community": 73,
+      "community": 74,
       "norm_label": "treecluster()"
     },
     {
@@ -5346,7 +5373,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L372",
       "id": "game_mapart_prop",
-      "community": 73,
+      "community": 74,
       "norm_label": "prop()"
     },
     {
@@ -5355,7 +5382,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L383",
       "id": "game_mapart_characterstage",
-      "community": 73,
+      "community": 74,
       "norm_label": "characterstage()"
     },
     {
@@ -5409,7 +5436,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L105",
       "id": "game_enemybehavior_createenemy",
-      "community": 19,
+      "community": 82,
       "norm_label": "createenemy()"
     },
     {
@@ -5418,7 +5445,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L136",
       "id": "game_enemybehavior_createdoorenemyspawns",
-      "community": 19,
+      "community": 82,
       "norm_label": "createdoorenemyspawns()"
     },
     {
@@ -5427,7 +5454,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L174",
       "id": "game_enemybehavior_getdoorenemytypes",
-      "community": 19,
+      "community": 82,
       "norm_label": "getdoorenemytypes()"
     },
     {
@@ -5445,7 +5472,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L250",
       "id": "game_enemybehavior_getenemystats",
-      "community": 18,
+      "community": 1,
       "norm_label": "getenemystats()"
     },
     {
@@ -5634,7 +5661,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L795",
       "id": "game_enemybehavior_haswalkablelinebetween",
-      "community": 77,
+      "community": 18,
       "norm_label": "haswalkablelinebetween()"
     },
     {
@@ -5724,7 +5751,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L992",
       "id": "game_enemybehavior_findnearestwalkablespawn",
-      "community": 18,
+      "community": 82,
       "norm_label": "findnearestwalkablespawn()"
     },
     {
@@ -5733,7 +5760,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1007",
       "id": "game_enemybehavior_getdoorspawnspread",
-      "community": 19,
+      "community": 82,
       "norm_label": "getdoorspawnspread()"
     },
     {
@@ -5742,7 +5769,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1015",
       "id": "game_enemybehavior_getinitialpathreplandelay",
-      "community": 19,
+      "community": 82,
       "norm_label": "getinitialpathreplandelay()"
     },
     {
@@ -5751,7 +5778,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1028",
       "id": "game_enemybehavior_addvectors",
-      "community": 18,
+      "community": 82,
       "norm_label": "addvectors()"
     },
     {
@@ -5760,7 +5787,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1035",
       "id": "game_enemybehavior_scalevector",
-      "community": 18,
+      "community": 82,
       "norm_label": "scalevector()"
     },
     {
@@ -5778,7 +5805,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1046",
       "id": "game_enemybehavior_normalizeroutepoints",
-      "community": 19,
+      "community": 82,
       "norm_label": "normalizeroutepoints()"
     },
     {
@@ -5877,7 +5904,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L12",
       "id": "game_wallsystem_wall_tool_types",
-      "community": 71,
+      "community": 3,
       "norm_label": "wall_tool_types"
     },
     {
@@ -5913,7 +5940,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L71",
       "id": "game_wallsystem_createwallsystemstate",
-      "community": 71,
+      "community": 3,
       "norm_label": "createwallsystemstate()"
     },
     {
@@ -5922,7 +5949,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L82",
       "id": "game_wallsystem_selectwalltool",
-      "community": 9,
+      "community": 3,
       "norm_label": "selectwalltool()"
     },
     {
@@ -6057,7 +6084,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L433",
       "id": "game_wallsystem_doessegmenthitwall",
-      "community": 22,
+      "community": 18,
       "norm_label": "doessegmenthitwall()"
     },
     {
@@ -6066,7 +6093,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L458",
       "id": "game_wallsystem_getwallhitatpoint",
-      "community": 76,
+      "community": 3,
       "norm_label": "getwallhitatpoint()"
     },
     {
@@ -6219,7 +6246,7 @@
       "source_file": "src/game/characterAnimation.js",
       "source_location": "L1",
       "id": "src_game_characteranimation_js",
-      "community": 79,
+      "community": 19,
       "norm_label": "characteranimation.js"
     },
     {
@@ -6228,7 +6255,7 @@
       "source_file": "src/game/characterAnimation.js",
       "source_location": "L11",
       "id": "game_characteranimation_direction_rows",
-      "community": 79,
+      "community": 19,
       "norm_label": "direction_rows"
     },
     {
@@ -6237,7 +6264,7 @@
       "source_file": "src/game/characterAnimation.js",
       "source_location": "L22",
       "id": "game_characteranimation_getdirectionindexfromvector",
-      "community": 79,
+      "community": 19,
       "norm_label": "getdirectionindexfromvector()"
     },
     {
@@ -6246,7 +6273,7 @@
       "source_file": "src/game/characterAnimation.js",
       "source_location": "L49",
       "id": "game_characteranimation_getloopframeindex",
-      "community": 79,
+      "community": 19,
       "norm_label": "getloopframeindex()"
     },
     {
@@ -6255,7 +6282,7 @@
       "source_file": "src/game/characterAnimation.js",
       "source_location": "L55",
       "id": "game_characteranimation_getoneshotframeindex",
-      "community": 79,
+      "community": 19,
       "norm_label": "getoneshotframeindex()"
     },
     {
@@ -6264,7 +6291,7 @@
       "source_file": "src/game/characterAnimation.js",
       "source_location": "L62",
       "id": "game_characteranimation_clampdirectionindex",
-      "community": 79,
+      "community": 19,
       "norm_label": "clampdirectionindex()"
     },
     {
@@ -6507,7 +6534,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L191",
       "id": "game_matchstate_getcorepercent",
-      "community": 1,
+      "community": 16,
       "norm_label": "getcorepercent()"
     },
     {
@@ -6543,7 +6570,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L1",
       "id": "src_game_projectiles_js",
-      "community": 76,
+      "community": 3,
       "norm_label": "projectiles.js"
     },
     {
@@ -6552,7 +6579,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L16",
       "id": "game_projectiles_createprojectilestate",
-      "community": 71,
+      "community": 3,
       "norm_label": "createprojectilestate()"
     },
     {
@@ -6561,7 +6588,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L24",
       "id": "game_projectiles_addprojectilespawns",
-      "community": 71,
+      "community": 3,
       "norm_label": "addprojectilespawns()"
     },
     {
@@ -6570,7 +6597,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L55",
       "id": "game_projectiles_tickprojectiles",
-      "community": 76,
+      "community": 3,
       "norm_label": "tickprojectiles()"
     },
     {
@@ -6579,7 +6606,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L139",
       "id": "game_projectiles_resolveprojectilesegment",
-      "community": 76,
+      "community": 3,
       "norm_label": "resolveprojectilesegment()"
     },
     {
@@ -6588,7 +6615,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L217",
       "id": "game_projectiles_getprojectileenemyhitindex",
-      "community": 76,
+      "community": 3,
       "norm_label": "getprojectileenemyhitindex()"
     },
     {
@@ -6597,7 +6624,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L239",
       "id": "game_projectiles_damageenemyatindex",
-      "community": 76,
+      "community": 3,
       "norm_label": "damageenemyatindex()"
     },
     {
@@ -6606,7 +6633,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L260",
       "id": "game_projectiles_createprojectiletrail",
-      "community": 76,
+      "community": 3,
       "norm_label": "createprojectiletrail()"
     },
     {
@@ -6615,7 +6642,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L271",
       "id": "game_projectiles_decayprojectiletrails",
-      "community": 76,
+      "community": 3,
       "norm_label": "decayprojectiletrails()"
     },
     {
@@ -6624,7 +6651,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L290",
       "id": "game_projectiles_ispointinsideworld",
-      "community": 76,
+      "community": 3,
       "norm_label": "ispointinsideworld()"
     },
     {
@@ -7173,7 +7200,7 @@
       "source_file": "src/game/coreDefense.js",
       "source_location": "L161",
       "id": "game_coredefense_getenemycoreattackdamage",
-      "community": 22,
+      "community": 18,
       "norm_label": "getenemycoreattackdamage()"
     },
     {
@@ -7326,7 +7353,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L35",
       "id": "three_mapbuilder_mats",
-      "community": 73,
+      "community": 79,
       "norm_label": "mats()"
     },
     {
@@ -7335,7 +7362,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L66",
       "id": "three_mapbuilder_buildmap",
-      "community": 73,
+      "community": 79,
       "norm_label": "buildmap()"
     },
     {
@@ -7398,7 +7425,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L211",
       "id": "three_mapbuilder_addfloorpanellines",
-      "community": 73,
+      "community": 79,
       "norm_label": "addfloorpanellines()"
     },
     {
@@ -7407,7 +7434,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L230",
       "id": "three_mapbuilder_addruntimebasesurfaceoverlays",
-      "community": 73,
+      "community": 79,
       "norm_label": "addruntimebasesurfaceoverlays()"
     },
     {
@@ -7416,7 +7443,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L261",
       "id": "three_mapbuilder_addruntimeasset",
-      "community": 73,
+      "community": 79,
       "norm_label": "addruntimeasset()"
     },
     {
@@ -7425,7 +7452,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L277",
       "id": "three_mapbuilder_addartwall",
-      "community": 73,
+      "community": 79,
       "norm_label": "addartwall()"
     },
     {
@@ -7542,7 +7569,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L491",
       "id": "three_mapbuilder_addcharacterstage",
-      "community": 73,
+      "community": 79,
       "norm_label": "addcharacterstage()"
     },
     {
@@ -7551,7 +7578,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L512",
       "id": "three_mapbuilder_adddoor",
-      "community": 73,
+      "community": 79,
       "norm_label": "adddoor()"
     },
     {
@@ -7560,7 +7587,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L532",
       "id": "three_mapbuilder_addruntimedoorasset",
-      "community": 73,
+      "community": 79,
       "norm_label": "addruntimedoorasset()"
     },
     {
@@ -7569,7 +7596,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L548",
       "id": "three_mapbuilder_addrect",
-      "community": 73,
+      "community": 79,
       "norm_label": "addrect()"
     },
     {
@@ -7578,7 +7605,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L555",
       "id": "three_mapbuilder_addellipse",
-      "community": 73,
+      "community": 79,
       "norm_label": "addellipse()"
     },
     {
@@ -7587,7 +7614,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L563",
       "id": "three_mapbuilder_addsoftdiamond",
-      "community": 73,
+      "community": 79,
       "norm_label": "addsoftdiamond()"
     },
     {
@@ -7596,7 +7623,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L584",
       "id": "three_mapbuilder_setpos",
-      "community": 73,
+      "community": 79,
       "norm_label": "setpos()"
     },
     {
@@ -7623,7 +7650,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L608",
       "id": "three_mapbuilder_tl",
-      "community": 73,
+      "community": 79,
       "norm_label": "tl()"
     },
     {
@@ -7641,7 +7668,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L1",
       "id": "src_three_assetmodelloader_js",
-      "community": 73,
+      "community": 76,
       "norm_label": "assetmodelloader.js"
     },
     {
@@ -7650,7 +7677,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L7",
       "id": "three_assetmodelloader_modelcache",
-      "community": 73,
+      "community": 76,
       "norm_label": "modelcache"
     },
     {
@@ -7659,7 +7686,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L10",
       "id": "three_assetmodelloader_attachruntimemapassets",
-      "community": 73,
+      "community": 76,
       "norm_label": "attachruntimemapassets()"
     },
     {
@@ -7668,7 +7695,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L50",
       "id": "three_assetmodelloader_attachsingleasset",
-      "community": 73,
+      "community": 76,
       "norm_label": "attachsingleasset()"
     },
     {
@@ -7677,7 +7704,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L63",
       "id": "three_assetmodelloader_attachtreeclusterassets",
-      "community": 73,
+      "community": 76,
       "norm_label": "attachtreeclusterassets()"
     },
     {
@@ -7686,7 +7713,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L82",
       "id": "three_assetmodelloader_loadmodeltemplate",
-      "community": 73,
+      "community": 76,
       "norm_label": "loadmodeltemplate()"
     },
     {
@@ -7695,7 +7722,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L89",
       "id": "three_assetmodelloader_loadmodel",
-      "community": 73,
+      "community": 76,
       "norm_label": "loadmodel()"
     },
     {
@@ -7704,7 +7731,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L125",
       "id": "three_assetmodelloader_gettextureurimap",
-      "community": 73,
+      "community": 76,
       "norm_label": "gettextureurimap()"
     },
     {
@@ -7713,7 +7740,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L138",
       "id": "three_assetmodelloader_createmodelloadingmanager",
-      "community": 73,
+      "community": 76,
       "norm_label": "createmodelloadingmanager()"
     },
     {
@@ -7722,7 +7749,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L150",
       "id": "three_assetmodelloader_createplaceholdertextureloader",
-      "community": 73,
+      "community": 76,
       "norm_label": "createplaceholdertextureloader()"
     },
     {
@@ -7731,7 +7758,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L168",
       "id": "three_assetmodelloader_createsolidtexture",
-      "community": 73,
+      "community": 76,
       "norm_label": "createsolidtexture()"
     },
     {
@@ -7740,7 +7767,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L175",
       "id": "three_assetmodelloader_createruntimematerial",
-      "community": 73,
+      "community": 76,
       "norm_label": "createruntimematerial()"
     },
     {
@@ -7749,7 +7776,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L202",
       "id": "three_assetmodelloader_normalizeassetpath",
-      "community": 73,
+      "community": 76,
       "norm_label": "normalizeassetpath()"
     },
     {
@@ -7758,7 +7785,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L210",
       "id": "three_assetmodelloader_createfittedmodel",
-      "community": 73,
+      "community": 76,
       "norm_label": "createfittedmodel()"
     },
     {
@@ -7767,7 +7794,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L246",
       "id": "three_assetmodelloader_defaulttargetfor",
-      "community": 73,
+      "community": 76,
       "norm_label": "defaulttargetfor()"
     },
     {
@@ -7839,7 +7866,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L1",
       "id": "src_base_baseupgrademodalmodel_js",
-      "community": 69,
+      "community": 71,
       "norm_label": "baseupgrademodalmodel.js"
     },
     {
@@ -7848,7 +7875,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L20",
       "id": "base_baseupgrademodalmodel_base_upgrade_challenge_requirement",
-      "community": 69,
+      "community": 71,
       "norm_label": "base_upgrade_challenge_requirement"
     },
     {
@@ -7857,7 +7884,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L25",
       "id": "base_baseupgrademodalmodel_createbuildingupgrademodalviewmodel",
-      "community": 69,
+      "community": 71,
       "norm_label": "createbuildingupgrademodalviewmodel()"
     },
     {
@@ -7866,7 +7893,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L131",
       "id": "base_baseupgrademodalmodel_createbuildingupgrademodalfromslots",
-      "community": 69,
+      "community": 71,
       "norm_label": "createbuildingupgrademodalfromslots()"
     },
     {
@@ -7875,7 +7902,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L150",
       "id": "base_baseupgrademodalmodel_formatbasedurationminutes",
-      "community": 69,
+      "community": 71,
       "norm_label": "formatbasedurationminutes()"
     },
     {
@@ -7884,7 +7911,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L177",
       "id": "base_baseupgrademodalmodel_createlevelsummary",
-      "community": 69,
+      "community": 71,
       "norm_label": "createlevelsummary()"
     },
     {
@@ -7893,7 +7920,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L185",
       "id": "base_baseupgrademodalmodel_createtimersummary",
-      "community": 69,
+      "community": 71,
       "norm_label": "createtimersummary()"
     },
     {
@@ -7902,7 +7929,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L194",
       "id": "base_baseupgrademodalmodel_normalizewholenumber",
-      "community": 69,
+      "community": 71,
       "norm_label": "normalizewholenumber()"
     },
     {
@@ -8023,6 +8050,78 @@
       "norm_label": "assertrequiredstring()"
     },
     {
+      "label": "baseLocalReminders.js",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L1",
+      "id": "src_base_baselocalreminders_js",
+      "community": 80,
+      "norm_label": "baselocalreminders.js"
+    },
+    {
+      "label": "BASE_LOCAL_REMINDER_PERMISSION_STATUSES",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L11",
+      "id": "base_baselocalreminders_base_local_reminder_permission_statuses",
+      "community": 80,
+      "norm_label": "base_local_reminder_permission_statuses"
+    },
+    {
+      "label": "BASE_LOCAL_REMINDER_SCOPE",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L20",
+      "id": "base_baselocalreminders_base_local_reminder_scope",
+      "community": 80,
+      "norm_label": "base_local_reminder_scope"
+    },
+    {
+      "label": "BASE_LOCAL_REMINDER_TEMPLATES",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L28",
+      "id": "base_baselocalreminders_base_local_reminder_templates",
+      "community": 80,
+      "norm_label": "base_local_reminder_templates"
+    },
+    {
+      "label": "shouldAskLocalReminderPermission()",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L46",
+      "id": "base_baselocalreminders_shouldasklocalreminderpermission",
+      "community": 80,
+      "norm_label": "shouldasklocalreminderpermission()"
+    },
+    {
+      "label": "createLocalReminderPermissionPrompt()",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L54",
+      "id": "base_baselocalreminders_createlocalreminderpermissionprompt",
+      "community": 80,
+      "norm_label": "createlocalreminderpermissionprompt()"
+    },
+    {
+      "label": "createLocalReminderSchedule()",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L76",
+      "id": "base_baselocalreminders_createlocalreminderschedule",
+      "community": 80,
+      "norm_label": "createlocalreminderschedule()"
+    },
+    {
+      "label": "assertIsoTimestamp()",
+      "file_type": "code",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L106",
+      "id": "base_baselocalreminders_assertisotimestamp",
+      "community": 80,
+      "norm_label": "assertisotimestamp()"
+    },
+    {
       "label": "baseVisualReferences.js",
       "file_type": "code",
       "source_file": "src/base/baseVisualReferences.js",
@@ -8100,7 +8199,7 @@
       "source_file": "src/base/baseUnlocks.js",
       "source_location": "L32",
       "id": "base_baseunlocks_getbuildingunlockrequirement",
-      "community": 65,
+      "community": 35,
       "norm_label": "getbuildingunlockrequirement()"
     },
     {
@@ -8127,7 +8226,7 @@
       "source_file": "src/base/baseUnlocks.js",
       "source_location": "L108",
       "id": "base_baseunlocks_createbuildingtapresult",
-      "community": 31,
+      "community": 65,
       "norm_label": "createbuildingtapresult()"
     },
     {
@@ -8136,7 +8235,7 @@
       "source_file": "src/base/baseUnlocks.js",
       "source_location": "L159",
       "id": "base_baseunlocks_createprogressivetapresult",
-      "community": 31,
+      "community": 65,
       "norm_label": "createprogressivetapresult()"
     },
     {
@@ -8217,7 +8316,7 @@
       "source_file": "src/base/baseSkillChallenges.js",
       "source_location": "L207",
       "id": "base_baseskillchallenges_createskillchallengeviewmodel",
-      "community": 31,
+      "community": 72,
       "norm_label": "createskillchallengeviewmodel()"
     },
     {
@@ -8442,7 +8541,7 @@
       "source_file": "src/base/baseBackend.js",
       "source_location": "L87",
       "id": "base_basebackend_createdefaultgamestate",
-      "community": 2,
+      "community": 71,
       "norm_label": "createdefaultgamestate()"
     },
     {
@@ -8640,7 +8739,7 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L15",
       "id": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "community": 69,
+      "community": 71,
       "norm_label": "base_pro_touchpoints"
     },
     {
@@ -9036,7 +9135,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L28",
       "id": "base_baseconfig_base_building_ids",
-      "community": 69,
+      "community": 65,
       "norm_label": "base_building_ids"
     },
     {
@@ -9054,7 +9153,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L48",
       "id": "base_baseconfig_building_states",
-      "community": 69,
+      "community": 35,
       "norm_label": "building_states"
     },
     {
@@ -9063,7 +9162,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L57",
       "id": "base_baseconfig_base_economy_config",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_economy_config"
     },
     {
@@ -9072,7 +9171,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L85",
       "id": "base_baseconfig_base_building_definitions",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_building_definitions"
     },
     {
@@ -9135,7 +9234,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L168",
       "id": "base_baseconfig_calculatefinalcoins",
-      "community": 68,
+      "community": 2,
       "norm_label": "calculatefinalcoins()"
     },
     {
@@ -9171,7 +9270,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L196",
       "id": "base_baseconfig_getnextbuildinglevel",
-      "community": 69,
+      "community": 72,
       "norm_label": "getnextbuildinglevel()"
     },
     {
@@ -9216,7 +9315,7 @@
       "source_file": "src/base/baseSkillTrackSelection.js",
       "source_location": "L46",
       "id": "base_baseskilltrackselection_selectskilltrackforprofile",
-      "community": 75,
+      "community": 69,
       "norm_label": "selectskilltrackforprofile()"
     },
     {
@@ -9225,7 +9324,7 @@
       "source_file": "src/base/baseSkillTrackSelection.js",
       "source_location": "L53",
       "id": "base_baseskilltrackselection_createskilltrackprofilepatch",
-      "community": 75,
+      "community": 69,
       "norm_label": "createskilltrackprofilepatch()"
     },
     {
@@ -9259,7 +9358,7 @@
       "label": "BASE_BUILDING_COPY_KEYS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L87",
+      "source_location": "L94",
       "id": "base_baselocalization_base_building_copy_keys",
       "community": 75,
       "norm_label": "base_building_copy_keys"
@@ -9268,7 +9367,7 @@
       "label": "BASE_LEARNING_TRACK_COPY_KEYS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L118",
+      "source_location": "L125",
       "id": "base_baselocalization_base_learning_track_copy_keys",
       "community": 75,
       "norm_label": "base_learning_track_copy_keys"
@@ -9277,7 +9376,7 @@
       "label": "BASE_SKILL_TIER_KEYS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L131",
+      "source_location": "L138",
       "id": "base_baselocalization_base_skill_tier_keys",
       "community": 75,
       "norm_label": "base_skill_tier_keys"
@@ -9286,7 +9385,7 @@
       "label": "BASE_TRANSLATIONS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L148",
+      "source_location": "L155",
       "id": "base_baselocalization_base_translations",
       "community": 75,
       "norm_label": "base_translations"
@@ -9295,7 +9394,7 @@
       "label": "getSupportedBaseLanguages()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L371",
+      "source_location": "L392",
       "id": "base_baselocalization_getsupportedbaselanguages",
       "community": 75,
       "norm_label": "getsupportedbaselanguages()"
@@ -9304,7 +9403,7 @@
       "label": "normalizeBaseLanguage()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L378",
+      "source_location": "L399",
       "id": "base_baselocalization_normalizebaselanguage",
       "community": 31,
       "norm_label": "normalizebaselanguage()"
@@ -9313,16 +9412,16 @@
       "label": "getBaseCopy()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L384",
+      "source_location": "L405",
       "id": "base_baselocalization_getbasecopy",
-      "community": 46,
+      "community": 71,
       "norm_label": "getbasecopy()"
     },
     {
       "label": "hasBaseCopyKey()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L394",
+      "source_location": "L415",
       "id": "base_baselocalization_hasbasecopykey",
       "community": 75,
       "norm_label": "hasbasecopykey()"
@@ -9331,9 +9430,9 @@
       "label": "interpolateCopy()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L399",
+      "source_location": "L420",
       "id": "base_baselocalization_interpolatecopy",
-      "community": 46,
+      "community": 71,
       "norm_label": "interpolatecopy()"
     },
     {
@@ -17365,9 +17464,9 @@
       "source_file": "tests/baseRewardBridge.test.mjs",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_baserewardbridge_test_mjs",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -17376,9 +17475,9 @@
       "source_file": "tests/baseRewardBridge.test.mjs",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_baserewardbridge_test_mjs",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "contains",
@@ -17892,6 +17991,103 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "src_base_baselocalreminders_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "base_baselocalreminders_base_local_reminder_permission_statuses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "base_baselocalreminders_base_local_reminder_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "base_baselocalreminders_base_local_reminder_templates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "base_baselocalreminders_createlocalreminderpermissionprompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "base_baselocalreminders_createlocalreminderschedule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "base_baselocalreminders_shouldasklocalreminderpermission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "tests_baselocalreminders_test_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseLocalReminders.test.mjs",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "tests_baselocalreminders_test_mjs",
+      "target": "tests_baselocalreminders_test_schedule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "tests/baseUpgradeTimers.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
@@ -18049,9 +18245,9 @@
       "source_file": "tests/baseUpgradeTimers.test.mjs",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_baseupgradetimers_test_mjs",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -18060,9 +18256,9 @@
       "source_file": "tests/baseUpgradeTimers.test.mjs",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_baseupgradetimers_test_mjs",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "contains",
@@ -18684,9 +18880,9 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basehomemodel_test_mjs",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -18695,9 +18891,9 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basehomemodel_test_mjs",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "imports_from",
@@ -20167,9 +20363,9 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_baseupgrademodalmodel_test_mjs",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -20178,9 +20374,9 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_baseupgrademodalmodel_test_mjs",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "contains",
@@ -22311,9 +22507,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "src_base_baselocalization_js",
-      "confidence_score": 1.0
+      "target": "src_base_baselocalization_js"
     },
     {
       "relation": "imports",
@@ -22322,9 +22518,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_baselocalization_base_copy_keys",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_base_copy_keys"
     },
     {
       "relation": "imports_from",
@@ -22333,9 +22529,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -22344,9 +22540,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "imports",
@@ -22355,9 +22551,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoint_config",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoint_config"
     },
     {
       "relation": "imports",
@@ -22366,9 +22562,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_basesubscriptionconversion_createfirstupgradeproconversion",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createfirstupgradeproconversion"
     },
     {
       "relation": "imports",
@@ -22377,9 +22573,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainproscreenviewmodel"
     },
     {
       "relation": "imports",
@@ -22388,9 +22584,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_basesubscriptionconversion_createprobenefitsummary",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createprobenefitsummary"
     },
     {
       "relation": "imports",
@@ -22399,9 +22595,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "contains",
@@ -22409,9 +22605,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_benefits",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_benefits"
     },
     {
       "relation": "contains",
@@ -22419,9 +22615,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_conversion",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_conversion"
     },
     {
       "relation": "contains",
@@ -22429,9 +22625,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_locked",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_locked"
     },
     {
       "relation": "contains",
@@ -22439,9 +22635,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_timerstarted",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_timerstarted"
     },
     {
       "relation": "contains",
@@ -22449,9 +22645,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_firstupgrade",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_firstupgrade"
     },
     {
       "relation": "contains",
@@ -22459,9 +22655,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_screen",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_screen"
     },
     {
       "relation": "contains",
@@ -22469,9 +22665,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_gamestate",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_gamestate"
     },
     {
       "relation": "contains",
@@ -22479,9 +22675,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_first",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_first"
     },
     {
       "relation": "contains",
@@ -22489,9 +22685,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_second",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_second"
     },
     {
       "relation": "contains",
@@ -22499,9 +22695,9 @@
       "source_file": "tests/baseSubscriptionConversion.test.mjs",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
-      "target": "tests_basesubscriptionconversion_test_pro",
-      "confidence_score": 1.0
+      "target": "tests_basesubscriptionconversion_test_pro"
     },
     {
       "relation": "imports_from",
@@ -25394,9 +25590,9 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L346",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_ui_base_basehomescreen_js",
-      "target": "base_basehomescreen_proconversioncard",
-      "confidence_score": 1.0
+      "target": "base_basehomescreen_proconversioncard"
     },
     {
       "relation": "contains",
@@ -33780,9 +33976,9 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgrademodalmodel_js",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -33791,9 +33987,9 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgrademodalmodel_js",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "imports",
@@ -33802,9 +33998,9 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgrademodalmodel_js",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "contains",
@@ -34246,9 +34442,9 @@
       "source_file": "src/base/baseRewardBridge.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baserewardbridge_js",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -34257,9 +34453,9 @@
       "source_file": "src/base/baseRewardBridge.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baserewardbridge_js",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "imports",
@@ -34268,9 +34464,9 @@
       "source_file": "src/base/baseRewardBridge.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baserewardbridge_js",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "contains",
@@ -34578,6 +34774,219 @@
       "confidence_score": 1.0,
       "source": "base_baserewardbridge_assertbattleresultforbase",
       "target": "base_baserewardbridge_assertrequiredstring"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "src_base_basebackend_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_basebackend_addminutestoisotimestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "src_base_baselocalization_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalization_base_copy_keys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalization_base_languages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalization_getbasecopy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalization_normalizebaselanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_base_local_reminder_permission_statuses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_base_local_reminder_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_base_local_reminder_templates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_shouldasklocalreminderpermission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_createlocalreminderpermissionprompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_createlocalreminderschedule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "src_base_baselocalreminders_js",
+      "target": "base_baselocalreminders_assertisotimestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "base_baselocalreminders_createlocalreminderpermissionprompt",
+      "target": "base_baselocalreminders_shouldasklocalreminderpermission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "base_baselocalreminders_createlocalreminderpermissionprompt",
+      "target": "base_baselocalization_normalizebaselanguage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "base_baselocalreminders_createlocalreminderpermissionprompt",
+      "target": "base_baselocalization_getbasecopy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "base_baselocalreminders_createlocalreminderschedule",
+      "target": "base_baselocalreminders_assertisotimestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "base_baselocalreminders_createlocalreminderschedule",
+      "target": "base_baselocalization_normalizebaselanguage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/base/baseLocalReminders.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "base_baselocalreminders_createlocalreminderschedule",
+      "target": "base_baselocalization_getbasecopy"
     },
     {
       "relation": "contains",
@@ -36449,9 +36858,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "src_base_baseconfig_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseconfig_js"
     },
     {
       "relation": "imports",
@@ -36460,9 +36869,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_baseconfig_base_economy_config",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_economy_config"
     },
     {
       "relation": "imports_from",
@@ -36471,9 +36880,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "src_base_baselocalization_js",
-      "confidence_score": 1.0
+      "target": "src_base_baselocalization_js"
     },
     {
       "relation": "imports",
@@ -36482,9 +36891,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_baselocalization_base_copy_keys",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_base_copy_keys"
     },
     {
       "relation": "imports",
@@ -36493,9 +36902,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_baselocalization_base_languages",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_base_languages"
     },
     {
       "relation": "imports",
@@ -36504,9 +36913,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_baselocalization_getbasecopy",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_getbasecopy"
     },
     {
       "relation": "imports",
@@ -36515,9 +36924,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_baselocalization_normalizebaselanguage",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_normalizebaselanguage"
     },
     {
       "relation": "contains",
@@ -36525,9 +36934,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "contains",
@@ -36535,9 +36944,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoint_config",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoint_config"
     },
     {
       "relation": "contains",
@@ -36545,9 +36954,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "contains",
@@ -36555,9 +36964,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainproscreenviewmodel"
     },
     {
       "relation": "contains",
@@ -36565,9 +36974,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createfirstupgradeproconversion",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createfirstupgradeproconversion"
     },
     {
       "relation": "contains",
@@ -36575,9 +36984,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createprobenefitsummary",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createprobenefitsummary"
     },
     {
       "relation": "contains",
@@ -36585,9 +36994,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createmainprobenefitcards",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainprobenefitcards"
     },
     {
       "relation": "contains",
@@ -36595,9 +37004,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L186",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createbenefitcard",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createbenefitcard"
     },
     {
       "relation": "contains",
@@ -36605,9 +37014,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L196",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createmainprocomparisonrows",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainprocomparisonrows"
     },
     {
       "relation": "contains",
@@ -36615,9 +37024,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesubscriptionconversion_js",
-      "target": "base_basesubscriptionconversion_createcomparisonrow",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createcomparisonrow"
     },
     {
       "relation": "imports_from",
@@ -36626,9 +37035,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basehomemodel_js",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports_from",
@@ -36637,9 +37046,9 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgradetimers_js",
-      "target": "src_base_basesubscriptionconversion_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesubscriptionconversion_js"
     },
     {
       "relation": "imports",
@@ -36648,9 +37057,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basehomemodel_js",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "imports",
@@ -36659,9 +37068,9 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgradetimers_js",
-      "target": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_base_pro_touchpoints"
     },
     {
       "relation": "calls",
@@ -36670,9 +37079,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "target": "base_basesubscriptionconversion_createprobenefitsummary",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createprobenefitsummary"
     },
     {
       "relation": "calls",
@@ -36681,9 +37090,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "calls",
@@ -36692,9 +37101,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createfirstupgradeproconversion",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "imports",
@@ -36703,9 +37112,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basehomemodel_js",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "imports",
@@ -36714,9 +37123,9 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgradetimers_js",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "calls",
@@ -36725,9 +37134,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basehomemodel_createslottapresult",
-      "target": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createproconversionviewmodel"
     },
     {
       "relation": "calls",
@@ -36780,9 +37189,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "target": "base_basesubscriptionconversion_createmainprobenefitcards",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainprobenefitcards"
     },
     {
       "relation": "calls",
@@ -36791,9 +37200,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "target": "base_basesubscriptionconversion_createmainprocomparisonrows",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainprocomparisonrows"
     },
     {
       "relation": "imports",
@@ -36802,9 +37211,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basehomemodel_js",
-      "target": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createmainproscreenviewmodel"
     },
     {
       "relation": "calls",
@@ -36846,9 +37255,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L179",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createmainprobenefitcards",
-      "target": "base_basesubscriptionconversion_createbenefitcard",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createbenefitcard"
     },
     {
       "relation": "calls",
@@ -36857,9 +37266,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createbenefitcard",
-      "target": "base_baselocalization_getbasecopy",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_getbasecopy"
     },
     {
       "relation": "calls",
@@ -36868,9 +37277,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L198",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createmainprocomparisonrows",
-      "target": "base_basesubscriptionconversion_createcomparisonrow",
-      "confidence_score": 1.0
+      "target": "base_basesubscriptionconversion_createcomparisonrow"
     },
     {
       "relation": "calls",
@@ -36879,9 +37288,9 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L240",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesubscriptionconversion_createcomparisonrow",
-      "target": "base_baselocalization_getbasecopy",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_getbasecopy"
     },
     {
       "relation": "imports_from",
@@ -37516,9 +37925,9 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgradetimers_js",
-      "target": "src_base_baselocalization_js",
-      "confidence_score": 1.0
+      "target": "src_base_baselocalization_js"
     },
     {
       "relation": "imports",
@@ -37527,9 +37936,9 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_baseupgradetimers_js",
-      "target": "base_baselocalization_base_languages",
-      "confidence_score": 1.0
+      "target": "base_baselocalization_base_languages"
     },
     {
       "relation": "imports_from",
@@ -43299,5 +43708,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e813f31f2f29108c06264e7c7010b796eee256fb"
+  "built_at_commit": "b18601af922bb31aee4f673bd9982c737c3db000"
 }

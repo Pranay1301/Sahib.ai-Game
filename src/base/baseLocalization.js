@@ -81,7 +81,14 @@ export const BASE_COPY_KEYS = Object.freeze({
   PRO_COMPARISON_PRO_TIMERS: "base.proComparison.pro.timers",
   PRO_COMPARISON_PRO_SKILL_CHALLENGES: "base.proComparison.pro.skillChallenges",
   PRO_COMPARISON_PRO_PAY_TO_WIN: "base.proComparison.pro.payToWin",
-  PRO_TRUST_NOTE: "base.pro.trustNote"
+  PRO_TRUST_NOTE: "base.pro.trustNote",
+  REMINDER_PERMISSION_TITLE: "base.reminder.permission.title",
+  REMINDER_PERMISSION_BODY: "base.reminder.permission.body",
+  REMINDER_PERMISSION_CTA: "base.reminder.permission.cta",
+  REMINDER_NOTIFICATION_TITLE: "base.reminder.notification.title",
+  REMINDER_KINGDOM_WAITING: "base.reminder.kingdomWaiting",
+  REMINDER_ONE_MORE_BATTLE: "base.reminder.oneMoreBattle",
+  REMINDER_NEXT_UPGRADE: "base.reminder.nextUpgrade"
 });
 
 export const BASE_BUILDING_COPY_KEYS = Object.freeze({
@@ -225,6 +232,13 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_COPY_KEYS.PRO_COMPARISON_PRO_SKILL_CHALLENGES]: "Required",
     [BASE_COPY_KEYS.PRO_COMPARISON_PRO_PAY_TO_WIN]: "No",
     [BASE_COPY_KEYS.PRO_TRUST_NOTE]: "No pay-to-win. Skill challenges still matter.",
+    [BASE_COPY_KEYS.REMINDER_PERMISSION_TITLE]: "Stay close to your kingdom",
+    [BASE_COPY_KEYS.REMINDER_PERMISSION_BODY]: "Allow simple local reminders after you play or upgrade. No smart campaigns.",
+    [BASE_COPY_KEYS.REMINDER_PERMISSION_CTA]: "Allow Reminders",
+    [BASE_COPY_KEYS.REMINDER_NOTIFICATION_TITLE]: "Sahib Kingdom",
+    [BASE_COPY_KEYS.REMINDER_KINGDOM_WAITING]: "Your kingdom is waiting. Play a quick battle and earn coins.",
+    [BASE_COPY_KEYS.REMINDER_ONE_MORE_BATTLE]: "Ready for one more battle? Grow your Sahib kingdom today.",
+    [BASE_COPY_KEYS.REMINDER_NEXT_UPGRADE]: "Your next upgrade starts with one skill challenge.",
     [BASE_BUILDING_COPY_KEYS.palace.label]: "Palace / Main Core",
     [BASE_BUILDING_COPY_KEYS.palace.purpose]: "Main kingdom anchor",
     [BASE_BUILDING_COPY_KEYS.learning_hall.label]: "Learning Hall / Library",
@@ -335,6 +349,13 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_COPY_KEYS.PRO_COMPARISON_PRO_SKILL_CHALLENGES]: "مطلوبة",
     [BASE_COPY_KEYS.PRO_COMPARISON_PRO_PAY_TO_WIN]: "لا",
     [BASE_COPY_KEYS.PRO_TRUST_NOTE]: "لا توجد قوة مدفوعة. تحديات المهارة تبقى مهمة.",
+    [BASE_COPY_KEYS.REMINDER_PERMISSION_TITLE]: "ابق قريبا من مملكتك",
+    [BASE_COPY_KEYS.REMINDER_PERMISSION_BODY]: "اسمح بتذكيرات محلية بسيطة بعد اللعب أو التطوير. لا توجد حملات ذكية.",
+    [BASE_COPY_KEYS.REMINDER_PERMISSION_CTA]: "اسمح بالتذكيرات",
+    [BASE_COPY_KEYS.REMINDER_NOTIFICATION_TITLE]: "مملكة Sahib",
+    [BASE_COPY_KEYS.REMINDER_KINGDOM_WAITING]: "مملكتك تنتظرك. العب معركة سريعة واجمع العملات.",
+    [BASE_COPY_KEYS.REMINDER_ONE_MORE_BATTLE]: "جاهز لمعركة أخرى؟ اجعل مملكة Sahib تنمو اليوم.",
+    [BASE_COPY_KEYS.REMINDER_NEXT_UPGRADE]: "تطويرك التالي يبدأ بتحدي مهارة واحد.",
     [BASE_BUILDING_COPY_KEYS.palace.label]: "القصر / النواة الرئيسية",
     [BASE_BUILDING_COPY_KEYS.palace.purpose]: "مركز المملكة الرئيسي",
     [BASE_BUILDING_COPY_KEYS.learning_hall.label]: "قاعة التعلم / المكتبة",
