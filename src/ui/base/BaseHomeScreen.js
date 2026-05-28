@@ -1,11 +1,13 @@
 import React from "react";
 import {
+  ImageBackground,
   Pressable,
   StyleSheet,
   Text,
   View
 } from "react-native";
 
+import { BASE_VISUAL_IMAGE_MODULES } from "../../assets/baseVisualModules.js";
 import { createBaseHomeViewModel } from "../../base/baseHomeModel.js";
 import { createBuildingTapResult } from "../../base/baseUnlocks.js";
 
@@ -78,13 +80,23 @@ export function BaseHomeScreen({
     React.createElement(
       View,
       { style: styles.baseCanvas },
-      React.createElement(View, { style: styles.outerWall }),
-      model.slots.map((slot) =>
-        React.createElement(BuildingSlot, {
-          key: slot.slotId,
-          onPress: onBuildingPress,
-          slot
-        })
+      React.createElement(
+        ImageBackground,
+        {
+          imageStyle: styles.baseCanvasImage,
+          resizeMode: "cover",
+          source: BASE_VISUAL_IMAGE_MODULES.emptyLandBackground,
+          style: styles.baseCanvasBackground
+        },
+        React.createElement(View, { style: styles.baseCanvasTone }),
+        React.createElement(View, { style: styles.outerWall }),
+        model.slots.map((slot) =>
+          React.createElement(BuildingSlot, {
+            key: slot.slotId,
+            onPress: onBuildingPress,
+            slot
+          })
+        )
       )
     ),
     React.createElement(
@@ -366,6 +378,20 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(102, 190, 255, 0.3)",
     backgroundColor: "#102230"
+  },
+  baseCanvasBackground: {
+    flex: 1
+  },
+  baseCanvasImage: {
+    opacity: 0.78
+  },
+  baseCanvasTone: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    backgroundColor: "rgba(5, 13, 20, 0.2)"
   },
   outerWall: {
     position: "absolute",
