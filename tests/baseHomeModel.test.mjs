@@ -212,6 +212,31 @@ test("home model does not open Phase 6 upgrade modal for locked selected buildin
   assert.equal(model.upgradeModal, null);
 });
 
+test("home model exposes Phase 9 skill challenge preview for quiz-required buildings", () => {
+  const rows = createInitialUserBuildings(USER_ID, { palaceLevel: 2 }).map((building) =>
+    building.building_id === BASE_BUILDING_IDS.ATTACK_TOWER
+      ? { ...building, state: BUILDING_STATES.QUIZ_REQUIRED }
+      : building
+  );
+  const model = createBaseHomeViewModel({
+    profile: createDefaultProfile(USER_ID, {
+      learning_track: LEARNING_TRACKS.AI_AGENTS
+    }),
+    gameState: createDefaultGameState(USER_ID, {
+      skill_challenges_completed: 4
+    }),
+    buildings: rows
+  });
+  const attackTower = model.slots.find((slot) => slot.buildingId === BASE_BUILDING_IDS.ATTACK_TOWER);
+
+  assert.equal(attackTower.state, BUILDING_STATES.QUIZ_REQUIRED);
+  assert.equal(attackTower.tapResult.action, BASE_BUILDING_TAP_ACTIONS.QUIZ_REQUIRED);
+  assert.equal(attackTower.tapResult.skillChallengePreview.learningTrack, LEARNING_TRACKS.AI_AGENTS);
+  assert.equal(attackTower.tapResult.skillChallengePreview.questionCount, 5);
+  assert.equal(attackTower.tapResult.skillChallengePreview.rules.passCount, 4);
+  assert.equal(attackTower.tapResult.skillChallengePreview.startAction.label, "Start Skill Challenge");
+});
+
 test("building slots expose predictable placeholder asset keys for Level 1 through Level 6", () => {
   const rows = createInitialUserBuildings(USER_ID).map((building) =>
     building.building_id === BASE_BUILDING_IDS.PALACE

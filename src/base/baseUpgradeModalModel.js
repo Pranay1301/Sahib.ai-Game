@@ -1,4 +1,5 @@
 import {
+  BASE_SKILL_CHALLENGE_RULES,
   BUILDING_STATES,
   getFreeTimerMinutesForTargetLevel,
   getNextBuildingLevel,
@@ -13,8 +14,8 @@ import {
 } from "./baseLocalization.js";
 
 export const BASE_UPGRADE_CHALLENGE_REQUIREMENT = Object.freeze({
-  questionsRequired: 5,
-  passCount: 4
+  questionsRequired: BASE_SKILL_CHALLENGE_RULES.questionsRequired,
+  passCount: BASE_SKILL_CHALLENGE_RULES.passCount
 });
 
 export function createBuildingUpgradeModalViewModel({

@@ -26,6 +26,9 @@ import {
   createBuildingUpgradeModalViewModel
 } from "./baseUpgradeModalModel.js";
 import {
+  createSkillChallengeViewModel
+} from "./baseSkillChallenges.js";
+import {
   createSkillTrackSelectionViewModel
 } from "./baseSkillTrackSelection.js";
 
@@ -162,23 +165,52 @@ export function createBaseHomeSlots({
       isMaxLevel: state === BUILDING_STATES.MAX_LEVEL
     };
 
-    const tapResult = createBuildingTapResult(slot);
     return {
       ...slot,
-      tapResult:
-        tapResult.action === BASE_BUILDING_TAP_ACTIONS.UPGRADE_AVAILABLE
-          ? {
-              ...tapResult,
-              upgradePreview: createBuildingUpgradeModalViewModel({
-                slot,
-                profile,
-                gameState,
-                language: normalizedLanguage
-              })
-            }
-          : tapResult
+      tapResult: createSlotTapResult({
+        slot,
+        profile,
+        gameState,
+        language: normalizedLanguage
+      })
     };
   });
+}
+
+function createSlotTapResult({
+  slot,
+  profile,
+  gameState,
+  language
+}) {
+  const tapResult = createBuildingTapResult(slot);
+
+  if (tapResult.action === BASE_BUILDING_TAP_ACTIONS.UPGRADE_AVAILABLE) {
+    return {
+      ...tapResult,
+      upgradePreview: createBuildingUpgradeModalViewModel({
+        slot,
+        profile,
+        gameState,
+        language
+      })
+    };
+  }
+
+  if (tapResult.action === BASE_BUILDING_TAP_ACTIONS.QUIZ_REQUIRED) {
+    return {
+      ...tapResult,
+      skillChallengePreview: createSkillChallengeViewModel({
+        profile,
+        buildingId: slot.buildingId,
+        currentLevel: slot.level,
+        challengeNumber: normalizeWholeNumber(gameState.skill_challenges_completed) + 1,
+        language
+      })
+    };
+  }
+
+  return tapResult;
 }
 
 export function createSkillBadgeViewModel({

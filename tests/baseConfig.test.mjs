@@ -6,6 +6,7 @@ import {
   BASE_BUILDING_IDS,
   BASE_ECONOMY_CONFIG,
   BASE_LEARNING_TRACK_DEFINITIONS,
+  BASE_SKILL_CHALLENGE_RULES,
   BASE_SLOT_IDS,
   BUILDING_STATES,
   LEARNING_TRACKS,
@@ -30,6 +31,12 @@ test("Phase 3 base config keeps the documented V1 scope constants", () => {
   assert.equal(BASE_ECONOMY_CONFIG.heartsMax, 4);
   assert.equal(BASE_ECONOMY_CONFIG.heartRefillMinutes, 30);
   assert.equal(BASE_ECONOMY_CONFIG.maxBuildingLevel, 6);
+  assert.deepEqual(BASE_SKILL_CHALLENGE_RULES, {
+    questionsRequired: 5,
+    passCount: 4,
+    allowsRetry: true,
+    timerStartsOnlyAfterPass: true
+  });
   assert.equal(BASE_BUILDING_DEFINITIONS.length, 7);
   assert.equal(Object.keys(BASE_BUILDING_IDS).length, 7);
   assert.equal(Object.keys(BASE_SLOT_IDS).length, 7);

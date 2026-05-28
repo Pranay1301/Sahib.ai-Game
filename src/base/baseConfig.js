@@ -18,6 +18,13 @@ export const BASE_LEARNING_TRACK_DEFINITIONS = Object.freeze([
   })
 ]);
 
+export const BASE_SKILL_CHALLENGE_RULES = Object.freeze({
+  questionsRequired: 5,
+  passCount: 4,
+  allowsRetry: true,
+  timerStartsOnlyAfterPass: true
+});
+
 export const BASE_BUILDING_IDS = Object.freeze({
   PALACE: "palace",
   LEARNING_HALL: "learning_hall",
