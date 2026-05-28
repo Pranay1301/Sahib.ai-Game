@@ -1,5 +1,6 @@
 import {
   BASE_BUILDING_DEFINITIONS,
+  BASE_BUILDING_IDS,
   BASE_ECONOMY_CONFIG,
   LEARNING_TRACKS,
   calculateFinalCoins,
@@ -104,7 +105,9 @@ export function createInitialUserBuildings(userId, options = {}) {
   const startingRows = BASE_BUILDING_DEFINITIONS.map((building) => ({
     user_id: userId,
     building_id: building.id,
-    level: BASE_ECONOMY_CONFIG.minBuildingLevel,
+    level: building.id === BASE_BUILDING_IDS.PALACE
+      ? palaceLevel
+      : BASE_ECONOMY_CONFIG.minBuildingLevel,
     state: null
   }));
 

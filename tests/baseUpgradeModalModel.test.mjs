@@ -49,7 +49,8 @@ test("Phase 6 upgrade modal exposes Level 1 to Level 2 cost, challenge, and time
   assert.equal(modal.timers.pro.formatted, "12 min");
   assert.equal(modal.timers.active.minutes, 60);
   assert.equal(modal.proUpsell.fasterPercent, 80);
-  assert.equal(modal.proUpsell.body, "Sahib Pro uses 12 min instead of 1 hour for this upgrade.");
+  assert.equal(modal.proUpsell.body, "Free build time: 1 hour. Sahib Pro build time: 12 min.");
+  assert.equal(modal.proUpsell.cta, "Build 80% Faster");
   assert.equal(modal.confirmAction.disabled, false);
 });
 

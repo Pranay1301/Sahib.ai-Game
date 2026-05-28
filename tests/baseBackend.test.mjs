@@ -95,6 +95,7 @@ test("initial buildings create seven fixed-slot rows with Palace-based unlock st
   assert.ok(initial.every((building) => building.level === 1));
 
   const palaceLevelTwo = createInitialUserBuildings(USER_ID, { palaceLevel: 2 });
+  assert.equal(palaceLevelTwo.find((building) => building.building_id === BASE_BUILDING_IDS.PALACE).level, 2);
   assert.equal(palaceLevelTwo.find((building) => building.building_id === BASE_BUILDING_IDS.ATTACK_TOWER).state, BUILDING_STATES.AVAILABLE);
   assert.equal(palaceLevelTwo.find((building) => building.building_id === BASE_BUILDING_IDS.TREASURY).state, BUILDING_STATES.AVAILABLE);
   assert.equal(palaceLevelTwo.find((building) => building.building_id === BASE_BUILDING_IDS.WALL_GATE).state, BUILDING_STATES.LOCKED);
