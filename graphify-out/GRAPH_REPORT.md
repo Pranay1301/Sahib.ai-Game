@@ -1,7 +1,7 @@
 # Graph Report - Sahib.ai-Game-main  (2026-05-28)
 
 ## Corpus Check
-- 106 files · ~81,811 words
+- 106 files · ~81,966 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e45c94ab`
+- Built from commit: `fd23afab`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -261,8 +261,8 @@ Cohesion: 0.17
 Nodes (10): Base Coin Output, BattleResult Contract, code:js (finalCoins = user.is_pro ? battleResult.baseCoins * 3 : batt), code:js ({), Core Principle, Do Not Build In Quick Round, Hearts And Access, Ownership Split (+2 more)
 
 ### Community 35 - "Community 35"
-Cohesion: 0.19
-Nodes (17): getBuildingDefinition(), BASE_BUILDING_STATUS_VISUALS, BASE_BUILDING_VISUAL_LEVELS, createBaseVisualStateCatalog(), createBuildingVisualState(), getBuildingVisualAssetKey(), getBuildingVisualLevel(), normalizeBuildingVisualLevel() (+9 more)
+Cohesion: 0.18
+Nodes (18): BASE_BUILDING_DEFINITIONS, getBuildingDefinition(), BASE_BUILDING_STATUS_VISUALS, BASE_BUILDING_VISUAL_LEVELS, createBaseVisualStateCatalog(), createBuildingVisualState(), getBuildingVisualAssetKey(), getBuildingVisualLevel() (+10 more)
 
 ### Community 36 - "Community 36"
 Cohesion: 0.13
@@ -369,8 +369,8 @@ Cohesion: 0.39
 Nodes (6): BASE_BUILDING_SOURCE_IMAGES, BASE_VISUAL_REFERENCE_ASSETS, getBaseVisualReferenceAsset(), getBaseVisualSourcePath(), APP_ROOT, WORKSPACE_ROOT
 
 ### Community 65 - "Community 65"
-Cohesion: 0.12
-Nodes (17): BaseHomeScreen(), BuildingSlot(), styles, BASE_BUILDING_TAP_ACTIONS, clampWholeNumber(), createBuildingTapResult(), createProgressiveTapResult(), getBuildingUnlockRequirement() (+9 more)
+Cohesion: 0.11
+Nodes (18): BASE_BUILDING_IDS, BaseHomeScreen(), BuildingSlot(), styles, BASE_BUILDING_TAP_ACTIONS, clampWholeNumber(), createBuildingTapResult(), createProgressiveTapResult() (+10 more)
 
 ### Community 66 - "Community 66"
 Cohesion: 0.10
@@ -382,11 +382,11 @@ Nodes (11): attachRuntimeMapAssets(), attachSingleAsset(), attachTreeClusterAsse
 
 ### Community 68 - "Community 68"
 Cohesion: 0.12
-Nodes (24): calculateFinalCoins(), getBaseCoinsForOutcome(), ARABIC_DIGITS, assertBattleResultForBase(), assertRequiredString(), BASE_REWARD_BRIDGE_REASONS, claimBattleResultReward(), createBattleRewardPreview() (+16 more)
+Nodes (25): BASE_ECONOMY_CONFIG, calculateFinalCoins(), getBaseCoinsForOutcome(), ARABIC_DIGITS, assertBattleResultForBase(), assertRequiredString(), BASE_REWARD_BRIDGE_REASONS, claimBattleResultReward() (+17 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.14
-Nodes (30): assertSupportedLearningTrack(), assertTargetLevel(), BASE_BUILDING_DEFINITIONS, BASE_BUILDING_IDS, BASE_ECONOMY_CONFIG, BASE_LEARNING_TRACK_DEFINITIONS, BASE_SKILL_CHALLENGE_RULES, BASE_SLOT_IDS (+22 more)
+Cohesion: 0.23
+Nodes (15): assertTargetLevel(), BUILDING_STATES, getFreeTimerMinutesForTargetLevel(), getNextBuildingLevel(), getTimerDurationMinutesForTargetLevel(), getUpgradeCostForTargetLevel(), BASE_UPGRADE_CHALLENGE_REQUIREMENT, createBuildingUpgradeModalFromSlots() (+7 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.32
@@ -409,8 +409,8 @@ Cohesion: 0.25
 Nodes (18): aimHero(), areSamePosition(), clamp(), fireEnergyBurst(), fireRifleBurst(), getActiveWeaponConfig(), getFireIntervalSeconds(), getRifleMuzzlePosition() (+10 more)
 
 ### Community 75 - "Community 75"
-Cohesion: 0.22
-Nodes (8): createSkillTrackProfilePatch(), selectSkillTrackForProfile(), aiOption, englishOption, patch, profile, selector, updatedProfile
+Cohesion: 0.16
+Nodes (20): assertSupportedLearningTrack(), BASE_LEARNING_TRACK_DEFINITIONS, BASE_SKILL_CHALLENGE_RULES, BASE_SLOT_IDS, getLearningTrackDefinition(), isBuildingUnlocked(), isSupportedLearningTrack(), LEARNING_TRACKS (+12 more)
 
 ### Community 76 - "Community 76"
 Cohesion: 0.32
@@ -432,7 +432,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `consumeHeartForQuickRound()` connect `Community 21` to `Community 9`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `BUILDING_STATES` connect `Community 69` to `Community 65`, `Community 2`, `Community 35`, `Community 4`, `Community 66`, `Community 72`?**
+- **Why does `BUILDING_STATES` connect `Community 69` to `Community 65`, `Community 2`, `Community 66`, `Community 4`, `Community 35`, `Community 72`, `Community 75`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `name`, `slug`, `version` to the rest of the system?**
   _708 weakly-connected nodes found - possible documentation gaps or missing edges._

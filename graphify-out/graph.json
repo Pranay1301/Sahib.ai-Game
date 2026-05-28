@@ -1870,7 +1870,7 @@
       "label": "maxSlots",
       "file_type": "code",
       "source_file": "tests/baseHomeModel.test.mjs",
-      "source_location": "L358",
+      "source_location": "L374",
       "id": "tests_basehomemodel_test_maxslots",
       "community": 4,
       "norm_label": "maxslots"
@@ -1881,7 +1881,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L1",
       "id": "tests_baseconfig_test_mjs",
-      "community": 69,
+      "community": 75,
       "norm_label": "baseconfig.test.mjs"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L109",
       "id": "tests_baseconfig_test_palace",
-      "community": 69,
+      "community": 75,
       "norm_label": "palace"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L110",
       "id": "tests_baseconfig_test_attacktower",
-      "community": 69,
+      "community": 75,
       "norm_label": "attacktower"
     },
     {
@@ -1908,7 +1908,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L111",
       "id": "tests_baseconfig_test_wallgate",
-      "community": 69,
+      "community": 75,
       "norm_label": "wallgate"
     },
     {
@@ -4327,7 +4327,7 @@
       "label": "SkillTrackSelector()",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L148",
+      "source_location": "L160",
       "id": "base_basehomescreen_skilltrackselector",
       "community": 65,
       "norm_label": "skilltrackselector()"
@@ -4336,7 +4336,7 @@
       "label": "ResourcePill()",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L195",
+      "source_location": "L207",
       "id": "base_basehomescreen_resourcepill",
       "community": 65,
       "norm_label": "resourcepill()"
@@ -4345,7 +4345,7 @@
       "label": "BuildingSlot()",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L204",
+      "source_location": "L216",
       "id": "base_basehomescreen_buildingslot",
       "community": 65,
       "norm_label": "buildingslot()"
@@ -4354,7 +4354,7 @@
       "label": "UpgradeModal()",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L260",
+      "source_location": "L272",
       "id": "base_basehomescreen_upgrademodal",
       "community": 65,
       "norm_label": "upgrademodal()"
@@ -4363,7 +4363,7 @@
       "label": "LevelPill()",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L341",
+      "source_location": "L353",
       "id": "base_basehomescreen_levelpill",
       "community": 65,
       "norm_label": "levelpill()"
@@ -4372,7 +4372,7 @@
       "label": "ModalInfoRow()",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L350",
+      "source_location": "L362",
       "id": "base_basehomescreen_modalinforow",
       "community": 65,
       "norm_label": "modalinforow()"
@@ -4381,7 +4381,7 @@
       "label": "styles",
       "file_type": "code",
       "source_file": "src/ui/base/BaseHomeScreen.js",
-      "source_location": "L359",
+      "source_location": "L371",
       "id": "base_basehomescreen_styles",
       "community": 65,
       "norm_label": "styles"
@@ -8584,7 +8584,7 @@
       "label": "getSkillTierKey()",
       "file_type": "code",
       "source_file": "src/base/baseHomeModel.js",
-      "source_location": "L296",
+      "source_location": "L302",
       "id": "base_basehomemodel_getskilltierkey",
       "community": 4,
       "norm_label": "getskilltierkey()"
@@ -8593,7 +8593,7 @@
       "label": "getKingdomProgress()",
       "file_type": "code",
       "source_file": "src/base/baseHomeModel.js",
-      "source_location": "L330",
+      "source_location": "L336",
       "id": "base_basehomemodel_getkingdomprogress",
       "community": 4,
       "norm_label": "getkingdomprogress()"
@@ -8602,7 +8602,7 @@
       "label": "normalizeWholeNumber()",
       "file_type": "code",
       "source_file": "src/base/baseHomeModel.js",
-      "source_location": "L340",
+      "source_location": "L346",
       "id": "base_basehomemodel_normalizewholenumber",
       "community": 4,
       "norm_label": "normalizewholenumber()"
@@ -8611,7 +8611,7 @@
       "label": "clampWholeNumber()",
       "file_type": "code",
       "source_file": "src/base/baseHomeModel.js",
-      "source_location": "L344",
+      "source_location": "L350",
       "id": "base_basehomemodel_clampwholenumber",
       "community": 4,
       "norm_label": "clampwholenumber()"
@@ -8793,7 +8793,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L1",
       "id": "src_base_baseconfig_js",
-      "community": 69,
+      "community": 75,
       "norm_label": "baseconfig.js"
     },
     {
@@ -8802,7 +8802,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L1",
       "id": "base_baseconfig_learning_tracks",
-      "community": 69,
+      "community": 75,
       "norm_label": "learning_tracks"
     },
     {
@@ -8811,7 +8811,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L6",
       "id": "base_baseconfig_base_learning_track_definitions",
-      "community": 69,
+      "community": 75,
       "norm_label": "base_learning_track_definitions"
     },
     {
@@ -8820,7 +8820,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L21",
       "id": "base_baseconfig_base_skill_challenge_rules",
-      "community": 69,
+      "community": 75,
       "norm_label": "base_skill_challenge_rules"
     },
     {
@@ -8829,7 +8829,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L28",
       "id": "base_baseconfig_base_building_ids",
-      "community": 69,
+      "community": 65,
       "norm_label": "base_building_ids"
     },
     {
@@ -8838,7 +8838,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L38",
       "id": "base_baseconfig_base_slot_ids",
-      "community": 69,
+      "community": 75,
       "norm_label": "base_slot_ids"
     },
     {
@@ -8856,7 +8856,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L57",
       "id": "base_baseconfig_base_economy_config",
-      "community": 69,
+      "community": 68,
       "norm_label": "base_economy_config"
     },
     {
@@ -8865,7 +8865,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L85",
       "id": "base_baseconfig_base_building_definitions",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_building_definitions"
     },
     {
@@ -8883,7 +8883,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L141",
       "id": "base_baseconfig_getlearningtrackdefinition",
-      "community": 69,
+      "community": 75,
       "norm_label": "getlearningtrackdefinition()"
     },
     {
@@ -8892,7 +8892,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L146",
       "id": "base_baseconfig_issupportedlearningtrack",
-      "community": 69,
+      "community": 75,
       "norm_label": "issupportedlearningtrack()"
     },
     {
@@ -8901,7 +8901,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L150",
       "id": "base_baseconfig_normalizelearningtrack",
-      "community": 69,
+      "community": 75,
       "norm_label": "normalizelearningtrack()"
     },
     {
@@ -8910,7 +8910,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L156",
       "id": "base_baseconfig_assertsupportedlearningtrack",
-      "community": 69,
+      "community": 75,
       "norm_label": "assertsupportedlearningtrack()"
     },
     {
@@ -8973,7 +8973,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L213",
       "id": "base_baseconfig_isbuildingunlocked",
-      "community": 69,
+      "community": 75,
       "norm_label": "isbuildingunlocked()"
     },
     {
@@ -8991,7 +8991,7 @@
       "source_file": "src/base/baseSkillTrackSelection.js",
       "source_location": "L1",
       "id": "src_base_baseskilltrackselection_js",
-      "community": 4,
+      "community": 75,
       "norm_label": "baseskilltrackselection.js"
     },
     {
@@ -9052,7 +9052,7 @@
       "label": "BASE_BUILDING_COPY_KEYS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L47",
+      "source_location": "L48",
       "id": "base_baselocalization_base_building_copy_keys",
       "community": 4,
       "norm_label": "base_building_copy_keys"
@@ -9061,7 +9061,7 @@
       "label": "BASE_LEARNING_TRACK_COPY_KEYS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L78",
+      "source_location": "L79",
       "id": "base_baselocalization_base_learning_track_copy_keys",
       "community": 4,
       "norm_label": "base_learning_track_copy_keys"
@@ -9070,7 +9070,7 @@
       "label": "BASE_SKILL_TIER_KEYS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L91",
+      "source_location": "L92",
       "id": "base_baselocalization_base_skill_tier_keys",
       "community": 4,
       "norm_label": "base_skill_tier_keys"
@@ -9079,7 +9079,7 @@
       "label": "BASE_TRANSLATIONS",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L108",
+      "source_location": "L109",
       "id": "base_baselocalization_base_translations",
       "community": 4,
       "norm_label": "base_translations"
@@ -9088,7 +9088,7 @@
       "label": "getSupportedBaseLanguages()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L251",
+      "source_location": "L254",
       "id": "base_baselocalization_getsupportedbaselanguages",
       "community": 4,
       "norm_label": "getsupportedbaselanguages()"
@@ -9097,7 +9097,7 @@
       "label": "normalizeBaseLanguage()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L258",
+      "source_location": "L261",
       "id": "base_baselocalization_normalizebaselanguage",
       "community": 4,
       "norm_label": "normalizebaselanguage()"
@@ -9106,7 +9106,7 @@
       "label": "getBaseCopy()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L264",
+      "source_location": "L267",
       "id": "base_baselocalization_getbasecopy",
       "community": 4,
       "norm_label": "getbasecopy()"
@@ -9115,7 +9115,7 @@
       "label": "hasBaseCopyKey()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L274",
+      "source_location": "L277",
       "id": "base_baselocalization_hasbasecopykey",
       "community": 4,
       "norm_label": "hasbasecopykey()"
@@ -9124,7 +9124,7 @@
       "label": "interpolateCopy()",
       "file_type": "code",
       "source_file": "src/base/baseLocalization.js",
-      "source_location": "L279",
+      "source_location": "L282",
       "id": "base_baselocalization_interpolatecopy",
       "community": 4,
       "norm_label": "interpolatecopy()"
@@ -18323,9 +18323,9 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basehomemodel_test_mjs",
-      "target": "base_basehomemodel_base_home_total_visual_states",
-      "confidence_score": 1.0
+      "target": "base_basehomemodel_base_home_total_visual_states"
     },
     {
       "relation": "imports",
@@ -20094,9 +20094,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "src_base_baseconfig_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseconfig_js"
     },
     {
       "relation": "imports",
@@ -20105,9 +20105,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_baseconfig_base_building_definitions",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_building_definitions"
     },
     {
       "relation": "imports",
@@ -20116,9 +20116,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_baseconfig_base_building_ids",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_building_ids"
     },
     {
       "relation": "imports",
@@ -20127,9 +20127,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_baseconfig_building_states",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_building_states"
     },
     {
       "relation": "imports_from",
@@ -20138,9 +20138,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "src_base_basevisualstates_js",
-      "confidence_score": 1.0
+      "target": "src_base_basevisualstates_js"
     },
     {
       "relation": "imports",
@@ -20149,9 +20149,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_base_building_status_visuals",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_base_building_status_visuals"
     },
     {
       "relation": "imports",
@@ -20160,9 +20160,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_base_building_visual_levels",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_base_building_visual_levels"
     },
     {
       "relation": "imports",
@@ -20171,9 +20171,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_createbasevisualstatecatalog",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_createbasevisualstatecatalog"
     },
     {
       "relation": "imports",
@@ -20182,9 +20182,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_createbuildingvisualstate",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_createbuildingvisualstate"
     },
     {
       "relation": "imports",
@@ -20193,9 +20193,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_getbuildingvisualassetkey",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_getbuildingvisualassetkey"
     },
     {
       "relation": "imports",
@@ -20204,9 +20204,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_getbuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_getbuildingvisuallevel"
     },
     {
       "relation": "imports",
@@ -20215,9 +20215,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "base_basevisualstates_normalizebuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_normalizebuildingvisuallevel"
     },
     {
       "relation": "contains",
@@ -20225,9 +20225,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_catalog",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_catalog"
     },
     {
       "relation": "contains",
@@ -20235,9 +20235,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_states",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_states"
     },
     {
       "relation": "contains",
@@ -20245,9 +20245,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_locked",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_locked"
     },
     {
       "relation": "contains",
@@ -20255,9 +20255,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_upgrading",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_upgrading"
     },
     {
       "relation": "contains",
@@ -20265,9 +20265,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_completed",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_completed"
     },
     {
       "relation": "contains",
@@ -20275,9 +20275,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_maxlevel",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_maxlevel"
     },
     {
       "relation": "contains",
@@ -20285,9 +20285,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_learninghall",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_learninghall"
     },
     {
       "relation": "contains",
@@ -20295,9 +20295,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_palace",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_palace"
     },
     {
       "relation": "contains",
@@ -20305,9 +20305,9 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basevisualstates_test_mjs",
-      "target": "tests_basevisualstates_test_fallback",
-      "confidence_score": 1.0
+      "target": "tests_basevisualstates_test_fallback"
     },
     {
       "relation": "imports_from",
@@ -35622,9 +35622,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "src_base_baseconfig_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseconfig_js"
     },
     {
       "relation": "imports",
@@ -35633,9 +35633,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_baseconfig_base_building_definitions",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_building_definitions"
     },
     {
       "relation": "imports",
@@ -35644,9 +35644,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_baseconfig_base_building_ids",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_building_ids"
     },
     {
       "relation": "imports",
@@ -35655,9 +35655,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_baseconfig_base_economy_config",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_economy_config"
     },
     {
       "relation": "imports",
@@ -35666,9 +35666,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_baseconfig_building_states",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_building_states"
     },
     {
       "relation": "imports",
@@ -35677,9 +35677,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_baseconfig_getbuildingdefinition",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_getbuildingdefinition"
     },
     {
       "relation": "contains",
@@ -35687,9 +35687,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_base_building_visual_levels",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_base_building_visual_levels"
     },
     {
       "relation": "contains",
@@ -35697,9 +35697,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_base_building_status_visuals",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_base_building_status_visuals"
     },
     {
       "relation": "contains",
@@ -35707,9 +35707,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_normalizebuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_normalizebuildingvisuallevel"
     },
     {
       "relation": "contains",
@@ -35717,9 +35717,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_getbuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_getbuildingvisuallevel"
     },
     {
       "relation": "contains",
@@ -35727,9 +35727,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_getbuildingvisualassetkey",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_getbuildingvisualassetkey"
     },
     {
       "relation": "contains",
@@ -35737,9 +35737,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_createbuildingvisualstate",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_createbuildingvisualstate"
     },
     {
       "relation": "contains",
@@ -35747,9 +35747,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basevisualstates_js",
-      "target": "base_basevisualstates_createbasevisualstatecatalog",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_createbasevisualstatecatalog"
     },
     {
       "relation": "re_exports",
@@ -35758,9 +35758,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basehomemodel_js",
-      "target": "src_base_basevisualstates_js",
-      "confidence_score": 1.0
+      "target": "src_base_basevisualstates_js"
     },
     {
       "relation": "calls",
@@ -35769,9 +35769,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basevisualstates_getbuildingvisuallevel",
-      "target": "base_basevisualstates_normalizebuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_normalizebuildingvisuallevel"
     },
     {
       "relation": "calls",
@@ -35780,9 +35780,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basevisualstates_getbuildingvisualassetkey",
-      "target": "base_basevisualstates_normalizebuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_normalizebuildingvisuallevel"
     },
     {
       "relation": "calls",
@@ -35791,9 +35791,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basevisualstates_createbuildingvisualstate",
-      "target": "base_basevisualstates_normalizebuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_normalizebuildingvisuallevel"
     },
     {
       "relation": "calls",
@@ -35802,9 +35802,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basevisualstates_createbuildingvisualstate",
-      "target": "base_basevisualstates_getbuildingvisuallevel",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_getbuildingvisuallevel"
     },
     {
       "relation": "calls",
@@ -35813,9 +35813,9 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basevisualstates_createbuildingvisualstate",
-      "target": "base_basevisualstates_getbuildingvisualassetkey",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_getbuildingvisualassetkey"
     },
     {
       "relation": "calls",
@@ -35835,9 +35835,9 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basehomemodel_js",
-      "target": "base_basevisualstates_createbuildingvisualstate",
-      "confidence_score": 1.0
+      "target": "base_basevisualstates_createbuildingvisualstate"
     },
     {
       "relation": "calls",
@@ -42244,5 +42244,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e45c94ab18fbd2fb83abeb64fb1da8fb2b182cd3"
+  "built_at_commit": "fd23afab2037dc34afd5a85c6ded5d8eb6cb0ca6"
 }

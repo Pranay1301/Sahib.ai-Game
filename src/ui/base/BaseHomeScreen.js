@@ -110,8 +110,20 @@ export function BaseHomeScreen({
       React.createElement(
         View,
         { style: styles.skillBadge },
-        React.createElement(Text, { style: styles.skillTierTitle }, model.skillBadge.tierTitle),
+        React.createElement(
+          View,
+          { style: styles.skillBadgeHeader },
+          React.createElement(Text, { style: styles.skillTierTitle }, model.skillBadge.tierTitle),
+          model.skillBadge.proBadge
+            ? React.createElement(
+                View,
+                { style: styles.skillProBadge },
+                React.createElement(Text, { numberOfLines: 1, style: styles.skillProBadgeText }, model.skillBadge.proBadge.label)
+              )
+            : null
+        ),
         React.createElement(Text, { style: styles.skillTierText }, model.skillBadge.tierLabel),
+        React.createElement(Text, { numberOfLines: 1, style: styles.skillTrackText }, model.skillBadge.learningTrackLabel),
         React.createElement(
           Text,
           { style: styles.skillMetaText },
@@ -613,15 +625,43 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 9
   },
+  skillBadgeHeader: {
+    minHeight: 18,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 8
+  },
   skillTierTitle: {
+    flex: 1,
     color: "#9fd5ff",
     fontSize: 10,
+    fontWeight: "900"
+  },
+  skillProBadge: {
+    maxWidth: 110,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(219, 178, 93, 0.72)",
+    backgroundColor: "rgba(58, 40, 14, 0.78)",
+    paddingHorizontal: 8,
+    paddingVertical: 3
+  },
+  skillProBadgeText: {
+    color: "#f5f0df",
+    fontSize: 9,
     fontWeight: "900"
   },
   skillTierText: {
     color: "#f5f0df",
     fontSize: 15,
     fontWeight: "900",
+    marginTop: 1
+  },
+  skillTrackText: {
+    color: "#9fd5ff",
+    fontSize: 10,
+    fontWeight: "800",
     marginTop: 1
   },
   skillMetaText: {

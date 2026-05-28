@@ -289,6 +289,12 @@ export function createSkillBadgeViewModel({
     kingdomProgress: progress,
     kingdomProgressLabelKey: BASE_COPY_KEYS.KINGDOM_PROGRESS_LABEL,
     kingdomProgressLabel: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.KINGDOM_PROGRESS_LABEL),
+    proBadge: isPro
+      ? {
+          labelKey: BASE_COPY_KEYS.SKILL_FOUNDING_PRO_BADGE,
+          label: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.SKILL_FOUNDING_PRO_BADGE)
+        }
+      : null,
     isPro
   };
 }

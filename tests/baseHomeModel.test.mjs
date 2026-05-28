@@ -315,11 +315,27 @@ test("skill badge view model exposes challenge count and kingdom progress", () =
   assert.equal(badge.tierKey, BASE_SKILL_TIER_KEYS.ai_agents.agentBuilder);
   assert.equal(badge.challengesCompleted, 36);
   assert.equal(badge.challengesLabel, "AI Agent Challenges Completed");
+  assert.equal(badge.proBadge.labelKey, BASE_COPY_KEYS.SKILL_FOUNDING_PRO_BADGE);
+  assert.equal(badge.proBadge.label, "Founding Pro");
   assert.deepEqual(badge.kingdomProgress, {
     current: 14,
     total: BASE_HOME_TOTAL_VISUAL_STATES
   });
   assert.equal(badge.isPro, true);
+});
+
+test("free skill badge keeps progress visible without a Pro-only status badge", () => {
+  const badge = createSkillBadgeViewModel({
+    learningTrack: LEARNING_TRACKS.ENGLISH,
+    challengesCompleted: 10,
+    buildings: createInitialUserBuildings(USER_ID),
+    isPro: false
+  });
+
+  assert.equal(badge.tierKey, BASE_SKILL_TIER_KEYS.english.risingCommunicator);
+  assert.equal(badge.challengesLabel, "English Challenges Completed");
+  assert.equal(badge.proBadge, null);
+  assert.equal(badge.isPro, false);
 });
 
 test("Phase 8 home model switches selected skill track without changing building slots", () => {
