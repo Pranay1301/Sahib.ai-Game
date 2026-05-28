@@ -6,7 +6,8 @@ import { HEART_REWARD_MODES } from "../src/game/hearts.js";
 import { createMatchState } from "../src/game/matchState.js";
 import {
   BASE_COIN_REWARDS,
-  createBattleResult
+  createBattleResult,
+  createBattleResultFromEndedMatch
 } from "../src/game/quickRoundResult.js";
 
 const BATTLE_RESULT_FIELDS = [
@@ -66,6 +67,40 @@ test("BattleResult uses fixed base coin rewards for loss and draw", () => {
 
   assert.equal(loss.baseCoins, BASE_COIN_REWARDS[MATCH_OUTCOMES.LOSS]);
   assert.equal(draw.baseCoins, BASE_COIN_REWARDS[MATCH_OUTCOMES.DRAW]);
+});
+
+test("createBattleResultFromEndedMatch exposes the documented integration adapter", () => {
+  const result = createBattleResultFromEndedMatch(
+    createEndedMatch({
+      outcome: MATCH_OUTCOMES.WIN,
+      reason: "timer_core_damage_dealt",
+      playerCoreDamageDealt: 520
+    }),
+    "user_test",
+    {
+      battleResultId: "battle_result_adapter",
+      completedAt: "2026-05-28T00:00:00.000Z"
+    }
+  );
+
+  assert.equal(result.battleResultId, "battle_result_adapter");
+  assert.equal(result.userId, "user_test");
+  assert.equal(result.outcome, MATCH_OUTCOMES.WIN);
+  assert.equal(result.reason, "timer_core_damage_dealt");
+  assert.equal(result.baseCoins, BASE_COIN_REWARDS[MATCH_OUTCOMES.WIN]);
+  assert.equal(result.completedAt, "2026-05-28T00:00:00.000Z");
+  assert.equal(result.playerCoreDamageDealt, 520);
+});
+
+test("createBattleResultFromEndedMatch rejects non-ended matches", () => {
+  assert.throws(
+    () => createBattleResultFromEndedMatch(createMatchState({ status: MATCH_STATUS.RUNNING }), "user_test"),
+    /Cannot create BattleResult before match ends/
+  );
+  assert.throws(
+    () => createBattleResultFromEndedMatch(createEndedMatch(), ""),
+    /userId must be a non-empty string/
+  );
 });
 
 test("BattleResult returns zero base coins for no-full-reward matches", () => {

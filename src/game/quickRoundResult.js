@@ -1,4 +1,4 @@
-import { MATCH_OUTCOMES } from "./constants.js";
+import { MATCH_OUTCOMES, MATCH_STATUS } from "./constants.js";
 import { HEART_REWARD_MODES } from "./hearts.js";
 
 export const BASE_COIN_REWARDS = Object.freeze({
@@ -34,6 +34,21 @@ export function createBattleResult(match, options = {}) {
     playerCoreDamageDealt: Math.round(match.playerCoreDamageDealt ?? 0),
     enemyCoreDamageDealt: Math.round(match.enemyCoreDamageDealt ?? 0)
   };
+}
+
+export function createBattleResultFromEndedMatch(match, userId, options = {}) {
+  if (match?.status !== MATCH_STATUS.ENDED) {
+    throw new Error("Cannot create BattleResult before match ends");
+  }
+
+  if (typeof userId !== "string" || userId.length === 0) {
+    throw new TypeError("userId must be a non-empty string");
+  }
+
+  return createBattleResult(match, {
+    ...options,
+    userId
+  });
 }
 
 function createLocalBattleResultId() {

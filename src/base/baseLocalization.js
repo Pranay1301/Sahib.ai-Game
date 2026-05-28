@@ -28,7 +28,14 @@ export const BASE_COPY_KEYS = Object.freeze({
   UPGRADE_PRO_UPSELL_BODY: "base.upgrade.proUpsellBody",
   UPGRADE_PRO_UPSELL_CTA: "base.upgrade.proUpsellCta",
   UPGRADE_CONFIRM_CTA: "base.upgrade.confirmCta",
-  UPGRADE_CLOSE_CTA: "base.upgrade.closeCta"
+  UPGRADE_CLOSE_CTA: "base.upgrade.closeCta",
+  REWARD_PREVIEW_TITLE: "base.reward.title",
+  REWARD_PREVIEW_FREE_WIN_BODY: "base.reward.freeWinBody",
+  REWARD_PREVIEW_FREE_DRAW_BODY: "base.reward.freeDrawBody",
+  REWARD_PREVIEW_FREE_LOSS_BODY: "base.reward.freeLossBody",
+  REWARD_PREVIEW_PRO_BODY: "base.reward.proBody",
+  REWARD_PREVIEW_ZERO_BODY: "base.reward.zeroBody",
+  REWARD_PREVIEW_CTA: "base.reward.cta"
 });
 
 export const BASE_BUILDING_COPY_KEYS = Object.freeze({
@@ -106,6 +113,13 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_CTA]: "Build 80% Faster",
     [BASE_COPY_KEYS.UPGRADE_CONFIRM_CTA]: "Start Upgrade",
     [BASE_COPY_KEYS.UPGRADE_CLOSE_CTA]: "Close",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_TITLE]: "Battle Rewards",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_FREE_WIN_BODY]: "You earned {finalCoinsFormatted} coins. Sahib Pro would give you {proCoinsFormatted} coins for this win.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_FREE_DRAW_BODY]: "You earned {finalCoinsFormatted} coins. Sahib Pro would give you {proCoinsFormatted} coins for this draw.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_FREE_LOSS_BODY]: "You earned {finalCoinsFormatted} coins. Sahib Pro would give you {proCoinsFormatted} coins for this match.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_PRO_BODY]: "You earned {finalCoinsFormatted} coins with Sahib Pro.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_ZERO_BODY]: "This match did not award coins.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_CTA]: "Triple Your Battle Rewards",
     [BASE_BUILDING_COPY_KEYS.palace.label]: "Palace / Main Core",
     [BASE_BUILDING_COPY_KEYS.palace.purpose]: "Main kingdom anchor",
     [BASE_BUILDING_COPY_KEYS.learning_hall.label]: "Learning Hall / Library",
@@ -157,6 +171,13 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_CTA]: "ابنِ أسرع 80%",
     [BASE_COPY_KEYS.UPGRADE_CONFIRM_CTA]: "ابدأ الترقية",
     [BASE_COPY_KEYS.UPGRADE_CLOSE_CTA]: "إغلاق",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_TITLE]: "مكافآت المعركة",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_FREE_WIN_BODY]: "ربحت {finalCoinsFormatted} عملة. مع Sahib Pro كنت ستحصل على {proCoinsFormatted} عملة في هذا الفوز.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_FREE_DRAW_BODY]: "ربحت {finalCoinsFormatted} عملة. مع Sahib Pro كنت ستحصل على {proCoinsFormatted} عملة في هذا التعادل.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_FREE_LOSS_BODY]: "ربحت {finalCoinsFormatted} عملة. مع Sahib Pro كنت ستحصل على {proCoinsFormatted} عملة في هذه المباراة.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_PRO_BODY]: "ربحت {finalCoinsFormatted} عملة مع Sahib Pro.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_ZERO_BODY]: "هذه المباراة لم تمنح عملات.",
+    [BASE_COPY_KEYS.REWARD_PREVIEW_CTA]: "ضاعف مكافآتك 3 مرات",
     [BASE_BUILDING_COPY_KEYS.palace.label]: "القصر / النواة الرئيسية",
     [BASE_BUILDING_COPY_KEYS.palace.purpose]: "مركز المملكة الرئيسي",
     [BASE_BUILDING_COPY_KEYS.learning_hall.label]: "قاعة التعلم / المكتبة",
