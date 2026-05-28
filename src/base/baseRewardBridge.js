@@ -10,6 +10,10 @@ import {
   getBaseCopy,
   normalizeBaseLanguage
 } from "./baseLocalization.js";
+import {
+  BASE_PRO_TOUCHPOINTS,
+  createProConversionViewModel
+} from "./baseSubscriptionConversion.js";
 
 export const BASE_REWARD_BRIDGE_REASONS = Object.freeze({
   CLAIMED: "claimed",
@@ -101,6 +105,12 @@ export function createBattleRewardPreview({
     proUpsell:
       !isPro && hasReward
         ? {
+            ...createProConversionViewModel({
+              touchpoint: BASE_PRO_TOUCHPOINTS.COIN_REWARD,
+              language: normalizedLanguage,
+              bodyKey,
+              bodyValues: copyValues
+            }),
             ctaKey: BASE_COPY_KEYS.REWARD_PREVIEW_CTA,
             cta: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.REWARD_PREVIEW_CTA),
             multiplier: BASE_ECONOMY_CONFIG.proCoinMultiplier,

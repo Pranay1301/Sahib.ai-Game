@@ -36,6 +36,11 @@ import {
   createSkillTrackSelectionViewModel
 } from "./baseSkillTrackSelection.js";
 import {
+  BASE_PRO_TOUCHPOINTS,
+  createMainProScreenViewModel,
+  createProConversionViewModel
+} from "./baseSubscriptionConversion.js";
+import {
   BASE_BUILDING_VISUAL_STATE_COUNT,
   createBuildingVisualState
 } from "./baseVisualStates.js";
@@ -64,6 +69,9 @@ export function createBaseHomeViewModel({
   const currentLanguage = normalizeBaseLanguage(language ?? profile.language);
   const isPro = Boolean(profile.is_pro);
   const palaceLevel = getPalaceLevelFromBuildings(buildings);
+  const heartsRemaining = isPro
+    ? null
+    : clampWholeNumber(gameState.hearts_remaining, 0, BASE_ECONOMY_CONFIG.heartsMax);
   const slots = createBaseHomeSlots({
     buildings,
     palaceLevel,
@@ -87,9 +95,7 @@ export function createBaseHomeViewModel({
       coins: normalizeWholeNumber(gameState.coins),
       coinsLabelKey: BASE_COPY_KEYS.COINS_LABEL,
       coinsLabel: getBaseCopy(currentLanguage, BASE_COPY_KEYS.COINS_LABEL),
-      heartsRemaining: isPro
-        ? null
-        : clampWholeNumber(gameState.hearts_remaining, 0, BASE_ECONOMY_CONFIG.heartsMax),
+      heartsRemaining,
       heartsMax: BASE_ECONOMY_CONFIG.heartsMax,
       heartsLabelKey: isPro ? BASE_COPY_KEYS.HEARTS_UNLIMITED : BASE_COPY_KEYS.HEARTS_LABEL,
       heartsLabel: getBaseCopy(
@@ -117,8 +123,19 @@ export function createBaseHomeViewModel({
     }),
     quickBattleAction: {
       labelKey: BASE_COPY_KEYS.QUICK_BATTLE_CTA,
-      label: getBaseCopy(currentLanguage, BASE_COPY_KEYS.QUICK_BATTLE_CTA)
+      label: getBaseCopy(currentLanguage, BASE_COPY_KEYS.QUICK_BATTLE_CTA),
+      proConversion:
+        !isPro && heartsRemaining === 0
+          ? createProConversionViewModel({
+              touchpoint: BASE_PRO_TOUCHPOINTS.HEARTS_FINISHED,
+              language: currentLanguage
+            })
+          : null
     },
+    proScreen: createMainProScreenViewModel({
+      profile,
+      language: currentLanguage
+    }),
     upgradeModal: createBuildingUpgradeModalFromSlots({
       slots,
       buildingId: selectedBuildingId,
@@ -209,6 +226,19 @@ function createSlotTapResult({
   language
 }) {
   const tapResult = createBuildingTapResult(slot);
+
+  if (
+    tapResult.action === BASE_BUILDING_TAP_ACTIONS.LOCKED_REQUIREMENT &&
+    !profile?.is_pro
+  ) {
+    return {
+      ...tapResult,
+      proConversion: createProConversionViewModel({
+        touchpoint: BASE_PRO_TOUCHPOINTS.LOCKED_BUILDING,
+        language
+      })
+    };
+  }
 
   if (tapResult.action === BASE_BUILDING_TAP_ACTIONS.UPGRADE_AVAILABLE) {
     return {

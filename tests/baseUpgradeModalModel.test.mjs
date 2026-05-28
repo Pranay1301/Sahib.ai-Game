@@ -16,6 +16,9 @@ import {
   createBuildingUpgradeModalViewModel,
   formatBaseDurationMinutes
 } from "../src/base/baseUpgradeModalModel.js";
+import {
+  BASE_PRO_TOUCHPOINTS
+} from "../src/base/baseSubscriptionConversion.js";
 
 const USER_ID = "user_phase6";
 
@@ -49,6 +52,8 @@ test("Phase 6 upgrade modal exposes Level 1 to Level 2 cost, challenge, and time
   assert.equal(modal.timers.pro.formatted, "12 min");
   assert.equal(modal.timers.active.minutes, 60);
   assert.equal(modal.proUpsell.fasterPercent, 80);
+  assert.equal(modal.proUpsell.touchpoint, BASE_PRO_TOUCHPOINTS.UPGRADE_MODAL);
+  assert.equal(modal.proUpsell.entitlementId, "sahib_pro");
   assert.equal(modal.proUpsell.body, "Free build time: 1 hour. Sahib Pro build time: 12 min.");
   assert.equal(modal.proUpsell.cta, "Build 80% Faster");
   assert.equal(modal.confirmAction.disabled, false);

@@ -17,6 +17,9 @@ import {
   formatBaseRewardNumber,
   normalizeBattleResultForBase
 } from "../src/base/baseRewardBridge.js";
+import {
+  BASE_PRO_TOUCHPOINTS
+} from "../src/base/baseSubscriptionConversion.js";
 
 const USER_ID = "user_phase7";
 const CLAIMED_AT = "2026-05-28T09:30:00.000Z";
@@ -42,6 +45,8 @@ test("Phase 7 reward preview uses documented non-Pro win, draw, and loss copy", 
   assert.equal(winPreview.proCoins, 300);
   assert.equal(winPreview.bodyKey, BASE_COPY_KEYS.REWARD_PREVIEW_FREE_WIN_BODY);
   assert.equal(winPreview.body, "You earned 100 coins. Sahib Pro would give you 300 coins for this win.");
+  assert.equal(winPreview.proUpsell.touchpoint, BASE_PRO_TOUCHPOINTS.COIN_REWARD);
+  assert.equal(winPreview.proUpsell.entitlementField, "is_pro");
   assert.equal(winPreview.proUpsell.cta, "Triple Your Battle Rewards");
   assert.equal(winPreview.proUpsell.wouldHaveEarnedCoins, 300);
 

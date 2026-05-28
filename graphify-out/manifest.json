@@ -425,8 +425,8 @@
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseHomeModel.test.mjs": {
-    "mtime": 1779985287.5529127,
-    "ast_hash": "3db78a678ea0a142054803ee735ff49a",
+    "mtime": 1779985690.6175725,
+    "ast_hash": "c753fb7910198fee598adcd5044a88c3",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseLocalization.test.mjs": {
@@ -435,18 +435,18 @@
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/ui/base/BaseHomeScreen.js": {
-    "mtime": 1779985279.8505838,
-    "ast_hash": "7cebfcc06caf9d1e1e09f0ebb90ff778",
+    "mtime": 1779985572.056915,
+    "ast_hash": "b14f71a5494873114e271dc00c3aeff9",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseHomeModel.js": {
-    "mtime": 1779985279.8498073,
-    "ast_hash": "80669189bbfc20c51594bb1505f02061",
+    "mtime": 1779985572.055358,
+    "ast_hash": "51bfd5a468cc27f4e41cfddde5fe7a42",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseLocalization.js": {
-    "mtime": 1779985279.8487878,
-    "ast_hash": "92d04350ac2c3e9f71aa46f5f61f812a",
+    "mtime": 1779985538.086257,
+    "ast_hash": "f4f0c41d7d1de618a7d48ac6a9ca9d9c",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseUnlocks.test.mjs": {
@@ -460,13 +460,13 @@
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseUpgradeModalModel.test.mjs": {
-    "mtime": 1779956670.750979,
-    "ast_hash": "ba9c30e6550622bc7b86c53906abdb19",
+    "mtime": 1779985690.6164982,
+    "ast_hash": "8a8247422dbbb774df36c8b5e3722503",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseUpgradeModalModel.js": {
-    "mtime": 1779961883.1022668,
-    "ast_hash": "1d1898f03eaaf99376da7cc7e4ba31fa",
+    "mtime": 1779985602.5126941,
+    "ast_hash": "77ff9d469a1bc0dbbf9fac4561728ab3",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseVisualReferences.test.mjs": {
@@ -480,13 +480,13 @@
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseRewardBridge.test.mjs": {
-    "mtime": 1779958576.523122,
-    "ast_hash": "c5fbaaf4678848c6f9da5887a49dc072",
+    "mtime": 1779985690.6154459,
+    "ast_hash": "a9649f7d043162668a501bada3dac1bd",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseRewardBridge.js": {
-    "mtime": 1779958571.1367948,
-    "ast_hash": "b7d852d616ba138b07d8a03efa2e1683",
+    "mtime": 1779985572.052726,
+    "ast_hash": "e03d1e22aa7e0fa8ce0affca02989815",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseSkillTrackSelection.test.mjs": {
@@ -510,13 +510,13 @@
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseUpgradeTimers.test.mjs": {
-    "mtime": 1779984470.8652902,
-    "ast_hash": "8d67f1e64be655b4bccb76bb67b3499f",
+    "mtime": 1779985690.6180794,
+    "ast_hash": "6fe661ef63efcacf06fe9944d2307a54",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseUpgradeTimers.js": {
-    "mtime": 1779984404.9661229,
-    "ast_hash": "3ae146b13984fd604e0f885603645730",
+    "mtime": 1779985572.0560994,
+    "ast_hash": "b0f7ae77a649081de6fd6014197aae70",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseVisualStates.test.mjs": {
@@ -527,6 +527,16 @@
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseVisualStates.js": {
     "mtime": 1779985086.0611074,
     "ast_hash": "4c1ff963a4dab65f7a0bec9e6379d51c",
+    "semantic_hash": ""
+  },
+  "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseSubscriptionConversion.test.mjs": {
+    "mtime": 1779985632.6228807,
+    "ast_hash": "0c125c192f706ca27972ac87825da758",
+    "semantic_hash": ""
+  },
+  "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/src/base/baseSubscriptionConversion.js": {
+    "mtime": 1779985538.087034,
+    "ast_hash": "497e6645974cef6eb7abf9f6f421f069",
     "semantic_hash": ""
   }
 }

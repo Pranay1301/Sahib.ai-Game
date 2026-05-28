@@ -18,6 +18,9 @@ import {
   startBuildingUpgradeChallenge,
   startUpgradeTimerAfterSkillChallenge
 } from "../src/base/baseUpgradeTimers.js";
+import {
+  BASE_PRO_TOUCHPOINTS
+} from "../src/base/baseSubscriptionConversion.js";
 
 const USER_ID = "user_phase10";
 const SERVER_STARTED_AT = "2026-05-28T10:00:00.000Z";
@@ -96,6 +99,8 @@ test("timer starts only after a passed skill challenge and uses server timestamp
   assert.equal(started.activeUpgrade.finishes_at, "2026-05-28T11:00:00.000Z");
   assert.equal(started.activeUpgrade.timer_duration_minutes, 60);
   assert.equal(started.buildingRow.state, BUILDING_STATES.UPGRADING);
+  assert.equal(started.proConversion.touchpoint, BASE_PRO_TOUCHPOINTS.TIMER_STARTED);
+  assert.equal(started.proConversion.cta, "Speed Up with Pro");
   assert.equal(started.timerStatus.remainingMinutes, 60);
   assert.throws(
     () => startUpgradeTimerAfterSkillChallenge({
@@ -157,6 +162,7 @@ test("active timer duration stays locked if Pro status changes after start", () 
   assert.equal(freeTimerAfterProPurchase.progress, 0.2);
   assert.equal(proStart.activeUpgrade.timer_duration_minutes, 12);
   assert.equal(proStart.activeUpgrade.finishes_at, "2026-05-28T10:12:00.000Z");
+  assert.equal(proStart.proConversion, null);
 });
 
 test("timer view model reports progress and completion from serverNow only", () => {

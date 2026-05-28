@@ -315,18 +315,11 @@ function UpgradeModal({ modal, onClose, onConfirm, onProPress }) {
         value: modal.timers.pro.formatted
       }),
       modal.proUpsell
-        ? React.createElement(
-            Pressable,
-            {
-              accessibilityLabel: modal.proUpsell.cta,
-              accessibilityRole: "button",
-              onPress: onProPress,
-              style: styles.proUpsell
-            },
-            React.createElement(Text, { style: styles.proUpsellTitle }, modal.proUpsell.title),
-            React.createElement(Text, { style: styles.proUpsellBody }, modal.proUpsell.body),
-            React.createElement(Text, { style: styles.proUpsellCta }, modal.proUpsell.cta)
-          )
+        ? React.createElement(ProConversionCard, {
+            conversion: modal.proUpsell,
+            onPress: onProPress,
+            style: styles.proUpsell
+          })
         : null,
       React.createElement(
         Pressable,
@@ -347,6 +340,23 @@ function UpgradeModal({ modal, onClose, onConfirm, onProPress }) {
         React.createElement(Text, { style: styles.upgradeConfirmText }, modal.confirmAction.label)
       )
     )
+  );
+}
+
+function ProConversionCard({ conversion, onPress, style }) {
+  return React.createElement(
+    Pressable,
+    {
+      accessibilityLabel: conversion.cta,
+      accessibilityRole: "button",
+      onPress,
+      style
+    },
+    React.createElement(Text, { style: styles.proUpsellTitle }, conversion.title),
+    conversion.body
+      ? React.createElement(Text, { style: styles.proUpsellBody }, conversion.body)
+      : null,
+    React.createElement(Text, { style: styles.proUpsellCta }, conversion.cta)
   );
 }
 

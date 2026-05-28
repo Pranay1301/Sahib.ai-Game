@@ -25,6 +25,9 @@ import {
   BASE_COPY_KEYS,
   BASE_SKILL_TIER_KEYS
 } from "../src/base/baseLocalization.js";
+import {
+  BASE_PRO_TOUCHPOINTS
+} from "../src/base/baseSubscriptionConversion.js";
 import { BASE_BUILDING_TAP_ACTIONS } from "../src/base/baseUnlocks.js";
 
 const USER_ID = "user_phase4";
@@ -93,6 +96,7 @@ test("home model exposes coin, heart, language, Pro, and quick battle shell data
   assert.equal(model.proBadge.labelKey, BASE_COPY_KEYS.PRO_BADGE_FREE);
   assert.equal(model.languageSwitch.options.length, 2);
   assert.equal(model.quickBattleAction.labelKey, BASE_COPY_KEYS.QUICK_BATTLE_CTA);
+  assert.equal(model.quickBattleAction.proConversion, null);
   assert.equal(model.skillTrackSelector.field, "learning_track");
   assert.deepEqual(model.skillTrackSelector.options.map((option) => option.value), [
     LEARNING_TRACKS.ENGLISH,
@@ -116,6 +120,24 @@ test("Pro home model shows unlimited hearts without changing quick-round logic",
   assert.equal(model.hud.heartsLabelKey, BASE_COPY_KEYS.HEARTS_UNLIMITED);
   assert.equal(model.proBadge.isPro, true);
   assert.equal(model.proBadge.labelKey, BASE_COPY_KEYS.PRO_BADGE_ACTIVE);
+  assert.equal(model.quickBattleAction.proConversion, null);
+});
+
+test("free home model exposes hearts-finished Pro conversion when full-reward hearts are gone", () => {
+  const model = createBaseHomeViewModel({
+    profile: createDefaultProfile(USER_ID, {
+      is_pro: false
+    }),
+    gameState: createDefaultGameState(USER_ID, {
+      hearts_remaining: 0
+    }),
+    buildings: createInitialUserBuildings(USER_ID)
+  });
+
+  assert.equal(model.hud.heartsRemaining, 0);
+  assert.equal(model.quickBattleAction.proConversion.touchpoint, BASE_PRO_TOUCHPOINTS.HEARTS_FINISHED);
+  assert.equal(model.quickBattleAction.proConversion.cta, "Play Unlimited");
+  assert.equal(model.proScreen.touchpoint, BASE_PRO_TOUCHPOINTS.MAIN_PRO_SCREEN);
 });
 
 test("building slots reflect Palace unlocks and locked requirement copy keys", () => {
@@ -168,6 +190,7 @@ test("home slots resolve stale locked rows from Palace level and expose tap resu
   assert.equal(wallGate.state, BUILDING_STATES.LOCKED);
   assert.equal(wallGate.tapResult.action, BASE_BUILDING_TAP_ACTIONS.LOCKED_REQUIREMENT);
   assert.equal(wallGate.tapResult.requirement.palaceLevel, 3);
+  assert.equal(wallGate.tapResult.proConversion.touchpoint, BASE_PRO_TOUCHPOINTS.LOCKED_BUILDING);
   assert.equal(Object.prototype.hasOwnProperty.call(wallGate.tapResult, "upgradeCost"), false);
 });
 

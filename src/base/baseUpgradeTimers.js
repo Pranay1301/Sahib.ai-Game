@@ -2,6 +2,13 @@ import {
   createActiveUpgradeRecord
 } from "./baseBackend.js";
 import {
+  BASE_LANGUAGES
+} from "./baseLocalization.js";
+import {
+  BASE_PRO_TOUCHPOINTS,
+  createProConversionViewModel
+} from "./baseSubscriptionConversion.js";
+import {
   BASE_ECONOMY_CONFIG,
   BUILDING_STATES,
   getNextBuildingLevel,
@@ -88,7 +95,8 @@ export function startUpgradeTimerAfterSkillChallenge({
   skillResult = null,
   existingActiveUpgrades = [],
   isPro = false,
-  serverStartedAt
+  serverStartedAt,
+  language = BASE_LANGUAGES.EN
 } = {}) {
   assertBuildingRow(buildingRow);
   const resolvedUserId = userId ?? buildingRow.user_id;
@@ -133,6 +141,11 @@ export function startUpgradeTimerAfterSkillChallenge({
       ...buildingRow,
       state: BUILDING_STATES.UPGRADING
     },
+    proConversion: createProConversionViewModel({
+      touchpoint: BASE_PRO_TOUCHPOINTS.TIMER_STARTED,
+      language,
+      isPro
+    }),
     timerStatus: createUpgradeTimerStatus({
       activeUpgrade: activeUpgradeRecord,
       serverNow: serverStartedAt

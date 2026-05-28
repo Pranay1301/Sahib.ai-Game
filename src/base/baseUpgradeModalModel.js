@@ -12,6 +12,10 @@ import {
   getBaseCopy,
   normalizeBaseLanguage
 } from "./baseLocalization.js";
+import {
+  BASE_PRO_TOUCHPOINTS,
+  createProConversionViewModel
+} from "./baseSubscriptionConversion.js";
 
 export const BASE_UPGRADE_CHALLENGE_REQUIREMENT = Object.freeze({
   questionsRequired: BASE_SKILL_CHALLENGE_RULES.questionsRequired,
@@ -100,15 +104,14 @@ export function createBuildingUpgradeModalViewModel({
     proUpsell: isPro
       ? null
       : {
-          titleKey: BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_TITLE,
-          title: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_TITLE),
-          bodyKey: BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_BODY,
-          body: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_BODY, {
-            freeTimer: formatBaseDurationMinutes(freeTimerMinutes, normalizedLanguage),
-            proTimer: formatBaseDurationMinutes(proTimerMinutes, normalizedLanguage)
+          ...createProConversionViewModel({
+            touchpoint: BASE_PRO_TOUCHPOINTS.UPGRADE_MODAL,
+            language: normalizedLanguage,
+            bodyValues: {
+              freeTimer: formatBaseDurationMinutes(freeTimerMinutes, normalizedLanguage),
+              proTimer: formatBaseDurationMinutes(proTimerMinutes, normalizedLanguage)
+            }
           }),
-          ctaKey: BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_CTA,
-          cta: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_CTA),
           freeTimerMinutes,
           proTimerMinutes,
           fasterPercent: 80
