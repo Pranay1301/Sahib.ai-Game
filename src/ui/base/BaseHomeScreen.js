@@ -14,15 +14,20 @@ export function BaseHomeScreen({
   profile = null,
   gameState = null,
   buildings = null,
+  selectedBuildingId = null,
   onBuildingPress = null,
   onLanguagePress = null,
   onProPress = null,
+  onUpgradeConfirm = null,
+  onUpgradeModalClose = null,
+  onProUpsellPress = null,
   onQuickBattlePress = null
 }) {
   const model = viewModel ?? createBaseHomeViewModel({
     profile: profile ?? {},
     gameState: gameState ?? {},
-    buildings: buildings ?? []
+    buildings: buildings ?? [],
+    selectedBuildingId
   });
 
   return React.createElement(
@@ -111,7 +116,15 @@ export function BaseHomeScreen({
         },
         React.createElement(Text, { style: styles.quickBattleText }, model.quickBattleAction.label)
       )
-    )
+    ),
+    model.upgradeModal
+      ? React.createElement(UpgradeModal, {
+          modal: model.upgradeModal,
+          onClose: onUpgradeModalClose,
+          onConfirm: onUpgradeConfirm,
+          onProPress: onProUpsellPress ?? onProPress
+        })
+      : null
   );
 }
 
@@ -160,6 +173,105 @@ function BuildingSlot({ slot, onPress }) {
     slot.lockedRequirement
       ? React.createElement(Text, { numberOfLines: 2, style: styles.lockedText }, slot.lockedRequirement.label)
       : null
+  );
+}
+
+function UpgradeModal({ modal, onClose, onConfirm, onProPress }) {
+  return React.createElement(
+    View,
+    { style: styles.modalOverlay },
+    React.createElement(
+      View,
+      { style: styles.upgradeModal },
+      React.createElement(
+        View,
+        { style: styles.modalHeader },
+        React.createElement(Text, { numberOfLines: 2, style: styles.modalTitle }, modal.title),
+        React.createElement(
+          Pressable,
+          {
+            accessibilityLabel: modal.closeAction.label,
+            accessibilityRole: "button",
+            onPress: onClose,
+            style: styles.modalCloseButton
+          },
+          React.createElement(Text, { style: styles.modalCloseText }, "X")
+        )
+      ),
+      React.createElement(
+        View,
+        { style: styles.modalLevelRow },
+        React.createElement(LevelPill, { summary: modal.currentLevel }),
+        React.createElement(Text, { style: styles.modalArrow }, "->"),
+        React.createElement(LevelPill, { summary: modal.nextLevel })
+      ),
+      React.createElement(ModalInfoRow, {
+        label: modal.coinCost.label,
+        value: `${modal.coinCost.coins}`
+      }),
+      React.createElement(ModalInfoRow, {
+        label: modal.challenge.label,
+        value: modal.challenge.requirement
+      }),
+      React.createElement(ModalInfoRow, {
+        label: modal.timers.free.label,
+        value: modal.timers.free.formatted
+      }),
+      React.createElement(ModalInfoRow, {
+        label: modal.timers.pro.label,
+        value: modal.timers.pro.formatted
+      }),
+      modal.proUpsell
+        ? React.createElement(
+            Pressable,
+            {
+              accessibilityLabel: modal.proUpsell.cta,
+              accessibilityRole: "button",
+              onPress: onProPress,
+              style: styles.proUpsell
+            },
+            React.createElement(Text, { style: styles.proUpsellTitle }, modal.proUpsell.title),
+            React.createElement(Text, { style: styles.proUpsellBody }, modal.proUpsell.body),
+            React.createElement(Text, { style: styles.proUpsellCta }, modal.proUpsell.cta)
+          )
+        : null,
+      React.createElement(
+        Pressable,
+        {
+          accessibilityLabel: modal.confirmAction.label,
+          accessibilityRole: "button",
+          disabled: modal.confirmAction.disabled,
+          onPress: () => {
+            if (onConfirm) {
+              onConfirm(modal);
+            }
+          },
+          style: [
+            styles.upgradeConfirmButton,
+            modal.confirmAction.disabled && styles.upgradeConfirmButtonDisabled
+          ]
+        },
+        React.createElement(Text, { style: styles.upgradeConfirmText }, modal.confirmAction.label)
+      )
+    )
+  );
+}
+
+function LevelPill({ summary }) {
+  return React.createElement(
+    View,
+    { style: styles.levelPill },
+    React.createElement(Text, { style: styles.levelPillLabel }, summary.label),
+    React.createElement(Text, { style: styles.levelPillValue }, `L${summary.level}`)
+  );
+}
+
+function ModalInfoRow({ label, value }) {
+  return React.createElement(
+    View,
+    { style: styles.modalInfoRow },
+    React.createElement(Text, { style: styles.modalInfoLabel }, label),
+    React.createElement(Text, { numberOfLines: 2, style: styles.modalInfoValue }, value)
   );
 }
 
@@ -362,6 +474,155 @@ const styles = StyleSheet.create({
   quickBattleText: {
     color: "#102012",
     fontSize: 14,
+    fontWeight: "900"
+  },
+  modalOverlay: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(4, 7, 12, 0.58)",
+    paddingHorizontal: 18,
+    zIndex: 60
+  },
+  upgradeModal: {
+    width: "100%",
+    maxWidth: 390,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(219, 178, 93, 0.76)",
+    backgroundColor: "#111823",
+    padding: 14
+  },
+  modalHeader: {
+    minHeight: 34,
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    gap: 10
+  },
+  modalTitle: {
+    flex: 1,
+    color: "#f5f0df",
+    fontSize: 18,
+    fontWeight: "900"
+  },
+  modalCloseButton: {
+    width: 32,
+    height: 32,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(245, 240, 223, 0.22)"
+  },
+  modalCloseText: {
+    color: "#f5f0df",
+    fontSize: 12,
+    fontWeight: "900"
+  },
+  modalLevelRow: {
+    minHeight: 64,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginTop: 12,
+    gap: 8
+  },
+  modalArrow: {
+    color: "#9fd5ff",
+    fontSize: 14,
+    fontWeight: "900"
+  },
+  levelPill: {
+    flex: 1,
+    minHeight: 58,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(102, 190, 255, 0.35)",
+    backgroundColor: "rgba(10, 23, 34, 0.88)",
+    paddingHorizontal: 10,
+    paddingVertical: 8
+  },
+  levelPillLabel: {
+    color: "#9fd5ff",
+    fontSize: 10,
+    fontWeight: "900"
+  },
+  levelPillValue: {
+    color: "#f5f0df",
+    fontSize: 18,
+    fontWeight: "900",
+    marginTop: 2
+  },
+  modalInfoRow: {
+    minHeight: 42,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    borderBottomWidth: 1,
+    borderBottomColor: "rgba(245, 240, 223, 0.09)",
+    gap: 12
+  },
+  modalInfoLabel: {
+    flex: 1,
+    color: "#9fd5ff",
+    fontSize: 11,
+    fontWeight: "900"
+  },
+  modalInfoValue: {
+    flex: 1.2,
+    color: "#f5f0df",
+    fontSize: 12,
+    fontWeight: "800",
+    textAlign: "right"
+  },
+  proUpsell: {
+    minHeight: 82,
+    justifyContent: "center",
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(219, 178, 93, 0.72)",
+    backgroundColor: "rgba(58, 40, 14, 0.78)",
+    marginTop: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10
+  },
+  proUpsellTitle: {
+    color: "#f5f0df",
+    fontSize: 13,
+    fontWeight: "900"
+  },
+  proUpsellBody: {
+    color: "#e6d6ad",
+    fontSize: 11,
+    fontWeight: "700",
+    marginTop: 3
+  },
+  proUpsellCta: {
+    color: "#9fd5ff",
+    fontSize: 11,
+    fontWeight: "900",
+    marginTop: 6
+  },
+  upgradeConfirmButton: {
+    minHeight: 44,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 8,
+    backgroundColor: "#8fdf63",
+    marginTop: 12,
+    paddingHorizontal: 14
+  },
+  upgradeConfirmButtonDisabled: {
+    opacity: 0.5
+  },
+  upgradeConfirmText: {
+    color: "#102012",
+    fontSize: 13,
     fontWeight: "900"
   }
 });

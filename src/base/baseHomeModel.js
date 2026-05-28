@@ -15,9 +15,14 @@ import {
 } from "./baseLocalization.js";
 import {
   createBuildingTapResult,
+  BASE_BUILDING_TAP_ACTIONS,
   getPalaceLevelFromBuildings,
   resolveBaseBuildingRows
 } from "./baseUnlocks.js";
+import {
+  createBuildingUpgradeModalFromSlots,
+  createBuildingUpgradeModalViewModel
+} from "./baseUpgradeModalModel.js";
 
 export const BASE_HOME_TOTAL_VISUAL_STATES = 42;
 
@@ -35,7 +40,8 @@ export function createBaseHomeViewModel({
   profile = {},
   gameState = {},
   buildings = [],
-  language = null
+  language = null,
+  selectedBuildingId = null
 } = {}) {
   const currentLanguage = normalizeBaseLanguage(language ?? profile.language);
   const isPro = Boolean(profile.is_pro);
@@ -43,6 +49,8 @@ export function createBaseHomeViewModel({
   const slots = createBaseHomeSlots({
     buildings,
     palaceLevel,
+    profile,
+    gameState,
     language: currentLanguage
   });
 
@@ -87,11 +95,24 @@ export function createBaseHomeViewModel({
       labelKey: BASE_COPY_KEYS.QUICK_BATTLE_CTA,
       label: getBaseCopy(currentLanguage, BASE_COPY_KEYS.QUICK_BATTLE_CTA)
     },
+    upgradeModal: createBuildingUpgradeModalFromSlots({
+      slots,
+      buildingId: selectedBuildingId,
+      profile,
+      gameState,
+      language: currentLanguage
+    }),
     slots
   };
 }
 
-export function createBaseHomeSlots({ buildings = [], palaceLevel = null, language = BASE_LANGUAGES.EN } = {}) {
+export function createBaseHomeSlots({
+  buildings = [],
+  palaceLevel = null,
+  profile = {},
+  gameState = {},
+  language = BASE_LANGUAGES.EN
+} = {}) {
   const normalizedLanguage = normalizeBaseLanguage(language);
   const resolvedRows = resolveBaseBuildingRows(
     buildings,
@@ -132,9 +153,21 @@ export function createBaseHomeSlots({ buildings = [], palaceLevel = null, langua
       isMaxLevel: state === BUILDING_STATES.MAX_LEVEL
     };
 
+    const tapResult = createBuildingTapResult(slot);
     return {
       ...slot,
-      tapResult: createBuildingTapResult(slot)
+      tapResult:
+        tapResult.action === BASE_BUILDING_TAP_ACTIONS.UPGRADE_AVAILABLE
+          ? {
+              ...tapResult,
+              upgradePreview: createBuildingUpgradeModalViewModel({
+                slot,
+                profile,
+                gameState,
+                language: normalizedLanguage
+              })
+            }
+          : tapResult
     };
   });
 }

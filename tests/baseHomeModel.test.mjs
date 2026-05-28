@@ -166,6 +166,47 @@ test("home slots resolve stale locked rows from Palace level and expose tap resu
   assert.equal(Object.prototype.hasOwnProperty.call(wallGate.tapResult, "upgradeCost"), false);
 });
 
+test("home model exposes Phase 6 upgrade modal for selected available buildings", () => {
+  const rows = createInitialUserBuildings(USER_ID, { palaceLevel: 2 }).map((building) =>
+    building.building_id === BASE_BUILDING_IDS.PALACE
+      ? { ...building, level: 2 }
+      : building
+  );
+  const model = createBaseHomeViewModel({
+    profile: createDefaultProfile(USER_ID, {
+      is_pro: false
+    }),
+    gameState: createDefaultGameState(USER_ID, {
+      coins: 3000
+    }),
+    buildings: rows,
+    selectedBuildingId: BASE_BUILDING_IDS.ATTACK_TOWER
+  });
+  const attackTower = model.slots.find((slot) => slot.buildingId === BASE_BUILDING_IDS.ATTACK_TOWER);
+
+  assert.equal(model.upgradeModal.buildingId, BASE_BUILDING_IDS.ATTACK_TOWER);
+  assert.equal(model.upgradeModal.currentLevel.level, 1);
+  assert.equal(model.upgradeModal.nextLevel.level, 2);
+  assert.equal(model.upgradeModal.coinCost.coins, 3000);
+  assert.equal(model.upgradeModal.challenge.requirement, "Pass 4 of 5 questions");
+  assert.equal(model.upgradeModal.timers.free.formatted, "1 hour");
+  assert.equal(model.upgradeModal.timers.pro.formatted, "12 min");
+  assert.equal(model.upgradeModal.proUpsell.ctaKey, BASE_COPY_KEYS.UPGRADE_PRO_UPSELL_CTA);
+  assert.equal(attackTower.tapResult.action, BASE_BUILDING_TAP_ACTIONS.UPGRADE_AVAILABLE);
+  assert.equal(attackTower.tapResult.upgradePreview.buildingId, BASE_BUILDING_IDS.ATTACK_TOWER);
+});
+
+test("home model does not open Phase 6 upgrade modal for locked selected buildings", () => {
+  const model = createBaseHomeViewModel({
+    profile: createDefaultProfile(USER_ID),
+    gameState: createDefaultGameState(USER_ID),
+    buildings: createInitialUserBuildings(USER_ID, { palaceLevel: 1 }),
+    selectedBuildingId: BASE_BUILDING_IDS.WALL_GATE
+  });
+
+  assert.equal(model.upgradeModal, null);
+});
+
 test("building slots expose predictable placeholder asset keys for Level 1 through Level 6", () => {
   const rows = createInitialUserBuildings(USER_ID).map((building) =>
     building.building_id === BASE_BUILDING_IDS.PALACE

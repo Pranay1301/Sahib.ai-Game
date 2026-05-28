@@ -1,13 +1,18 @@
-# Graph Report - Sahib.ai-Game-main  (2026-05-27)
+# Graph Report - Sahib.ai-Game-main  (2026-05-28)
 
 ## Corpus Check
-- 92 files · ~73,039 words
+- 94 files · ~74,834 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1337 nodes · 2304 edges · 71 communities (68 shown, 3 thin omitted)
+- 1352 nodes · 2362 edges · 73 communities (70 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `ed6d0be4`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -81,6 +86,8 @@
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
 - [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 71|Community 71]]
+- [[_COMMUNITY_Community 72|Community 72]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Sahib AI V1 New Chat Handoff` - 19 edges
@@ -89,10 +96,10 @@
 4. `Sahib AI V1 Implementation Status` - 18 edges
 5. `buildMap()` - 17 edges
 6. `setPos()` - 16 edges
-7. `Pranay Handoff - Main Base Kingdom Map` - 14 edges
-8. `addPropProxy()` - 13 edges
-9. `createBaseHomeViewModel()` - 13 edges
-10. `Main Map Team Handoff` - 13 edges
+7. `createBuildingUpgradeModalViewModel()` - 14 edges
+8. `createBaseHomeViewModel()` - 14 edges
+9. `Pranay Handoff - Main Base Kingdom Map` - 14 edges
+10. `addPropProxy()` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `farHero()` --calls--> `createHeroCombatState()`  [EXTRACTED]
@@ -106,7 +113,7 @@
 - `createEndedMatch()` --calls--> `createMatchState()`  [EXTRACTED]
   tests/quickRoundResult.test.mjs → src/game/matchState.js
 
-## Communities (71 total, 3 thin omitted)
+## Communities (73 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
@@ -114,7 +121,7 @@ Nodes (55): findAssetReference(), getFlatAssetRefs(), getReferencedAssetPaths(),
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
-Nodes (47): getCharacterModelDescriptors(), getCharacterModelYawRadians(), getEnemyModelAction(), getEnemyModelDescriptor(), getHeroModelAction(), getHeroModelDescriptor(), worldToViewportModelPoint(), CHARACTER_MODEL_ACTIONS (+39 more)
+Nodes (48): getCharacterModelDescriptors(), getCharacterModelYawRadians(), getEnemyModelAction(), getEnemyModelDescriptor(), getHeroModelAction(), getHeroModelDescriptor(), worldToViewportModelPoint(), CHARACTER_MODEL_ACTIONS (+40 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.14
@@ -125,8 +132,8 @@ Cohesion: 0.08
 Nodes (40): addPlacementToState(), addVectors(), applyWallDamageEvents(), clampWorldPoint(), createFreePlacementCandidate(), degreesToRadians(), distanceBetween(), doWallSegmentsOverlap() (+32 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.13
-Nodes (21): createHeroCombatState(), ENERGY_BURST_RIFLE, equipEnergyBurstRifle(), WEAPON_IDS, areSpecialWeaponDropPointsWalkable(), collectNearbyPickup(), createSpecialWeaponDropState(), decayPickups() (+13 more)
+Cohesion: 0.12
+Nodes (23): createHeroCombatState(), ENERGY_BURST_RIFLE, equipEnergyBurstRifle(), WEAPON_IDS, CENTER_ZONE, MAJOR_INTERSECTIONS, areSpecialWeaponDropPointsWalkable(), collectNearbyPickup() (+15 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.06
@@ -181,12 +188,12 @@ Cohesion: 0.08
 Nodes (22): Center zone wall rules, Codex implementation instruction, Confirmed starting values, Core V1 principle, Do not build in V1, Enemy behavior when blocked, Layer 1: Static collision, Layer 2: Simple enemy reaction (+14 more)
 
 ### Community 18 - "Community 18"
-Cohesion: 0.17
-Nodes (26): getEnemyCoreAttackDamage(), advanceDynamicRoute(), advanceEnemyRoute(), clamp(), clearDynamicRoute(), decayDynamicPath(), enemyPathGridCache, getActiveDynamicRouteTarget() (+18 more)
+Cohesion: 0.18
+Nodes (22): addVectors(), clamp(), clearDynamicRoute(), compressPathCells(), decayDynamicPath(), enemyPathGridCache, findEnemyPath(), findNearestPathCell() (+14 more)
 
 ### Community 19 - "Community 19"
 Cohesion: 0.09
-Nodes (19): clampDirectionIndex(), DIRECTION_ROWS, getDirectionIndexFromVector(), ENEMY_TARGETS, after, ATTACK_CHARACTER_SPRITES, before, breaker (+11 more)
+Nodes (22): createDoorEnemySpawns(), createEnemy(), ENEMY_TARGETS, getDoorEnemyTypes(), getDoorSpawnSpread(), getInitialPathReplanDelay(), normalizeRoutePoints(), after (+14 more)
 
 ### Community 20 - "Community 20"
 Cohesion: 0.18
@@ -233,8 +240,8 @@ Cohesion: 0.14
 Nodes (12): Alien visual rules, Blockout-first visual rule, Breaker Bot visual, Buildings, Do not do, Doors and intersections, Enemy readability, Hero visual (+4 more)
 
 ### Community 31 - "Community 31"
-Cohesion: 0.12
-Nodes (32): BASE_HOME_SLOT_LAYOUT, clampWholeNumber(), createBaseHomeSlots(), createBaseHomeViewModel(), createSkillBadgeViewModel(), getBuildingLevel(), getKingdomProgress(), getSkillTierKey() (+24 more)
+Cohesion: 0.13
+Nodes (30): BASE_HOME_SLOT_LAYOUT, clampWholeNumber(), createBaseHomeSlots(), createBaseHomeViewModel(), createSkillBadgeViewModel(), getBuildingLevel(), getKingdomProgress(), getSkillTierKey() (+22 more)
 
 ### Community 32 - "Community 32"
 Cohesion: 0.15
@@ -293,8 +300,8 @@ Cohesion: 0.53
 Nodes (4): ENEMY_TYPES, ENEMY_READABILITY_ACCENTS, getEnemyReadabilityAccent(), accents
 
 ### Community 46 - "Community 46"
-Cohesion: 0.10
-Nodes (23): CENTER_ZONE, CORE_ACCESS_POINTS, CORE_AREAS, ENEMY_CORE_POSITION, HERO_START_POSITION, isPointInCollisionBlocker(), isPointInEllipse(), isPointInRect() (+15 more)
+Cohesion: 0.11
+Nodes (20): CORE_ACCESS_POINTS, CORE_AREAS, ENEMY_CORE_POSITION, HERO_START_POSITION, isPointInCollisionBlocker(), isPointInEllipse(), isPointInRect(), MAP_BLOCKERS (+12 more)
 
 ### Community 47 - "Community 47"
 Cohesion: 0.40
@@ -357,31 +364,39 @@ Cohesion: 0.25
 Nodes (18): aimHero(), areSamePosition(), clamp(), fireEnergyBurst(), fireRifleBurst(), getActiveWeaponConfig(), getFireIntervalSeconds(), getRifleMuzzlePosition() (+10 more)
 
 ### Community 65 - "Community 65"
-Cohesion: 0.14
-Nodes (18): BUILDING_STATES, BaseHomeScreen(), BuildingSlot(), styles, BASE_BUILDING_TAP_ACTIONS, clampWholeNumber(), createBuildingTapResult(), createProgressiveTapResult() (+10 more)
+Cohesion: 0.12
+Nodes (17): BaseHomeScreen(), BuildingSlot(), styles, BASE_BUILDING_TAP_ACTIONS, clampWholeNumber(), createBuildingTapResult(), createProgressiveTapResult(), getBuildingUnlockRequirement() (+9 more)
 
 ### Community 66 - "Community 66"
 Cohesion: 0.22
-Nodes (9): addVectors(), createDoorEnemySpawns(), createEnemy(), findNearestWalkableSpawn(), getDoorEnemyTypes(), getDoorSpawnSpread(), getInitialPathReplanDelay(), normalizeRoutePoints() (+1 more)
+Nodes (16): assertTargetLevel(), getFreeTimerMinutesForTargetLevel(), getNextBuildingLevel(), getTimerDurationMinutesForTargetLevel(), getUpgradeCostForTargetLevel(), getBaseCopy(), interpolateCopy(), BASE_UPGRADE_CHALLENGE_REQUIREMENT (+8 more)
 
 ### Community 67 - "Community 67"
-Cohesion: 0.11
-Nodes (19): damageHero(), RIFLE, HERO_RESPAWN_POSITION, addProjectileSpawns(), createProjectileState(), createWallSystemState(), WALL_TOOL_TYPES, aim (+11 more)
+Cohesion: 0.10
+Nodes (19): ENEMY_STATS, damageHero(), RIFLE, HERO_RESPAWN_POSITION, addProjectileSpawns(), createProjectileState(), createWallSystemState(), aim (+11 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.13
-Nodes (19): CORE_PRESSURE_ROUTE_POINTS_BY_LANE_ID, CORE_PRESSURE_WAVE_CONFIG_BY_PHASE, createCorePressureState(), createCorePressureWave(), getCorePressureWaveConfig(), getFacingVectorToPlayerCore(), tickCorePressure(), ENEMY_STATS (+11 more)
+Cohesion: 0.14
+Nodes (19): CORE_PRESSURE_ROUTE_POINTS_BY_LANE_ID, CORE_PRESSURE_WAVE_CONFIG_BY_PHASE, createCorePressureState(), createCorePressureWave(), getCorePressureWaveConfig(), getFacingVectorToPlayerCore(), tickCorePressure(), CORE_PRESSURE_SPAWN_POINTS (+11 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.20
-Nodes (17): assertTargetLevel(), BASE_BUILDING_DEFINITIONS, BASE_BUILDING_IDS, BASE_ECONOMY_CONFIG, BASE_SLOT_IDS, calculateFinalCoins(), getBaseCoinsForOutcome(), getBuildingDefinition() (+9 more)
+Cohesion: 0.23
+Nodes (13): BASE_BUILDING_DEFINITIONS, BASE_BUILDING_IDS, BASE_ECONOMY_CONFIG, BASE_SLOT_IDS, BUILDING_STATES, calculateFinalCoins(), getBaseCoinsForOutcome(), getBuildingDefinition() (+5 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.33
-Nodes (9): compressPathCells(), findEnemyPath(), findNearestPathCell(), getEnemyPathGrid(), getPathCellKey(), getPathCellPoint(), getPathNeighbors(), isPathCellWalkable() (+1 more)
+Nodes (9): getActiveRouteTarget(), getEnemyStats(), getEnemyTarget(), getSeparationOffset(), resolveCharacterSeparation(), resolveSeparatedPosition(), separatePair(), separatePointFromPoint() (+1 more)
+
+### Community 71 - "Community 71"
+Cohesion: 0.33
+Nodes (7): getEnemyCoreAttackDamage(), advanceDynamicRoute(), advanceEnemyRoute(), getNearestWall(), getWallTargetForEnemy(), distanceBetween(), doesSegmentHitWall()
+
+### Community 72 - "Community 72"
+Cohesion: 0.40
+Nodes (3): clampDirectionIndex(), DIRECTION_ROWS, getDirectionIndexFromVector()
 
 ## Knowledge Gaps
-- **648 isolated node(s):** `name`, `slug`, `version`, `orientation`, `platforms` (+643 more)
+- **650 isolated node(s):** `name`, `slug`, `version`, `orientation`, `platforms` (+645 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -389,16 +404,16 @@ Nodes (9): compressPathCells(), findEnemyPath(), findNearestPathCell(), getEnemy
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `WORLD_BOUNDS` connect `Community 46` to `Community 64`, `Community 1`, `Community 0`, `Community 3`, `Community 36`, `Community 5`, `Community 67`, `Community 9`, `Community 18`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `PLAYER_CORE_POSITION` connect `Community 46` to `Community 64`, `Community 1`, `Community 0`, `Community 3`, `Community 18`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `ENEMY_CORE_POSITION` connect `Community 46` to `Community 64`, `Community 1`, `Community 0`, `Community 3`, `Community 36`, `Community 67`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `ENEMY_CORE_POSITION` connect `Community 46` to `Community 64`, `Community 1`, `Community 0`, `Community 3`, `Community 36`, `Community 67`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `name`, `slug`, `version` to the rest of the system?**
-  _648 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _650 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.0673903211216644 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.052464947987336044 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05179982440737489 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.14022988505747128 - nodes in this community are weakly interconnected._
