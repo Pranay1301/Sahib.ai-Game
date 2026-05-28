@@ -1,0 +1,2925 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-20T11:17:00.669Z",
+  "assetRoot": "public/assests",
+  "selectedFormatsOnly": true,
+  "formatPolicy": {
+    "preferredRuntimeFormat": "glb",
+    "selectedFormats": {
+      "base": "glb",
+      "sci_fi_essentials": "gltf",
+      "trees": "glb"
+    },
+    "notes": [
+      "Base uses the cleaned GLB format folder.",
+      "Sci-Fi Essentials remains glTF to preserve shared texture dependencies without bloating files.",
+      "Trees use converted GLB files with red/pink material treatment for the current Sahib AI map direction.",
+      "Ignored duplicate or source-only formats such as FBX and OBJ after cleanup."
+    ]
+  },
+  "counts": {
+    "packs": 3,
+    "models": 92,
+    "glbModels": 55,
+    "gltfModels": 37,
+    "baseModels": 40,
+    "sciFiModels": 37,
+    "treeModels": 15,
+    "sciFiSharedDependencies": 69
+  },
+  "packs": [
+    {
+      "id": "base",
+      "name": "Base",
+      "role": "map_base_architecture",
+      "root": "public/assests/Base",
+      "selectedFormat": "glb",
+      "preview": {
+        "path": "public/assests/Base/Preview.png",
+        "sizeBytes": 197273
+      },
+      "support": {
+        "previews": [
+          {
+            "path": "public/assests/Base/Models/GLB format/Textures/colormap.png",
+            "sizeBytes": 33547
+          },
+          {
+            "path": "public/assests/Base/Preview (Variation A).png",
+            "sizeBytes": 707181
+          },
+          {
+            "path": "public/assests/Base/Preview (Variation B).png",
+            "sizeBytes": 699123
+          },
+          {
+            "path": "public/assests/Base/Preview.png",
+            "sizeBytes": 197273
+          },
+          {
+            "path": "public/assests/Base/Previews/cables.png",
+            "sizeBytes": 1338
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-corner.png",
+            "sizeBytes": 2642
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-end.png",
+            "sizeBytes": 2198
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-intersection.png",
+            "sizeBytes": 2369
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-junction.png",
+            "sizeBytes": 2528
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-transition.png",
+            "sizeBytes": 1968
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-wide-corner.png",
+            "sizeBytes": 2318
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-wide-end.png",
+            "sizeBytes": 2069
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-wide-intersection.png",
+            "sizeBytes": 1954
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-wide-junction.png",
+            "sizeBytes": 2261
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor-wide.png",
+            "sizeBytes": 2046
+          },
+          {
+            "path": "public/assests/Base/Previews/corridor.png",
+            "sizeBytes": 2157
+          },
+          {
+            "path": "public/assests/Base/Previews/gate-door-window.png",
+            "sizeBytes": 2188
+          },
+          {
+            "path": "public/assests/Base/Previews/gate-door.png",
+            "sizeBytes": 2216
+          },
+          {
+            "path": "public/assests/Base/Previews/gate-lasers.png",
+            "sizeBytes": 2184
+          },
+          {
+            "path": "public/assests/Base/Previews/gate.png",
+            "sizeBytes": 1954
+          },
+          {
+            "path": "public/assests/Base/Previews/room-corner.png",
+            "sizeBytes": 2106
+          },
+          {
+            "path": "public/assests/Base/Previews/room-large-variation.png",
+            "sizeBytes": 3209
+          },
+          {
+            "path": "public/assests/Base/Previews/room-large.png",
+            "sizeBytes": 2044
+          },
+          {
+            "path": "public/assests/Base/Previews/room-small-variation.png",
+            "sizeBytes": 3475
+          },
+          {
+            "path": "public/assests/Base/Previews/room-small.png",
+            "sizeBytes": 2137
+          },
+          {
+            "path": "public/assests/Base/Previews/room-wide-variation.png",
+            "sizeBytes": 2596
+          },
+          {
+            "path": "public/assests/Base/Previews/room-wide.png",
+            "sizeBytes": 1716
+          },
+          {
+            "path": "public/assests/Base/Previews/stairs-wide.png",
+            "sizeBytes": 2619
+          },
+          {
+            "path": "public/assests/Base/Previews/stairs.png",
+            "sizeBytes": 2158
+          },
+          {
+            "path": "public/assests/Base/Previews/template-corner.png",
+            "sizeBytes": 2564
+          },
+          {
+            "path": "public/assests/Base/Previews/template-detail.png",
+            "sizeBytes": 1408
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor-big.png",
+            "sizeBytes": 1812
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor-detail-a.png",
+            "sizeBytes": 1476
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor-detail.png",
+            "sizeBytes": 1542
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor-layer-hole.png",
+            "sizeBytes": 2336
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor-layer-raised.png",
+            "sizeBytes": 2282
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor-layer.png",
+            "sizeBytes": 1814
+          },
+          {
+            "path": "public/assests/Base/Previews/template-floor.png",
+            "sizeBytes": 1231
+          },
+          {
+            "path": "public/assests/Base/Previews/template-wall-corner.png",
+            "sizeBytes": 1094
+          },
+          {
+            "path": "public/assests/Base/Previews/template-wall-detail-a.png",
+            "sizeBytes": 2152
+          },
+          {
+            "path": "public/assests/Base/Previews/template-wall-half.png",
+            "sizeBytes": 1627
+          },
+          {
+            "path": "public/assests/Base/Previews/template-wall-stairs.png",
+            "sizeBytes": 1630
+          },
+          {
+            "path": "public/assests/Base/Previews/template-wall-top.png",
+            "sizeBytes": 1852
+          },
+          {
+            "path": "public/assests/Base/Previews/template-wall.png",
+            "sizeBytes": 1941
+          },
+          {
+            "path": "public/assests/Base/Sample.png",
+            "sizeBytes": 223281
+          }
+        ],
+        "licenses": [
+          {
+            "path": "public/assests/Base/License.txt",
+            "sizeBytes": 706
+          }
+        ],
+        "sourceUrls": [
+          {
+            "path": "public/assests/Base/View Documentation.url",
+            "sizeBytes": 185
+          },
+          {
+            "path": "public/assests/Base/Visit Kenney.url",
+            "sizeBytes": 118
+          },
+          {
+            "path": "public/assests/Base/Visit Patreon.url",
+            "sizeBytes": 55
+          }
+        ],
+        "docs": [
+          {
+            "path": "public/assests/Base/Overview.html",
+            "sizeBytes": 9735
+          }
+        ]
+      },
+      "notes": "Use these GLB pieces for base rooms, corridors, gates, stairs, walls, and floor architecture.",
+      "models": [
+        {
+          "id": "base_cables",
+          "name": "cables",
+          "packId": "base",
+          "category": "decor_cables",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/cables.glb",
+          "sizeBytes": 42612,
+          "preview": {
+            "path": "public/assests/Base/Previews/cables.png",
+            "sizeBytes": 1338
+          }
+        },
+        {
+          "id": "base_corridor_corner",
+          "name": "corridor-corner",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-corner.glb",
+          "sizeBytes": 100020,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-corner.png",
+            "sizeBytes": 2642
+          }
+        },
+        {
+          "id": "base_corridor_end",
+          "name": "corridor-end",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-end.glb",
+          "sizeBytes": 112528,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-end.png",
+            "sizeBytes": 2198
+          }
+        },
+        {
+          "id": "base_corridor_intersection",
+          "name": "corridor-intersection",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-intersection.glb",
+          "sizeBytes": 25556,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-intersection.png",
+            "sizeBytes": 2369
+          }
+        },
+        {
+          "id": "base_corridor_junction",
+          "name": "corridor-junction",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-junction.glb",
+          "sizeBytes": 50652,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-junction.png",
+            "sizeBytes": 2528
+          }
+        },
+        {
+          "id": "base_corridor_transition",
+          "name": "corridor-transition",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-transition.glb",
+          "sizeBytes": 179736,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-transition.png",
+            "sizeBytes": 1968
+          }
+        },
+        {
+          "id": "base_corridor_wide_corner",
+          "name": "corridor-wide-corner",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-wide-corner.glb",
+          "sizeBytes": 174800,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-wide-corner.png",
+            "sizeBytes": 2318
+          }
+        },
+        {
+          "id": "base_corridor_wide_end",
+          "name": "corridor-wide-end",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-wide-end.glb",
+          "sizeBytes": 305796,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-wide-end.png",
+            "sizeBytes": 2069
+          }
+        },
+        {
+          "id": "base_corridor_wide_intersection",
+          "name": "corridor-wide-intersection",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-wide-intersection.glb",
+          "sizeBytes": 26808,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-wide-intersection.png",
+            "sizeBytes": 1954
+          }
+        },
+        {
+          "id": "base_corridor_wide_junction",
+          "name": "corridor-wide-junction",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-wide-junction.glb",
+          "sizeBytes": 115912,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-wide-junction.png",
+            "sizeBytes": 2261
+          }
+        },
+        {
+          "id": "base_corridor_wide",
+          "name": "corridor-wide",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor-wide.glb",
+          "sizeBytes": 204896,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor-wide.png",
+            "sizeBytes": 2046
+          }
+        },
+        {
+          "id": "base_corridor",
+          "name": "corridor",
+          "packId": "base",
+          "category": "map_corridor",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/corridor.glb",
+          "sizeBytes": 75632,
+          "preview": {
+            "path": "public/assests/Base/Previews/corridor.png",
+            "sizeBytes": 2157
+          }
+        },
+        {
+          "id": "base_gate_door_window",
+          "name": "gate-door-window",
+          "packId": "base",
+          "category": "mechanical_gate",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/gate-door-window.glb",
+          "sizeBytes": 147544,
+          "preview": {
+            "path": "public/assests/Base/Previews/gate-door-window.png",
+            "sizeBytes": 2188
+          }
+        },
+        {
+          "id": "base_gate_door",
+          "name": "gate-door",
+          "packId": "base",
+          "category": "mechanical_gate",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/gate-door.glb",
+          "sizeBytes": 139124,
+          "preview": {
+            "path": "public/assests/Base/Previews/gate-door.png",
+            "sizeBytes": 2216
+          }
+        },
+        {
+          "id": "base_gate_lasers",
+          "name": "gate-lasers",
+          "packId": "base",
+          "category": "mechanical_gate",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/gate-lasers.glb",
+          "sizeBytes": 185616,
+          "preview": {
+            "path": "public/assests/Base/Previews/gate-lasers.png",
+            "sizeBytes": 2184
+          }
+        },
+        {
+          "id": "base_gate",
+          "name": "gate",
+          "packId": "base",
+          "category": "mechanical_gate",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/gate.glb",
+          "sizeBytes": 54556,
+          "preview": {
+            "path": "public/assests/Base/Previews/gate.png",
+            "sizeBytes": 1954
+          }
+        },
+        {
+          "id": "base_room_corner",
+          "name": "room-corner",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-corner.glb",
+          "sizeBytes": 537432,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-corner.png",
+            "sizeBytes": 2106
+          }
+        },
+        {
+          "id": "base_room_large_variation",
+          "name": "room-large-variation",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-large-variation.glb",
+          "sizeBytes": 850016,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-large-variation.png",
+            "sizeBytes": 3209
+          }
+        },
+        {
+          "id": "base_room_large",
+          "name": "room-large",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-large.glb",
+          "sizeBytes": 942712,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-large.png",
+            "sizeBytes": 2044
+          }
+        },
+        {
+          "id": "base_room_small_variation",
+          "name": "room-small-variation",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-small-variation.glb",
+          "sizeBytes": 372640,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-small-variation.png",
+            "sizeBytes": 3475
+          }
+        },
+        {
+          "id": "base_room_small",
+          "name": "room-small",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-small.glb",
+          "sizeBytes": 424016,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-small.png",
+            "sizeBytes": 2137
+          }
+        },
+        {
+          "id": "base_room_wide_variation",
+          "name": "room-wide-variation",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-wide-variation.glb",
+          "sizeBytes": 864552,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-wide-variation.png",
+            "sizeBytes": 2596
+          }
+        },
+        {
+          "id": "base_room_wide",
+          "name": "room-wide",
+          "packId": "base",
+          "category": "base_room",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/room-wide.glb",
+          "sizeBytes": 755428,
+          "preview": {
+            "path": "public/assests/Base/Previews/room-wide.png",
+            "sizeBytes": 1716
+          }
+        },
+        {
+          "id": "base_stairs_wide",
+          "name": "stairs-wide",
+          "packId": "base",
+          "category": "stairs",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/stairs-wide.glb",
+          "sizeBytes": 266740,
+          "preview": {
+            "path": "public/assests/Base/Previews/stairs-wide.png",
+            "sizeBytes": 2619
+          }
+        },
+        {
+          "id": "base_stairs",
+          "name": "stairs",
+          "packId": "base",
+          "category": "stairs",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/stairs.glb",
+          "sizeBytes": 265880,
+          "preview": {
+            "path": "public/assests/Base/Previews/stairs.png",
+            "sizeBytes": 2158
+          }
+        },
+        {
+          "id": "base_template_corner",
+          "name": "template-corner",
+          "packId": "base",
+          "category": "template_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-corner.glb",
+          "sizeBytes": 94180,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-corner.png",
+            "sizeBytes": 2564
+          }
+        },
+        {
+          "id": "base_template_detail",
+          "name": "template-detail",
+          "packId": "base",
+          "category": "template_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-detail.glb",
+          "sizeBytes": 33936,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-detail.png",
+            "sizeBytes": 1408
+          }
+        },
+        {
+          "id": "base_template_floor_big",
+          "name": "template-floor-big",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor-big.glb",
+          "sizeBytes": 35536,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor-big.png",
+            "sizeBytes": 1812
+          }
+        },
+        {
+          "id": "base_template_floor_detail_a",
+          "name": "template-floor-detail-a",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor-detail-a.glb",
+          "sizeBytes": 2076,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor-detail-a.png",
+            "sizeBytes": 1476
+          }
+        },
+        {
+          "id": "base_template_floor_detail",
+          "name": "template-floor-detail",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor-detail.glb",
+          "sizeBytes": 4232,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor-detail.png",
+            "sizeBytes": 1542
+          }
+        },
+        {
+          "id": "base_template_floor_layer_hole",
+          "name": "template-floor-layer-hole",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor-layer-hole.glb",
+          "sizeBytes": 221732,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor-layer-hole.png",
+            "sizeBytes": 2336
+          }
+        },
+        {
+          "id": "base_template_floor_layer_raised",
+          "name": "template-floor-layer-raised",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor-layer-raised.glb",
+          "sizeBytes": 214128,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor-layer-raised.png",
+            "sizeBytes": 2282
+          }
+        },
+        {
+          "id": "base_template_floor_layer",
+          "name": "template-floor-layer",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor-layer.glb",
+          "sizeBytes": 46292,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor-layer.png",
+            "sizeBytes": 1814
+          }
+        },
+        {
+          "id": "base_template_floor",
+          "name": "template-floor",
+          "packId": "base",
+          "category": "floor_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-floor.glb",
+          "sizeBytes": 2092,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-floor.png",
+            "sizeBytes": 1231
+          }
+        },
+        {
+          "id": "base_template_wall_corner",
+          "name": "template-wall-corner",
+          "packId": "base",
+          "category": "wall_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-wall-corner.glb",
+          "sizeBytes": 7420,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-wall-corner.png",
+            "sizeBytes": 1094
+          }
+        },
+        {
+          "id": "base_template_wall_detail_a",
+          "name": "template-wall-detail-a",
+          "packId": "base",
+          "category": "wall_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-wall-detail-a.glb",
+          "sizeBytes": 84516,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-wall-detail-a.png",
+            "sizeBytes": 2152
+          }
+        },
+        {
+          "id": "base_template_wall_half",
+          "name": "template-wall-half",
+          "packId": "base",
+          "category": "wall_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-wall-half.glb",
+          "sizeBytes": 10440,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-wall-half.png",
+            "sizeBytes": 1627
+          }
+        },
+        {
+          "id": "base_template_wall_stairs",
+          "name": "template-wall-stairs",
+          "packId": "base",
+          "category": "wall_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-wall-stairs.glb",
+          "sizeBytes": 22560,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-wall-stairs.png",
+            "sizeBytes": 1630
+          }
+        },
+        {
+          "id": "base_template_wall_top",
+          "name": "template-wall-top",
+          "packId": "base",
+          "category": "wall_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-wall-top.glb",
+          "sizeBytes": 31684,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-wall-top.png",
+            "sizeBytes": 1852
+          }
+        },
+        {
+          "id": "base_template_wall",
+          "name": "template-wall",
+          "packId": "base",
+          "category": "wall_piece",
+          "format": "glb",
+          "path": "public/assests/Base/Models/GLB format/template-wall.glb",
+          "sizeBytes": 38472,
+          "preview": {
+            "path": "public/assests/Base/Previews/template-wall.png",
+            "sizeBytes": 1941
+          }
+        }
+      ]
+    },
+    {
+      "id": "sci_fi_essentials",
+      "name": "Sci-Fi Essentials Kit[Standard]",
+      "role": "decor_props_enemies_weapons",
+      "root": "public/assests/Sci-Fi Essentials Kit[Standard]",
+      "selectedFormat": "gltf",
+      "preview": {
+        "path": "public/assests/Sci-Fi Essentials Kit[Standard]/Preview_1.jpg",
+        "sizeBytes": 275133
+      },
+      "support": {
+        "previews": [
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_BaseColor_png.png",
+            "sizeBytes": 1076933
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_BaseColor.png",
+            "sizeBytes": 1910747
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_Normal.png",
+            "sizeBytes": 3116376
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_ORM.png",
+            "sizeBytes": 3299099
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Normal.png",
+            "sizeBytes": 313447
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_ORM.png",
+            "sizeBytes": 3043013
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+            "sizeBytes": 1437203
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+            "sizeBytes": 2941899
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png",
+            "sizeBytes": 3107515
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+            "sizeBytes": 1077844
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+            "sizeBytes": 2934510
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png",
+            "sizeBytes": 2960135
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+            "sizeBytes": 298258
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+            "sizeBytes": 838136
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png",
+            "sizeBytes": 842901
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "sizeBytes": 450209
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "sizeBytes": 770775
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png",
+            "sizeBytes": 931537
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+            "sizeBytes": 5601390
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+            "sizeBytes": 12047004
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png",
+            "sizeBytes": 11086609
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "sizeBytes": 965873
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "sizeBytes": 585626
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+            "sizeBytes": 3338790
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor_Red.png",
+            "sizeBytes": 1150649
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor.png",
+            "sizeBytes": 1125543
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_Normal.png",
+            "sizeBytes": 756841
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_ORM.png",
+            "sizeBytes": 3994352
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+            "sizeBytes": 1285125
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+            "sizeBytes": 779284
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "sizeBytes": 375307
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png",
+            "sizeBytes": 3009230
+          },
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/Preview_1.jpg",
+            "sizeBytes": 275133
+          }
+        ],
+        "licenses": [
+          {
+            "path": "public/assests/Sci-Fi Essentials Kit[Standard]/License_Standard.txt",
+            "sizeBytes": 838
+          }
+        ],
+        "sourceUrls": [],
+        "docs": []
+      },
+      "notes": "Kept as glTF because the pack shares texture files; bulk GLB conversion duplicates texture payload heavily.",
+      "models": [
+        {
+          "id": "sci_fi_essentials_enemy_eyedrone",
+          "name": "Enemy_EyeDrone",
+          "packId": "sci_fi_essentials",
+          "category": "enemy_candidate",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_EyeDrone.gltf",
+          "sizeBytes": 53939,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_EyeDrone.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_BaseColor_png.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_enemy_quadshell",
+          "name": "Enemy_QuadShell",
+          "packId": "sci_fi_essentials",
+          "category": "enemy_candidate",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_QuadShell.gltf",
+          "sizeBytes": 235254,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_QuadShell.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_BaseColor_png.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_enemy_trilobite",
+          "name": "Enemy_Trilobite",
+          "packId": "sci_fi_essentials",
+          "category": "enemy_candidate",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_Trilobite.gltf",
+          "sizeBytes": 189636,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_Trilobite.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_gun_pistol",
+          "name": "Gun_Pistol",
+          "packId": "sci_fi_essentials",
+          "category": "weapon_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Pistol.gltf",
+          "sizeBytes": 2211,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Pistol.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_gun_revolver",
+          "name": "Gun_Revolver",
+          "packId": "sci_fi_essentials",
+          "category": "weapon_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Revolver.gltf",
+          "sizeBytes": 3440,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Revolver.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_gun_rifle",
+          "name": "Gun_Rifle",
+          "packId": "sci_fi_essentials",
+          "category": "weapon_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Rifle.gltf",
+          "sizeBytes": 2210,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Rifle.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_gun_smg_ammo",
+          "name": "Gun_SMG_Ammo",
+          "packId": "sci_fi_essentials",
+          "category": "weapon_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_SMG_Ammo.gltf",
+          "sizeBytes": 2208,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_SMG_Ammo.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_gun_sniper_ammo",
+          "name": "Gun_Sniper_Ammo",
+          "packId": "sci_fi_essentials",
+          "category": "weapon_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper_Ammo.gltf",
+          "sizeBytes": 2213,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper_Ammo.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_gun_sniper",
+          "name": "Gun_Sniper",
+          "packId": "sci_fi_essentials",
+          "category": "weapon_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper.gltf",
+          "sizeBytes": 2215,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_ammo_closed",
+          "name": "Prop_Ammo_Closed",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Closed.gltf",
+          "sizeBytes": 2226,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Closed.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_ammo_small",
+          "name": "Prop_Ammo_Small",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Small.gltf",
+          "sizeBytes": 2227,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Small.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_ammo",
+          "name": "Prop_Ammo",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo.gltf",
+          "sizeBytes": 2216,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_barrel1",
+          "name": "Prop_Barrel1",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel1.gltf",
+          "sizeBytes": 2226,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel1.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_barrel2_closed",
+          "name": "Prop_Barrel2_Closed",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Closed.gltf",
+          "sizeBytes": 2239,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Closed.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_barrel2_open",
+          "name": "Prop_Barrel2_Open",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Open.gltf",
+          "sizeBytes": 2236,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Open.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_chair",
+          "name": "Prop_Chair",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chair.gltf",
+          "sizeBytes": 3629,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chair.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_chest",
+          "name": "Prop_Chest",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chest.gltf",
+          "sizeBytes": 17853,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chest.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_crate_large",
+          "name": "Prop_Crate_Large",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Large.gltf",
+          "sizeBytes": 2226,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Large.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_crate_tarp_large",
+          "name": "Prop_Crate_Tarp_Large",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp_Large.gltf",
+          "sizeBytes": 2238,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp_Large.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_crate_tarp",
+          "name": "Prop_Crate_Tarp",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp.gltf",
+          "sizeBytes": 2223,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_crate",
+          "name": "Prop_Crate",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate.gltf",
+          "sizeBytes": 2186,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_desk_l",
+          "name": "Prop_Desk_L",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_L.gltf",
+          "sizeBytes": 5495,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_L.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_desk_medium",
+          "name": "Prop_Desk_Medium",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Medium.gltf",
+          "sizeBytes": 5521,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Medium.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_desk_small",
+          "name": "Prop_Desk_Small",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Small.gltf",
+          "sizeBytes": 5415,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Small.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_grenade",
+          "name": "Prop_Grenade",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Grenade.gltf",
+          "sizeBytes": 2225,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Grenade.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_healthpack_tube",
+          "name": "Prop_HealthPack_Tube",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack_Tube.gltf",
+          "sizeBytes": 2231,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack_Tube.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_healthpack",
+          "name": "Prop_HealthPack",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack.gltf",
+          "sizeBytes": 2230,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_keycard",
+          "name": "Prop_KeyCard",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_KeyCard.gltf",
+          "sizeBytes": 2216,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_KeyCard.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_locker",
+          "name": "Prop_Locker",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Locker.gltf",
+          "sizeBytes": 2153,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Locker.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_mine",
+          "name": "Prop_Mine",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mine.gltf",
+          "sizeBytes": 2211,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mine.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_mug",
+          "name": "Prop_Mug",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mug.gltf",
+          "sizeBytes": 2172,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mug.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_satellitedish",
+          "name": "Prop_SatelliteDish",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_SatelliteDish.gltf",
+          "sizeBytes": 5732,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_SatelliteDish.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_ORM.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_shelves_thinshort",
+          "name": "Prop_Shelves_ThinShort",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinShort.gltf",
+          "sizeBytes": 2429,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinShort.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_shelves_thintall",
+          "name": "Prop_Shelves_ThinTall",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinTall.gltf",
+          "sizeBytes": 2429,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinTall.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_shelves_wideshort",
+          "name": "Prop_Shelves_WideShort",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideShort.gltf",
+          "sizeBytes": 2429,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideShort.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_shelves_widetall",
+          "name": "Prop_Shelves_WideTall",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideTall.gltf",
+          "sizeBytes": 2429,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideTall.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+          ]
+        },
+        {
+          "id": "sci_fi_essentials_prop_syringe",
+          "name": "Prop_Syringe",
+          "packId": "sci_fi_essentials",
+          "category": "decor_prop",
+          "format": "gltf",
+          "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Syringe.gltf",
+          "sizeBytes": 2223,
+          "dependencies": [
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Syringe.bin",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+            "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trees",
+      "name": "Tress",
+      "role": "red_environment_trees",
+      "root": "public/assests/Tress",
+      "selectedFormat": "glb",
+      "preview": {
+        "path": "public/assests/Tress/Preview.jpg",
+        "sizeBytes": 579762
+      },
+      "support": {
+        "previews": [
+          {
+            "path": "public/assests/Tress/Preview.jpg",
+            "sizeBytes": 579762
+          },
+          {
+            "path": "public/assests/Tress/Textures/Color Variations/Leaves_DarkRed.png",
+            "sizeBytes": 111583
+          },
+          {
+            "path": "public/assests/Tress/Textures/Color Variations/Leaves_Pink.png",
+            "sizeBytes": 137117
+          },
+          {
+            "path": "public/assests/Tress/Textures/Color Variations/Leaves_Red.png",
+            "sizeBytes": 125556
+          },
+          {
+            "path": "public/assests/Tress/Textures/Color Variations/Pine_Leaves_Red.png",
+            "sizeBytes": 116309
+          },
+          {
+            "path": "public/assests/Tress/Textures/Tree_Bark.jpg",
+            "sizeBytes": 240999
+          }
+        ],
+        "licenses": [
+          {
+            "path": "public/assests/Tress/License.txt",
+            "sizeBytes": 364
+          }
+        ],
+        "sourceUrls": [],
+        "docs": []
+      },
+      "notes": "Use only the red/pink tree set for the surreal alien environment. The GLBs were converted from FBX and material-tinted for runtime use.",
+      "textures": [
+        {
+          "path": "public/assests/Tress/Textures/Tree_Bark.jpg",
+          "sizeBytes": 240999
+        },
+        {
+          "path": "public/assests/Tress/Textures/Color Variations/Leaves_Red.png",
+          "sizeBytes": 125556
+        },
+        {
+          "path": "public/assests/Tress/Textures/Color Variations/Leaves_DarkRed.png",
+          "sizeBytes": 111583
+        },
+        {
+          "path": "public/assests/Tress/Textures/Color Variations/Leaves_Pink.png",
+          "sizeBytes": 137117
+        },
+        {
+          "path": "public/assests/Tress/Textures/Color Variations/Pine_Leaves_Red.png",
+          "sizeBytes": 116309
+        }
+      ],
+      "models": [
+        {
+          "id": "trees_pine_1",
+          "name": "Pine_1",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Pine_1.glb",
+          "sizeBytes": 26152
+        },
+        {
+          "id": "trees_pine_2",
+          "name": "Pine_2",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Pine_2.glb",
+          "sizeBytes": 23452
+        },
+        {
+          "id": "trees_pine_3",
+          "name": "Pine_3",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Pine_3.glb",
+          "sizeBytes": 21140
+        },
+        {
+          "id": "trees_pine_4",
+          "name": "Pine_4",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Pine_4.glb",
+          "sizeBytes": 18436
+        },
+        {
+          "id": "trees_pine_5",
+          "name": "Pine_5",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Pine_5.glb",
+          "sizeBytes": 26404
+        },
+        {
+          "id": "trees_tree_1",
+          "name": "Tree_1",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_1.glb",
+          "sizeBytes": 28308
+        },
+        {
+          "id": "trees_tree_10",
+          "name": "Tree_10",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_10.glb",
+          "sizeBytes": 37672
+        },
+        {
+          "id": "trees_tree_2",
+          "name": "Tree_2",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_2.glb",
+          "sizeBytes": 42684
+        },
+        {
+          "id": "trees_tree_3",
+          "name": "Tree_3",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_3.glb",
+          "sizeBytes": 62764
+        },
+        {
+          "id": "trees_tree_4",
+          "name": "Tree_4",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_4.glb",
+          "sizeBytes": 50924
+        },
+        {
+          "id": "trees_tree_5",
+          "name": "Tree_5",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_5.glb",
+          "sizeBytes": 56092
+        },
+        {
+          "id": "trees_tree_6",
+          "name": "Tree_6",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_6.glb",
+          "sizeBytes": 45448
+        },
+        {
+          "id": "trees_tree_7",
+          "name": "Tree_7",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_7.glb",
+          "sizeBytes": 41812
+        },
+        {
+          "id": "trees_tree_8",
+          "name": "Tree_8",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_8.glb",
+          "sizeBytes": 45580
+        },
+        {
+          "id": "trees_tree_9",
+          "name": "Tree_9",
+          "packId": "trees",
+          "category": "red_tree",
+          "format": "glb",
+          "path": "public/assests/Tress/GLB/Tree_9.glb",
+          "sizeBytes": 39392
+        }
+      ]
+    }
+  ],
+  "sciFiSharedDependencies": [
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_EyeDrone.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_QuadShell.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_Trilobite.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Pistol.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Revolver.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Rifle.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_SMG_Ammo.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper_Ammo.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Closed.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Small.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel1.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Closed.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Open.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chair.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chest.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Large.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp_Large.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_L.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Medium.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Small.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Grenade.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack_Tube.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_KeyCard.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Locker.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mine.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mug.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_SatelliteDish.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinShort.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinTall.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideShort.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideTall.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Syringe.bin",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_BaseColor_png.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor_Red.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_ORM.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+    "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+  ],
+  "allModels": [
+    {
+      "id": "base_cables",
+      "name": "cables",
+      "packId": "base",
+      "category": "decor_cables",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/cables.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/cables.png",
+        "sizeBytes": 1338
+      }
+    },
+    {
+      "id": "base_corridor_corner",
+      "name": "corridor-corner",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-corner.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-corner.png",
+        "sizeBytes": 2642
+      }
+    },
+    {
+      "id": "base_corridor_end",
+      "name": "corridor-end",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-end.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-end.png",
+        "sizeBytes": 2198
+      }
+    },
+    {
+      "id": "base_corridor_intersection",
+      "name": "corridor-intersection",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-intersection.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-intersection.png",
+        "sizeBytes": 2369
+      }
+    },
+    {
+      "id": "base_corridor_junction",
+      "name": "corridor-junction",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-junction.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-junction.png",
+        "sizeBytes": 2528
+      }
+    },
+    {
+      "id": "base_corridor_transition",
+      "name": "corridor-transition",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-transition.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-transition.png",
+        "sizeBytes": 1968
+      }
+    },
+    {
+      "id": "base_corridor_wide_corner",
+      "name": "corridor-wide-corner",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-wide-corner.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-wide-corner.png",
+        "sizeBytes": 2318
+      }
+    },
+    {
+      "id": "base_corridor_wide_end",
+      "name": "corridor-wide-end",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-wide-end.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-wide-end.png",
+        "sizeBytes": 2069
+      }
+    },
+    {
+      "id": "base_corridor_wide_intersection",
+      "name": "corridor-wide-intersection",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-wide-intersection.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-wide-intersection.png",
+        "sizeBytes": 1954
+      }
+    },
+    {
+      "id": "base_corridor_wide_junction",
+      "name": "corridor-wide-junction",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-wide-junction.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-wide-junction.png",
+        "sizeBytes": 2261
+      }
+    },
+    {
+      "id": "base_corridor_wide",
+      "name": "corridor-wide",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor-wide.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor-wide.png",
+        "sizeBytes": 2046
+      }
+    },
+    {
+      "id": "base_corridor",
+      "name": "corridor",
+      "packId": "base",
+      "category": "map_corridor",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/corridor.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/corridor.png",
+        "sizeBytes": 2157
+      }
+    },
+    {
+      "id": "base_gate_door_window",
+      "name": "gate-door-window",
+      "packId": "base",
+      "category": "mechanical_gate",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/gate-door-window.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/gate-door-window.png",
+        "sizeBytes": 2188
+      }
+    },
+    {
+      "id": "base_gate_door",
+      "name": "gate-door",
+      "packId": "base",
+      "category": "mechanical_gate",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/gate-door.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/gate-door.png",
+        "sizeBytes": 2216
+      }
+    },
+    {
+      "id": "base_gate_lasers",
+      "name": "gate-lasers",
+      "packId": "base",
+      "category": "mechanical_gate",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/gate-lasers.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/gate-lasers.png",
+        "sizeBytes": 2184
+      }
+    },
+    {
+      "id": "base_gate",
+      "name": "gate",
+      "packId": "base",
+      "category": "mechanical_gate",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/gate.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/gate.png",
+        "sizeBytes": 1954
+      }
+    },
+    {
+      "id": "base_room_corner",
+      "name": "room-corner",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-corner.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-corner.png",
+        "sizeBytes": 2106
+      }
+    },
+    {
+      "id": "base_room_large_variation",
+      "name": "room-large-variation",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-large-variation.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-large-variation.png",
+        "sizeBytes": 3209
+      }
+    },
+    {
+      "id": "base_room_large",
+      "name": "room-large",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-large.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-large.png",
+        "sizeBytes": 2044
+      }
+    },
+    {
+      "id": "base_room_small_variation",
+      "name": "room-small-variation",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-small-variation.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-small-variation.png",
+        "sizeBytes": 3475
+      }
+    },
+    {
+      "id": "base_room_small",
+      "name": "room-small",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-small.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-small.png",
+        "sizeBytes": 2137
+      }
+    },
+    {
+      "id": "base_room_wide_variation",
+      "name": "room-wide-variation",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-wide-variation.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-wide-variation.png",
+        "sizeBytes": 2596
+      }
+    },
+    {
+      "id": "base_room_wide",
+      "name": "room-wide",
+      "packId": "base",
+      "category": "base_room",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/room-wide.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/room-wide.png",
+        "sizeBytes": 1716
+      }
+    },
+    {
+      "id": "base_stairs_wide",
+      "name": "stairs-wide",
+      "packId": "base",
+      "category": "stairs",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/stairs-wide.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/stairs-wide.png",
+        "sizeBytes": 2619
+      }
+    },
+    {
+      "id": "base_stairs",
+      "name": "stairs",
+      "packId": "base",
+      "category": "stairs",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/stairs.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/stairs.png",
+        "sizeBytes": 2158
+      }
+    },
+    {
+      "id": "base_template_corner",
+      "name": "template-corner",
+      "packId": "base",
+      "category": "template_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-corner.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-corner.png",
+        "sizeBytes": 2564
+      }
+    },
+    {
+      "id": "base_template_detail",
+      "name": "template-detail",
+      "packId": "base",
+      "category": "template_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-detail.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-detail.png",
+        "sizeBytes": 1408
+      }
+    },
+    {
+      "id": "base_template_floor_big",
+      "name": "template-floor-big",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor-big.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor-big.png",
+        "sizeBytes": 1812
+      }
+    },
+    {
+      "id": "base_template_floor_detail_a",
+      "name": "template-floor-detail-a",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor-detail-a.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor-detail-a.png",
+        "sizeBytes": 1476
+      }
+    },
+    {
+      "id": "base_template_floor_detail",
+      "name": "template-floor-detail",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor-detail.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor-detail.png",
+        "sizeBytes": 1542
+      }
+    },
+    {
+      "id": "base_template_floor_layer_hole",
+      "name": "template-floor-layer-hole",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor-layer-hole.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor-layer-hole.png",
+        "sizeBytes": 2336
+      }
+    },
+    {
+      "id": "base_template_floor_layer_raised",
+      "name": "template-floor-layer-raised",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor-layer-raised.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor-layer-raised.png",
+        "sizeBytes": 2282
+      }
+    },
+    {
+      "id": "base_template_floor_layer",
+      "name": "template-floor-layer",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor-layer.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor-layer.png",
+        "sizeBytes": 1814
+      }
+    },
+    {
+      "id": "base_template_floor",
+      "name": "template-floor",
+      "packId": "base",
+      "category": "floor_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-floor.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-floor.png",
+        "sizeBytes": 1231
+      }
+    },
+    {
+      "id": "base_template_wall_corner",
+      "name": "template-wall-corner",
+      "packId": "base",
+      "category": "wall_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-wall-corner.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-wall-corner.png",
+        "sizeBytes": 1094
+      }
+    },
+    {
+      "id": "base_template_wall_detail_a",
+      "name": "template-wall-detail-a",
+      "packId": "base",
+      "category": "wall_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-wall-detail-a.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-wall-detail-a.png",
+        "sizeBytes": 2152
+      }
+    },
+    {
+      "id": "base_template_wall_half",
+      "name": "template-wall-half",
+      "packId": "base",
+      "category": "wall_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-wall-half.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-wall-half.png",
+        "sizeBytes": 1627
+      }
+    },
+    {
+      "id": "base_template_wall_stairs",
+      "name": "template-wall-stairs",
+      "packId": "base",
+      "category": "wall_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-wall-stairs.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-wall-stairs.png",
+        "sizeBytes": 1630
+      }
+    },
+    {
+      "id": "base_template_wall_top",
+      "name": "template-wall-top",
+      "packId": "base",
+      "category": "wall_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-wall-top.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-wall-top.png",
+        "sizeBytes": 1852
+      }
+    },
+    {
+      "id": "base_template_wall",
+      "name": "template-wall",
+      "packId": "base",
+      "category": "wall_piece",
+      "format": "glb",
+      "path": "public/assests/Base/Models/GLB format/template-wall.glb",
+      "preview": {
+        "path": "public/assests/Base/Previews/template-wall.png",
+        "sizeBytes": 1941
+      }
+    },
+    {
+      "id": "sci_fi_essentials_enemy_eyedrone",
+      "name": "Enemy_EyeDrone",
+      "packId": "sci_fi_essentials",
+      "category": "enemy_candidate",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_EyeDrone.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_EyeDrone.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_BaseColor_png.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_enemy_quadshell",
+      "name": "Enemy_QuadShell",
+      "packId": "sci_fi_essentials",
+      "category": "enemy_candidate",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_QuadShell.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_QuadShell.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_BaseColor_png.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_enemy_trilobite",
+      "name": "Enemy_Trilobite",
+      "packId": "sci_fi_essentials",
+      "category": "enemy_candidate",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_Trilobite.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Enemy_Trilobite.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Enemies_Large_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_gun_pistol",
+      "name": "Gun_Pistol",
+      "packId": "sci_fi_essentials",
+      "category": "weapon_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Pistol.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Pistol.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_gun_revolver",
+      "name": "Gun_Revolver",
+      "packId": "sci_fi_essentials",
+      "category": "weapon_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Revolver.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Revolver.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_gun_rifle",
+      "name": "Gun_Rifle",
+      "packId": "sci_fi_essentials",
+      "category": "weapon_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Rifle.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Rifle.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_gun_smg_ammo",
+      "name": "Gun_SMG_Ammo",
+      "packId": "sci_fi_essentials",
+      "category": "weapon_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_SMG_Ammo.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_SMG_Ammo.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_gun_sniper_ammo",
+      "name": "Gun_Sniper_Ammo",
+      "packId": "sci_fi_essentials",
+      "category": "weapon_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper_Ammo.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper_Ammo.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_gun_sniper",
+      "name": "Gun_Sniper",
+      "packId": "sci_fi_essentials",
+      "category": "weapon_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Gun_Sniper.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Guns_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_ammo_closed",
+      "name": "Prop_Ammo_Closed",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Closed.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Closed.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_ammo_small",
+      "name": "Prop_Ammo_Small",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Small.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo_Small.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_ammo",
+      "name": "Prop_Ammo",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Ammo.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_barrel1",
+      "name": "Prop_Barrel1",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel1.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel1.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_barrel2_closed",
+      "name": "Prop_Barrel2_Closed",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Closed.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Closed.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_barrel2_open",
+      "name": "Prop_Barrel2_Open",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Open.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Barrel2_Open.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_chair",
+      "name": "Prop_Chair",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chair.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chair.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_chest",
+      "name": "Prop_Chest",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chest.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Chest.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_crate_large",
+      "name": "Prop_Crate_Large",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Large.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Large.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_crate_tarp_large",
+      "name": "Prop_Crate_Tarp_Large",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp_Large.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp_Large.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_crate_tarp",
+      "name": "Prop_Crate_Tarp",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate_Tarp.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_crate",
+      "name": "Prop_Crate",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Crate.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Crates_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_desk_l",
+      "name": "Prop_Desk_L",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_L.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_L.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_desk_medium",
+      "name": "Prop_Desk_Medium",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Medium.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Medium.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_desk_small",
+      "name": "Prop_Desk_Small",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Small.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Desk_Small.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_grenade",
+      "name": "Prop_Grenade",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Grenade.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Grenade.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_healthpack_tube",
+      "name": "Prop_HealthPack_Tube",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack_Tube.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack_Tube.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_healthpack",
+      "name": "Prop_HealthPack",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_HealthPack.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_keycard",
+      "name": "Prop_KeyCard",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_KeyCard.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_KeyCard.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_locker",
+      "name": "Prop_Locker",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Locker.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Locker.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_mine",
+      "name": "Prop_Mine",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mine.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mine.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch2_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_mug",
+      "name": "Prop_Mug",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mug.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Mug.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_satellitedish",
+      "name": "Prop_SatelliteDish",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_SatelliteDish.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_SatelliteDish.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_02_ORM.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Cables.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_03_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_shelves_thinshort",
+      "name": "Prop_Shelves_ThinShort",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinShort.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinShort.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_shelves_thintall",
+      "name": "Prop_Shelves_ThinTall",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinTall.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_ThinTall.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_shelves_wideshort",
+      "name": "Prop_Shelves_WideShort",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideShort.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideShort.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_shelves_widetall",
+      "name": "Prop_Shelves_WideTall",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideTall.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Shelves_WideTall.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_BaseColor_Red.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Trim_01_ORM.png"
+      ]
+    },
+    {
+      "id": "sci_fi_essentials_prop_syringe",
+      "name": "Prop_Syringe",
+      "packId": "sci_fi_essentials",
+      "category": "decor_prop",
+      "format": "gltf",
+      "path": "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Syringe.gltf",
+      "dependencies": [
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/Prop_Syringe.bin",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_BaseColor.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_Normal.png",
+        "public/assests/Sci-Fi Essentials Kit[Standard]/glTF/T_Props_Batch1_ORM.png"
+      ]
+    },
+    {
+      "id": "trees_pine_1",
+      "name": "Pine_1",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Pine_1.glb"
+    },
+    {
+      "id": "trees_pine_2",
+      "name": "Pine_2",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Pine_2.glb"
+    },
+    {
+      "id": "trees_pine_3",
+      "name": "Pine_3",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Pine_3.glb"
+    },
+    {
+      "id": "trees_pine_4",
+      "name": "Pine_4",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Pine_4.glb"
+    },
+    {
+      "id": "trees_pine_5",
+      "name": "Pine_5",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Pine_5.glb"
+    },
+    {
+      "id": "trees_tree_1",
+      "name": "Tree_1",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_1.glb"
+    },
+    {
+      "id": "trees_tree_10",
+      "name": "Tree_10",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_10.glb"
+    },
+    {
+      "id": "trees_tree_2",
+      "name": "Tree_2",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_2.glb"
+    },
+    {
+      "id": "trees_tree_3",
+      "name": "Tree_3",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_3.glb"
+    },
+    {
+      "id": "trees_tree_4",
+      "name": "Tree_4",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_4.glb"
+    },
+    {
+      "id": "trees_tree_5",
+      "name": "Tree_5",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_5.glb"
+    },
+    {
+      "id": "trees_tree_6",
+      "name": "Tree_6",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_6.glb"
+    },
+    {
+      "id": "trees_tree_7",
+      "name": "Tree_7",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_7.glb"
+    },
+    {
+      "id": "trees_tree_8",
+      "name": "Tree_8",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_8.glb"
+    },
+    {
+      "id": "trees_tree_9",
+      "name": "Tree_9",
+      "packId": "trees",
+      "category": "red_tree",
+      "format": "glb",
+      "path": "public/assests/Tress/GLB/Tree_9.glb"
+    }
+  ]
+}

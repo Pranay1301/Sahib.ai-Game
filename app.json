@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Sahib AI",
+    "slug": "sahib-ai",
+    "version": "0.1.0",
+    "orientation": "landscape",
+    "platforms": ["android", "ios"],
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.sahibai.game"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sahibai.game",
+      "supportsTablet": true
+    },
+    "extra": {
+      "phase": "Phase 4 3D map blockout and camera behavior"
+    }
+  }
+}
