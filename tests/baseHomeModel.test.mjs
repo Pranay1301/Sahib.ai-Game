@@ -237,6 +237,35 @@ test("home model exposes Phase 9 skill challenge preview for quiz-required build
   assert.equal(attackTower.tapResult.skillChallengePreview.startAction.label, "Start Skill Challenge");
 });
 
+test("home model exposes Phase 10 timer preview for upgrading buildings", () => {
+  const rows = createInitialUserBuildings(USER_ID, { palaceLevel: 2 }).map((building) =>
+    building.building_id === BASE_BUILDING_IDS.ATTACK_TOWER
+      ? { ...building, state: BUILDING_STATES.UPGRADING }
+      : building
+  );
+  const model = createBaseHomeViewModel({
+    profile: createDefaultProfile(USER_ID),
+    gameState: createDefaultGameState(USER_ID),
+    buildings: rows,
+    activeUpgrade: {
+      user_id: USER_ID,
+      building_id: BASE_BUILDING_IDS.ATTACK_TOWER,
+      from_level: 1,
+      to_level: 2,
+      started_at: "2026-05-28T10:00:00.000Z",
+      finishes_at: "2026-05-28T11:00:00.000Z",
+      timer_duration_minutes: 60
+    },
+    serverNow: "2026-05-28T10:30:00.000Z"
+  });
+  const attackTower = model.slots.find((slot) => slot.buildingId === BASE_BUILDING_IDS.ATTACK_TOWER);
+
+  assert.equal(attackTower.tapResult.action, BASE_BUILDING_TAP_ACTIONS.UPGRADING);
+  assert.equal(attackTower.tapResult.timerPreview.remainingMinutes, 30);
+  assert.equal(attackTower.tapResult.timerPreview.progressPercent, 50);
+  assert.equal(attackTower.tapResult.timerPreview.isComplete, false);
+});
+
 test("building slots expose predictable placeholder asset keys for Level 1 through Level 6", () => {
   const rows = createInitialUserBuildings(USER_ID).map((building) =>
     building.building_id === BASE_BUILDING_IDS.PALACE

@@ -26,6 +26,10 @@ import {
   createBuildingUpgradeModalViewModel
 } from "./baseUpgradeModalModel.js";
 import {
+  createUpgradeTimerViewModel,
+  getActiveUpgrade
+} from "./baseUpgradeTimers.js";
+import {
   createSkillChallengeViewModel
 } from "./baseSkillChallenges.js";
 import {
@@ -48,6 +52,8 @@ export function createBaseHomeViewModel({
   profile = {},
   gameState = {},
   buildings = [],
+  activeUpgrade = null,
+  serverNow = null,
   language = null,
   selectedBuildingId = null
 } = {}) {
@@ -59,6 +65,8 @@ export function createBaseHomeViewModel({
     palaceLevel,
     profile,
     gameState,
+    activeUpgrade,
+    serverNow,
     language: currentLanguage
   });
 
@@ -123,6 +131,8 @@ export function createBaseHomeSlots({
   palaceLevel = null,
   profile = {},
   gameState = {},
+  activeUpgrade = null,
+  serverNow = null,
   language = BASE_LANGUAGES.EN
 } = {}) {
   const normalizedLanguage = normalizeBaseLanguage(language);
@@ -140,6 +150,7 @@ export function createBaseHomeSlots({
 
     const slot = {
       slotId: definition.slotId,
+      userId: row.user_id ?? null,
       buildingId: definition.id,
       labelKey: copyKeys.label,
       label: getBaseCopy(normalizedLanguage, copyKeys.label),
@@ -171,6 +182,8 @@ export function createBaseHomeSlots({
         slot,
         profile,
         gameState,
+        activeUpgrade,
+        serverNow,
         language: normalizedLanguage
       })
     };
@@ -181,6 +194,8 @@ function createSlotTapResult({
   slot,
   profile,
   gameState,
+  activeUpgrade,
+  serverNow,
   language
 }) {
   const tapResult = createBuildingTapResult(slot);
@@ -210,7 +225,26 @@ function createSlotTapResult({
     };
   }
 
+  if (tapResult.action === BASE_BUILDING_TAP_ACTIONS.UPGRADING) {
+    return {
+      ...tapResult,
+      timerPreview: createUpgradeTimerViewModel({
+        activeUpgrade: getMatchingActiveUpgrade(activeUpgrade, slot),
+        serverNow
+      })
+    };
+  }
+
   return tapResult;
+}
+
+function getMatchingActiveUpgrade(activeUpgrade, slot) {
+  const matchingActiveUpgrade = getActiveUpgrade(activeUpgrade, slot.userId ?? null);
+  if (matchingActiveUpgrade?.building_id !== slot.buildingId) {
+    return null;
+  }
+
+  return matchingActiveUpgrade;
 }
 
 export function createSkillBadgeViewModel({
