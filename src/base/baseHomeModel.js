@@ -35,8 +35,12 @@ import {
 import {
   createSkillTrackSelectionViewModel
 } from "./baseSkillTrackSelection.js";
+import {
+  BASE_BUILDING_VISUAL_STATE_COUNT,
+  createBuildingVisualState
+} from "./baseVisualStates.js";
 
-export const BASE_HOME_TOTAL_VISUAL_STATES = 42;
+export const BASE_HOME_TOTAL_VISUAL_STATES = BASE_BUILDING_VISUAL_STATE_COUNT;
 
 export const BASE_HOME_SLOT_LAYOUT = Object.freeze({
   slot_palace: Object.freeze({ x: 0.5, y: 0.42, width: 0.18, height: 0.34, layer: 7 }),
@@ -147,6 +151,11 @@ export function createBaseHomeSlots({
     const state = row.state;
     const copyKeys = BASE_BUILDING_COPY_KEYS[definition.id];
     const layout = BASE_HOME_SLOT_LAYOUT[definition.slotId];
+    const visualState = createBuildingVisualState({
+      buildingId: definition.id,
+      level,
+      state
+    });
 
     const slot = {
       slotId: definition.slotId,
@@ -168,7 +177,8 @@ export function createBaseHomeSlots({
               })
             }
           : null,
-      assetKey: `/images/buildings/${definition.id}_level_${level}.png`,
+      assetKey: visualState.assetKey,
+      visualState,
       layout,
       isLocked: state === BUILDING_STATES.LOCKED,
       isUpgrading: state === BUILDING_STATES.UPGRADING,

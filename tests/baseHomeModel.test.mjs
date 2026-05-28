@@ -276,6 +276,10 @@ test("building slots expose predictable placeholder asset keys for Level 1 throu
   const palace = slots.find((slot) => slot.buildingId === BASE_BUILDING_IDS.PALACE);
 
   assert.equal(palace.assetKey, "/images/buildings/palace_level_6.png");
+  assert.equal(palace.visualState.assetKey, palace.assetKey);
+  assert.equal(palace.visualState.visualStyle, "Signature high-status version");
+  assert.equal(palace.visualState.statusKey, "premium_high_status");
+  assert.equal(palace.visualState.usesPlaceholderAsset, true);
   assert.equal(palace.state, BUILDING_STATES.MAX_LEVEL);
   assert.equal(palace.isMaxLevel, true);
 });

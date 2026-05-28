@@ -206,6 +206,7 @@ function BuildingSlot({ slot, onPress }) {
   const top = `${Math.round((slot.layout.y - slot.layout.height / 2) * 100)}%`;
   const width = `${Math.round(slot.layout.width * 100)}%`;
   const height = `${Math.round(slot.layout.height * 100)}%`;
+  const visualState = slot.visualState ?? {};
 
   return React.createElement(
     Pressable,
@@ -219,9 +220,12 @@ function BuildingSlot({ slot, onPress }) {
       },
       style: [
         styles.buildingSlot,
+        visualState.isPremiumVisual && styles.buildingSlotPremium,
+        visualState.isSignatureVisual && styles.buildingSlotSignature,
         slot.isLocked && styles.buildingSlotLocked,
         slot.isUpgrading && styles.buildingSlotUpgrading,
         slot.isCompleted && styles.buildingSlotCompleted,
+        slot.isMaxLevel && styles.buildingSlotMaxLevel,
         {
           left,
           top,
@@ -231,9 +235,22 @@ function BuildingSlot({ slot, onPress }) {
         }
       ]
     },
-    React.createElement(View, { style: styles.buildingGlow }),
+    React.createElement(View, {
+      style: [
+        styles.buildingGlow,
+        visualState.glow === "construction" && styles.buildingGlowConstruction,
+        visualState.glow === "ready" && styles.buildingGlowReady,
+        visualState.glow === "premium" && styles.buildingGlowPremium,
+        visualState.glow === "skill" && styles.buildingGlowSkill
+      ]
+    }),
     React.createElement(Text, { numberOfLines: 2, style: styles.buildingLabel }, slot.label),
-    React.createElement(Text, { style: styles.buildingLevel }, `L${slot.level}`),
+    React.createElement(Text, {
+      style: [
+        styles.buildingLevel,
+        visualState.isSignatureVisual && styles.buildingLevelSignature
+      ]
+    }, `L${slot.level}`),
     slot.lockedRequirement
       ? React.createElement(Text, { numberOfLines: 2, style: styles.lockedText }, slot.lockedRequirement.label)
       : null
@@ -471,11 +488,21 @@ const styles = StyleSheet.create({
     opacity: 0.58,
     borderColor: "rgba(245, 240, 223, 0.24)"
   },
+  buildingSlotPremium: {
+    backgroundColor: "rgba(24, 34, 49, 0.9)"
+  },
+  buildingSlotSignature: {
+    borderWidth: 2
+  },
   buildingSlotUpgrading: {
     borderColor: "#dbb25d"
   },
   buildingSlotCompleted: {
     borderColor: "#7ee0a6"
+  },
+  buildingSlotMaxLevel: {
+    borderColor: "#f5f0df",
+    backgroundColor: "rgba(39, 36, 28, 0.92)"
   },
   buildingGlow: {
     position: "absolute",
@@ -485,6 +512,18 @@ const styles = StyleSheet.create({
     bottom: "12%",
     borderRadius: 999,
     backgroundColor: "rgba(76, 142, 212, 0.25)"
+  },
+  buildingGlowConstruction: {
+    backgroundColor: "rgba(219, 178, 93, 0.34)"
+  },
+  buildingGlowReady: {
+    backgroundColor: "rgba(126, 224, 166, 0.34)"
+  },
+  buildingGlowPremium: {
+    backgroundColor: "rgba(245, 240, 223, 0.26)"
+  },
+  buildingGlowSkill: {
+    backgroundColor: "rgba(159, 213, 255, 0.32)"
   },
   buildingLabel: {
     color: "#f5f0df",
@@ -497,6 +536,9 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: "900",
     marginTop: 3
+  },
+  buildingLevelSignature: {
+    color: "#f5f0df"
   },
   lockedText: {
     color: "#dbb25d",
