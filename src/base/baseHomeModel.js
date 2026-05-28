@@ -2,12 +2,14 @@ import {
   BASE_BUILDING_DEFINITIONS,
   BASE_ECONOMY_CONFIG,
   BUILDING_STATES,
-  LEARNING_TRACKS
+  LEARNING_TRACKS,
+  normalizeLearningTrack
 } from "./baseConfig.js";
 import {
   BASE_BUILDING_COPY_KEYS,
   BASE_COPY_KEYS,
   BASE_LANGUAGES,
+  BASE_LEARNING_TRACK_COPY_KEYS,
   BASE_SKILL_TIER_KEYS,
   getBaseCopy,
   getSupportedBaseLanguages,
@@ -23,6 +25,9 @@ import {
   createBuildingUpgradeModalFromSlots,
   createBuildingUpgradeModalViewModel
 } from "./baseUpgradeModalModel.js";
+import {
+  createSkillTrackSelectionViewModel
+} from "./baseSkillTrackSelection.js";
 
 export const BASE_HOME_TOTAL_VISUAL_STATES = 42;
 
@@ -90,6 +95,10 @@ export function createBaseHomeViewModel({
       buildings,
       slots,
       isPro
+    }),
+    skillTrackSelector: createSkillTrackSelectionViewModel({
+      profile,
+      language: currentLanguage
     }),
     quickBattleAction: {
       labelKey: BASE_COPY_KEYS.QUICK_BATTLE_CTA,
@@ -182,22 +191,25 @@ export function createSkillBadgeViewModel({
 } = {}) {
   const normalizedLanguage = normalizeBaseLanguage(language);
   const normalizedTrack =
-    learningTrack === LEARNING_TRACKS.AI_AGENTS
-      ? LEARNING_TRACKS.AI_AGENTS
-      : LEARNING_TRACKS.ENGLISH;
+    normalizeLearningTrack(learningTrack);
   const safeChallengesCompleted = normalizeWholeNumber(challengesCompleted);
   const tierKey = getSkillTierKey(normalizedTrack, safeChallengesCompleted);
   const progress = getKingdomProgress(buildings, slots);
+  const trackCopyKeys = BASE_LEARNING_TRACK_COPY_KEYS[normalizedTrack];
 
   return {
     learningTrack: normalizedTrack,
+    learningTrackLabelKey: trackCopyKeys.label,
+    learningTrackLabel: getBaseCopy(normalizedLanguage, trackCopyKeys.label),
     tierKey,
     tierLabel: getBaseCopy(normalizedLanguage, tierKey),
     tierLabelKey: BASE_COPY_KEYS.SKILL_TIER_LABEL,
     tierTitle: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.SKILL_TIER_LABEL),
     challengesCompleted: safeChallengesCompleted,
-    challengesLabelKey: BASE_COPY_KEYS.SKILL_COUNT_LABEL,
-    challengesLabel: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.SKILL_COUNT_LABEL),
+    challengesLabelKey: trackCopyKeys.challengeCountLabel,
+    challengesLabel: getBaseCopy(normalizedLanguage, trackCopyKeys.challengeCountLabel),
+    genericChallengesLabelKey: BASE_COPY_KEYS.SKILL_COUNT_LABEL,
+    genericChallengesLabel: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.SKILL_COUNT_LABEL),
     kingdomProgress: progress,
     kingdomProgressLabelKey: BASE_COPY_KEYS.KINGDOM_PROGRESS_LABEL,
     kingdomProgressLabel: getBaseCopy(normalizedLanguage, BASE_COPY_KEYS.KINGDOM_PROGRESS_LABEL),

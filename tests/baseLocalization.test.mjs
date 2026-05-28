@@ -5,6 +5,7 @@ import {
   BASE_BUILDING_COPY_KEYS,
   BASE_COPY_KEYS,
   BASE_LANGUAGES,
+  BASE_LEARNING_TRACK_COPY_KEYS,
   BASE_SKILL_TIER_KEYS,
   getBaseCopy,
   getSupportedBaseLanguages,
@@ -34,6 +35,16 @@ test("all fixed building label and purpose keys exist for both supported languag
     for (const copyKeys of Object.values(BASE_BUILDING_COPY_KEYS)) {
       assert.equal(hasBaseCopyKey(language, copyKeys.label), true, `${language} missing ${copyKeys.label}`);
       assert.equal(hasBaseCopyKey(language, copyKeys.purpose), true, `${language} missing ${copyKeys.purpose}`);
+    }
+  }
+});
+
+test("all Phase 8 learning track copy keys exist for both supported languages", () => {
+  for (const language of Object.values(BASE_LANGUAGES)) {
+    for (const copyKeys of Object.values(BASE_LEARNING_TRACK_COPY_KEYS)) {
+      assert.equal(hasBaseCopyKey(language, copyKeys.label), true, `${language} missing ${copyKeys.label}`);
+      assert.equal(hasBaseCopyKey(language, copyKeys.purpose), true, `${language} missing ${copyKeys.purpose}`);
+      assert.equal(hasBaseCopyKey(language, copyKeys.challengeCountLabel), true, `${language} missing ${copyKeys.challengeCountLabel}`);
     }
   }
 });

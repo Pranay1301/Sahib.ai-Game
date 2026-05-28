@@ -93,6 +93,11 @@ test("home model exposes coin, heart, language, Pro, and quick battle shell data
   assert.equal(model.proBadge.labelKey, BASE_COPY_KEYS.PRO_BADGE_FREE);
   assert.equal(model.languageSwitch.options.length, 2);
   assert.equal(model.quickBattleAction.labelKey, BASE_COPY_KEYS.QUICK_BATTLE_CTA);
+  assert.equal(model.skillTrackSelector.field, "learning_track");
+  assert.deepEqual(model.skillTrackSelector.options.map((option) => option.value), [
+    LEARNING_TRACKS.ENGLISH,
+    LEARNING_TRACKS.AI_AGENTS
+  ]);
 });
 
 test("Pro home model shows unlimited hearts without changing quick-round logic", () => {
@@ -248,13 +253,42 @@ test("skill badge view model exposes challenge count and kingdom progress", () =
   });
 
   assert.equal(badge.learningTrack, LEARNING_TRACKS.AI_AGENTS);
+  assert.equal(badge.learningTrackLabel, "AI Agent Builder");
   assert.equal(badge.tierKey, BASE_SKILL_TIER_KEYS.ai_agents.agentBuilder);
   assert.equal(badge.challengesCompleted, 36);
+  assert.equal(badge.challengesLabel, "AI Agent Challenges Completed");
   assert.deepEqual(badge.kingdomProgress, {
     current: 14,
     total: BASE_HOME_TOTAL_VISUAL_STATES
   });
   assert.equal(badge.isPro, true);
+});
+
+test("Phase 8 home model switches selected skill track without changing building slots", () => {
+  const model = createBaseHomeViewModel({
+    profile: createDefaultProfile(USER_ID, {
+      learning_track: LEARNING_TRACKS.AI_AGENTS
+    }),
+    gameState: createDefaultGameState(USER_ID, {
+      skill_challenges_completed: 12
+    }),
+    buildings: createInitialUserBuildings(USER_ID)
+  });
+
+  assert.equal(model.skillTrackSelector.selectedTrack, LEARNING_TRACKS.AI_AGENTS);
+  assert.equal(model.skillTrackSelector.options.find((option) => option.value === LEARNING_TRACKS.AI_AGENTS).selected, true);
+  assert.equal(model.skillBadge.learningTrack, LEARNING_TRACKS.AI_AGENTS);
+  assert.equal(model.skillBadge.tierKey, BASE_SKILL_TIER_KEYS.ai_agents.promptBuilder);
+  assert.equal(model.skillBadge.challengesLabel, "AI Agent Challenges Completed");
+  assert.deepEqual(model.slots.map((slot) => slot.buildingId), [
+    BASE_BUILDING_IDS.PALACE,
+    BASE_BUILDING_IDS.LEARNING_HALL,
+    BASE_BUILDING_IDS.ATTACK_TOWER,
+    BASE_BUILDING_IDS.TREASURY,
+    BASE_BUILDING_IDS.WALL_GATE,
+    BASE_BUILDING_IDS.DRONE_STATION,
+    BASE_BUILDING_IDS.TROPHY_HALL
+  ]);
 });
 
 test("kingdom progress is bounded to 7 buildings times 6 levels", () => {

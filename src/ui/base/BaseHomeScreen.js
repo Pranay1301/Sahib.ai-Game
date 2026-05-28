@@ -23,6 +23,7 @@ export function BaseHomeScreen({
   onUpgradeConfirm = null,
   onUpgradeModalClose = null,
   onProUpsellPress = null,
+  onSkillTrackPress = null,
   onQuickBattlePress = null
 }) {
   const model = viewModel ?? createBaseHomeViewModel({
@@ -102,6 +103,10 @@ export function BaseHomeScreen({
     React.createElement(
       View,
       { style: styles.bottomBar },
+      React.createElement(SkillTrackSelector, {
+        onSelect: onSkillTrackPress,
+        selector: model.skillTrackSelector
+      }),
       React.createElement(
         View,
         { style: styles.skillBadge },
@@ -137,6 +142,53 @@ export function BaseHomeScreen({
           onProPress: onProUpsellPress ?? onProPress
         })
       : null
+  );
+}
+
+function SkillTrackSelector({ selector, onSelect }) {
+  if (!selector) {
+    return null;
+  }
+
+  return React.createElement(
+    View,
+    { style: styles.trackSelector },
+    React.createElement(Text, { style: styles.trackSelectorTitle }, selector.title),
+    React.createElement(
+      View,
+      { style: styles.trackOptionRow },
+      selector.options.map((option) =>
+        React.createElement(
+          Pressable,
+          {
+            accessibilityLabel: option.label,
+            accessibilityRole: "button",
+            accessibilityState: { selected: option.selected },
+            key: option.id,
+            onPress: () => {
+              if (onSelect) {
+                onSelect(option.value);
+              }
+            },
+            style: [
+              styles.trackOption,
+              option.selected && styles.trackOptionSelected
+            ]
+          },
+          React.createElement(Text, {
+            numberOfLines: 1,
+            style: [
+              styles.trackOptionLabel,
+              option.selected && styles.trackOptionLabelSelected
+            ]
+          }, option.label),
+          React.createElement(Text, {
+            numberOfLines: 2,
+            style: styles.trackOptionPurpose
+          }, option.purpose)
+        )
+      )
+    )
   );
 }
 
@@ -454,13 +506,61 @@ const styles = StyleSheet.create({
     textAlign: "center"
   },
   bottomBar: {
-    minHeight: 96,
+    minHeight: 110,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
     paddingHorizontal: 18,
     paddingBottom: 14,
     gap: 12
+  },
+  trackSelector: {
+    width: 286,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(245, 240, 223, 0.18)",
+    backgroundColor: "rgba(8, 15, 26, 0.76)",
+    paddingHorizontal: 10,
+    paddingVertical: 8
+  },
+  trackSelectorTitle: {
+    color: "#9fd5ff",
+    fontSize: 10,
+    fontWeight: "900"
+  },
+  trackOptionRow: {
+    flexDirection: "row",
+    gap: 6,
+    marginTop: 6
+  },
+  trackOption: {
+    flex: 1,
+    minHeight: 58,
+    justifyContent: "center",
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: "rgba(245, 240, 223, 0.16)",
+    backgroundColor: "rgba(18, 25, 34, 0.84)",
+    paddingHorizontal: 8,
+    paddingVertical: 6
+  },
+  trackOptionSelected: {
+    borderColor: "rgba(143, 223, 99, 0.82)",
+    backgroundColor: "rgba(24, 54, 36, 0.88)"
+  },
+  trackOptionLabel: {
+    color: "#f5f0df",
+    fontSize: 10,
+    fontWeight: "900"
+  },
+  trackOptionLabelSelected: {
+    color: "#bdf29b"
+  },
+  trackOptionPurpose: {
+    color: "#d6d9df",
+    fontSize: 8,
+    fontWeight: "700",
+    marginTop: 3
   },
   skillBadge: {
     flex: 1,

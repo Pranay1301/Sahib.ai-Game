@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>Sahib.ai-Game-main — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1386 nodes, 2440 edges, 73 communities. Commit: 68edfa8</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1404 nodes, 2497 edges, 72 communities. Commit: 764cf6d</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -74,10 +74,10 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
     <a href="#community-6">Community 6</a>
     <a href="#community-8">Community 8</a>
     <a href="#community-10">Community 10</a>
-    <a href="#community-18">Community 18</a>
     <a href="#community-15">Community 15</a>
     <a href="#community-17">Community 17</a>
     <a href="#community-20">Community 20</a>
+    <a href="#community-23">Community 23</a>
     <a href="#other">Other</a>
 </div>
 
@@ -100,7 +100,7 @@ flowchart LR
     class INGEST_CACHE_UPDATE_FF457338 module;
     SECURITY_GLOBAL_5B9C6A04("Security &amp; Global Graph<br/><small>6 nodes</small>")
     class SECURITY_GLOBAL_5B9C6A04 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>690 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>718 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
     COMMUNITY_6_7D637A07("Community 6<br/><small>43 nodes</small>")
     class COMMUNITY_6_7D637A07 module;
@@ -108,22 +108,18 @@ flowchart LR
     class COMMUNITY_8_9FC4FAC0 module;
     COMMUNITY_10_48432F59("Community 10<br/><small>32 nodes</small>")
     class COMMUNITY_10_48432F59 module;
-    COMMUNITY_18_A335126F("Community 18<br/><small>28 nodes</small>")
-    class COMMUNITY_18_A335126F module;
     COMMUNITY_15_4BECAAD7("Community 15<br/><small>25 nodes</small>")
     class COMMUNITY_15_4BECAAD7 module;
     COMMUNITY_17_648F8D7C("Community 17<br/><small>24 nodes</small>")
     class COMMUNITY_17_648F8D7C module;
     COMMUNITY_20_C86C0F59("Community 20<br/><small>22 nodes</small>")
     class COMMUNITY_20_C86C0F59 module;
-    OTHER_D0941E68("Other<br/><small>300 nodes</small>")
+    COMMUNITY_23_58D9DE5D("Community 23<br/><small>20 nodes</small>")
+    class COMMUNITY_23_58D9DE5D module;
+    OTHER_D0941E68("Other<br/><small>298 nodes</small>")
     class OTHER_D0941E68 module;
-    OTHER_D0941E68 -->|imports x88| TESTS_FIXTURES_B84B1DCC
-    TESTS_FIXTURES_B84B1DCC -->|imports x28| COMMUNITY_18_A335126F
-    COMMUNITY_18_A335126F -->|contains x26| OTHER_D0941E68
-    COMMUNITY_18_A335126F -->|imports x25| TESTS_FIXTURES_B84B1DCC
-    TESTS_FIXTURES_B84B1DCC -->|imports x22| OTHER_D0941E68
-    OTHER_D0941E68 -->|imports x9| COMMUNITY_18_A335126F
+    OTHER_D0941E68 -->|imports x103| TESTS_FIXTURES_B84B1DCC
+    TESTS_FIXTURES_B84B1DCC -->|imports x43| OTHER_D0941E68
     OTHER_D0941E68 -->|contains| SECURITY_GLOBAL_5B9C6A04
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
@@ -141,7 +137,7 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>42</td><td><code>14, 28</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>30</td><td><code>12</code></td></tr><tr><td>Outputs &amp; Docs</td><td>9</td><td><code>39</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>50</td><td><code>11, 24</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>51</td><td><code>7, 40</code></td></tr><tr><td>Security &amp; Global Graph</td><td>6</td><td><code>44</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>690</td><td><code>0, 1, 22, 5, 3, 46, 2, 36, 13, 66, 31, 65, 68, 71, 4, 19, 16, 21, 37, 69, 35, 64, 45</code></td></tr><tr><td>Community 6</td><td>43</td><td><code>6</code></td></tr><tr><td>Community 8</td><td>34</td><td><code>8</code></td></tr><tr><td>Community 10</td><td>32</td><td><code>10</code></td></tr><tr><td>Community 18</td><td>28</td><td><code>18</code></td></tr><tr><td>Community 15</td><td>25</td><td><code>15</code></td></tr><tr><td>Community 17</td><td>24</td><td><code>17</code></td></tr><tr><td>Community 20</td><td>22</td><td><code>20</code></td></tr><tr><td>Other</td><td>300</td><td><code>23, 9, 72, 25, 26, 27, 29, 30, 32, 33, 70, 34, 38, 67, 41, 42, 43, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63</code></td></tr>
+      <tr><td>Graph Build</td><td>42</td><td><code>14, 28</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>30</td><td><code>12</code></td></tr><tr><td>Outputs &amp; Docs</td><td>9</td><td><code>39</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>50</td><td><code>11, 24</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>51</td><td><code>7, 40</code></td></tr><tr><td>Security &amp; Global Graph</td><td>6</td><td><code>44</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>718</td><td><code>0, 36, 1, 22, 5, 3, 2, 13, 65, 68, 69, 4, 16, 37, 19, 46, 66, 31, 35, 21, 64, 45</code></td></tr><tr><td>Community 6</td><td>43</td><td><code>6</code></td></tr><tr><td>Community 8</td><td>34</td><td><code>8</code></td></tr><tr><td>Community 10</td><td>32</td><td><code>10</code></td></tr><tr><td>Community 15</td><td>25</td><td><code>15</code></td></tr><tr><td>Community 17</td><td>24</td><td><code>17</code></td></tr><tr><td>Community 20</td><td>22</td><td><code>20</code></td></tr><tr><td>Community 23</td><td>20</td><td><code>23</code></td></tr><tr><td>Other</td><td>298</td><td><code>70, 9, 25, 18, 26, 27, 71, 29, 30, 32, 33, 34, 67, 38, 41, 42, 43, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63</code></td></tr>
     </table>
   </div>
   <div class="card">
@@ -153,7 +149,7 @@ flowchart LR
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1386 nodes · 2440 edges · 73 communities (70 shown, 3 thin omitted)</li>
+      <li>1404 nodes · 2497 edges · 72 communities (69 shown, 3 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `Sahib AI V1 New Chat Handoff` - 19 edges</li>
@@ -1797,12 +1793,12 @@ flowchart LR
 
 <!-- ====== 8. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">8. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around game, tests, base, three, mostly in src/game/wallSystem.js, src/three/MapBuilder.js, src/game/mapLayout.js. This section covers 690 nodes and 1431 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around game, tests, base, three, mostly in src/game/wallSystem.js, src/three/MapBuilder.js, src/game/mapLayout.js. This section covers 718 nodes and 1553 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (690 nodes, 1431 edges)
+    %% Section: Tests &amp; Fixtures (718 nodes, 1553 edges)
     subgraph tests_fixtures_src_ui_CharacterModelOverlay_js_8d35aa5f["src/ui/CharacterModelOverlay.js"]
         ui_charactermodeloverlay_getvisibledescriptors_44378e43("getVisibleDescriptors()<br/><small>src/ui/CharacterModelOverlay.js</small>")
         ui_charactermodeloverlay_synccharacterinstances_aadd29c4("syncCharacterInstances()<br/><small>src/ui/CharacterModelOverlay.js</small>")
@@ -1817,7 +1813,7 @@ flowchart LR
     game_charactermodelruntime_getcharactermodeldesc_1be606cc("getCharacterModelDescriptors()<br/><small>src/game/characterModelRuntime.js</small>")
     game_herocombat_createherocombatstate_9d564a9a("createHeroCombatState()<br/><small>src/game/heroCombat.js</small>")
     game_matchstate_creatematchstate_a69bf145("createMatchState()<br/><small>src/game/matchState.js</small>")
-    tests_basebackend_test_mjs_a0db52ac("baseBackend.test.mjs")
+    tests_baseconfig_test_mjs_923d677a("baseConfig.test.mjs")
     tests_basehomemodel_test_mjs_053cb484("baseHomeModel.test.mjs")
     tests_baseunlocks_test_rowsforpalacelevel_4f164891("rowsForPalaceLevel()<br/><small>tests/baseUnlocks.test.mjs</small>")
     tests_charactermodels_test_mjs_fa2d4704("characterModels.test.mjs")
@@ -1837,7 +1833,7 @@ flowchart LR
     tests_herocombat_test_mjs_a8228c11 -->|imports| game_herocombat_createherocombatstate_9d564a9a
     tests_herocombat_test_mjs_a8228c11 -->|imports| game_matchstate_creatematchstate_a69bf145
     tests_v1quickroundloop_test_mjs_23e2a8c3 -->|imports| game_matchstate_creatematchstate_a69bf145
-    %% Omitted for readability: 672 nodes, 0 edges
+    %% Omitted for readability: 700 nodes, 0 edges
     class ui_charactermodeloverlay_getvisibledescriptors_44378e43 function;
     class ui_charactermodeloverlay_synccharacterinstances_aadd29c4 function;
     class ui_charactermodeloverlay_releasecharacterinstanc_dc58af66 function;
@@ -1848,7 +1844,7 @@ flowchart LR
     class game_charactermodelruntime_getcharactermodeldesc_1be606cc function;
     class game_herocombat_createherocombatstate_9d564a9a function;
     class game_matchstate_creatematchstate_a69bf145 function;
-    class tests_basebackend_test_mjs_a0db52ac test;
+    class tests_baseconfig_test_mjs_923d677a test;
     class tests_basehomemodel_test_mjs_053cb484 test;
     class tests_baseunlocks_test_rowsforpalacelevel_4f164891 test;
     class tests_charactermodels_test_mjs_fa2d4704 test;
@@ -1895,227 +1891,227 @@ flowchart LR
 </tr>
 <tr>
   <td>3</td>
+  <td><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><span class="tag tag-func">Test</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>CENTER_ZONE</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>CORE_ACCESS_POINTS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>ENEMY_CORE_POSITION</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br>+10 more</td>
+  <td>Verifies imports, entry points, or version behavior.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>map</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><span class="tag tag-func">Test</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>map node in tests/mapLayout.test.mjs.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>playerAccess</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><span class="tag tag-func">Test</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>playerAccess node in tests/mapLayout.test.mjs.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>enemyAccess</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><span class="tag tag-func">Test</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>enemyAccess node in tests/mapLayout.test.mjs.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>mapLayout.js</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>camera.test.mjs</code><br><small style="color:var(--muted)">tests/camera.test.mjs</small><br><code>coreDefense.test.mjs</code><br><small style="color:var(--muted)">tests/coreDefense.test.mjs</small><br><code>corePressure.js</code><br><small style="color:var(--muted)">src/game/corePressure.js</small><br>+6 more</td>
+  <td><code>camera.js</code><br><small style="color:var(--muted)">src/game/camera.js</small><br><code>coreDefense.js</code><br><small style="color:var(--muted)">src/game/coreDefense.js</small><br><code>doorEncounters.js</code><br><small style="color:var(--muted)">src/game/doorEncounters.js</small><br>+6 more</td>
+  <td>mapLayout.js node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>WORLD_BOUNDS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>camera.test.mjs</code><br><small style="color:var(--muted)">tests/camera.test.mjs</small><br><code>heroCombat.js</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>heroCombat.test.mjs</code><br><small style="color:var(--muted)">tests/heroCombat.test.mjs</small><br>+2 more</td>
+  <td><code>camera.js</code><br><small style="color:var(--muted)">src/game/camera.js</small><br><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>projectiles.js</code><br><small style="color:var(--muted)">src/game/projectiles.js</small><br>+1 more</td>
+  <td>WORLD_BOUNDS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>PLAYER_CORE_POSITION</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>heroCombat.js</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>ImageBattlefield.js</code><br><small style="color:var(--muted)">src/ui/ImageBattlefield.js</small><br><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>wallSystem.js</code><br><small style="color:var(--muted)">src/game/wallSystem.js</small></td>
+  <td>PLAYER_CORE_POSITION node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>ENEMY_CORE_POSITION</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>heroCombat.js</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>heroCombat.test.mjs</code><br><small style="color:var(--muted)">tests/heroCombat.test.mjs</small><br><code>ImageBattlefield.js</code><br><small style="color:var(--muted)">src/ui/ImageBattlefield.js</small><br>+1 more</td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>projectiles.js</code><br><small style="color:var(--muted)">src/game/projectiles.js</small><br><code>wallSystem.js</code><br><small style="color:var(--muted)">src/game/wallSystem.js</small></td>
+  <td>ENEMY_CORE_POSITION node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>HERO_START_POSITION</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>heroCombat.js</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>heroCombat.test.mjs</code><br><small style="color:var(--muted)">tests/heroCombat.test.mjs</small><br><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td>No direct outbound edge</td>
+  <td>HERO_START_POSITION node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>CORE_AREAS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
+  <td>CORE_AREAS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>MAP_LANES</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
+  <td>MAP_LANES node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>SIDE_ROUTES</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
+  <td>SIDE_ROUTES node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>CORE_ACCESS_POINTS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td>No direct outbound edge</td>
+  <td>CORE_ACCESS_POINTS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>MAP_ROUTE_LABELS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>MAP_ROUTE_LABELS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>CENTER_ZONE</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>doorEncounters.test.mjs</code><br><small style="color:var(--muted)">tests/doorEncounters.test.mjs</small><br><code>enemyBehavior.test.mjs</code><br><small style="color:var(--muted)">tests/enemyBehavior.test.mjs</small><br><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>doorEncounters.js</code><br><small style="color:var(--muted)">src/game/doorEncounters.js</small><br><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>specialWeapons.js</code><br><small style="color:var(--muted)">src/game/specialWeapons.js</small></td>
+  <td>CENTER_ZONE node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>MAJOR_INTERSECTIONS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>doorEncounters.test.mjs</code><br><small style="color:var(--muted)">tests/doorEncounters.test.mjs</small><br><code>enemyBehavior.test.mjs</code><br><small style="color:var(--muted)">tests/enemyBehavior.test.mjs</small><br><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>doorEncounters.js</code><br><small style="color:var(--muted)">src/game/doorEncounters.js</small><br><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>specialWeapons.js</code><br><small style="color:var(--muted)">src/game/specialWeapons.js</small></td>
+  <td>MAJOR_INTERSECTIONS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>MAP_DOORS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>wallSystem.js</code><br><small style="color:var(--muted)">src/game/wallSystem.js</small></td>
+  <td>MAP_DOORS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>MAP_BLOCKERS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
+  <td>MAP_BLOCKERS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>MAP_COLLISION_BLOCKERS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>MAP_COLLISION_BLOCKERS node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>isWalkablePoint()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>mapLayout.test.mjs</code><br><small style="color:var(--muted)">tests/mapLayout.test.mjs</small></td>
+  <td><code>isDoorBlockingWalkablePath()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>isWalkmaskPointWalkable()</code><br><small style="color:var(--muted)">src/game/walkmaskGrid.js</small><br><code>projectiles.js</code><br><small style="color:var(--muted)">src/game/projectiles.js</small><br>+1 more</td>
+  <td>isWalkablePoint() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>isDoorBlockingWalkablePath()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>isWalkablePoint()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>isDoorBlockingWalkablePath() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>getIntersectionById()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>getIntersectionById() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>isPointInRect()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>isPointInCollisionBlocker()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td>isPointInRect() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>isPointInEllipse()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>isPointInCollisionBlocker()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td>isPointInEllipse() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>isPointInSoftDiamond()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>isPointInSoftDiamond() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>isPointInCollisionBlocker()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>isPointInEllipse()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>isPointInRect()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>isPointInCollisionBlocker() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>createIntersection()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>createIntersection() node in src/game/mapLayout.js.</td>
+</tr>
+<tr>
+  <td>30</td>
   <td><code>mapArt.js</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
   <td><span class="tag tag-class">Module</span></td>
   <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
   <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
   <td>mapArt.js node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>MAP_ASSET_LIBRARY</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>MAP_ASSET_LIBRARY node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>MAP_ART_WALLS</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
-  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>MAP_ART_WALLS node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>MAP_TREE_CLUSTERS</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
-  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>MAP_TREE_CLUSTERS node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>MAP_PROP_PLACEMENTS</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
-  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>MAP_PROP_PLACEMENTS node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>MAP_CHARACTER_STAGING</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
-  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>MAP_CHARACTER_STAGING node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>getReferencedAssetPaths()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
-  <td><code>getFlatAssetRefs()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td>getReferencedAssetPaths() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>findAssetReference()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td><code>mapArt.test.mjs</code><br><small style="color:var(--muted)">tests/mapArt.test.mjs</small></td>
-  <td><code>attachAssetUserData()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>findAssetReference() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>getFlatAssetRefs()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td><code>getReferencedAssetPaths()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getFlatAssetRefs() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>assetRef()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>assetRef() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>artWall()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>artWall() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>treeCluster()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>treeCluster() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>prop()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>prop() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>characterStage()</code><br><small style="color:var(--muted)">src/game/mapArt.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>characterStage() node in src/game/mapArt.js.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>MapBuilder.js</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>camera.js</code><br><small style="color:var(--muted)">src/game/camera.js</small><br><code>CENTER_ZONE</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>CORE_AREAS</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br>+17 more</td>
-  <td><code>AssetModelLoader.js</code><br><small style="color:var(--muted)">src/three/AssetModelLoader.js</small><br><code>attachRuntimeMapAssets()</code><br><small style="color:var(--muted)">src/three/AssetModelLoader.js</small></td>
-  <td>MapBuilder.js node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>mats()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>mats() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>mats()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>ThreeBattlefield.js</code><br><small style="color:var(--muted)">src/ui/ThreeBattlefield.js</small></td>
-  <td><code>addArtWall()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>addCharacterStage()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>addDoor()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br>+11 more</td>
-  <td>buildMap() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>updateMapObjects()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ThreeBattlefield.js</code><br><small style="color:var(--muted)">src/ui/ThreeBattlefield.js</small></td>
-  <td><code>cl()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>setHpBar()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>setPos()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>updateMapObjects() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>addDynamic()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>createCore()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>createHero()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>createHpBar()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br>+1 more</td>
-  <td>addDynamic() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>createCore()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>addDynamic()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>createCore() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>createHero()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>addDynamic()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>createHero() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>createHpBar()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>addDynamic()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>createHpBar() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>setHpBar()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>updateMapObjects()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>cl()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>setHpBar() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>addFloorPanelLines()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>setPos()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>tl()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>addFloorPanelLines() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>addRuntimeBaseSurfaceOverlays()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>addRuntimeAsset()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>addRuntimeBaseSurfaceOverlays() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>addRuntimeAsset()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td><code>addRuntimeBaseSurfaceOverlays()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>setPos()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>tl()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>addRuntimeAsset() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>addArtWall()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>attachAssetUserData()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>setPos()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>tl()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td>addArtWall() node in src/three/MapBuilder.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>addTreeCluster()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>buildMap()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small></td>
-  <td><code>attachAssetUserData()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>createTreeProxy()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br><code>hashString()</code><br><small style="color:var(--muted)">src/three/MapBuilder.js</small><br>+1 more</td>
-  <td>addTreeCluster() node in src/three/MapBuilder.js.</td>
 </tr>
 </table>
 
@@ -2124,19 +2120,19 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/game/wallSystem.js</code></td><td>38 nodes</td></tr>
+      <tr><td><code>src/game/wallSystem.js</code></td><td>39 nodes</td></tr>
 <tr><td><code>src/three/MapBuilder.js</code></td><td>36 nodes</td></tr>
 <tr><td><code>src/game/mapLayout.js</code></td><td>28 nodes</td></tr>
 <tr><td><code>docs/NEW_CHAT_HANDOFF.md</code></td><td>27 nodes</td></tr>
+<tr><td><code>src/game/heroCombat.js</code></td><td>27 nodes</td></tr>
 <tr><td><code>src/ui/CharacterModelOverlay.js</code></td><td>25 nodes</td></tr>
-<tr><td><code>src/game/doorEncounters.js</code></td><td>21 nodes</td></tr>
-<tr><td><code>tests/camera.test.mjs</code></td><td>21 nodes</td></tr>
-<tr><td><code>src/base/baseBackend.js</code></td><td>18 nodes</td></tr>
+<tr><td><code>src/game/doorEncounters.js</code></td><td>22 nodes</td></tr>
+<tr><td><code>src/base/baseConfig.js</code></td><td>21 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x610, imports x399, calls x300, imports x117. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x642, imports x438, calls x331, imports x136. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -3169,341 +3165,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 12. Community 18 ====== -->
-<h2 id="community-18">12. Community 18</h2>
-<p>Community 18 groups implementation around game, enemybehaviorjs, distancebetween, herocombatjs, mostly in src/game/enemyBehavior.js, src/game/heroCombat.js, src/game/projectiles.js. This section covers 28 nodes and 57 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Community 18 (28 nodes, 57 edges)
-    subgraph community_18_src_game_enemyBehavior_js_0958d074["src/game/enemyBehavior.js"]
-        game_enemybehavior_prepareenemynavigation_ff66196d("prepareEnemyNavigation()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_createenemy_0e15bca6("createEnemy()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_tickenemybehavior_6c291a05("tickEnemyBehavior()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_createdoorenemyspawns_5b51ef2b("createDoorEnemySpawns()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_findnearestwalkablespawn_8ab7d88c("findNearestWalkableSpawn()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_ticksingleenemy_b3894267("tickSingleEnemy()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_getnearestwall_6112673d("getNearestWall()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_advanceenemyroute_38dc7a84("advanceEnemyRoute()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_advancedynamicroute_b2ef795d("advanceDynamicRoute()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_haspathtargetmoved_d84fc85c("hasPathTargetMoved()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_getenemystats_7a4a09dd("getEnemyStats()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_normalizeroutepoints_eda5b8f9("normalizeRoutePoints()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_getinitialpathreplandelay_bc5c5e2b("getInitialPathReplanDelay()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_getdoorenemytypes_97a8112d("getDoorEnemyTypes()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_getdoorspawnspread_773be9a5("getDoorSpawnSpread()<br/><small>src/game/enemyBehavior.js</small>")
-        game_enemybehavior_getenemytarget_52a5b325("getEnemyTarget()<br/><small>src/game/enemyBehavior.js</small>")
-    end
-    game_herocombat_distancebetween_e743015a("distanceBetween()<br/><small>src/game/heroCombat.js</small>")
-    game_projectiles_getprojectileenemyhitindex_d19fb956("getProjectileEnemyHitIndex()<br/><small>src/game/projectiles.js</small>")
-    game_herocombat_distancebetween_e743015a -->|calls| game_enemybehavior_ticksingleenemy_b3894267
-    game_herocombat_distancebetween_e743015a -->|calls| game_enemybehavior_getnearestwall_6112673d
-    game_herocombat_distancebetween_e743015a -->|calls| game_enemybehavior_advanceenemyroute_38dc7a84
-    game_herocombat_distancebetween_e743015a -->|calls| game_enemybehavior_advancedynamicroute_b2ef795d
-    game_herocombat_distancebetween_e743015a -->|calls| game_enemybehavior_haspathtargetmoved_d84fc85c
-    game_herocombat_distancebetween_e743015a -->|calls| game_projectiles_getprojectileenemyhitindex_d19fb956
-    game_enemybehavior_createenemy_0e15bca6 -->|calls| game_enemybehavior_getenemystats_7a4a09dd
-    game_enemybehavior_createenemy_0e15bca6 -->|calls| game_enemybehavior_normalizeroutepoints_eda5b8f9
-    game_enemybehavior_createenemy_0e15bca6 -->|calls| game_enemybehavior_getinitialpathreplandelay_bc5c5e2b
-    game_enemybehavior_createenemy_0e15bca6 -->|calls| game_enemybehavior_createdoorenemyspawns_5b51ef2b
-    game_enemybehavior_createdoorenemyspawns_5b51ef2b -->|calls| game_enemybehavior_getdoorenemytypes_97a8112d
-    game_enemybehavior_createdoorenemyspawns_5b51ef2b -->|calls| game_enemybehavior_getdoorspawnspread_773be9a5
-    game_enemybehavior_createdoorenemyspawns_5b51ef2b -->|calls| game_enemybehavior_findnearestwalkablespawn_8ab7d88c
-    game_enemybehavior_tickenemybehavior_6c291a05 -->|calls| game_enemybehavior_getenemystats_7a4a09dd
-    game_enemybehavior_tickenemybehavior_6c291a05 -->|calls| game_enemybehavior_advanceenemyroute_38dc7a84
-    game_enemybehavior_tickenemybehavior_6c291a05 -->|calls| game_enemybehavior_getenemytarget_52a5b325
-    game_enemybehavior_tickenemybehavior_6c291a05 -->|calls| game_enemybehavior_ticksingleenemy_b3894267
-    game_enemybehavior_getenemystats_7a4a09dd -->|calls| game_enemybehavior_getenemytarget_52a5b325
-    game_enemybehavior_getenemystats_7a4a09dd -->|calls| game_projectiles_getprojectileenemyhitindex_d19fb956
-    game_enemybehavior_ticksingleenemy_b3894267 -->|calls| game_enemybehavior_prepareenemynavigation_ff66196d
-    game_enemybehavior_prepareenemynavigation_ff66196d -->|calls| game_enemybehavior_advancedynamicroute_b2ef795d
-    game_enemybehavior_prepareenemynavigation_ff66196d -->|calls| game_enemybehavior_haspathtargetmoved_d84fc85c
-    %% Omitted for readability: 10 nodes, 0 edges
-    class game_enemybehavior_prepareenemynavigation_ff66196d function;
-    class game_enemybehavior_createenemy_0e15bca6 function;
-    class game_enemybehavior_tickenemybehavior_6c291a05 function;
-    class game_enemybehavior_createdoorenemyspawns_5b51ef2b function;
-    class game_enemybehavior_findnearestwalkablespawn_8ab7d88c function;
-    class game_enemybehavior_ticksingleenemy_b3894267 function;
-    class game_enemybehavior_getnearestwall_6112673d function;
-    class game_enemybehavior_advanceenemyroute_38dc7a84 api;
-    class game_enemybehavior_advancedynamicroute_b2ef795d api;
-    class game_enemybehavior_haspathtargetmoved_d84fc85c function;
-    class game_enemybehavior_getenemystats_7a4a09dd function;
-    class game_enemybehavior_normalizeroutepoints_eda5b8f9 api;
-    class game_enemybehavior_getinitialpathreplandelay_bc5c5e2b function;
-    class game_enemybehavior_getdoorenemytypes_97a8112d function;
-    class game_enemybehavior_getdoorspawnspread_773be9a5 function;
-    class game_enemybehavior_getenemytarget_52a5b325 function;
-    class game_herocombat_distancebetween_e743015a function;
-    class game_projectiles_getprojectileenemyhitindex_d19fb956 function;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>advanceDynamicRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>advanceEnemyRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>enemyBehavior.js</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br>+4 more</td>
-  <td>distanceBetween() node in src/game/heroCombat.js.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>enemyBehavior.js</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>enemyBehavior.js node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>enemyPathGridCache</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Caches analysis results or computes cache keys.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getEnemyStats()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getInitialPathReplanDelay()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br>+1 more</td>
-  <td>createEnemy() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getDoorEnemyTypes()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getDoorSpawnSpread()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>createDoorEnemySpawns() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>getDoorEnemyTypes()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getDoorEnemyTypes() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>advanceEnemyRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getEnemyStats()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getEnemyTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br>+1 more</td>
-  <td>tickEnemyBehavior() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>getEnemyStats()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>getEnemyTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getProjectileEnemyHitIndex()</code><br><small style="color:var(--muted)">src/game/projectiles.js</small></td>
-  <td>getEnemyStats() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>tickSingleEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>getFacingVector()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>tickSingleEnemy() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>getFacingVector()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>tickSingleEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getFacingVector() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>getEnemyTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>getEnemyStats()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>getActiveRouteTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getWallTargetForEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>getEnemyTarget() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>getWallTargetForEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>getEnemyTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>getNearestWall()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>getWallTargetForEnemy() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>getNearestWall()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>getWallTargetForEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getNearestWall() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>advanceEnemyRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>advanceEnemyRoute() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>getActiveRouteTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td><code>getEnemyTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getActiveRouteTarget() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>tickSingleEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>advanceDynamicRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>clearDynamicRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>decayDynamicPath()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br>+2 more</td>
-  <td>prepareEnemyNavigation() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>decayDynamicPath()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>decayDynamicPath() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>advanceDynamicRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>advanceDynamicRoute() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>getActiveDynamicRouteTarget()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getActiveDynamicRouteTarget() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>clearDynamicRoute()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>clearDynamicRoute() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>hasPathTargetMoved()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>prepareEnemyNavigation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>hasPathTargetMoved() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><code>addVectors()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>scaleVector()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>findNearestWalkableSpawn() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>getDoorSpawnSpread()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getDoorSpawnSpread() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>getInitialPathReplanDelay()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getInitialPathReplanDelay() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>addVectors()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>addVectors() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>scaleVector()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>scaleVector() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>normalizeRoutePoints()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>normalizeRoutePoints() node in src/game/enemyBehavior.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>getProjectileEnemyHitIndex()</code><br><small style="color:var(--muted)">src/game/projectiles.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>getEnemyStats()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>getProjectileEnemyHitIndex() node in src/game/projectiles.js.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/game/enemyBehavior.js</code></td><td>26 nodes</td></tr>
-<tr><td><code>src/game/heroCombat.js</code></td><td>1 nodes</td></tr>
-<tr><td><code>src/game/projectiles.js</code></td><td>1 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: calls x31, contains x25, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 13. Community 15 ====== -->
-<h2 id="community-15">13. Community 15</h2>
+<!-- ====== 12. Community 15 ====== -->
+<h2 id="community-15">12. Community 15</h2>
 <p>Community 15 groups implementation around agentsmd, rules, quick, round, mostly in AGENTS.md. This section covers 25 nodes and 24 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3802,8 +3465,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 14. Community 17 ====== -->
-<h2 id="community-17">14. Community 17</h2>
+<!-- ====== 13. Community 17 ====== -->
+<h2 id="community-17">13. Community 17</h2>
 <p>Community 17 groups implementation around wall, systemmd, docs, placement, mostly in docs/WALL_SYSTEM.md. This section covers 24 nodes and 23 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -4094,8 +3757,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 15. Community 20 ====== -->
-<h2 id="community-20">15. Community 20</h2>
+<!-- ====== 14. Community 20 ====== -->
+<h2 id="community-20">14. Community 20</h2>
 <p>Community 20 groups implementation around scripts, generatewallspritesheetsmjs, generatedoorspritesheetmjs, dir, mostly in scripts/generateWallSpriteSheets.mjs, scripts/generateDoorSpriteSheet.mjs. This section covers 22 nodes and 41 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -4378,71 +4041,68 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 16. Other ====== -->
-<h2 id="other">16. Other</h2>
-<p>Other groups implementation around docs, phase, planmd, game, mostly in docs/PHASE_PLAN.md, docs/CORE_DEFENSE.md, src/game/heroCombat.js. This section covers 300 nodes and 337 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<!-- ====== 15. Community 23 ====== -->
+<h2 id="community-23">15. Community 23</h2>
+<p>Community 23 groups implementation around defensemd, docs, enemy, defense, mostly in docs/CORE_DEFENSE.md. This section covers 20 nodes and 19 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Other (300 nodes, 337 edges)
-    subgraph other_App_js_442b4e80["App.js"]
-        app_js_bb19ecbf("App.js")
-        sahib_ai_game_main_app_combattouchcontrols_2c42fa9a("CombatTouchControls()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_getjoysticklayout_b1eea5bc("getJoystickLayout()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_getfirelayout_ba61c67b("getFireLayout()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_getreloadlayout_5decd1d8("getReloadLayout()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_getammopanellayout_7236a412("getAmmoPanelLayout()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_getwalltoollayouts_7f7eb613("getWallToolLayouts()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_getchangedtouchpoints_e19746d8("getChangedTouchPoints()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_normalizetouchpoint_e021839e("normalizeTouchPoint()<br/><small>App.js</small>")
-        sahib_ai_game_main_app_gettouchpointbyidentifier_40915978("getTouchPointByIdentifier()<br/><small>App.js</small>")
-    end
-    subgraph other_scripts_generateGatePlacementProposal_mjs_0d128ecd["scripts/generateGatePlacementProposal.mjs"]
-        scripts_generategateplacementproposal_drawgate_fff88ffe("drawGate()<br/><small>scripts/generateGatePlacementProposal.mjs</small>")
-        scripts_generategateplacementproposal_blendpixel_81a9c6fc("blendPixel()<br/><small>scripts/generateGatePlacementProposal.mjs</small>")
-    end
-    subgraph other_scripts_generateWalkmaskGrid_mjs_a5ac3505["scripts/generateWalkmaskGrid.mjs"]
-        scripts_generatewalkmaskgrid_iscellwalkable_804da309("isCellWalkable()<br/><small>scripts/generateWalkmaskGrid.mjs</small>")
-        scripts_generatewalkmaskgrid_issourcepixelwalkab_86d61a4d("isSourcePixelWalkable()<br/><small>scripts/generateWalkmaskGrid.mjs</small>")
-    end
-    subgraph other_src_game_heroCombat_js_21f7da5a["src/game/heroCombat.js"]
-        game_herocombat_firerifleburst_a848cfc8("fireRifleBurst()<br/><small>src/game/heroCombat.js</small>")
-        game_herocombat_tickherocombat_ef5c4aaa("tickHeroCombat()<br/><small>src/game/heroCombat.js</small>")
-    end
-    game_enemybehavior_findenemypath_a832891d("findEnemyPath()<br/><small>src/game/enemyBehavior.js</small>")
-    game_maplayout_iswalkablebody_5fb0a5b6("isWalkableBody()<br/><small>src/game/mapLayout.js</small>")
-    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getjoysticklayout_b1eea5bc
-    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getfirelayout_ba61c67b
-    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getreloadlayout_5decd1d8
-    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getammopanellayout_7236a412
-    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getwalltoollayouts_7f7eb613
-    sahib_ai_game_main_app_getfirelayout_ba61c67b -->|calls| sahib_ai_game_main_app_getwalltoollayouts_7f7eb613
-    sahib_ai_game_main_app_getchangedtouchpoints_e19746d8 -->|calls| sahib_ai_game_main_app_normalizetouchpoint_e021839e
-    sahib_ai_game_main_app_gettouchpointbyidentifier_40915978 -->|calls| sahib_ai_game_main_app_normalizetouchpoint_e021839e
-    scripts_generatewalkmaskgrid_iscellwalkable_804da309 -->|calls| scripts_generatewalkmaskgrid_issourcepixelwalkab_86d61a4d
-    scripts_generategateplacementproposal_drawgate_fff88ffe -->|calls| scripts_generategateplacementproposal_blendpixel_81a9c6fc
-    game_herocombat_tickherocombat_ef5c4aaa -->|calls| game_herocombat_firerifleburst_a848cfc8
-    app_js_bb19ecbf -->|imports| game_herocombat_tickherocombat_ef5c4aaa
-    %% Omitted for readability: 282 nodes, 0 edges
-    class app_js_bb19ecbf klass;
-    class sahib_ai_game_main_app_combattouchcontrols_2c42fa9a function;
-    class sahib_ai_game_main_app_getjoysticklayout_b1eea5bc function;
-    class sahib_ai_game_main_app_getfirelayout_ba61c67b function;
-    class sahib_ai_game_main_app_getreloadlayout_5decd1d8 function;
-    class sahib_ai_game_main_app_getammopanellayout_7236a412 function;
-    class sahib_ai_game_main_app_getwalltoollayouts_7f7eb613 function;
-    class sahib_ai_game_main_app_getchangedtouchpoints_e19746d8 function;
-    class sahib_ai_game_main_app_normalizetouchpoint_e021839e function;
-    class sahib_ai_game_main_app_gettouchpointbyidentifier_40915978 function;
-    class scripts_generategateplacementproposal_drawgate_fff88ffe function;
-    class scripts_generategateplacementproposal_blendpixel_81a9c6fc function;
-    class scripts_generatewalkmaskgrid_iscellwalkable_804da309 function;
-    class scripts_generatewalkmaskgrid_issourcepixelwalkab_86d61a4d function;
-    class game_herocombat_firerifleburst_a848cfc8 function;
-    class game_herocombat_tickherocombat_ef5c4aaa function;
-    class game_enemybehavior_findenemypath_a832891d function;
-    class game_maplayout_iswalkablebody_5fb0a5b6 function;
+    %% Section: Community 23 (20 nodes, 19 edges)
+    docs_core_defense_core_defense_md_fe0a9455("CORE_DEFENSE.md")
+    docs_core_defense_example_defense_wave_logic_f0042278("Example defense wave logic<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_md_4fa2c784("CORE_DEFENSE.md")
+    docs_core_defense_purpose_513b11d5("Purpose<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_core_concept_d52b150d("Core concept<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_core_hp_0ea1dc6a("Core HP<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_25_hp_e4e4898d("25% HP<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_50_hp_26959970("50% HP<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_75_hp_1d92c62f("75% HP<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_core_defense_doors_9b415664("Core defense doors<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_core_destruction_44665d06("Core destruction<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_enemy_core_hp_thresholds_8eeec345("Enemy Core HP thresholds<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_enemy_core_attack_47ca3536("Enemy Core attack<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_enemy_core_defense_trigger_e7c346ed("Enemy Core defense trigger<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_interaction_with_rushing_d65626b1("Interaction with rushing<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_no_forced_gate_system_9dd9d1dd("No forced gate system<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_testing_checklist_94bee7f5("Testing checklist<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_tie_breaker_logic_ccfa286a("Tie-breaker logic<br/><small>docs/CORE_DEFENSE.md</small>")
+    docs_core_defense_md_4fa2c784 -->|contains| docs_core_defense_core_defense_md_fe0a9455
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_purpose_513b11d5
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_core_concept_d52b150d
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_core_hp_0ea1dc6a
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_core_destruction_44665d06
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_tie_breaker_logic_ccfa286a
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_enemy_core_attack_47ca3536
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_enemy_core_defense_trigger_e7c346ed
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_enemy_core_hp_thresholds_8eeec345
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_example_defense_wave_logic_f0042278
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_core_defense_doors_9b415664
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_no_forced_gate_system_9dd9d1dd
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_interaction_with_rushing_d65626b1
+    docs_core_defense_core_defense_md_fe0a9455 -->|contains| docs_core_defense_testing_checklist_94bee7f5
+    docs_core_defense_example_defense_wave_logic_f0042278 -->|contains| docs_core_defense_75_hp_1d92c62f
+    docs_core_defense_example_defense_wave_logic_f0042278 -->|contains| docs_core_defense_50_hp_26959970
+    docs_core_defense_example_defense_wave_logic_f0042278 -->|contains| docs_core_defense_25_hp_e4e4898d
+    %% Omitted for readability: 2 nodes, 0 edges
+    class docs_core_defense_core_defense_md_fe0a9455 concept;
+    class docs_core_defense_example_defense_wave_logic_f0042278 concept;
+    class docs_core_defense_md_4fa2c784 concept;
+    class docs_core_defense_purpose_513b11d5 concept;
+    class docs_core_defense_core_concept_d52b150d concept;
+    class docs_core_defense_core_hp_0ea1dc6a concept;
+    class docs_core_defense_25_hp_e4e4898d concept;
+    class docs_core_defense_50_hp_26959970 concept;
+    class docs_core_defense_75_hp_1d92c62f concept;
+    class docs_core_defense_core_defense_doors_9b415664 concept;
+    class docs_core_defense_core_destruction_44665d06 concept;
+    class docs_core_defense_enemy_core_hp_thresholds_8eeec345 concept;
+    class docs_core_defense_enemy_core_attack_47ca3536 concept;
+    class docs_core_defense_enemy_core_defense_trigger_e7c346ed concept;
+    class docs_core_defense_interaction_with_rushing_d65626b1 concept;
+    class docs_core_defense_no_forced_gate_system_9dd9d1dd concept;
+    class docs_core_defense_testing_checklist_94bee7f5 concept;
+    class docs_core_defense_tie_breaker_logic_ccfa286a concept;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -4624,16 +4284,270 @@ flowchart LR
   <td>No direct outbound edge</td>
   <td>Documentation node describing Testing checklist.</td>
 </tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>docs/CORE_DEFENSE.md</code></td><td>20 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x19. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 16. Other ====== -->
+<h2 id="other">16. Other</h2>
+<p>Other groups implementation around docs, phase, planmd, game, mostly in docs/PHASE_PLAN.md, src/game/enemyBehavior.js, App.js. This section covers 298 nodes and 362 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Other (298 nodes, 362 edges)
+    subgraph other_App_js_442b4e80["App.js"]
+        sahib_ai_game_main_app_combattouchcontrols_2c42fa9a("CombatTouchControls()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_getjoysticklayout_b1eea5bc("getJoystickLayout()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_getfirelayout_ba61c67b("getFireLayout()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_getreloadlayout_5decd1d8("getReloadLayout()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_getammopanellayout_7236a412("getAmmoPanelLayout()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_getwalltoollayouts_7f7eb613("getWallToolLayouts()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_getchangedtouchpoints_e19746d8("getChangedTouchPoints()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_normalizetouchpoint_e021839e("normalizeTouchPoint()<br/><small>App.js</small>")
+        sahib_ai_game_main_app_gettouchpointbyidentifier_40915978("getTouchPointByIdentifier()<br/><small>App.js</small>")
+    end
+    subgraph other_src_game_enemyBehavior_js_2bdaecc5["src/game/enemyBehavior.js"]
+        game_enemybehavior_prepareenemynavigation_ff66196d("prepareEnemyNavigation()<br/><small>src/game/enemyBehavior.js</small>")
+        game_enemybehavior_findenemypath_a832891d("findEnemyPath()<br/><small>src/game/enemyBehavior.js</small>")
+        game_enemybehavior_tickenemybehavior_6c291a05("tickEnemyBehavior()<br/><small>src/game/enemyBehavior.js</small>")
+    end
+    subgraph other_scripts_generateGatePlacementProposal_mjs_0d128ecd["scripts/generateGatePlacementProposal.mjs"]
+        scripts_generategateplacementproposal_drawgate_fff88ffe("drawGate()<br/><small>scripts/generateGatePlacementProposal.mjs</small>")
+        scripts_generategateplacementproposal_blendpixel_81a9c6fc("blendPixel()<br/><small>scripts/generateGatePlacementProposal.mjs</small>")
+    end
+    subgraph other_scripts_generateWalkmaskGrid_mjs_a5ac3505["scripts/generateWalkmaskGrid.mjs"]
+        scripts_generatewalkmaskgrid_iscellwalkable_804da309("isCellWalkable()<br/><small>scripts/generateWalkmaskGrid.mjs</small>")
+        scripts_generatewalkmaskgrid_issourcepixelwalkab_86d61a4d("isSourcePixelWalkable()<br/><small>scripts/generateWalkmaskGrid.mjs</small>")
+    end
+    game_herocombat_distancebetween_e743015a("distanceBetween()<br/><small>src/game/heroCombat.js</small>")
+    game_maplayout_iswalkablebody_5fb0a5b6("isWalkableBody()<br/><small>src/game/mapLayout.js</small>")
+    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getjoysticklayout_b1eea5bc
+    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getfirelayout_ba61c67b
+    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getreloadlayout_5decd1d8
+    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getammopanellayout_7236a412
+    sahib_ai_game_main_app_combattouchcontrols_2c42fa9a -->|calls| sahib_ai_game_main_app_getwalltoollayouts_7f7eb613
+    sahib_ai_game_main_app_getfirelayout_ba61c67b -->|calls| sahib_ai_game_main_app_getwalltoollayouts_7f7eb613
+    sahib_ai_game_main_app_getchangedtouchpoints_e19746d8 -->|calls| sahib_ai_game_main_app_normalizetouchpoint_e021839e
+    sahib_ai_game_main_app_gettouchpointbyidentifier_40915978 -->|calls| sahib_ai_game_main_app_normalizetouchpoint_e021839e
+    scripts_generatewalkmaskgrid_iscellwalkable_804da309 -->|calls| scripts_generatewalkmaskgrid_issourcepixelwalkab_86d61a4d
+    scripts_generategateplacementproposal_drawgate_fff88ffe -->|calls| scripts_generategateplacementproposal_blendpixel_81a9c6fc
+    game_enemybehavior_prepareenemynavigation_ff66196d -->|calls| game_enemybehavior_findenemypath_a832891d
+    %% Omitted for readability: 280 nodes, 0 edges
+    class sahib_ai_game_main_app_combattouchcontrols_2c42fa9a function;
+    class sahib_ai_game_main_app_getjoysticklayout_b1eea5bc function;
+    class sahib_ai_game_main_app_getfirelayout_ba61c67b function;
+    class sahib_ai_game_main_app_getreloadlayout_5decd1d8 function;
+    class sahib_ai_game_main_app_getammopanellayout_7236a412 function;
+    class sahib_ai_game_main_app_getwalltoollayouts_7f7eb613 function;
+    class sahib_ai_game_main_app_getchangedtouchpoints_e19746d8 function;
+    class sahib_ai_game_main_app_normalizetouchpoint_e021839e function;
+    class sahib_ai_game_main_app_gettouchpointbyidentifier_40915978 function;
+    class game_enemybehavior_prepareenemynavigation_ff66196d function;
+    class game_enemybehavior_findenemypath_a832891d function;
+    class game_enemybehavior_tickenemybehavior_6c291a05 function;
+    class scripts_generategateplacementproposal_drawgate_fff88ffe function;
+    class scripts_generategateplacementproposal_blendpixel_81a9c6fc function;
+    class scripts_generatewalkmaskgrid_iscellwalkable_804da309 function;
+    class scripts_generatewalkmaskgrid_issourcepixelwalkab_86d61a4d function;
+    class game_herocombat_distancebetween_e743015a function;
+    class game_maplayout_iswalkablebody_5fb0a5b6 function;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
 <tr>
-  <td>21</td>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>enemyBehavior.js</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>App.js</code><br><small style="color:var(--muted)">App.js</small><br><code>distanceBetween()</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>isWalkableBody()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>enemyBehavior.js node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>enemyPathGridCache</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Caches analysis results or computes cache keys.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getInitialPathReplanDelay()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>normalizeRoutePoints()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>createEnemy() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getDoorEnemyTypes()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>getDoorSpawnSpread()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>createDoorEnemySpawns() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>getDoorEnemyTypes()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>getDoorEnemyTypes() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>moveEnemyToward()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>tickSingleEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><code>clamp()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>resolveWalkableMove()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>moveEnemyToward() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>resolveWalkableMove()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>isWalkableBody()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>moveEnemyToward()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>resolveWalkableMove() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>resolveCharacterSeparation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><code>separatePair()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>separatePointFromPoint()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>resolveCharacterSeparation() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>separatePointFromPoint()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>resolveCharacterSeparation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><code>getSeparationOffset()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>resolveSeparatedPosition()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>separatePointFromPoint() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>separatePair()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>resolveCharacterSeparation()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><code>getSeparationOffset()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>resolveSeparatedPosition()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>separatePair() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>getSeparationOffset()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>separatePair()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>separatePointFromPoint()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>getSeparationOffset() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>resolveSeparatedPosition()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>isWalkableBody()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small><br><code>separatePair()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>separatePointFromPoint()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><code>clamp()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>resolveSeparatedPosition() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>isWalkableBody()</code><br><small style="color:var(--muted)">src/game/mapLayout.js</small></td>
+  <td><code>addVectors()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>scaleVector()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>findNearestWalkableSpawn() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>getDoorSpawnSpread()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createDoorEnemySpawns()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>getDoorSpawnSpread() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>getInitialPathReplanDelay()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>getInitialPathReplanDelay() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>addVectors()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>addVectors() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>scaleVector()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>findNearestWalkableSpawn()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>scaleVector() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>clamp()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>moveEnemyToward()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>resolveSeparatedPosition()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>clamp() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>normalizeRoutePoints()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td><code>createEnemy()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>normalizeRoutePoints() node in src/game/enemyBehavior.js.</td>
+</tr>
+<tr>
+  <td>20</td>
   <td><code>App.js</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>heroCombat.js</code><br><small style="color:var(--muted)">src/game/heroCombat.js</small><br><code>ImageBattlefield()</code><br><small style="color:var(--muted)">src/ui/ImageBattlefield.js</small><br><code>setDoorEncounterEnemies()</code><br><small style="color:var(--muted)">src/game/doorEncounters.js</small><br>+2 more</td>
+  <td><code>enemyBehavior.js</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small><br><code>tickEnemyBehavior()</code><br><small style="color:var(--muted)">src/game/enemyBehavior.js</small></td>
   <td>App.js node in App.js.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>21</td>
   <td><code>EMPTY_CONTROLS</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -4641,7 +4555,7 @@ flowchart LR
   <td>EMPTY_CONTROLS node in App.js.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>22</td>
   <td><code>App()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -4649,7 +4563,7 @@ flowchart LR
   <td>App() node in App.js.</td>
 </tr>
 <tr>
-  <td>24</td>
+  <td>23</td>
   <td><code>ResultOverlay()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -4657,7 +4571,7 @@ flowchart LR
   <td>ResultOverlay() node in App.js.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>24</td>
   <td><code>CombatTouchControls()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -4665,7 +4579,7 @@ flowchart LR
   <td>CombatTouchControls() node in App.js.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>25</td>
   <td><code>calculateFireAimInput()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -4673,7 +4587,7 @@ flowchart LR
   <td>calculateFireAimInput() node in App.js.</td>
 </tr>
 <tr>
-  <td>27</td>
+  <td>26</td>
   <td><code>isNeutralVector()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -4681,7 +4595,7 @@ flowchart LR
   <td>isNeutralVector() node in App.js.</td>
 </tr>
 <tr>
-  <td>28</td>
+  <td>27</td>
   <td><code>getJoystickLayout()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>CombatTouchControls()</code><br><small style="color:var(--muted)">App.js</small></td>
@@ -4689,7 +4603,7 @@ flowchart LR
   <td>getJoystickLayout() node in App.js.</td>
 </tr>
 <tr>
-  <td>29</td>
+  <td>28</td>
   <td><code>getFireLayout()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>CombatTouchControls()</code><br><small style="color:var(--muted)">App.js</small></td>
@@ -4697,12 +4611,20 @@ flowchart LR
   <td>getFireLayout() node in App.js.</td>
 </tr>
 <tr>
-  <td>30</td>
+  <td>29</td>
   <td><code>getReloadLayout()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>CombatTouchControls()</code><br><small style="color:var(--muted)">App.js</small></td>
   <td>No direct outbound edge</td>
   <td>getReloadLayout() node in App.js.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>getAmmoPanelLayout()</code><br><small style="color:var(--muted)">App.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>CombatTouchControls()</code><br><small style="color:var(--muted)">App.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>getAmmoPanelLayout() node in App.js.</td>
 </tr>
 </table>
 
@@ -4712,18 +4634,18 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>docs/PHASE_PLAN.md</code></td><td>83 nodes</td></tr>
-<tr><td><code>docs/CORE_DEFENSE.md</code></td><td>20 nodes</td></tr>
-<tr><td><code>src/game/heroCombat.js</code></td><td>20 nodes</td></tr>
+<tr><td><code>src/game/enemyBehavior.js</code></td><td>43 nodes</td></tr>
 <tr><td><code>App.js</code></td><td>18 nodes</td></tr>
-<tr><td><code>src/game/enemyBehavior.js</code></td><td>18 nodes</td></tr>
 <tr><td><code>docs/MAP_LAYOUT.md</code></td><td>17 nodes</td></tr>
 <tr><td><code>docs/HERO_COMBAT.md</code></td><td>16 nodes</td></tr>
 <tr><td><code>docs/MAP_BLOCKOUT_SPEC.md</code></td><td>16 nodes</td></tr>
+<tr><td><code>src/three/AssetModelLoader.js</code></td><td>15 nodes</td></tr>
+<tr><td><code>docs/V1_SCOPE.md</code></td><td>14 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x260, calls x70, imports x6, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x278, calls x80, imports x3, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4734,17 +4656,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1386</td></tr>
-      <tr><td>Edges</td><td>2440</td></tr>
+      <tr><td>Nodes</td><td>1404</td></tr>
+      <tr><td>Edges</td><td>2497</td></tr>
       <tr><td>Hyperedges</td><td>0</td></tr>
-      <tr><td>Communities</td><td>73</td></tr>
+      <tr><td>Communities</td><td>72</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>2438</td></tr>
+      <tr><td>EXTRACTED</td><td>2495</td></tr>
       <tr><td>INFERRED</td><td>2</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -4753,7 +4675,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>Sahib.ai-Game-main — Architecture Documentation</p>
-  <p>Generated: 2026-05-28 08:56 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-05-28 09:45 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

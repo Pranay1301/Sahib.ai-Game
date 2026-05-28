@@ -5,17 +5,22 @@ import {
   BASE_BUILDING_DEFINITIONS,
   BASE_BUILDING_IDS,
   BASE_ECONOMY_CONFIG,
+  BASE_LEARNING_TRACK_DEFINITIONS,
   BASE_SLOT_IDS,
   BUILDING_STATES,
   LEARNING_TRACKS,
+  assertSupportedLearningTrack,
   calculateFinalCoins,
   getBaseCoinsForOutcome,
   getBuildingDefinition,
   getFreeTimerMinutesForTargetLevel,
+  getLearningTrackDefinition,
   getNextBuildingLevel,
   getTimerDurationMinutesForTargetLevel,
   getUpgradeCostForTargetLevel,
-  isBuildingUnlocked
+  isBuildingUnlocked,
+  isSupportedLearningTrack,
+  normalizeLearningTrack
 } from "../src/base/baseConfig.js";
 
 test("Phase 3 base config keeps the documented V1 scope constants", () => {
@@ -29,6 +34,21 @@ test("Phase 3 base config keeps the documented V1 scope constants", () => {
   assert.equal(Object.keys(BASE_BUILDING_IDS).length, 7);
   assert.equal(Object.keys(BASE_SLOT_IDS).length, 7);
   assert.ok(Object.values(BUILDING_STATES).includes("quiz_required"));
+});
+
+test("Phase 8 learning track definitions map to the one backend field", () => {
+  assert.deepEqual(BASE_LEARNING_TRACK_DEFINITIONS.map((track) => track.id), [
+    LEARNING_TRACKS.ENGLISH,
+    LEARNING_TRACKS.AI_AGENTS
+  ]);
+  assert.ok(BASE_LEARNING_TRACK_DEFINITIONS.every((track) => track.backendValue === track.id));
+  assert.equal(getLearningTrackDefinition(LEARNING_TRACKS.ENGLISH).label, "English for Careers");
+  assert.equal(getLearningTrackDefinition(LEARNING_TRACKS.AI_AGENTS).label, "AI Agent Builder");
+  assert.equal(isSupportedLearningTrack(LEARNING_TRACKS.ENGLISH), true);
+  assert.equal(isSupportedLearningTrack("vocab_mastered"), false);
+  assert.equal(normalizeLearningTrack("bad_track"), LEARNING_TRACKS.ENGLISH);
+  assert.equal(assertSupportedLearningTrack(LEARNING_TRACKS.AI_AGENTS), LEARNING_TRACKS.AI_AGENTS);
+  assert.throws(() => assertSupportedLearningTrack("bad_track"), /learningTrack must be english or ai_agents/);
 });
 
 test("building definitions match the MD unlock order and fixed slot IDs", () => {

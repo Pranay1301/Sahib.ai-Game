@@ -12,6 +12,7 @@ export const BASE_COPY_KEYS = Object.freeze({
   LANGUAGE_SWITCH: "base.hud.languageSwitch",
   PRO_BADGE_FREE: "base.pro.badgeFree",
   PRO_BADGE_ACTIVE: "base.pro.badgeActive",
+  TRACK_SELECTOR_TITLE: "base.trackSelector.title",
   SKILL_TIER_LABEL: "base.skill.tierLabel",
   SKILL_COUNT_LABEL: "base.skill.countLabel",
   KINGDOM_PROGRESS_LABEL: "base.skill.kingdomProgressLabel",
@@ -69,6 +70,19 @@ export const BASE_BUILDING_COPY_KEYS = Object.freeze({
   })
 });
 
+export const BASE_LEARNING_TRACK_COPY_KEYS = Object.freeze({
+  english: Object.freeze({
+    label: "base.track.english.label",
+    purpose: "base.track.english.purpose",
+    challengeCountLabel: "base.track.english.challengeCountLabel"
+  }),
+  ai_agents: Object.freeze({
+    label: "base.track.aiAgents.label",
+    purpose: "base.track.aiAgents.purpose",
+    challengeCountLabel: "base.track.aiAgents.challengeCountLabel"
+  })
+});
+
 export const BASE_SKILL_TIER_KEYS = Object.freeze({
   english: Object.freeze({
     newSpeaker: "base.skill.tier.english.newSpeaker",
@@ -96,6 +110,7 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_COPY_KEYS.LANGUAGE_SWITCH]: "English | العربية",
     [BASE_COPY_KEYS.PRO_BADGE_FREE]: "Free",
     [BASE_COPY_KEYS.PRO_BADGE_ACTIVE]: "Sahib Pro",
+    [BASE_COPY_KEYS.TRACK_SELECTOR_TITLE]: "Skill Path",
     [BASE_COPY_KEYS.SKILL_TIER_LABEL]: "Skill Tier",
     [BASE_COPY_KEYS.SKILL_COUNT_LABEL]: "Challenges Completed",
     [BASE_COPY_KEYS.KINGDOM_PROGRESS_LABEL]: "Kingdom Progress",
@@ -134,6 +149,12 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_BUILDING_COPY_KEYS.drone_station.purpose]: "AI/future-tech identity",
     [BASE_BUILDING_COPY_KEYS.trophy_hall.label]: "Trophy Hall",
     [BASE_BUILDING_COPY_KEYS.trophy_hall.purpose]: "Status progress identity",
+    [BASE_LEARNING_TRACK_COPY_KEYS.english.label]: "English for Careers",
+    [BASE_LEARNING_TRACK_COPY_KEYS.english.purpose]: "Jobs, interviews, and communication",
+    [BASE_LEARNING_TRACK_COPY_KEYS.english.challengeCountLabel]: "English Challenges Completed",
+    [BASE_LEARNING_TRACK_COPY_KEYS.ai_agents.label]: "AI Agent Builder",
+    [BASE_LEARNING_TRACK_COPY_KEYS.ai_agents.purpose]: "Build and use AI agents",
+    [BASE_LEARNING_TRACK_COPY_KEYS.ai_agents.challengeCountLabel]: "AI Agent Challenges Completed",
     [BASE_SKILL_TIER_KEYS.english.newSpeaker]: "New Speaker",
     [BASE_SKILL_TIER_KEYS.english.risingCommunicator]: "Rising Communicator",
     [BASE_SKILL_TIER_KEYS.english.confidentSpeaker]: "Confident Speaker",
@@ -154,6 +175,7 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_COPY_KEYS.LANGUAGE_SWITCH]: "English | العربية",
     [BASE_COPY_KEYS.PRO_BADGE_FREE]: "مجاني",
     [BASE_COPY_KEYS.PRO_BADGE_ACTIVE]: "Sahib Pro",
+    [BASE_COPY_KEYS.TRACK_SELECTOR_TITLE]: "مسار المهارة",
     [BASE_COPY_KEYS.SKILL_TIER_LABEL]: "رتبة المهارة",
     [BASE_COPY_KEYS.SKILL_COUNT_LABEL]: "التحديات المكتملة",
     [BASE_COPY_KEYS.KINGDOM_PROGRESS_LABEL]: "تقدم المملكة",
@@ -192,6 +214,12 @@ const BASE_TRANSLATIONS = Object.freeze({
     [BASE_BUILDING_COPY_KEYS.drone_station.purpose]: "هوية الذكاء والتقنية",
     [BASE_BUILDING_COPY_KEYS.trophy_hall.label]: "قاعة الجوائز",
     [BASE_BUILDING_COPY_KEYS.trophy_hall.purpose]: "هوية المكانة والتقدم",
+    [BASE_LEARNING_TRACK_COPY_KEYS.english.label]: "الإنجليزية للمهن",
+    [BASE_LEARNING_TRACK_COPY_KEYS.english.purpose]: "الوظائف والمقابلات والتواصل",
+    [BASE_LEARNING_TRACK_COPY_KEYS.english.challengeCountLabel]: "تحديات الإنجليزية مكتملة",
+    [BASE_LEARNING_TRACK_COPY_KEYS.ai_agents.label]: "بناء وكلاء الذكاء الاصطناعي",
+    [BASE_LEARNING_TRACK_COPY_KEYS.ai_agents.purpose]: "بناء واستخدام وكلاء الذكاء الاصطناعي",
+    [BASE_LEARNING_TRACK_COPY_KEYS.ai_agents.challengeCountLabel]: "تحديات وكلاء الذكاء مكتملة",
     [BASE_SKILL_TIER_KEYS.english.newSpeaker]: "متحدث جديد",
     [BASE_SKILL_TIER_KEYS.english.risingCommunicator]: "متواصل صاعد",
     [BASE_SKILL_TIER_KEYS.english.confidentSpeaker]: "متحدث واثق",

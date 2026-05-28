@@ -3,6 +3,21 @@ export const LEARNING_TRACKS = Object.freeze({
   AI_AGENTS: "ai_agents"
 });
 
+export const BASE_LEARNING_TRACK_DEFINITIONS = Object.freeze([
+  Object.freeze({
+    id: LEARNING_TRACKS.ENGLISH,
+    backendValue: LEARNING_TRACKS.ENGLISH,
+    label: "English for Careers",
+    purpose: "English for jobs, interviews, and communication"
+  }),
+  Object.freeze({
+    id: LEARNING_TRACKS.AI_AGENTS,
+    backendValue: LEARNING_TRACKS.AI_AGENTS,
+    label: "AI Agent Builder",
+    purpose: "Learn how AI agents work and how to build/use them"
+  })
+]);
+
 export const BASE_BUILDING_IDS = Object.freeze({
   PALACE: "palace",
   LEARNING_HALL: "learning_hall",
@@ -114,6 +129,29 @@ export const BASE_BUILDING_DEFINITIONS = Object.freeze([
 
 export function getBuildingDefinition(buildingId) {
   return BASE_BUILDING_DEFINITIONS.find((building) => building.id === buildingId) ?? null;
+}
+
+export function getLearningTrackDefinition(learningTrack) {
+  const normalizedTrack = normalizeLearningTrack(learningTrack);
+  return BASE_LEARNING_TRACK_DEFINITIONS.find((track) => track.id === normalizedTrack) ?? null;
+}
+
+export function isSupportedLearningTrack(learningTrack) {
+  return BASE_LEARNING_TRACK_DEFINITIONS.some((track) => track.id === learningTrack);
+}
+
+export function normalizeLearningTrack(learningTrack) {
+  return isSupportedLearningTrack(learningTrack)
+    ? learningTrack
+    : LEARNING_TRACKS.ENGLISH;
+}
+
+export function assertSupportedLearningTrack(learningTrack) {
+  if (!isSupportedLearningTrack(learningTrack)) {
+    throw new RangeError("learningTrack must be english or ai_agents");
+  }
+
+  return learningTrack;
 }
 
 export function getBaseCoinsForOutcome(outcome) {
