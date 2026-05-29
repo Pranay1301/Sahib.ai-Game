@@ -40,10 +40,47 @@
 
 ## Verification
 
-- Backend-focused tests passed.
-- Full automated suite passed: 255 tests.
-- Android export build check passed.
-- Graphify was updated after code/schema changes.
+- Backend-focused smoke test passed: 42 tests.
+- Live Supabase migration history matches local and remote at `20260529000000`.
+- Live Supabase lint passed: no schema errors.
+- Live Supabase advisors passed: no issues found.
+- Live Supabase table check passed for:
+  - `active_upgrades`
+  - `battle_reward_claims`
+  - `profiles`
+  - `user_buildings`
+  - `user_game_state`
+- Live Supabase RPC check passed for:
+  - `base_server_now`
+  - `claim_base_battle_reward`
+- Live Supabase RLS policy count check passed: 15 authenticated policies across the five V1 tables.
+- Full automated suite passed: 256 tests.
+- Android export build check passed in the previous backend verification pass.
+- Graphify was updated after code/schema/test changes.
+
+## Latest Backend Smoke Test
+
+Run time: `2026-05-29 17:53:34 IST`
+
+```bash
+node --test tests/baseSupabaseClient.test.mjs tests/baseSupabaseRepository.test.mjs tests/baseSupabaseMigration.test.mjs tests/baseBackend.test.mjs tests/baseRewardBridge.test.mjs tests/quickRoundResult.test.mjs
+npx supabase migration list --linked --workdir .
+npx supabase db lint --linked --workdir .
+npx supabase db advisors --linked --workdir .
+npx supabase db query --linked --workdir . -o table "<table verification query>"
+npx supabase db query --linked --workdir . -o table "<rpc verification query>"
+npx supabase db query --linked --workdir . -o csv "<authenticated RLS policy-count query>"
+npm test
+```
+
+Result:
+
+- Backend smoke: 42 passed, 0 failed.
+- Supabase remote migration: local `20260529000000`, remote `20260529000000`.
+- Supabase schema lint: no schema errors found.
+- Supabase advisors: no issues found.
+- Table/RPC/RLS live checks: passed.
+- Full suite: 256 passed, 0 failed.
 
 ## Remaining External Setup
 
