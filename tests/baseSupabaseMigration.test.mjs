@@ -92,9 +92,15 @@ test("Supabase migration includes server-time and atomic reward-claim RPCs", () 
   assert.match(SQL, /select now\(\);/);
   assert.match(SQL, /create or replace function public\.claim_base_battle_reward/);
   assert.match(SQL, /v_user_id uuid := auth\.uid\(\);/);
+  assert.match(SQL, /v_base_coins := case p_outcome/);
+  assert.match(SQL, /when 'win' then 100/);
+  assert.match(SQL, /when 'draw' then 50/);
+  assert.match(SQL, /when 'loss' then 25/);
+  assert.match(SQL, /select profile\.is_pro/);
+  assert.match(SQL, /v_final_coins_awarded := v_base_coins \* case when v_is_pro then 3 else 1 end;/);
   assert.match(SQL, /on conflict \(user_id, battle_result_id\) do nothing;/);
   assert.match(SQL, /update public\.user_game_state as state/);
-  assert.match(SQL, /set coins = state\.coins \+ p_final_coins_awarded/);
+  assert.match(SQL, /set coins = state\.coins \+ v_final_coins_awarded/);
   assert.match(SQL, /'duplicate_battle_reward_claim'::text/);
 });
 

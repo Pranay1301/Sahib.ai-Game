@@ -203,6 +203,9 @@ declare
   v_user_id uuid := auth.uid();
   v_claimed_at timestamptz := now();
   v_coins integer;
+  v_is_pro boolean;
+  v_base_coins integer;
+  v_final_coins_awarded integer;
 begin
   if v_user_id is null then
     raise exception 'Authenticated user required';
@@ -216,9 +219,29 @@ begin
     raise exception 'invalid battle outcome';
   end if;
 
+  if p_reason is null or length(p_reason) = 0 then
+    raise exception 'battle reason is required';
+  end if;
+
   if p_base_coins < 0 or p_final_coins_awarded < 0 then
     raise exception 'coin values must be non-negative';
   end if;
+
+  v_base_coins := case p_outcome
+    when 'win' then 100
+    when 'draw' then 50
+    when 'loss' then 25
+    else 0
+  end;
+
+  select coalesce((
+    select profile.is_pro
+      from public.profiles as profile
+      where profile.user_id = v_user_id
+  ), false)
+    into v_is_pro;
+
+  v_final_coins_awarded := v_base_coins * case when v_is_pro then 3 else 1 end;
 
   insert into public.battle_reward_claims (
     user_id,
@@ -234,8 +257,8 @@ begin
     p_battle_result_id,
     p_outcome,
     p_reason,
-    p_base_coins,
-    p_final_coins_awarded,
+    v_base_coins,
+    v_final_coins_awarded,
     v_claimed_at
   )
   on conflict (user_id, battle_result_id) do nothing;
@@ -257,13 +280,13 @@ begin
   end if;
 
   update public.user_game_state as state
-    set coins = state.coins + p_final_coins_awarded
+    set coins = state.coins + v_final_coins_awarded
     where state.user_id = v_user_id
     returning state.coins into v_coins;
 
   if not found then
     insert into public.user_game_state (user_id, coins)
-      values (v_user_id, p_final_coins_awarded)
+      values (v_user_id, v_final_coins_awarded)
       returning user_game_state.coins into v_coins;
   end if;
 
@@ -272,7 +295,7 @@ begin
       true,
       'claimed'::text,
       v_coins,
-      p_final_coins_awarded,
+      v_final_coins_awarded,
       v_claimed_at;
 end;
 $$;

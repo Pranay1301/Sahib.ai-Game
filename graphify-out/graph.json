@@ -1771,7 +1771,7 @@
       "label": "getCreateTableBlock()",
       "file_type": "code",
       "source_file": "tests/baseSupabaseMigration.test.mjs",
-      "source_location": "L101",
+      "source_location": "L107",
       "id": "tests_basesupabasemigration_test_getcreatetableblock",
       "community": 2,
       "norm_label": "getcreatetableblock()"
@@ -23242,9 +23242,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "src_base_basebackend_js",
-      "confidence_score": 1.0
+      "target": "src_base_basebackend_js"
     },
     {
       "relation": "imports",
@@ -23253,9 +23253,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basebackend_createactiveupgraderecord",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createactiveupgraderecord"
     },
     {
       "relation": "imports_from",
@@ -23264,9 +23264,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "src_base_baseconfig_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseconfig_js"
     },
     {
       "relation": "imports",
@@ -23275,9 +23275,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_baseconfig_base_building_ids",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_building_ids"
     },
     {
       "relation": "imports",
@@ -23286,9 +23286,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_baseconfig_building_states",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_building_states"
     },
     {
       "relation": "imports_from",
@@ -23297,9 +23297,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "src_base_basesupabaserepository_js",
-      "confidence_score": 1.0
+      "target": "src_base_basesupabaserepository_js"
     },
     {
       "relation": "imports",
@@ -23308,9 +23308,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_base_supabase_rpc",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_base_supabase_rpc"
     },
     {
       "relation": "imports",
@@ -23319,9 +23319,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_claimbattlerewardwithsupabase"
     },
     {
       "relation": "imports",
@@ -23330,9 +23330,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_clearactiveupgrade",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_clearactiveupgrade"
     },
     {
       "relation": "imports",
@@ -23341,9 +23341,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_createbaseuserbootstraprows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_createbaseuserbootstraprows"
     },
     {
       "relation": "imports",
@@ -23352,9 +23352,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_getbaseservertimestamp",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_getbaseservertimestamp"
     },
     {
       "relation": "imports",
@@ -23363,9 +23363,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_initializebaseuserrows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_initializebaseuserrows"
     },
     {
       "relation": "imports",
@@ -23374,9 +23374,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_loadbaseuserrows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_loadbaseuserrows"
     },
     {
       "relation": "imports",
@@ -23385,9 +23385,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "base_basesupabaserepository_upsertactiveupgrade",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertactiveupgrade"
     },
     {
       "relation": "contains",
@@ -23395,9 +23395,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_rows",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_rows"
     },
     {
       "relation": "contains",
@@ -23405,9 +23405,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L199",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_supabase",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_supabase"
     },
     {
       "relation": "contains",
@@ -23415,9 +23415,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_activeupgrade",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_activeupgrade"
     },
     {
       "relation": "contains",
@@ -23425,9 +23425,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L212",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_createbattleresult",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_createbattleresult"
     },
     {
       "relation": "contains",
@@ -23435,9 +23435,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L231",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_fakesupabaseclient",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_fakesupabaseclient"
     },
     {
       "relation": "contains",
@@ -23445,9 +23445,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L268",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_createselectbuilder",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_createselectbuilder"
     },
     {
       "relation": "contains",
@@ -23455,9 +23455,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L296",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_mjs",
-      "target": "tests_basesupabaserepository_test_comparecallrows",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_comparecallrows"
     },
     {
       "relation": "method",
@@ -23465,9 +23465,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_fakesupabaseclient",
-      "target": "tests_basesupabaserepository_test_fakesupabaseclient_constructor",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_fakesupabaseclient_constructor"
     },
     {
       "relation": "method",
@@ -23475,9 +23475,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_fakesupabaseclient",
-      "target": "tests_basesupabaserepository_test_fakesupabaseclient_from",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_fakesupabaseclient_from"
     },
     {
       "relation": "method",
@@ -23485,9 +23485,9 @@
       "source_file": "tests/baseSupabaseRepository.test.mjs",
       "source_location": "L262",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basesupabaserepository_test_fakesupabaseclient",
-      "target": "tests_basesupabaserepository_test_fakesupabaseclient_rpc",
-      "confidence_score": 1.0
+      "target": "tests_basesupabaserepository_test_fakesupabaseclient_rpc"
     },
     {
       "relation": "imports_from",
@@ -37947,9 +37947,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "src_base_basebackend_js",
-      "confidence_score": 1.0
+      "target": "src_base_basebackend_js"
     },
     {
       "relation": "imports_from",
@@ -37991,9 +37991,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basebackend_base_backend_tables",
-      "confidence_score": 1.0
+      "target": "base_basebackend_base_backend_tables"
     },
     {
       "relation": "calls",
@@ -38013,9 +38013,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basebackend_createdefaultprofile",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createdefaultprofile"
     },
     {
       "relation": "calls",
@@ -38046,9 +38046,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basebackend_createdefaultgamestate",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createdefaultgamestate"
     },
     {
       "relation": "calls",
@@ -38079,9 +38079,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basebackend_createinitialuserbuildings",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createinitialuserbuildings"
     },
     {
       "relation": "calls",
@@ -38343,9 +38343,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "src_base_baseconfig_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseconfig_js"
     },
     {
       "relation": "imports",
@@ -38354,9 +38354,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_baseconfig_calculatefinalcoins",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_calculatefinalcoins"
     },
     {
       "relation": "contains",
@@ -38364,9 +38364,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_base_supabase_rpc",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_base_supabase_rpc"
     },
     {
       "relation": "contains",
@@ -38374,9 +38374,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_createbaseuserbootstraprows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_createbaseuserbootstraprows"
     },
     {
       "relation": "contains",
@@ -38384,9 +38384,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_initializebaseuserrows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_initializebaseuserrows"
     },
     {
       "relation": "contains",
@@ -38394,9 +38394,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_loadbaseuserrows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_loadbaseuserrows"
     },
     {
       "relation": "contains",
@@ -38404,9 +38404,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_upsertbaseprofile",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertbaseprofile"
     },
     {
       "relation": "contains",
@@ -38414,9 +38414,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_upsertbasegamestate",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertbasegamestate"
     },
     {
       "relation": "contains",
@@ -38424,9 +38424,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L115",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_upsertbasebuildings",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertbasebuildings"
     },
     {
       "relation": "contains",
@@ -38434,9 +38434,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_upsertactiveupgrade",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertactiveupgrade"
     },
     {
       "relation": "contains",
@@ -38444,9 +38444,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_clearactiveupgrade",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_clearactiveupgrade"
     },
     {
       "relation": "contains",
@@ -38454,9 +38454,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_getbaseservertimestamp",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_getbaseservertimestamp"
     },
     {
       "relation": "contains",
@@ -38464,9 +38464,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_claimbattlerewardwithsupabase"
     },
     {
       "relation": "contains",
@@ -38474,9 +38474,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L211",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_selectuserrows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_selectuserrows"
     },
     {
       "relation": "contains",
@@ -38484,9 +38484,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L221",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_selectmaybesingleuserrow",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_selectmaybesingleuserrow"
     },
     {
       "relation": "contains",
@@ -38494,9 +38494,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "contains",
@@ -38504,9 +38504,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L241",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "contains",
@@ -38514,9 +38514,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L247",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_assertbattleresult",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertbattleresult"
     },
     {
       "relation": "contains",
@@ -38524,9 +38524,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L257",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "contains",
@@ -38534,9 +38534,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L261",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_assertrequiredstring",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertrequiredstring"
     },
     {
       "relation": "contains",
@@ -38544,9 +38544,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L267",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_assertisotimestamp",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertisotimestamp"
     },
     {
       "relation": "contains",
@@ -38554,9 +38554,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L275",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_base_basesupabaserepository_js",
-      "target": "base_basesupabaserepository_normalizewholenumber",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_normalizewholenumber"
     },
     {
       "relation": "calls",
@@ -38565,9 +38565,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_createbaseuserbootstraprows",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38576,9 +38576,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_initializebaseuserrows",
-      "target": "base_basesupabaserepository_createbaseuserbootstraprows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_createbaseuserbootstraprows"
     },
     {
       "relation": "calls",
@@ -38587,9 +38587,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_initializebaseuserrows",
-      "target": "base_basesupabaserepository_upsertbaseprofile",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertbaseprofile"
     },
     {
       "relation": "calls",
@@ -38598,9 +38598,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_initializebaseuserrows",
-      "target": "base_basesupabaserepository_upsertbasegamestate",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertbasegamestate"
     },
     {
       "relation": "calls",
@@ -38609,9 +38609,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_initializebaseuserrows",
-      "target": "base_basesupabaserepository_upsertbasebuildings",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_upsertbasebuildings"
     },
     {
       "relation": "calls",
@@ -38620,9 +38620,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_loadbaseuserrows",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38631,9 +38631,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_loadbaseuserrows",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38642,9 +38642,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_loadbaseuserrows",
-      "target": "base_basesupabaserepository_selectmaybesingleuserrow",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_selectmaybesingleuserrow"
     },
     {
       "relation": "calls",
@@ -38653,9 +38653,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_loadbaseuserrows",
-      "target": "base_basesupabaserepository_selectuserrows",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_selectuserrows"
     },
     {
       "relation": "calls",
@@ -38664,9 +38664,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbaseprofile",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38675,9 +38675,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbaseprofile",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38686,9 +38686,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbaseprofile",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38697,9 +38697,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasegamestate",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38708,9 +38708,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasegamestate",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38719,9 +38719,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasegamestate",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38730,9 +38730,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasebuildings",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38741,9 +38741,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasebuildings",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38752,9 +38752,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasebuildings",
-      "target": "base_basesupabaserepository_assertrequiredstring",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertrequiredstring"
     },
     {
       "relation": "calls",
@@ -38763,9 +38763,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L126",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertbasebuildings",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38774,9 +38774,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertactiveupgrade",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38785,9 +38785,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertactiveupgrade",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38796,9 +38796,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertactiveupgrade",
-      "target": "base_basesupabaserepository_assertrequiredstring",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertrequiredstring"
     },
     {
       "relation": "calls",
@@ -38807,9 +38807,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_upsertactiveupgrade",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38818,9 +38818,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_clearactiveupgrade",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38829,9 +38829,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L149",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_clearactiveupgrade",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38840,9 +38840,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_clearactiveupgrade",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38851,9 +38851,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L161",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_getbaseservertimestamp",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38862,9 +38862,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_getbaseservertimestamp",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38873,9 +38873,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_getbaseservertimestamp",
-      "target": "base_basesupabaserepository_assertisotimestamp",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertisotimestamp"
     },
     {
       "relation": "calls",
@@ -38884,9 +38884,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "target": "base_basesupabaserepository_assertsupabaseclient",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertsupabaseclient"
     },
     {
       "relation": "calls",
@@ -38895,9 +38895,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L179",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "target": "base_basesupabaserepository_assertuserid",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertuserid"
     },
     {
       "relation": "calls",
@@ -38906,9 +38906,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L180",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "target": "base_basesupabaserepository_assertbattleresult",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertbattleresult"
     },
     {
       "relation": "calls",
@@ -38917,9 +38917,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L188",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38928,9 +38928,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_claimbattlerewardwithsupabase",
-      "target": "base_basesupabaserepository_normalizewholenumber",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_normalizewholenumber"
     },
     {
       "relation": "calls",
@@ -38950,9 +38950,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L212",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_selectuserrows",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38961,9 +38961,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_selectmaybesingleuserrow",
-      "target": "base_basesupabaserepository_expectsupabasedata",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_expectsupabasedata"
     },
     {
       "relation": "calls",
@@ -38972,9 +38972,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L252",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_assertbattleresult",
-      "target": "base_basesupabaserepository_assertrequiredstring",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertrequiredstring"
     },
     {
       "relation": "calls",
@@ -38983,9 +38983,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_assertuserid",
-      "target": "base_basesupabaserepository_assertrequiredstring",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertrequiredstring"
     },
     {
       "relation": "calls",
@@ -38994,9 +38994,9 @@
       "source_file": "src/base/baseSupabaseRepository.js",
       "source_location": "L268",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "base_basesupabaserepository_assertisotimestamp",
-      "target": "base_basesupabaserepository_assertrequiredstring",
-      "confidence_score": 1.0
+      "target": "base_basesupabaserepository_assertrequiredstring"
     },
     {
       "relation": "imports_from",
@@ -46090,5 +46090,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "31eb31901462c5e34e7f26a3cdd47ec8cb2150ec"
+  "built_at_commit": "96b3cc17eaa94e2fc90e0593ddaf8bd935cb89d4"
 }

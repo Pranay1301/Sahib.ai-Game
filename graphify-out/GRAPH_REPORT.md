@@ -1,7 +1,7 @@
 # Graph Report - Sahib.ai-Game-main  (2026-05-29)
 
 ## Corpus Check
-- 115 files · ~87,562 words
+- 115 files · ~87,668 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `31eb3190`
+- Built from commit: `96b3cc17`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
