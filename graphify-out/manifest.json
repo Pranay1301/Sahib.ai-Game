@@ -553,5 +553,15 @@
     "mtime": 1779986012.3371396,
     "ast_hash": "489917c375182eaf674bfbdc2880e029",
     "semantic_hash": ""
+  },
+  "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/tests/baseSupabaseMigration.test.mjs": {
+    "mtime": 1780028200.269484,
+    "ast_hash": "2f0eaf6962594c4473077aec40d96ee6",
+    "semantic_hash": ""
+  },
+  "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/supabase/migrations/20260529000000_base_building_v1.sql": {
+    "mtime": 1780028273.4744673,
+    "ast_hash": "83ab7511f98c9be5f1520ccc68bfc867",
+    "semantic_hash": ""
   }
 }

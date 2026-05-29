@@ -423,7 +423,7 @@
       "source_file": "App.js",
       "source_location": "L532",
       "id": "sahib_ai_game_main_app_combattouchcontrols",
-      "community": 70,
+      "community": 9,
       "norm_label": "combattouchcontrols()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L1",
       "id": "tests_specialweapons_test_mjs",
-      "community": 36,
+      "community": 45,
       "norm_label": "specialweapons.test.mjs"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L26",
       "id": "tests_specialweapons_test_beforedrop",
-      "community": 36,
+      "community": 45,
       "norm_label": "beforedrop"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L30",
       "id": "tests_specialweapons_test_atdrop",
-      "community": 36,
+      "community": 45,
       "norm_label": "atdrop"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L42",
       "id": "tests_specialweapons_test_hero",
-      "community": 36,
+      "community": 45,
       "norm_label": "hero"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L45",
       "id": "tests_specialweapons_test_tick",
-      "community": 36,
+      "community": 45,
       "norm_label": "tick"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L57",
       "id": "tests_specialweapons_test_spawned",
-      "community": 36,
+      "community": 45,
       "norm_label": "spawned"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L61",
       "id": "tests_specialweapons_test_expired",
-      "community": 36,
+      "community": 45,
       "norm_label": "expired"
     },
     {
@@ -711,7 +711,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L79",
       "id": "tests_specialweapons_test_fired",
-      "community": 36,
+      "community": 45,
       "norm_label": "fired"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "tests/specialWeapons.test.mjs",
       "source_location": "L108",
       "id": "tests_specialweapons_test_farhero",
-      "community": 36,
+      "community": 45,
       "norm_label": "farhero()"
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "tests/mapArt.test.mjs",
       "source_location": "L1",
       "id": "tests_mapart_test_mjs",
-      "community": 74,
+      "community": 73,
       "norm_label": "mapart.test.mjs"
     },
     {
@@ -873,7 +873,7 @@
       "source_file": "tests/mapArt.test.mjs",
       "source_location": "L15",
       "id": "tests_mapart_test_cwd",
-      "community": 74,
+      "community": 73,
       "norm_label": "cwd"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_file": "tests/coreDefense.test.mjs",
       "source_location": "L142",
       "id": "tests_coredefense_test_farhero",
-      "community": 22,
+      "community": 45,
       "norm_label": "farhero()"
     },
     {
@@ -1242,7 +1242,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L1",
       "id": "tests_joystick_test_mjs",
-      "community": 70,
+      "community": 9,
       "norm_label": "joystick.test.mjs"
     },
     {
@@ -1251,7 +1251,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L12",
       "id": "tests_joystick_test_layout",
-      "community": 70,
+      "community": 9,
       "norm_label": "layout"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L25",
       "id": "tests_joystick_test_input",
-      "community": 70,
+      "community": 9,
       "norm_label": "input"
     },
     {
@@ -1269,7 +1269,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L71",
       "id": "tests_joystick_test_firelayout",
-      "community": 70,
+      "community": 9,
       "norm_label": "firelayout"
     },
     {
@@ -1278,7 +1278,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L77",
       "id": "tests_joystick_test_joysticktouch",
-      "community": 70,
+      "community": 9,
       "norm_label": "joysticktouch"
     },
     {
@@ -1287,7 +1287,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L81",
       "id": "tests_joystick_test_firetouch",
-      "community": 70,
+      "community": 9,
       "norm_label": "firetouch"
     },
     {
@@ -1296,7 +1296,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L92",
       "id": "tests_joystick_test_vector",
-      "community": 70,
+      "community": 9,
       "norm_label": "vector"
     },
     {
@@ -1696,6 +1696,87 @@
       "norm_label": "createactiveupgrade()"
     },
     {
+      "label": "baseSupabaseMigration.test.mjs",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L1",
+      "id": "tests_basesupabasemigration_test_mjs",
+      "community": 2,
+      "norm_label": "basesupabasemigration.test.mjs"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L18",
+      "id": "tests_basesupabasemigration_test_dirname",
+      "community": 2,
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "MIGRATION_PATH",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L19",
+      "id": "tests_basesupabasemigration_test_migration_path",
+      "community": 2,
+      "norm_label": "migration_path"
+    },
+    {
+      "label": "SQL",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L23",
+      "id": "tests_basesupabasemigration_test_sql",
+      "community": 2,
+      "norm_label": "sql"
+    },
+    {
+      "label": "EXECUTABLE_SQL",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L24",
+      "id": "tests_basesupabasemigration_test_executable_sql",
+      "community": 2,
+      "norm_label": "executable_sql"
+    },
+    {
+      "label": "createdTables",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L27",
+      "id": "tests_basesupabasemigration_test_createdtables",
+      "community": 2,
+      "norm_label": "createdtables"
+    },
+    {
+      "label": "block",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L40",
+      "id": "tests_basesupabasemigration_test_block",
+      "community": 2,
+      "norm_label": "block"
+    },
+    {
+      "label": "fullSql",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L61",
+      "id": "tests_basesupabasemigration_test_fullsql",
+      "community": 2,
+      "norm_label": "fullsql"
+    },
+    {
+      "label": "getCreateTableBlock()",
+      "file_type": "code",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L90",
+      "id": "tests_basesupabasemigration_test_getcreatetableblock",
+      "community": 2,
+      "norm_label": "getcreatetableblock()"
+    },
+    {
       "label": "doorEncounters.test.mjs",
       "file_type": "code",
       "source_file": "tests/doorEncounters.test.mjs",
@@ -1782,7 +1863,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L1",
       "id": "tests_basehomemodel_test_mjs",
-      "community": 4,
+      "community": 70,
       "norm_label": "basehomemodel.test.mjs"
     },
     {
@@ -1791,7 +1872,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L36",
       "id": "tests_basehomemodel_test_model",
-      "community": 4,
+      "community": 70,
       "norm_label": "model"
     },
     {
@@ -1800,7 +1881,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L144",
       "id": "tests_basehomemodel_test_leveloneslots",
-      "community": 4,
+      "community": 70,
       "norm_label": "leveloneslots"
     },
     {
@@ -1809,7 +1890,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L148",
       "id": "tests_basehomemodel_test_attacktower",
-      "community": 4,
+      "community": 70,
       "norm_label": "attacktower"
     },
     {
@@ -1818,7 +1899,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L149",
       "id": "tests_basehomemodel_test_wallgate",
-      "community": 4,
+      "community": 70,
       "norm_label": "wallgate"
     },
     {
@@ -1827,7 +1908,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L155",
       "id": "tests_basehomemodel_test_levelthreerows",
-      "community": 4,
+      "community": 70,
       "norm_label": "levelthreerows"
     },
     {
@@ -1836,7 +1917,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L156",
       "id": "tests_basehomemodel_test_levelthreeslots",
-      "community": 4,
+      "community": 70,
       "norm_label": "levelthreeslots"
     },
     {
@@ -1845,7 +1926,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L167",
       "id": "tests_basehomemodel_test_stalerows",
-      "community": 4,
+      "community": 70,
       "norm_label": "stalerows"
     },
     {
@@ -1854,7 +1935,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L183",
       "id": "tests_basehomemodel_test_slots",
-      "community": 4,
+      "community": 70,
       "norm_label": "slots"
     },
     {
@@ -1863,7 +1944,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L198",
       "id": "tests_basehomemodel_test_rows",
-      "community": 4,
+      "community": 70,
       "norm_label": "rows"
     },
     {
@@ -1872,7 +1953,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L299",
       "id": "tests_basehomemodel_test_palace",
-      "community": 4,
+      "community": 70,
       "norm_label": "palace"
     },
     {
@@ -1881,7 +1962,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L325",
       "id": "tests_basehomemodel_test_buildings",
-      "community": 4,
+      "community": 70,
       "norm_label": "buildings"
     },
     {
@@ -1890,7 +1971,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L329",
       "id": "tests_basehomemodel_test_badge",
-      "community": 4,
+      "community": 70,
       "norm_label": "badge"
     },
     {
@@ -1899,7 +1980,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L397",
       "id": "tests_basehomemodel_test_maxslots",
-      "community": 4,
+      "community": 70,
       "norm_label": "maxslots"
     },
     {
@@ -2160,7 +2241,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L1",
       "id": "tests_baseconfig_test_mjs",
-      "community": 69,
+      "community": 35,
       "norm_label": "baseconfig.test.mjs"
     },
     {
@@ -2169,7 +2250,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L109",
       "id": "tests_baseconfig_test_palace",
-      "community": 69,
+      "community": 35,
       "norm_label": "palace"
     },
     {
@@ -2178,7 +2259,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L110",
       "id": "tests_baseconfig_test_attacktower",
-      "community": 69,
+      "community": 35,
       "norm_label": "attacktower"
     },
     {
@@ -2187,7 +2268,7 @@
       "source_file": "tests/baseConfig.test.mjs",
       "source_location": "L111",
       "id": "tests_baseconfig_test_wallgate",
-      "community": 69,
+      "community": 35,
       "norm_label": "wallgate"
     },
     {
@@ -2493,7 +2574,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L1",
       "id": "tests_baseupgrademodalmodel_test_mjs",
-      "community": 46,
+      "community": 35,
       "norm_label": "baseupgrademodalmodel.test.mjs"
     },
     {
@@ -2502,7 +2583,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L26",
       "id": "tests_baseupgrademodalmodel_test_modal",
-      "community": 46,
+      "community": 35,
       "norm_label": "modal"
     },
     {
@@ -2511,7 +2592,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L133",
       "id": "tests_baseupgrademodalmodel_test_slots",
-      "community": 46,
+      "community": 35,
       "norm_label": "slots"
     },
     {
@@ -2520,7 +2601,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L195",
       "id": "tests_baseupgrademodalmodel_test_createslot",
-      "community": 46,
+      "community": 35,
       "norm_label": "createslot()"
     },
     {
@@ -2529,7 +2610,7 @@
       "source_file": "tests/visualReadability.test.mjs",
       "source_location": "L1",
       "id": "tests_visualreadability_test_mjs",
-      "community": 45,
+      "community": 67,
       "norm_label": "visualreadability.test.mjs"
     },
     {
@@ -2538,7 +2619,7 @@
       "source_file": "tests/visualReadability.test.mjs",
       "source_location": "L13",
       "id": "tests_visualreadability_test_accents",
-      "community": 45,
+      "community": 67,
       "norm_label": "accents"
     },
     {
@@ -4698,7 +4779,7 @@
       "source_file": "src/ui/base/BaseHomeScreen.js",
       "source_location": "L14",
       "id": "base_basehomescreen_basehomescreen",
-      "community": 4,
+      "community": 65,
       "norm_label": "basehomescreen()"
     },
     {
@@ -4788,7 +4869,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L4",
       "id": "game_constants_core_ids",
-      "community": 37,
+      "community": 16,
       "norm_label": "core_ids"
     },
     {
@@ -4815,7 +4896,7 @@
       "source_file": "src/game/visualReadability.js",
       "source_location": "L1",
       "id": "src_game_visualreadability_js",
-      "community": 45,
+      "community": 67,
       "norm_label": "visualreadability.js"
     },
     {
@@ -4824,7 +4905,7 @@
       "source_file": "src/game/visualReadability.js",
       "source_location": "L6",
       "id": "game_visualreadability_enemy_readability_accents",
-      "community": 45,
+      "community": 67,
       "norm_label": "enemy_readability_accents"
     },
     {
@@ -4833,7 +4914,7 @@
       "source_file": "src/game/visualReadability.js",
       "source_location": "L13",
       "id": "game_visualreadability_getenemyreadabilityaccent",
-      "community": 45,
+      "community": 67,
       "norm_label": "getenemyreadabilityaccent()"
     },
     {
@@ -4914,7 +4995,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L1",
       "id": "src_game_herocombat_js",
-      "community": 36,
+      "community": 77,
       "norm_label": "herocombat.js"
     },
     {
@@ -4932,7 +5013,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L22",
       "id": "game_herocombat_weapon_ids",
-      "community": 36,
+      "community": 45,
       "norm_label": "weapon_ids"
     },
     {
@@ -4941,7 +5022,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L39",
       "id": "game_herocombat_rifle",
-      "community": 36,
+      "community": 45,
       "norm_label": "rifle"
     },
     {
@@ -4950,7 +5031,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L52",
       "id": "game_herocombat_energy_burst_rifle",
-      "community": 36,
+      "community": 45,
       "norm_label": "energy_burst_rifle"
     },
     {
@@ -4959,7 +5040,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L64",
       "id": "game_herocombat_createherocombatstate",
-      "community": 36,
+      "community": 45,
       "norm_label": "createherocombatstate()"
     },
     {
@@ -4968,7 +5049,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L88",
       "id": "game_herocombat_tickherocombat",
-      "community": 36,
+      "community": 77,
       "norm_label": "tickherocombat()"
     },
     {
@@ -4977,7 +5058,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L118",
       "id": "game_herocombat_movehero",
-      "community": 36,
+      "community": 77,
       "norm_label": "movehero()"
     },
     {
@@ -4986,7 +5067,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L156",
       "id": "game_herocombat_tickrifletimers",
-      "community": 36,
+      "community": 77,
       "norm_label": "tickrifletimers()"
     },
     {
@@ -4995,7 +5076,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L197",
       "id": "game_herocombat_firerifleburst",
-      "community": 36,
+      "community": 77,
       "norm_label": "firerifleburst()"
     },
     {
@@ -5004,7 +5085,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L271",
       "id": "game_herocombat_fireenergyburst",
-      "community": 36,
+      "community": 77,
       "norm_label": "fireenergyburst()"
     },
     {
@@ -5013,7 +5094,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L323",
       "id": "game_herocombat_startreload",
-      "community": 36,
+      "community": 77,
       "norm_label": "startreload()"
     },
     {
@@ -5031,7 +5112,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L368",
       "id": "game_herocombat_tickrespawn",
-      "community": 36,
+      "community": 77,
       "norm_label": "tickrespawn()"
     },
     {
@@ -5040,7 +5121,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L388",
       "id": "game_herocombat_respawnhero",
-      "community": 36,
+      "community": 77,
       "norm_label": "respawnhero()"
     },
     {
@@ -5049,7 +5130,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L406",
       "id": "game_herocombat_equipenergyburstrifle",
-      "community": 36,
+      "community": 45,
       "norm_label": "equipenergyburstrifle()"
     },
     {
@@ -5058,7 +5139,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L421",
       "id": "game_herocombat_getactiveweaponconfig",
-      "community": 36,
+      "community": 77,
       "norm_label": "getactiveweaponconfig()"
     },
     {
@@ -5067,7 +5148,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L427",
       "id": "game_herocombat_returntodefaultrifle",
-      "community": 36,
+      "community": 77,
       "norm_label": "returntodefaultrifle()"
     },
     {
@@ -5076,7 +5157,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L435",
       "id": "game_herocombat_getfireintervalseconds",
-      "community": 36,
+      "community": 77,
       "norm_label": "getfireintervalseconds()"
     },
     {
@@ -5094,7 +5175,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L445",
       "id": "game_herocombat_normalizevector",
-      "community": 36,
+      "community": 77,
       "norm_label": "normalizevector()"
     },
     {
@@ -5103,7 +5184,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L457",
       "id": "game_herocombat_getrifleshotdirection",
-      "community": 36,
+      "community": 77,
       "norm_label": "getrifleshotdirection()"
     },
     {
@@ -5112,7 +5193,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L466",
       "id": "game_herocombat_clamp",
-      "community": 36,
+      "community": 77,
       "norm_label": "clamp()"
     },
     {
@@ -5121,7 +5202,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L470",
       "id": "game_herocombat_aimhero",
-      "community": 36,
+      "community": 77,
       "norm_label": "aimhero()"
     },
     {
@@ -5130,7 +5211,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L486",
       "id": "game_herocombat_getriflemuzzleposition",
-      "community": 36,
+      "community": 77,
       "norm_label": "getriflemuzzleposition()"
     },
     {
@@ -5139,7 +5220,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L493",
       "id": "game_herocombat_resolvewalkablemove",
-      "community": 36,
+      "community": 77,
       "norm_label": "resolvewalkablemove()"
     },
     {
@@ -5157,7 +5238,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L539",
       "id": "game_herocombat_aresameposition",
-      "community": 36,
+      "community": 77,
       "norm_label": "aresameposition()"
     },
     {
@@ -5436,7 +5517,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L387",
       "id": "game_maplayout_iswalkablebody",
-      "community": 77,
+      "community": 18,
       "norm_label": "iswalkablebody()"
     },
     {
@@ -5445,7 +5526,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L391",
       "id": "game_maplayout_getbodysamplepoints",
-      "community": 77,
+      "community": 18,
       "norm_label": "getbodysamplepoints()"
     },
     {
@@ -5517,7 +5598,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L1",
       "id": "src_game_mapart_js",
-      "community": 74,
+      "community": 73,
       "norm_label": "mapart.js"
     },
     {
@@ -5526,7 +5607,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L10",
       "id": "game_mapart_map_asset_library",
-      "community": 74,
+      "community": 73,
       "norm_label": "map_asset_library"
     },
     {
@@ -5535,7 +5616,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L169",
       "id": "game_mapart_map_art_walls",
-      "community": 74,
+      "community": 73,
       "norm_label": "map_art_walls"
     },
     {
@@ -5544,7 +5625,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L245",
       "id": "game_mapart_map_tree_clusters",
-      "community": 74,
+      "community": 73,
       "norm_label": "map_tree_clusters"
     },
     {
@@ -5553,7 +5634,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L272",
       "id": "game_mapart_map_prop_placements",
-      "community": 74,
+      "community": 73,
       "norm_label": "map_prop_placements"
     },
     {
@@ -5562,7 +5643,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L308",
       "id": "game_mapart_map_character_staging",
-      "community": 74,
+      "community": 73,
       "norm_label": "map_character_staging"
     },
     {
@@ -5571,7 +5652,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L314",
       "id": "game_mapart_getreferencedassetpaths",
-      "community": 74,
+      "community": 73,
       "norm_label": "getreferencedassetpaths()"
     },
     {
@@ -5580,7 +5661,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L318",
       "id": "game_mapart_findassetreference",
-      "community": 74,
+      "community": 73,
       "norm_label": "findassetreference()"
     },
     {
@@ -5589,7 +5670,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L329",
       "id": "game_mapart_getflatassetrefs",
-      "community": 74,
+      "community": 73,
       "norm_label": "getflatassetrefs()"
     },
     {
@@ -5598,7 +5679,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L347",
       "id": "game_mapart_assetref",
-      "community": 74,
+      "community": 73,
       "norm_label": "assetref()"
     },
     {
@@ -5607,7 +5688,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L351",
       "id": "game_mapart_artwall",
-      "community": 74,
+      "community": 73,
       "norm_label": "artwall()"
     },
     {
@@ -5616,7 +5697,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L362",
       "id": "game_mapart_treecluster",
-      "community": 74,
+      "community": 73,
       "norm_label": "treecluster()"
     },
     {
@@ -5625,7 +5706,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L372",
       "id": "game_mapart_prop",
-      "community": 74,
+      "community": 73,
       "norm_label": "prop()"
     },
     {
@@ -5634,7 +5715,7 @@
       "source_file": "src/game/mapArt.js",
       "source_location": "L383",
       "id": "game_mapart_characterstage",
-      "community": 74,
+      "community": 73,
       "norm_label": "characterstage()"
     },
     {
@@ -5652,7 +5733,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L18",
       "id": "game_enemybehavior_enemy_types",
-      "community": 45,
+      "community": 67,
       "norm_label": "enemy_types"
     },
     {
@@ -5679,7 +5760,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L50",
       "id": "game_enemybehavior_enemy_stats",
-      "community": 67,
+      "community": 36,
       "norm_label": "enemy_stats"
     },
     {
@@ -5688,7 +5769,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L105",
       "id": "game_enemybehavior_createenemy",
-      "community": 82,
+      "community": 19,
       "norm_label": "createenemy()"
     },
     {
@@ -5697,7 +5778,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L136",
       "id": "game_enemybehavior_createdoorenemyspawns",
-      "community": 82,
+      "community": 19,
       "norm_label": "createdoorenemyspawns()"
     },
     {
@@ -5706,7 +5787,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L174",
       "id": "game_enemybehavior_getdoorenemytypes",
-      "community": 82,
+      "community": 19,
       "norm_label": "getdoorenemytypes()"
     },
     {
@@ -5724,7 +5805,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L250",
       "id": "game_enemybehavior_getenemystats",
-      "community": 18,
+      "community": 1,
       "norm_label": "getenemystats()"
     },
     {
@@ -5859,7 +5940,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L605",
       "id": "game_enemybehavior_resolvewalkablemove",
-      "community": 77,
+      "community": 18,
       "norm_label": "resolvewalkablemove()"
     },
     {
@@ -5913,7 +5994,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L795",
       "id": "game_enemybehavior_haswalkablelinebetween",
-      "community": 77,
+      "community": 18,
       "norm_label": "haswalkablelinebetween()"
     },
     {
@@ -5922,7 +6003,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L813",
       "id": "game_enemybehavior_findenemypath",
-      "community": 78,
+      "community": 18,
       "norm_label": "findenemypath()"
     },
     {
@@ -5931,7 +6012,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L853",
       "id": "game_enemybehavior_getenemypathgrid",
-      "community": 78,
+      "community": 18,
       "norm_label": "getenemypathgrid()"
     },
     {
@@ -5940,7 +6021,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L882",
       "id": "game_enemybehavior_findnearestpathcell",
-      "community": 78,
+      "community": 18,
       "norm_label": "findnearestpathcell()"
     },
     {
@@ -5949,7 +6030,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L905",
       "id": "game_enemybehavior_getpathneighbors",
-      "community": 78,
+      "community": 18,
       "norm_label": "getpathneighbors()"
     },
     {
@@ -5958,7 +6039,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L926",
       "id": "game_enemybehavior_ispathcellwalkable",
-      "community": 78,
+      "community": 18,
       "norm_label": "ispathcellwalkable()"
     },
     {
@@ -5967,7 +6048,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L936",
       "id": "game_enemybehavior_reconstructpathcells",
-      "community": 78,
+      "community": 18,
       "norm_label": "reconstructpathcells()"
     },
     {
@@ -5976,7 +6057,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L948",
       "id": "game_enemybehavior_compresspathcells",
-      "community": 78,
+      "community": 18,
       "norm_label": "compresspathcells()"
     },
     {
@@ -5985,7 +6066,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L981",
       "id": "game_enemybehavior_getpathcellkey",
-      "community": 78,
+      "community": 18,
       "norm_label": "getpathcellkey()"
     },
     {
@@ -5994,7 +6075,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L985",
       "id": "game_enemybehavior_getpathcellpoint",
-      "community": 78,
+      "community": 18,
       "norm_label": "getpathcellpoint()"
     },
     {
@@ -6003,7 +6084,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L992",
       "id": "game_enemybehavior_findnearestwalkablespawn",
-      "community": 82,
+      "community": 18,
       "norm_label": "findnearestwalkablespawn()"
     },
     {
@@ -6012,7 +6093,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1007",
       "id": "game_enemybehavior_getdoorspawnspread",
-      "community": 82,
+      "community": 19,
       "norm_label": "getdoorspawnspread()"
     },
     {
@@ -6021,7 +6102,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1015",
       "id": "game_enemybehavior_getinitialpathreplandelay",
-      "community": 82,
+      "community": 19,
       "norm_label": "getinitialpathreplandelay()"
     },
     {
@@ -6030,7 +6111,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1028",
       "id": "game_enemybehavior_addvectors",
-      "community": 82,
+      "community": 18,
       "norm_label": "addvectors()"
     },
     {
@@ -6039,7 +6120,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1035",
       "id": "game_enemybehavior_scalevector",
-      "community": 82,
+      "community": 18,
       "norm_label": "scalevector()"
     },
     {
@@ -6057,7 +6138,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1046",
       "id": "game_enemybehavior_normalizeroutepoints",
-      "community": 82,
+      "community": 19,
       "norm_label": "normalizeroutepoints()"
     },
     {
@@ -6066,7 +6147,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L1",
       "id": "src_game_specialweapons_js",
-      "community": 36,
+      "community": 45,
       "norm_label": "specialweapons.js"
     },
     {
@@ -6075,7 +6156,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L15",
       "id": "game_specialweapons_energy_burst_drop_times_seconds",
-      "community": 36,
+      "community": 45,
       "norm_label": "energy_burst_drop_times_seconds"
     },
     {
@@ -6084,7 +6165,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L17",
       "id": "game_specialweapons_special_weapon_drop_points",
-      "community": 36,
+      "community": 45,
       "norm_label": "special_weapon_drop_points"
     },
     {
@@ -6093,7 +6174,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L28",
       "id": "game_specialweapons_createspecialweapondropstate",
-      "community": 36,
+      "community": 45,
       "norm_label": "createspecialweapondropstate()"
     },
     {
@@ -6102,7 +6183,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L36",
       "id": "game_specialweapons_tickspecialweapondrops",
-      "community": 36,
+      "community": 45,
       "norm_label": "tickspecialweapondrops()"
     },
     {
@@ -6111,7 +6192,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L58",
       "id": "game_specialweapons_spawnduepickups",
-      "community": 36,
+      "community": 45,
       "norm_label": "spawnduepickups()"
     },
     {
@@ -6120,7 +6201,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L95",
       "id": "game_specialweapons_decaypickups",
-      "community": 36,
+      "community": 45,
       "norm_label": "decaypickups()"
     },
     {
@@ -6129,7 +6210,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L125",
       "id": "game_specialweapons_collectnearbypickup",
-      "community": 36,
+      "community": 45,
       "norm_label": "collectnearbypickup()"
     },
     {
@@ -6138,7 +6219,7 @@
       "source_file": "src/game/specialWeapons.js",
       "source_location": "L155",
       "id": "game_specialweapons_arespecialweapondroppointswalkable",
-      "community": 36,
+      "community": 45,
       "norm_label": "arespecialweapondroppointswalkable()"
     },
     {
@@ -6327,7 +6408,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L425",
       "id": "game_wallsystem_ispointblockedbywalls",
-      "community": 77,
+      "community": 18,
       "norm_label": "ispointblockedbywalls()"
     },
     {
@@ -6561,7 +6642,7 @@
       "source_file": "src/game/hearts.js",
       "source_location": "L1",
       "id": "game_hearts_heart_reward_modes",
-      "community": 21,
+      "community": 37,
       "norm_label": "heart_reward_modes"
     },
     {
@@ -7110,7 +7191,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L1",
       "id": "src_game_joystick_js",
-      "community": 70,
+      "community": 9,
       "norm_label": "joystick.js"
     },
     {
@@ -7119,7 +7200,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L4",
       "id": "game_joystick_getjoystickradius",
-      "community": 70,
+      "community": 9,
       "norm_label": "getjoystickradius()"
     },
     {
@@ -7128,7 +7209,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L13",
       "id": "game_joystick_calculatejoystickinput",
-      "community": 70,
+      "community": 9,
       "norm_label": "calculatejoystickinput()"
     },
     {
@@ -7137,7 +7218,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L50",
       "id": "game_joystick_ispointinsidejoystickcontrol",
-      "community": 70,
+      "community": 9,
       "norm_label": "ispointinsidejoystickcontrol()"
     },
     {
@@ -7146,7 +7227,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L65",
       "id": "game_joystick_ispointinsidecirclecontrol",
-      "community": 70,
+      "community": 9,
       "norm_label": "ispointinsidecirclecontrol()"
     },
     {
@@ -7155,7 +7236,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L80",
       "id": "game_joystick_smoothjoystickvector",
-      "community": 70,
+      "community": 9,
       "norm_label": "smoothjoystickvector()"
     },
     {
@@ -7164,7 +7245,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L92",
       "id": "game_joystick_createneutralinput",
-      "community": 70,
+      "community": 9,
       "norm_label": "createneutralinput()"
     },
     {
@@ -7173,7 +7254,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L100",
       "id": "game_joystick_clamp",
-      "community": 70,
+      "community": 9,
       "norm_label": "clamp()"
     },
     {
@@ -7605,7 +7686,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L35",
       "id": "three_mapbuilder_mats",
-      "community": 79,
+      "community": 73,
       "norm_label": "mats()"
     },
     {
@@ -7614,7 +7695,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L66",
       "id": "three_mapbuilder_buildmap",
-      "community": 79,
+      "community": 73,
       "norm_label": "buildmap()"
     },
     {
@@ -7677,7 +7758,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L211",
       "id": "three_mapbuilder_addfloorpanellines",
-      "community": 79,
+      "community": 73,
       "norm_label": "addfloorpanellines()"
     },
     {
@@ -7686,7 +7767,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L230",
       "id": "three_mapbuilder_addruntimebasesurfaceoverlays",
-      "community": 79,
+      "community": 73,
       "norm_label": "addruntimebasesurfaceoverlays()"
     },
     {
@@ -7695,7 +7776,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L261",
       "id": "three_mapbuilder_addruntimeasset",
-      "community": 79,
+      "community": 73,
       "norm_label": "addruntimeasset()"
     },
     {
@@ -7704,7 +7785,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L277",
       "id": "three_mapbuilder_addartwall",
-      "community": 79,
+      "community": 73,
       "norm_label": "addartwall()"
     },
     {
@@ -7821,7 +7902,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L491",
       "id": "three_mapbuilder_addcharacterstage",
-      "community": 79,
+      "community": 73,
       "norm_label": "addcharacterstage()"
     },
     {
@@ -7830,7 +7911,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L512",
       "id": "three_mapbuilder_adddoor",
-      "community": 79,
+      "community": 73,
       "norm_label": "adddoor()"
     },
     {
@@ -7839,7 +7920,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L532",
       "id": "three_mapbuilder_addruntimedoorasset",
-      "community": 79,
+      "community": 73,
       "norm_label": "addruntimedoorasset()"
     },
     {
@@ -7848,7 +7929,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L548",
       "id": "three_mapbuilder_addrect",
-      "community": 79,
+      "community": 73,
       "norm_label": "addrect()"
     },
     {
@@ -7857,7 +7938,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L555",
       "id": "three_mapbuilder_addellipse",
-      "community": 79,
+      "community": 73,
       "norm_label": "addellipse()"
     },
     {
@@ -7866,7 +7947,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L563",
       "id": "three_mapbuilder_addsoftdiamond",
-      "community": 79,
+      "community": 73,
       "norm_label": "addsoftdiamond()"
     },
     {
@@ -7875,7 +7956,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L584",
       "id": "three_mapbuilder_setpos",
-      "community": 79,
+      "community": 73,
       "norm_label": "setpos()"
     },
     {
@@ -7902,7 +7983,7 @@
       "source_file": "src/three/MapBuilder.js",
       "source_location": "L608",
       "id": "three_mapbuilder_tl",
-      "community": 79,
+      "community": 73,
       "norm_label": "tl()"
     },
     {
@@ -7920,7 +8001,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L1",
       "id": "src_three_assetmodelloader_js",
-      "community": 76,
+      "community": 73,
       "norm_label": "assetmodelloader.js"
     },
     {
@@ -7929,7 +8010,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L7",
       "id": "three_assetmodelloader_modelcache",
-      "community": 76,
+      "community": 73,
       "norm_label": "modelcache"
     },
     {
@@ -7938,7 +8019,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L10",
       "id": "three_assetmodelloader_attachruntimemapassets",
-      "community": 76,
+      "community": 73,
       "norm_label": "attachruntimemapassets()"
     },
     {
@@ -7947,7 +8028,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L50",
       "id": "three_assetmodelloader_attachsingleasset",
-      "community": 76,
+      "community": 73,
       "norm_label": "attachsingleasset()"
     },
     {
@@ -7956,7 +8037,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L63",
       "id": "three_assetmodelloader_attachtreeclusterassets",
-      "community": 76,
+      "community": 73,
       "norm_label": "attachtreeclusterassets()"
     },
     {
@@ -7965,7 +8046,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L82",
       "id": "three_assetmodelloader_loadmodeltemplate",
-      "community": 76,
+      "community": 73,
       "norm_label": "loadmodeltemplate()"
     },
     {
@@ -7974,7 +8055,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L89",
       "id": "three_assetmodelloader_loadmodel",
-      "community": 76,
+      "community": 73,
       "norm_label": "loadmodel()"
     },
     {
@@ -7983,7 +8064,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L125",
       "id": "three_assetmodelloader_gettextureurimap",
-      "community": 76,
+      "community": 73,
       "norm_label": "gettextureurimap()"
     },
     {
@@ -7992,7 +8073,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L138",
       "id": "three_assetmodelloader_createmodelloadingmanager",
-      "community": 76,
+      "community": 73,
       "norm_label": "createmodelloadingmanager()"
     },
     {
@@ -8001,7 +8082,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L150",
       "id": "three_assetmodelloader_createplaceholdertextureloader",
-      "community": 76,
+      "community": 73,
       "norm_label": "createplaceholdertextureloader()"
     },
     {
@@ -8010,7 +8091,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L168",
       "id": "three_assetmodelloader_createsolidtexture",
-      "community": 76,
+      "community": 73,
       "norm_label": "createsolidtexture()"
     },
     {
@@ -8019,7 +8100,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L175",
       "id": "three_assetmodelloader_createruntimematerial",
-      "community": 76,
+      "community": 73,
       "norm_label": "createruntimematerial()"
     },
     {
@@ -8028,7 +8109,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L202",
       "id": "three_assetmodelloader_normalizeassetpath",
-      "community": 76,
+      "community": 73,
       "norm_label": "normalizeassetpath()"
     },
     {
@@ -8037,7 +8118,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L210",
       "id": "three_assetmodelloader_createfittedmodel",
-      "community": 76,
+      "community": 73,
       "norm_label": "createfittedmodel()"
     },
     {
@@ -8046,7 +8127,7 @@
       "source_file": "src/three/AssetModelLoader.js",
       "source_location": "L246",
       "id": "three_assetmodelloader_defaulttargetfor",
-      "community": 76,
+      "community": 73,
       "norm_label": "defaulttargetfor()"
     },
     {
@@ -8118,7 +8199,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L1",
       "id": "src_base_baseupgrademodalmodel_js",
-      "community": 46,
+      "community": 69,
       "norm_label": "baseupgrademodalmodel.js"
     },
     {
@@ -8127,7 +8208,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L20",
       "id": "base_baseupgrademodalmodel_base_upgrade_challenge_requirement",
-      "community": 46,
+      "community": 35,
       "norm_label": "base_upgrade_challenge_requirement"
     },
     {
@@ -8136,7 +8217,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L25",
       "id": "base_baseupgrademodalmodel_createbuildingupgrademodalviewmodel",
-      "community": 46,
+      "community": 69,
       "norm_label": "createbuildingupgrademodalviewmodel()"
     },
     {
@@ -8145,7 +8226,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L131",
       "id": "base_baseupgrademodalmodel_createbuildingupgrademodalfromslots",
-      "community": 46,
+      "community": 69,
       "norm_label": "createbuildingupgrademodalfromslots()"
     },
     {
@@ -8154,7 +8235,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L150",
       "id": "base_baseupgrademodalmodel_formatbasedurationminutes",
-      "community": 46,
+      "community": 69,
       "norm_label": "formatbasedurationminutes()"
     },
     {
@@ -8163,7 +8244,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L177",
       "id": "base_baseupgrademodalmodel_createlevelsummary",
-      "community": 46,
+      "community": 69,
       "norm_label": "createlevelsummary()"
     },
     {
@@ -8172,7 +8253,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L185",
       "id": "base_baseupgrademodalmodel_createtimersummary",
-      "community": 46,
+      "community": 69,
       "norm_label": "createtimersummary()"
     },
     {
@@ -8181,7 +8262,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L194",
       "id": "base_baseupgrademodalmodel_normalizewholenumber",
-      "community": 46,
+      "community": 69,
       "norm_label": "normalizewholenumber()"
     },
     {
@@ -8451,7 +8532,7 @@
       "source_file": "src/base/baseUnlocks.js",
       "source_location": "L32",
       "id": "base_baseunlocks_getbuildingunlockrequirement",
-      "community": 35,
+      "community": 65,
       "norm_label": "getbuildingunlockrequirement()"
     },
     {
@@ -8568,7 +8649,7 @@
       "source_file": "src/base/baseSkillChallenges.js",
       "source_location": "L207",
       "id": "base_baseskillchallenges_createskillchallengeviewmodel",
-      "community": 46,
+      "community": 69,
       "norm_label": "createskillchallengeviewmodel()"
     },
     {
@@ -8793,7 +8874,7 @@
       "source_file": "src/base/baseBackend.js",
       "source_location": "L87",
       "id": "base_basebackend_createdefaultgamestate",
-      "community": 2,
+      "community": 31,
       "norm_label": "createdefaultgamestate()"
     },
     {
@@ -9009,7 +9090,7 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L75",
       "id": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "community": 46,
+      "community": 69,
       "norm_label": "createproconversionviewmodel()"
     },
     {
@@ -9018,7 +9099,7 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L117",
       "id": "base_basesubscriptionconversion_createmainproscreenviewmodel",
-      "community": 46,
+      "community": 69,
       "norm_label": "createmainproscreenviewmodel()"
     },
     {
@@ -9081,7 +9162,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L1",
       "id": "src_base_basehomemodel_js",
-      "community": 4,
+      "community": 69,
       "norm_label": "basehomemodel.js"
     },
     {
@@ -9090,7 +9171,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L50",
       "id": "base_basehomemodel_base_home_slot_layout",
-      "community": 4,
+      "community": 70,
       "norm_label": "base_home_slot_layout"
     },
     {
@@ -9099,7 +9180,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L60",
       "id": "base_basehomemodel_createbasehomeviewmodel",
-      "community": 4,
+      "community": 69,
       "norm_label": "createbasehomeviewmodel()"
     },
     {
@@ -9108,7 +9189,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L150",
       "id": "base_basehomemodel_createbasehomeslots",
-      "community": 4,
+      "community": 69,
       "norm_label": "createbasehomeslots()"
     },
     {
@@ -9117,7 +9198,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L220",
       "id": "base_basehomemodel_createslottapresult",
-      "community": 46,
+      "community": 69,
       "norm_label": "createslottapresult()"
     },
     {
@@ -9126,7 +9207,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L281",
       "id": "base_basehomemodel_getmatchingactiveupgrade",
-      "community": 66,
+      "community": 69,
       "norm_label": "getmatchingactiveupgrade()"
     },
     {
@@ -9135,7 +9216,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L290",
       "id": "base_basehomemodel_createskillbadgeviewmodel",
-      "community": 4,
+      "community": 69,
       "norm_label": "createskillbadgeviewmodel()"
     },
     {
@@ -9144,7 +9225,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L332",
       "id": "base_basehomemodel_getskilltierkey",
-      "community": 4,
+      "community": 69,
       "norm_label": "getskilltierkey()"
     },
     {
@@ -9153,7 +9234,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L366",
       "id": "base_basehomemodel_getkingdomprogress",
-      "community": 4,
+      "community": 69,
       "norm_label": "getkingdomprogress()"
     },
     {
@@ -9162,7 +9243,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L376",
       "id": "base_basehomemodel_normalizewholenumber",
-      "community": 4,
+      "community": 69,
       "norm_label": "normalizewholenumber()"
     },
     {
@@ -9171,7 +9252,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L380",
       "id": "base_basehomemodel_clampwholenumber",
-      "community": 4,
+      "community": 69,
       "norm_label": "clampwholenumber()"
     },
     {
@@ -9351,7 +9432,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L1",
       "id": "src_base_baseconfig_js",
-      "community": 69,
+      "community": 35,
       "norm_label": "baseconfig.js"
     },
     {
@@ -9360,7 +9441,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L1",
       "id": "base_baseconfig_learning_tracks",
-      "community": 69,
+      "community": 35,
       "norm_label": "learning_tracks"
     },
     {
@@ -9369,7 +9450,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L6",
       "id": "base_baseconfig_base_learning_track_definitions",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_learning_track_definitions"
     },
     {
@@ -9378,7 +9459,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L21",
       "id": "base_baseconfig_base_skill_challenge_rules",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_skill_challenge_rules"
     },
     {
@@ -9387,7 +9468,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L28",
       "id": "base_baseconfig_base_building_ids",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_building_ids"
     },
     {
@@ -9396,7 +9477,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L38",
       "id": "base_baseconfig_base_slot_ids",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_slot_ids"
     },
     {
@@ -9405,7 +9486,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L48",
       "id": "base_baseconfig_building_states",
-      "community": 65,
+      "community": 35,
       "norm_label": "building_states"
     },
     {
@@ -9414,7 +9495,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L57",
       "id": "base_baseconfig_base_economy_config",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_economy_config"
     },
     {
@@ -9423,7 +9504,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L85",
       "id": "base_baseconfig_base_building_definitions",
-      "community": 69,
+      "community": 35,
       "norm_label": "base_building_definitions"
     },
     {
@@ -9441,7 +9522,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L141",
       "id": "base_baseconfig_getlearningtrackdefinition",
-      "community": 69,
+      "community": 35,
       "norm_label": "getlearningtrackdefinition()"
     },
     {
@@ -9450,7 +9531,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L146",
       "id": "base_baseconfig_issupportedlearningtrack",
-      "community": 69,
+      "community": 35,
       "norm_label": "issupportedlearningtrack()"
     },
     {
@@ -9459,7 +9540,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L150",
       "id": "base_baseconfig_normalizelearningtrack",
-      "community": 69,
+      "community": 35,
       "norm_label": "normalizelearningtrack()"
     },
     {
@@ -9468,7 +9549,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L156",
       "id": "base_baseconfig_assertsupportedlearningtrack",
-      "community": 69,
+      "community": 4,
       "norm_label": "assertsupportedlearningtrack()"
     },
     {
@@ -9522,7 +9603,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L196",
       "id": "base_baseconfig_getnextbuildinglevel",
-      "community": 46,
+      "community": 69,
       "norm_label": "getnextbuildinglevel()"
     },
     {
@@ -9531,7 +9612,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L213",
       "id": "base_baseconfig_isbuildingunlocked",
-      "community": 69,
+      "community": 35,
       "norm_label": "isbuildingunlocked()"
     },
     {
@@ -9657,7 +9738,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L399",
       "id": "base_baselocalization_normalizebaselanguage",
-      "community": 46,
+      "community": 69,
       "norm_label": "normalizebaselanguage()"
     },
     {
@@ -9666,7 +9747,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L405",
       "id": "base_baselocalization_getbasecopy",
-      "community": 46,
+      "community": 69,
       "norm_label": "getbasecopy()"
     },
     {
@@ -9684,7 +9765,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L420",
       "id": "base_baselocalization_interpolatecopy",
-      "community": 46,
+      "community": 4,
       "norm_label": "interpolatecopy()"
     },
     {
@@ -14067,7 +14148,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L48",
       "id": "base_basehomemodel_base_home_total_visual_states",
-      "community": 4,
+      "community": 70,
       "norm_label": "base_home_total_visual_states"
     },
     {
@@ -14075,7 +14156,7 @@
       "file_type": "code",
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L211",
-      "community": 4,
+      "community": 69,
       "norm_label": "getbuildinglevel()",
       "id": "base_basehomemodel_getbuildinglevel"
     },
@@ -14084,7 +14165,7 @@
       "file_type": "code",
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L222",
-      "community": 4,
+      "community": 69,
       "norm_label": "normalizebuildingstate()",
       "id": "base_basehomemodel_normalizebuildingstate"
     }
@@ -18686,6 +18767,174 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "src_base_basebackend_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "base_basebackend_base_backend_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "base_basebackend_base_backend_tables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "base_basebackend_getforbiddenbackendfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "src_base_baseconfig_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "base_baseconfig_base_building_ids",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "base_baseconfig_building_states",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "base_baseconfig_learning_tracks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_dirname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_migration_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_executable_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_createdtables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_fullsql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseSupabaseMigration.test.mjs",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "tests_basesupabasemigration_test_mjs",
+      "target": "tests_basesupabasemigration_test_getcreatetableblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "tests/doorEncounters.test.mjs",
       "source_location": "L6",
       "weight": 1.0,
@@ -19306,9 +19555,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_basebackend_js",
-      "confidence_score": 1.0
+      "target": "src_base_basebackend_js"
     },
     {
       "relation": "imports",
@@ -19317,9 +19566,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_basebackend_createdefaultgamestate",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createdefaultgamestate"
     },
     {
       "relation": "imports",
@@ -19328,9 +19577,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_basebackend_createdefaultprofile",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createdefaultprofile"
     },
     {
       "relation": "imports",
@@ -19339,9 +19588,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_basebackend_createinitialuserbuildings",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createinitialuserbuildings"
     },
     {
       "relation": "imports_from",
@@ -19350,9 +19599,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_baseconfig_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseconfig_js"
     },
     {
       "relation": "imports",
@@ -19361,9 +19610,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseconfig_base_building_ids",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_base_building_ids"
     },
     {
       "relation": "imports",
@@ -19372,9 +19621,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseconfig_building_states",
-      "confidence_score": 1.0
+      "target": "base_baseconfig_building_states"
     },
     {
       "relation": "imports_from",
@@ -19383,9 +19632,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_baserewardbridge_js",
-      "confidence_score": 1.0
+      "target": "src_base_baserewardbridge_js"
     },
     {
       "relation": "imports",
@@ -19394,9 +19643,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baserewardbridge_claimbattleresultreward",
-      "confidence_score": 1.0
+      "target": "base_baserewardbridge_claimbattleresultreward"
     },
     {
       "relation": "imports_from",
@@ -19405,9 +19654,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_baseskillchallenges_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseskillchallenges_js"
     },
     {
       "relation": "imports",
@@ -19416,9 +19665,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseskillchallenges_createskillchallengeupgradegate",
-      "confidence_score": 1.0
+      "target": "base_baseskillchallenges_createskillchallengeupgradegate"
     },
     {
       "relation": "imports_from",
@@ -19427,9 +19676,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_basehomemodel_js",
-      "confidence_score": 1.0
+      "target": "src_base_basehomemodel_js"
     },
     {
       "relation": "imports",
@@ -19438,9 +19687,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_basehomemodel_createbasehomeslots",
-      "confidence_score": 1.0
+      "target": "base_basehomemodel_createbasehomeslots"
     },
     {
       "relation": "imports_from",
@@ -19449,9 +19698,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_baseupgradetimers_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseupgradetimers_js"
     },
     {
       "relation": "imports",
@@ -19460,9 +19709,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseupgradetimers_base_upgrade_timer_reasons",
-      "confidence_score": 1.0
+      "target": "base_baseupgradetimers_base_upgrade_timer_reasons"
     },
     {
       "relation": "imports",
@@ -19471,9 +19720,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseupgradetimers_completeupgradetimer",
-      "confidence_score": 1.0
+      "target": "base_baseupgradetimers_completeupgradetimer"
     },
     {
       "relation": "imports",
@@ -19482,9 +19731,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseupgradetimers_createupgradetimerstatus",
-      "confidence_score": 1.0
+      "target": "base_baseupgradetimers_createupgradetimerstatus"
     },
     {
       "relation": "imports",
@@ -19493,9 +19742,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseupgradetimers_startbuildingupgradechallenge",
-      "confidence_score": 1.0
+      "target": "base_baseupgradetimers_startbuildingupgradechallenge"
     },
     {
       "relation": "imports",
@@ -19504,9 +19753,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseupgradetimers_startupgradetimerafterskillchallenge",
-      "confidence_score": 1.0
+      "target": "base_baseupgradetimers_startupgradetimerafterskillchallenge"
     },
     {
       "relation": "imports_from",
@@ -19515,9 +19764,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_base_baseunlocks_js",
-      "confidence_score": 1.0
+      "target": "src_base_baseunlocks_js"
     },
     {
       "relation": "imports",
@@ -19526,9 +19775,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "base_baseunlocks_base_building_tap_actions",
-      "confidence_score": 1.0
+      "target": "base_baseunlocks_base_building_tap_actions"
     },
     {
       "relation": "imports_from",
@@ -19537,9 +19786,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "src_game_hearts_js",
-      "confidence_score": 1.0
+      "target": "src_game_hearts_js"
     },
     {
       "relation": "imports",
@@ -19548,9 +19797,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "game_hearts_heart_reward_modes",
-      "confidence_score": 1.0
+      "target": "game_hearts_heart_reward_modes"
     },
     {
       "relation": "imports",
@@ -19559,9 +19808,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "game_hearts_createheartstate",
-      "confidence_score": 1.0
+      "target": "game_hearts_createheartstate"
     },
     {
       "relation": "imports",
@@ -19570,9 +19819,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "game_hearts_consumeheartforquickround",
-      "confidence_score": 1.0
+      "target": "game_hearts_consumeheartforquickround"
     },
     {
       "relation": "imports",
@@ -19581,9 +19830,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "game_hearts_tickhearts",
-      "confidence_score": 1.0
+      "target": "game_hearts_tickhearts"
     },
     {
       "relation": "contains",
@@ -19591,9 +19840,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_battleresult",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_battleresult"
     },
     {
       "relation": "contains",
@@ -19601,9 +19850,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_firstclaim",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_firstclaim"
     },
     {
       "relation": "contains",
@@ -19611,9 +19860,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_duplicate",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_duplicate"
     },
     {
       "relation": "contains",
@@ -19621,9 +19870,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_freestate",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_freestate"
     },
     {
       "relation": "contains",
@@ -19631,9 +19880,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_prostate",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_prostate"
     },
     {
       "relation": "contains",
@@ -19641,9 +19890,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_firstproround",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_firstproround"
     },
     {
       "relation": "contains",
@@ -19651,9 +19900,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_secondproround",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_secondproround"
     },
     {
       "relation": "contains",
@@ -19661,9 +19910,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_leveloneslots",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_leveloneslots"
     },
     {
       "relation": "contains",
@@ -19671,9 +19920,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_lockedwall",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_lockedwall"
     },
     {
       "relation": "contains",
@@ -19681,9 +19930,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_leveltwoslots",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_leveltwoslots"
     },
     {
       "relation": "contains",
@@ -19691,9 +19940,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_challengestart",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_challengestart"
     },
     {
       "relation": "contains",
@@ -19701,9 +19950,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_failedgate",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_failedgate"
     },
     {
       "relation": "contains",
@@ -19711,9 +19960,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_failedtimerstart",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_failedtimerstart"
     },
     {
       "relation": "contains",
@@ -19721,9 +19970,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L176",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_freetimerstart",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_freetimerstart"
     },
     {
       "relation": "contains",
@@ -19731,9 +19980,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_protimerstart",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_protimerstart"
     },
     {
       "relation": "contains",
@@ -19741,9 +19990,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_activeafterpropurchase",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_activeafterpropurchase"
     },
     {
       "relation": "contains",
@@ -19751,9 +20000,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_nexttimerafterpro",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_nexttimerafterpro"
     },
     {
       "relation": "contains",
@@ -19761,9 +20010,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_completeleveltwo",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_completeleveltwo"
     },
     {
       "relation": "contains",
@@ -19771,9 +20020,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_upgradedslots",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_upgradedslots"
     },
     {
       "relation": "contains",
@@ -19781,9 +20030,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L229",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_upgradedattacktower",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_upgradedattacktower"
     },
     {
       "relation": "contains",
@@ -19791,9 +20040,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_completelevelsix",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_completelevelsix"
     },
     {
       "relation": "contains",
@@ -19801,9 +20050,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L243",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_maxslots",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_maxslots"
     },
     {
       "relation": "contains",
@@ -19811,9 +20060,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L254",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_maxattacktower",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_maxattacktower"
     },
     {
       "relation": "contains",
@@ -19821,9 +20070,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_claimcoins",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_claimcoins"
     },
     {
       "relation": "contains",
@@ -19831,9 +20080,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_createbattleresult",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_createbattleresult"
     },
     {
       "relation": "contains",
@@ -19841,9 +20090,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L296",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_createbuildingrow",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_createbuildingrow"
     },
     {
       "relation": "contains",
@@ -19851,9 +20100,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L306",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_mjs",
-      "target": "tests_basephase15qa_test_createactiveupgrade",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_createactiveupgrade"
     },
     {
       "relation": "calls",
@@ -19862,9 +20111,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L270",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_claimcoins",
-      "target": "tests_basephase15qa_test_createbattleresult",
-      "confidence_score": 1.0
+      "target": "tests_basephase15qa_test_createbattleresult"
     },
     {
       "relation": "calls",
@@ -19873,9 +20122,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L267",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_claimcoins",
-      "target": "base_baserewardbridge_claimbattleresultreward",
-      "confidence_score": 1.0
+      "target": "base_baserewardbridge_claimbattleresultreward"
     },
     {
       "relation": "calls",
@@ -19884,9 +20133,9 @@
       "source_file": "tests/basePhase15Qa.test.mjs",
       "source_location": "L268",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_basephase15qa_test_claimcoins",
-      "target": "base_basebackend_createdefaultgamestate",
-      "confidence_score": 1.0
+      "target": "base_basebackend_createdefaultgamestate"
     },
     {
       "relation": "imports_from",
@@ -44549,5 +44798,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "228e2e875f2ce0df360d104f86bd5b4ab46a22ce"
+  "built_at_commit": "62ba708ebce4e5919bead220e965698e73468db7"
 }
