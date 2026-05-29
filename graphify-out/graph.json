@@ -1287,7 +1287,7 @@
       "source_file": "tests/coreDefense.test.mjs",
       "source_location": "L135",
       "id": "tests_coredefense_test_createrunningmatch",
-      "community": 37,
+      "community": 22,
       "norm_label": "createrunningmatch()"
     },
     {
@@ -1395,7 +1395,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L1",
       "id": "tests_joystick_test_mjs",
-      "community": 74,
+      "community": 9,
       "norm_label": "joystick.test.mjs"
     },
     {
@@ -1404,7 +1404,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L12",
       "id": "tests_joystick_test_layout",
-      "community": 74,
+      "community": 9,
       "norm_label": "layout"
     },
     {
@@ -1413,7 +1413,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L25",
       "id": "tests_joystick_test_input",
-      "community": 74,
+      "community": 9,
       "norm_label": "input"
     },
     {
@@ -1422,7 +1422,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L71",
       "id": "tests_joystick_test_firelayout",
-      "community": 74,
+      "community": 9,
       "norm_label": "firelayout"
     },
     {
@@ -1431,7 +1431,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L77",
       "id": "tests_joystick_test_joysticktouch",
-      "community": 74,
+      "community": 9,
       "norm_label": "joysticktouch"
     },
     {
@@ -1440,7 +1440,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L81",
       "id": "tests_joystick_test_firetouch",
-      "community": 74,
+      "community": 9,
       "norm_label": "firetouch"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L92",
       "id": "tests_joystick_test_vector",
-      "community": 74,
+      "community": 9,
       "norm_label": "vector"
     },
     {
@@ -2016,7 +2016,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L1",
       "id": "tests_basehomemodel_test_mjs",
-      "community": 4,
+      "community": 35,
       "norm_label": "basehomemodel.test.mjs"
     },
     {
@@ -2025,7 +2025,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L36",
       "id": "tests_basehomemodel_test_model",
-      "community": 4,
+      "community": 35,
       "norm_label": "model"
     },
     {
@@ -2034,7 +2034,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L144",
       "id": "tests_basehomemodel_test_leveloneslots",
-      "community": 4,
+      "community": 35,
       "norm_label": "leveloneslots"
     },
     {
@@ -2043,7 +2043,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L148",
       "id": "tests_basehomemodel_test_attacktower",
-      "community": 4,
+      "community": 35,
       "norm_label": "attacktower"
     },
     {
@@ -2052,7 +2052,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L149",
       "id": "tests_basehomemodel_test_wallgate",
-      "community": 4,
+      "community": 35,
       "norm_label": "wallgate"
     },
     {
@@ -2061,7 +2061,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L155",
       "id": "tests_basehomemodel_test_levelthreerows",
-      "community": 4,
+      "community": 35,
       "norm_label": "levelthreerows"
     },
     {
@@ -2070,7 +2070,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L156",
       "id": "tests_basehomemodel_test_levelthreeslots",
-      "community": 4,
+      "community": 35,
       "norm_label": "levelthreeslots"
     },
     {
@@ -2079,7 +2079,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L167",
       "id": "tests_basehomemodel_test_stalerows",
-      "community": 4,
+      "community": 35,
       "norm_label": "stalerows"
     },
     {
@@ -2088,7 +2088,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L183",
       "id": "tests_basehomemodel_test_slots",
-      "community": 4,
+      "community": 35,
       "norm_label": "slots"
     },
     {
@@ -2097,7 +2097,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L198",
       "id": "tests_basehomemodel_test_rows",
-      "community": 4,
+      "community": 35,
       "norm_label": "rows"
     },
     {
@@ -2106,7 +2106,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L299",
       "id": "tests_basehomemodel_test_palace",
-      "community": 4,
+      "community": 35,
       "norm_label": "palace"
     },
     {
@@ -2115,7 +2115,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L325",
       "id": "tests_basehomemodel_test_buildings",
-      "community": 4,
+      "community": 35,
       "norm_label": "buildings"
     },
     {
@@ -2124,7 +2124,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L329",
       "id": "tests_basehomemodel_test_badge",
-      "community": 4,
+      "community": 35,
       "norm_label": "badge"
     },
     {
@@ -2133,7 +2133,7 @@
       "source_file": "tests/baseHomeModel.test.mjs",
       "source_location": "L397",
       "id": "tests_basehomemodel_test_maxslots",
-      "community": 4,
+      "community": 35,
       "norm_label": "maxslots"
     },
     {
@@ -2835,7 +2835,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L1",
       "id": "tests_basevisualstates_test_mjs",
-      "community": 65,
+      "community": 74,
       "norm_label": "basevisualstates.test.mjs"
     },
     {
@@ -2844,7 +2844,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L22",
       "id": "tests_basevisualstates_test_catalog",
-      "community": 65,
+      "community": 74,
       "norm_label": "catalog"
     },
     {
@@ -2853,7 +2853,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L29",
       "id": "tests_basevisualstates_test_states",
-      "community": 65,
+      "community": 74,
       "norm_label": "states"
     },
     {
@@ -2862,7 +2862,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L72",
       "id": "tests_basevisualstates_test_locked",
-      "community": 65,
+      "community": 74,
       "norm_label": "locked"
     },
     {
@@ -2871,7 +2871,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L77",
       "id": "tests_basevisualstates_test_upgrading",
-      "community": 65,
+      "community": 74,
       "norm_label": "upgrading"
     },
     {
@@ -2880,7 +2880,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L82",
       "id": "tests_basevisualstates_test_completed",
-      "community": 65,
+      "community": 74,
       "norm_label": "completed"
     },
     {
@@ -2889,7 +2889,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L87",
       "id": "tests_basevisualstates_test_maxlevel",
-      "community": 65,
+      "community": 74,
       "norm_label": "maxlevel"
     },
     {
@@ -2898,7 +2898,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L112",
       "id": "tests_basevisualstates_test_learninghall",
-      "community": 65,
+      "community": 74,
       "norm_label": "learninghall"
     },
     {
@@ -2907,7 +2907,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L117",
       "id": "tests_basevisualstates_test_palace",
-      "community": 65,
+      "community": 74,
       "norm_label": "palace"
     },
     {
@@ -2916,7 +2916,7 @@
       "source_file": "tests/baseVisualStates.test.mjs",
       "source_location": "L131",
       "id": "tests_basevisualstates_test_fallback",
-      "community": 65,
+      "community": 74,
       "norm_label": "fallback"
     },
     {
@@ -3411,7 +3411,7 @@
       "source_file": "tests/quickRoundResult.test.mjs",
       "source_location": "L123",
       "id": "tests_quickroundresult_test_createendedmatch",
-      "community": 37,
+      "community": 16,
       "norm_label": "createendedmatch()"
     },
     {
@@ -3629,6 +3629,51 @@
       "id": "tests_basesubscriptionconversion_test_pro",
       "community": 46,
       "norm_label": "pro"
+    },
+    {
+      "label": "linked-project.json",
+      "file_type": "code",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "id": "supabase_temp_linked_project_json",
+      "community": 76,
+      "norm_label": "linked-project.json"
+    },
+    {
+      "label": "ref",
+      "file_type": "code",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "id": "temp_linked_project_ref",
+      "community": 76,
+      "norm_label": "ref"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "id": "temp_linked_project_name",
+      "community": 76,
+      "norm_label": "name"
+    },
+    {
+      "label": "organization_id",
+      "file_type": "code",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "id": "temp_linked_project_organization_id",
+      "community": 76,
+      "norm_label": "organization_id"
+    },
+    {
+      "label": "organization_slug",
+      "file_type": "code",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "id": "temp_linked_project_organization_slug",
+      "community": 76,
+      "norm_label": "organization_slug"
     },
     {
       "label": "inspectPhase6Glbs.mjs",
@@ -4914,7 +4959,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L42",
       "id": "ui_imagebattlefield_imagebattlefield",
-      "community": 9,
+      "community": 1,
       "norm_label": "imagebattlefield()"
     },
     {
@@ -5112,7 +5157,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L1",
       "id": "src_game_constants_js",
-      "community": 16,
+      "community": 37,
       "norm_label": "constants.js"
     },
     {
@@ -5121,7 +5166,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L4",
       "id": "game_constants_core_ids",
-      "community": 16,
+      "community": 37,
       "norm_label": "core_ids"
     },
     {
@@ -5130,7 +5175,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L9",
       "id": "game_constants_match_status",
-      "community": 16,
+      "community": 37,
       "norm_label": "match_status"
     },
     {
@@ -5139,7 +5184,7 @@
       "source_file": "src/game/constants.js",
       "source_location": "L16",
       "id": "game_constants_match_outcomes",
-      "community": 16,
+      "community": 37,
       "norm_label": "match_outcomes"
     },
     {
@@ -5598,7 +5643,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L12",
       "id": "game_maplayout_player_core_position",
-      "community": 0,
+      "community": 1,
       "norm_label": "player_core_position"
     },
     {
@@ -5724,7 +5769,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L205",
       "id": "game_maplayout_major_intersections",
-      "community": 0,
+      "community": 22,
       "norm_label": "major_intersections"
     },
     {
@@ -5760,7 +5805,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L374",
       "id": "game_maplayout_iswalkablepoint",
-      "community": 36,
+      "community": 0,
       "norm_label": "iswalkablepoint()"
     },
     {
@@ -5787,7 +5832,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L406",
       "id": "game_maplayout_isdoorblockingwalkablepath",
-      "community": 36,
+      "community": 0,
       "norm_label": "isdoorblockingwalkablepath()"
     },
     {
@@ -6057,7 +6102,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L250",
       "id": "game_enemybehavior_getenemystats",
-      "community": 1,
+      "community": 18,
       "norm_label": "getenemystats()"
     },
     {
@@ -6489,7 +6534,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L12",
       "id": "game_wallsystem_wall_tool_types",
-      "community": 3,
+      "community": 36,
       "norm_label": "wall_tool_types"
     },
     {
@@ -6525,7 +6570,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L71",
       "id": "game_wallsystem_createwallsystemstate",
-      "community": 3,
+      "community": 36,
       "norm_label": "createwallsystemstate()"
     },
     {
@@ -7029,7 +7074,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L11",
       "id": "game_matchstate_creatematchstate",
-      "community": 37,
+      "community": 16,
       "norm_label": "creatematchstate()"
     },
     {
@@ -7038,7 +7083,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L28",
       "id": "game_matchstate_startmatch",
-      "community": 37,
+      "community": 16,
       "norm_label": "startmatch()"
     },
     {
@@ -7083,7 +7128,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L137",
       "id": "game_matchstate_recordenemykills",
-      "community": 21,
+      "community": 16,
       "norm_label": "recordenemykills()"
     },
     {
@@ -7119,7 +7164,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L191",
       "id": "game_matchstate_getcorepercent",
-      "community": 16,
+      "community": 1,
       "norm_label": "getcorepercent()"
     },
     {
@@ -7146,7 +7191,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L222",
       "id": "game_matchstate_createlocalmatchid",
-      "community": 37,
+      "community": 16,
       "norm_label": "createlocalmatchid()"
     },
     {
@@ -7200,7 +7245,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L217",
       "id": "game_projectiles_getprojectileenemyhitindex",
-      "community": 36,
+      "community": 18,
       "norm_label": "getprojectileenemyhitindex()"
     },
     {
@@ -7443,7 +7488,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L1",
       "id": "src_game_joystick_js",
-      "community": 74,
+      "community": 9,
       "norm_label": "joystick.js"
     },
     {
@@ -7452,7 +7497,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L4",
       "id": "game_joystick_getjoystickradius",
-      "community": 74,
+      "community": 9,
       "norm_label": "getjoystickradius()"
     },
     {
@@ -7461,7 +7506,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L13",
       "id": "game_joystick_calculatejoystickinput",
-      "community": 74,
+      "community": 9,
       "norm_label": "calculatejoystickinput()"
     },
     {
@@ -7470,7 +7515,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L50",
       "id": "game_joystick_ispointinsidejoystickcontrol",
-      "community": 74,
+      "community": 9,
       "norm_label": "ispointinsidejoystickcontrol()"
     },
     {
@@ -7479,7 +7524,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L65",
       "id": "game_joystick_ispointinsidecirclecontrol",
-      "community": 74,
+      "community": 9,
       "norm_label": "ispointinsidecirclecontrol()"
     },
     {
@@ -7488,7 +7533,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L80",
       "id": "game_joystick_smoothjoystickvector",
-      "community": 74,
+      "community": 9,
       "norm_label": "smoothjoystickvector()"
     },
     {
@@ -7497,7 +7542,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L92",
       "id": "game_joystick_createneutralinput",
-      "community": 74,
+      "community": 9,
       "norm_label": "createneutralinput()"
     },
     {
@@ -7506,7 +7551,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L100",
       "id": "game_joystick_clamp",
-      "community": 74,
+      "community": 9,
       "norm_label": "clamp()"
     },
     {
@@ -8451,7 +8496,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L1",
       "id": "src_base_baseupgrademodalmodel_js",
-      "community": 35,
+      "community": 4,
       "norm_label": "baseupgrademodalmodel.js"
     },
     {
@@ -8469,7 +8514,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L25",
       "id": "base_baseupgrademodalmodel_createbuildingupgrademodalviewmodel",
-      "community": 35,
+      "community": 4,
       "norm_label": "createbuildingupgrademodalviewmodel()"
     },
     {
@@ -8478,7 +8523,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L131",
       "id": "base_baseupgrademodalmodel_createbuildingupgrademodalfromslots",
-      "community": 35,
+      "community": 4,
       "norm_label": "createbuildingupgrademodalfromslots()"
     },
     {
@@ -8487,7 +8532,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L150",
       "id": "base_baseupgrademodalmodel_formatbasedurationminutes",
-      "community": 35,
+      "community": 4,
       "norm_label": "formatbasedurationminutes()"
     },
     {
@@ -8496,7 +8541,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L177",
       "id": "base_baseupgrademodalmodel_createlevelsummary",
-      "community": 35,
+      "community": 4,
       "norm_label": "createlevelsummary()"
     },
     {
@@ -8505,7 +8550,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L185",
       "id": "base_baseupgrademodalmodel_createtimersummary",
-      "community": 35,
+      "community": 4,
       "norm_label": "createtimersummary()"
     },
     {
@@ -8514,7 +8559,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L194",
       "id": "base_baseupgrademodalmodel_normalizewholenumber",
-      "community": 35,
+      "community": 4,
       "norm_label": "normalizewholenumber()"
     },
     {
@@ -8901,7 +8946,7 @@
       "source_file": "src/base/baseSkillChallenges.js",
       "source_location": "L207",
       "id": "base_baseskillchallenges_createskillchallengeviewmodel",
-      "community": 35,
+      "community": 4,
       "norm_label": "createskillchallengeviewmodel()"
     },
     {
@@ -9522,7 +9567,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L1",
       "id": "src_base_basevisualstates_js",
-      "community": 65,
+      "community": 74,
       "norm_label": "basevisualstates.js"
     },
     {
@@ -9531,7 +9576,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L11",
       "id": "base_basevisualstates_base_building_visual_levels",
-      "community": 65,
+      "community": 74,
       "norm_label": "base_building_visual_levels"
     },
     {
@@ -9540,7 +9585,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L47",
       "id": "base_basevisualstates_base_building_status_visuals",
-      "community": 65,
+      "community": 74,
       "norm_label": "base_building_status_visuals"
     },
     {
@@ -9549,7 +9594,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L86",
       "id": "base_basevisualstates_normalizebuildingvisuallevel",
-      "community": 65,
+      "community": 74,
       "norm_label": "normalizebuildingvisuallevel()"
     },
     {
@@ -9558,7 +9603,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L94",
       "id": "base_basevisualstates_getbuildingvisuallevel",
-      "community": 65,
+      "community": 74,
       "norm_label": "getbuildingvisuallevel()"
     },
     {
@@ -9567,7 +9612,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L99",
       "id": "base_basevisualstates_getbuildingvisualassetkey",
-      "community": 65,
+      "community": 74,
       "norm_label": "getbuildingvisualassetkey()"
     },
     {
@@ -9576,7 +9621,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L109",
       "id": "base_basevisualstates_createbuildingvisualstate",
-      "community": 65,
+      "community": 74,
       "norm_label": "createbuildingvisualstate()"
     },
     {
@@ -9585,7 +9630,7 @@
       "source_file": "src/base/baseVisualStates.js",
       "source_location": "L147",
       "id": "base_basevisualstates_createbasevisualstatecatalog",
-      "community": 65,
+      "community": 74,
       "norm_label": "createbasevisualstatecatalog()"
     },
     {
@@ -9621,7 +9666,7 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L75",
       "id": "base_basesubscriptionconversion_createproconversionviewmodel",
-      "community": 35,
+      "community": 4,
       "norm_label": "createproconversionviewmodel()"
     },
     {
@@ -9702,7 +9747,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L50",
       "id": "base_basehomemodel_base_home_slot_layout",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_home_slot_layout"
     },
     {
@@ -9729,7 +9774,7 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L220",
       "id": "base_basehomemodel_createslottapresult",
-      "community": 35,
+      "community": 4,
       "norm_label": "createslottapresult()"
     },
     {
@@ -9792,7 +9837,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L1",
       "id": "src_base_baseupgradetimers_js",
-      "community": 77,
+      "community": 66,
       "norm_label": "baseupgradetimers.js"
     },
     {
@@ -9810,7 +9855,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L30",
       "id": "base_baseupgradetimers_startbuildingupgradechallenge",
-      "community": 77,
+      "community": 66,
       "norm_label": "startbuildingupgradechallenge()"
     },
     {
@@ -9819,7 +9864,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L92",
       "id": "base_baseupgradetimers_startupgradetimerafterskillchallenge",
-      "community": 77,
+      "community": 66,
       "norm_label": "startupgradetimerafterskillchallenge()"
     },
     {
@@ -9828,7 +9873,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L156",
       "id": "base_baseupgradetimers_completeupgradetimer",
-      "community": 77,
+      "community": 66,
       "norm_label": "completeupgradetimer()"
     },
     {
@@ -9837,7 +9882,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L201",
       "id": "base_baseupgradetimers_createupgradetimerstatus",
-      "community": 77,
+      "community": 66,
       "norm_label": "createupgradetimerstatus()"
     },
     {
@@ -9846,7 +9891,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L230",
       "id": "base_baseupgradetimers_createupgradetimerviewmodel",
-      "community": 77,
+      "community": 66,
       "norm_label": "createupgradetimerviewmodel()"
     },
     {
@@ -9855,7 +9900,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L249",
       "id": "base_baseupgradetimers_getactiveupgrade",
-      "community": 77,
+      "community": 66,
       "norm_label": "getactiveupgrade()"
     },
     {
@@ -9864,7 +9909,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L268",
       "id": "base_baseupgradetimers_hasactiveupgrade",
-      "community": 77,
+      "community": 66,
       "norm_label": "hasactiveupgrade()"
     },
     {
@@ -9873,7 +9918,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L272",
       "id": "base_baseupgradetimers_rejectupgradestart",
-      "community": 77,
+      "community": 66,
       "norm_label": "rejectupgradestart()"
     },
     {
@@ -9882,7 +9927,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L287",
       "id": "base_baseupgradetimers_rejecttimerstart",
-      "community": 77,
+      "community": 66,
       "norm_label": "rejecttimerstart()"
     },
     {
@@ -9891,7 +9936,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L300",
       "id": "base_baseupgradetimers_assertbuildingrow",
-      "community": 77,
+      "community": 66,
       "norm_label": "assertbuildingrow()"
     },
     {
@@ -9900,7 +9945,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L311",
       "id": "base_baseupgradetimers_assertactiveupgrade",
-      "community": 77,
+      "community": 66,
       "norm_label": "assertactiveupgrade()"
     },
     {
@@ -9909,7 +9954,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L328",
       "id": "base_baseupgradetimers_assertrequiredstring",
-      "community": 77,
+      "community": 66,
       "norm_label": "assertrequiredstring()"
     },
     {
@@ -9918,7 +9963,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L334",
       "id": "base_baseupgradetimers_assertisotimestamp",
-      "community": 77,
+      "community": 66,
       "norm_label": "assertisotimestamp()"
     },
     {
@@ -9927,7 +9972,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L342",
       "id": "base_baseupgradetimers_millisecondstowholeminutes",
-      "community": 77,
+      "community": 66,
       "norm_label": "millisecondstowholeminutes()"
     },
     {
@@ -9936,7 +9981,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L346",
       "id": "base_baseupgradetimers_clampnumber",
-      "community": 77,
+      "community": 66,
       "norm_label": "clampnumber()"
     },
     {
@@ -9945,7 +9990,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L350",
       "id": "base_baseupgradetimers_clampwholenumber",
-      "community": 77,
+      "community": 66,
       "norm_label": "clampwholenumber()"
     },
     {
@@ -9954,7 +9999,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L354",
       "id": "base_baseupgradetimers_normalizewholenumber",
-      "community": 77,
+      "community": 66,
       "norm_label": "normalizewholenumber()"
     },
     {
@@ -10026,7 +10071,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L57",
       "id": "base_baseconfig_base_economy_config",
-      "community": 68,
+      "community": 69,
       "norm_label": "base_economy_config"
     },
     {
@@ -10035,7 +10080,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L85",
       "id": "base_baseconfig_base_building_definitions",
-      "community": 65,
+      "community": 69,
       "norm_label": "base_building_definitions"
     },
     {
@@ -10044,7 +10089,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L137",
       "id": "base_baseconfig_getbuildingdefinition",
-      "community": 65,
+      "community": 74,
       "norm_label": "getbuildingdefinition()"
     },
     {
@@ -10098,7 +10143,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L168",
       "id": "base_baseconfig_calculatefinalcoins",
-      "community": 68,
+      "community": 2,
       "norm_label": "calculatefinalcoins()"
     },
     {
@@ -10107,7 +10152,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L173",
       "id": "base_baseconfig_getupgradecostfortargetlevel",
-      "community": 35,
+      "community": 69,
       "norm_label": "getupgradecostfortargetlevel()"
     },
     {
@@ -10116,7 +10161,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L182",
       "id": "base_baseconfig_getfreetimerminutesfortargetlevel",
-      "community": 35,
+      "community": 69,
       "norm_label": "getfreetimerminutesfortargetlevel()"
     },
     {
@@ -10125,7 +10170,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L187",
       "id": "base_baseconfig_gettimerdurationminutesfortargetlevel",
-      "community": 35,
+      "community": 69,
       "norm_label": "gettimerdurationminutesfortargetlevel()"
     },
     {
@@ -10134,7 +10179,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L196",
       "id": "base_baseconfig_getnextbuildinglevel",
-      "community": 35,
+      "community": 4,
       "norm_label": "getnextbuildinglevel()"
     },
     {
@@ -10152,7 +10197,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L225",
       "id": "base_baseconfig_asserttargetlevel",
-      "community": 35,
+      "community": 69,
       "norm_label": "asserttargetlevel()"
     },
     {
@@ -10161,7 +10206,7 @@
       "source_file": "src/base/baseSkillTrackSelection.js",
       "source_location": "L1",
       "id": "src_base_baseskilltrackselection_js",
-      "community": 69,
+      "community": 4,
       "norm_label": "baseskilltrackselection.js"
     },
     {
@@ -10170,7 +10215,7 @@
       "source_file": "src/base/baseSkillTrackSelection.js",
       "source_location": "L16",
       "id": "base_baseskilltrackselection_createskilltrackselectionviewmodel",
-      "community": 69,
+      "community": 4,
       "norm_label": "createskilltrackselectionviewmodel()"
     },
     {
@@ -10269,7 +10314,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L399",
       "id": "base_baselocalization_normalizebaselanguage",
-      "community": 35,
+      "community": 4,
       "norm_label": "normalizebaselanguage()"
     },
     {
@@ -10278,7 +10323,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L405",
       "id": "base_baselocalization_getbasecopy",
-      "community": 35,
+      "community": 4,
       "norm_label": "getbasecopy()"
     },
     {
@@ -10645,7 +10690,7 @@
       "label": "Guardrails Preserved",
       "file_type": "document",
       "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
-      "source_location": "L29",
+      "source_location": "L31",
       "id": "docs_base_backend_completion_report_2026_05_29_guardrails_preserved",
       "community": 85,
       "norm_label": "guardrails preserved"
@@ -10654,19 +10699,19 @@
       "label": "Verification",
       "file_type": "document",
       "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
-      "source_location": "L39",
+      "source_location": "L41",
       "id": "docs_base_backend_completion_report_2026_05_29_verification",
       "community": 85,
       "norm_label": "verification"
     },
     {
-      "label": "External Setup Still Needed",
+      "label": "Remaining External Setup",
       "file_type": "document",
       "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
-      "source_location": "L46",
-      "id": "docs_base_backend_completion_report_2026_05_29_external_setup_still_needed",
+      "source_location": "L48",
+      "id": "docs_base_backend_completion_report_2026_05_29_remaining_external_setup",
       "community": 85,
-      "norm_label": "external setup still needed"
+      "norm_label": "remaining external setup"
     },
     {
       "label": "V1_SCOPE.md",
@@ -13684,19 +13729,19 @@
       "norm_label": "local check result"
     },
     {
-      "label": "code:text (SUPABASE_CLI=available via npx supabase 2.101.0)",
+      "label": "code:text (SUPABASE_CLI=available via npx supabase 2.102.0)",
       "file_type": "document",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
       "source_location": "L5",
       "id": "docs_supabase_access_and_project_setup_check_2026_05_29_codeblock_1",
       "community": 84,
-      "norm_label": "code:text (supabase_cli=available via npx supabase 2.101.0)"
+      "norm_label": "code:text (supabase_cli=available via npx supabase 2.102.0)"
     },
     {
       "label": "Repo Setup Completed",
       "file_type": "document",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
-      "source_location": "L15",
+      "source_location": "L17",
       "id": "docs_supabase_access_and_project_setup_check_2026_05_29_repo_setup_completed",
       "community": 84,
       "norm_label": "repo setup completed"
@@ -13705,7 +13750,7 @@
       "label": "Checks Run",
       "file_type": "document",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
-      "source_location": "L30",
+      "source_location": "L33",
       "id": "docs_supabase_access_and_project_setup_check_2026_05_29_checks_run",
       "community": 84,
       "norm_label": "checks run"
@@ -13714,25 +13759,25 @@
       "label": "code:bash (codex mcp list)",
       "file_type": "document",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
-      "source_location": "L32",
+      "source_location": "L35",
       "id": "docs_supabase_access_and_project_setup_check_2026_05_29_codeblock_2",
       "community": 84,
       "norm_label": "code:bash (codex mcp list)"
     },
     {
-      "label": "Project Setup Needed Outside Repo",
+      "label": "Remaining App Environment Setup",
       "file_type": "document",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
-      "source_location": "L52",
-      "id": "docs_supabase_access_and_project_setup_check_2026_05_29_project_setup_needed_outside_repo",
+      "source_location": "L76",
+      "id": "docs_supabase_access_and_project_setup_check_2026_05_29_remaining_app_environment_setup",
       "community": 84,
-      "norm_label": "project setup needed outside repo"
+      "norm_label": "remaining app environment setup"
     },
     {
       "label": "Status",
       "file_type": "document",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
-      "source_location": "L66",
+      "source_location": "L86",
       "id": "docs_supabase_access_and_project_setup_check_2026_05_29_status",
       "community": 84,
       "norm_label": "status"
@@ -13786,7 +13831,7 @@
       "label": "Current Repo Verification Commands",
       "file_type": "document",
       "source_file": "docs/BASE_BUILDING_EOD_BUG_LIST_AND_TOMORROW_PLAN_2026-05-29.md",
-      "source_location": "L36",
+      "source_location": "L32",
       "id": "docs_base_building_eod_bug_list_and_tomorrow_plan_2026_05_29_current_repo_verification_commands",
       "community": 83,
       "norm_label": "current repo verification commands"
@@ -13795,7 +13840,7 @@
       "label": "code:bash (node --test tests/baseSupabaseClient.test.mjs tests/baseSupa)",
       "file_type": "document",
       "source_file": "docs/BASE_BUILDING_EOD_BUG_LIST_AND_TOMORROW_PLAN_2026-05-29.md",
-      "source_location": "L38",
+      "source_location": "L34",
       "id": "docs_base_building_eod_bug_list_and_tomorrow_plan_2026_05_29_codeblock_1",
       "community": 83,
       "norm_label": "code:bash (node --test tests/basesupabaseclient.test.mjs tests/basesupa)"
@@ -14913,8 +14958,26 @@
       "source_file": "src/base/baseHomeModel.js",
       "source_location": "L48",
       "id": "base_basehomemodel_base_home_total_visual_states",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_home_total_visual_states"
+    },
+    {
+      "label": "External Setup Still Needed",
+      "file_type": "document",
+      "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
+      "source_location": "L46",
+      "community": 85,
+      "norm_label": "external setup still needed",
+      "id": "docs_base_backend_completion_report_2026_05_29_external_setup_still_needed"
+    },
+    {
+      "label": "Project Setup Needed Outside Repo",
+      "file_type": "document",
+      "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
+      "source_location": "L52",
+      "community": 84,
+      "norm_label": "project setup needed outside repo",
+      "id": "docs_supabase_access_and_project_setup_check_2026_05_29_project_setup_needed_outside_repo"
     },
     {
       "label": "getBuildingLevel()",
@@ -14942,9 +15005,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "skills_lock_json",
-      "target": "sahib_ai_game_main_skills_lock_version",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_version"
     },
     {
       "relation": "contains",
@@ -14952,9 +15015,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "skills_lock_json",
-      "target": "sahib_ai_game_main_skills_lock_skills",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_skills"
     },
     {
       "relation": "contains",
@@ -14962,9 +15025,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills",
-      "target": "sahib_ai_game_main_skills_lock_skills_supabase",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_skills_supabase"
     },
     {
       "relation": "contains",
@@ -14972,9 +15035,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills",
-      "target": "sahib_ai_game_main_skills_lock_skills_supabase_postgres_best_practices",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_skills_supabase_postgres_best_practices"
     },
     {
       "relation": "contains",
@@ -14982,9 +15045,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase",
-      "target": "sahib_ai_game_main_skills_lock_supabase_source",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_source"
     },
     {
       "relation": "contains",
@@ -14992,9 +15055,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase",
-      "target": "sahib_ai_game_main_skills_lock_supabase_sourcetype",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_sourcetype"
     },
     {
       "relation": "contains",
@@ -15002,9 +15065,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase",
-      "target": "sahib_ai_game_main_skills_lock_supabase_skillpath",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_skillpath"
     },
     {
       "relation": "contains",
@@ -15012,9 +15075,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase",
-      "target": "sahib_ai_game_main_skills_lock_supabase_computedhash",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_computedhash"
     },
     {
       "relation": "contains",
@@ -15022,9 +15085,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase_postgres_best_practices",
-      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_source",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_source"
     },
     {
       "relation": "contains",
@@ -15032,9 +15095,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase_postgres_best_practices",
-      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_sourcetype",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_sourcetype"
     },
     {
       "relation": "contains",
@@ -15042,9 +15105,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase_postgres_best_practices",
-      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_skillpath",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_skillpath"
     },
     {
       "relation": "contains",
@@ -15052,9 +15115,9 @@
       "source_file": "skills-lock.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "sahib_ai_game_main_skills_lock_skills_supabase_postgres_best_practices",
-      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_computedhash",
-      "confidence_score": 1.0
+      "target": "sahib_ai_game_main_skills_lock_supabase_postgres_best_practices_computedhash"
     },
     {
       "relation": "contains",
@@ -25034,6 +25097,46 @@
       "confidence_score": 1.0,
       "source": "tests_basesubscriptionconversion_test_mjs",
       "target": "tests_basesubscriptionconversion_test_pro"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "supabase_temp_linked_project_json",
+      "target": "temp_linked_project_ref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "supabase_temp_linked_project_json",
+      "target": "temp_linked_project_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "supabase_temp_linked_project_json",
+      "target": "temp_linked_project_organization_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "supabase/.temp/linked-project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "supabase_temp_linked_project_json",
+      "target": "temp_linked_project_organization_slug",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -42790,6 +42893,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_base_backend_completion_report_2026_05_29_base_backend_completion_report_2026_05_29",
+      "target": "docs_base_backend_completion_report_2026_05_29_remaining_external_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
       "source_location": "L44",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -46032,19 +46145,19 @@
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_supabase_access_and_project_setup_check_2026_05_29_supabase_access_and_project_setup_check_2026_05_29",
-      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_checks_run",
-      "confidence_score": 1.0
+      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_checks_run"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
-      "source_location": "L22",
+      "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_supabase_access_and_project_setup_check_2026_05_29_supabase_access_and_project_setup_check_2026_05_29",
-      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_project_setup_needed_outside_repo"
+      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_remaining_app_environment_setup",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -46055,6 +46168,16 @@
       "confidence_score": 1.0,
       "source": "docs_supabase_access_and_project_setup_check_2026_05_29_supabase_access_and_project_setup_check_2026_05_29",
       "target": "docs_supabase_access_and_project_setup_check_2026_05_29_status"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_supabase_access_and_project_setup_check_2026_05_29_supabase_access_and_project_setup_check_2026_05_29",
+      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_project_setup_needed_outside_repo"
     },
     {
       "relation": "contains",
@@ -46072,9 +46195,9 @@
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_supabase_access_and_project_setup_check_2026_05_29_checks_run",
-      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_codeblock_2",
-      "confidence_score": 1.0
+      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_codeblock_2"
     },
     {
       "relation": "contains",
@@ -47258,5 +47381,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e8b3f393dbfcaed97fa616f75a57c51f55e95d78"
+  "built_at_commit": "ed508ca9cf79c03dfd3cc473d72ac0da16cffa91"
 }

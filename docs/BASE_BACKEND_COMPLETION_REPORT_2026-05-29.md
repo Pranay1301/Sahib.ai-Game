@@ -25,6 +25,8 @@
   - active upgrade persist/clear
   - BattleResult reward claim RPC
 - Kept quick-round combat protected: quick round still produces `BattleResult`; base-building owns Supabase economy writes.
+- Applied the V1 migration to the live Supabase project `batwwcfqohysmrcosbix`.
+- Verified the live project has all five tables, both RPCs, authenticated RLS policies, no schema lint errors, and no advisor issues.
 
 ## Guardrails Preserved
 
@@ -43,9 +45,7 @@
 - Android export build check passed.
 - Graphify was updated after code/schema changes.
 
-## External Setup Still Needed
+## Remaining External Setup
 
-- Run `supabase login` or set `SUPABASE_ACCESS_TOKEN` for CLI access.
-- Apply the migration to Supabase project `batwwcfqohysmrcosbix`.
 - Add the real `EXPO_PUBLIC_SUPABASE_ANON_KEY` to local/build environments.
 - Run a live authenticated save/load and duplicate reward claim smoke test.

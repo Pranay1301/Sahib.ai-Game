@@ -10,29 +10,24 @@
 
 ## Known External Blockers
 
-- Supabase CLI is available through `npx supabase 2.101.0`, but it is not logged in for this shell.
+- Supabase CLI is available through `npx supabase 2.102.0`, logged in, and linked to project ref `batwwcfqohysmrcosbix`.
 - Codex Supabase MCP is globally registered and OAuth authenticated, but this running Codex session has not exposed live `mcp__supabase` database tools yet.
-- Supabase local lint needs a running local Supabase Postgres on `127.0.0.1:54322`; none is running here.
 - Real Supabase project values are not present in the repo and must stay outside source control:
   - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
 - The Supabase project URL is documented as `https://batwwcfqohysmrcosbix.supabase.co`.
-- The migration has not been applied to the live Supabase project from this machine because CLI access requires `supabase login` or `SUPABASE_ACCESS_TOKEN`.
+- The live Supabase V1 migration is applied and verified.
 
 ## Tomorrow Plan
 
-1. Run `supabase login` or provide `SUPABASE_ACCESS_TOKEN`.
-2. Link CLI project ref `batwwcfqohysmrcosbix`.
-3. Apply `supabase/migrations/20260529000000_base_building_v1.sql`.
-4. Add the Expo public anon key to local/dev build settings.
-5. Run Supabase SQL lint or dashboard validation.
-6. Test a real authenticated user flow:
+1. Add the Expo public anon key to local/dev build settings.
+2. Test a real authenticated user flow:
    - bootstrap profile/game/buildings
    - load base snapshot
    - consume mock BattleResult through reward claim RPC
    - verify duplicate reward claim is rejected
    - start and clear one active upgrade
-7. Run physical-device smoke after env setup.
-8. Review Expo patch upgrade path for the moderate transitive audit advisories.
+3. Run physical-device smoke after env setup.
+4. Review Expo patch upgrade path for the moderate transitive audit advisories.
 
 ## Current Repo Verification Commands
 

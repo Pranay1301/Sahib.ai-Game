@@ -585,28 +585,33 @@
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md": {
-    "mtime": 1780036116.3265564,
-    "ast_hash": "c7b2596e0ecdd3c997c73e2c51b5eef4",
+    "mtime": 1780056915.1063392,
+    "ast_hash": "9d3d168cbd6c6ef3e962871e6355ce2a",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md": {
-    "mtime": 1780036207.0012207,
-    "ast_hash": "53ac4671ac835d65180d6f321471f319",
+    "mtime": 1780056905.8954163,
+    "ast_hash": "739ffc52d691a450618c2a40493bfd49",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/docs/BASE_BUILDING_EOD_BUG_LIST_AND_TOMORROW_PLAN_2026-05-29.md": {
-    "mtime": 1780036133.2959797,
-    "ast_hash": "de784da36cc73ddbd56455dce2a5ba4a",
+    "mtime": 1780056926.9585798,
+    "ast_hash": "79583dbb6d22ceace8a9470b4057c85f",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/docs/BASE_BUILDING_TASK_COMPLETION_CHECKLIST_2026-05-29.md": {
-    "mtime": 1780036144.2671337,
-    "ast_hash": "811694de30e7f2a8b618177587ca9065",
+    "mtime": 1780056934.8872883,
+    "ast_hash": "1348b13990973981231bc6ec997a54ac",
     "semantic_hash": ""
   },
   "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/skills-lock.json": {
     "mtime": 1780035566.7661068,
     "ast_hash": "0720b44620902ff79d8813994a816e99",
+    "semantic_hash": ""
+  },
+  "/Users/pranay/Documents/Work/Sahib AI - Base Building Research/Sahib Ai Missing Logic Loopholes/Sahib.ai-Game-main/supabase/.temp/linked-project.json": {
+    "mtime": 1780056751.8790808,
+    "ast_hash": "a414f304b6cbff76be5bc5d55d1c4006",
     "semantic_hash": ""
   }
 }
