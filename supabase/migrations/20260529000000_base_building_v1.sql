@@ -170,3 +170,109 @@ create policy "battle_reward_claims_insert_own"
   on public.battle_reward_claims
   for insert
   with check (auth.uid() = user_id);
+
+create or replace function public.base_server_now()
+returns timestamptz
+language sql
+stable
+security invoker
+set search_path = public
+as $$
+  select now();
+$$;
+
+create or replace function public.claim_base_battle_reward(
+  p_battle_result_id text,
+  p_outcome text,
+  p_reason text,
+  p_base_coins integer,
+  p_final_coins_awarded integer
+)
+returns table (
+  accepted boolean,
+  result_reason text,
+  coins integer,
+  final_coins_awarded integer,
+  claimed_at timestamptz
+)
+language plpgsql
+security invoker
+set search_path = public
+as $$
+declare
+  v_user_id uuid := auth.uid();
+  v_claimed_at timestamptz := now();
+  v_coins integer;
+begin
+  if v_user_id is null then
+    raise exception 'Authenticated user required';
+  end if;
+
+  if p_battle_result_id is null or length(p_battle_result_id) = 0 then
+    raise exception 'battle_result_id is required';
+  end if;
+
+  if p_outcome not in ('win', 'draw', 'loss') then
+    raise exception 'invalid battle outcome';
+  end if;
+
+  if p_base_coins < 0 or p_final_coins_awarded < 0 then
+    raise exception 'coin values must be non-negative';
+  end if;
+
+  insert into public.battle_reward_claims (
+    user_id,
+    battle_result_id,
+    outcome,
+    reason,
+    base_coins,
+    final_coins_awarded,
+    claimed_at
+  )
+  values (
+    v_user_id,
+    p_battle_result_id,
+    p_outcome,
+    p_reason,
+    p_base_coins,
+    p_final_coins_awarded,
+    v_claimed_at
+  )
+  on conflict (user_id, battle_result_id) do nothing;
+
+  if not found then
+    select state.coins
+      into v_coins
+      from public.user_game_state as state
+      where state.user_id = v_user_id;
+
+    return query
+      select
+        false,
+        'duplicate_battle_reward_claim'::text,
+        coalesce(v_coins, 0),
+        0,
+        null::timestamptz;
+    return;
+  end if;
+
+  update public.user_game_state as state
+    set coins = state.coins + p_final_coins_awarded
+    where state.user_id = v_user_id
+    returning state.coins into v_coins;
+
+  if not found then
+    insert into public.user_game_state (user_id, coins)
+      values (v_user_id, p_final_coins_awarded)
+      returning user_game_state.coins into v_coins;
+  end if;
+
+  return query
+    select
+      true,
+      'claimed'::text,
+      v_coins,
+      p_final_coins_awarded,
+      v_claimed_at;
+end;
+$$;
