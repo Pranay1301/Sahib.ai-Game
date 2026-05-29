@@ -1287,7 +1287,7 @@
       "source_file": "tests/coreDefense.test.mjs",
       "source_location": "L135",
       "id": "tests_coredefense_test_createrunningmatch",
-      "community": 22,
+      "community": 16,
       "norm_label": "createrunningmatch()"
     },
     {
@@ -1395,7 +1395,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L1",
       "id": "tests_joystick_test_mjs",
-      "community": 9,
+      "community": 79,
       "norm_label": "joystick.test.mjs"
     },
     {
@@ -1404,7 +1404,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L12",
       "id": "tests_joystick_test_layout",
-      "community": 9,
+      "community": 79,
       "norm_label": "layout"
     },
     {
@@ -1413,7 +1413,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L25",
       "id": "tests_joystick_test_input",
-      "community": 9,
+      "community": 79,
       "norm_label": "input"
     },
     {
@@ -1422,7 +1422,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L71",
       "id": "tests_joystick_test_firelayout",
-      "community": 9,
+      "community": 79,
       "norm_label": "firelayout"
     },
     {
@@ -1431,7 +1431,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L77",
       "id": "tests_joystick_test_joysticktouch",
-      "community": 9,
+      "community": 79,
       "norm_label": "joysticktouch"
     },
     {
@@ -1440,7 +1440,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L81",
       "id": "tests_joystick_test_firetouch",
-      "community": 9,
+      "community": 79,
       "norm_label": "firetouch"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "tests/joystick.test.mjs",
       "source_location": "L92",
       "id": "tests_joystick_test_vector",
-      "community": 9,
+      "community": 79,
       "norm_label": "vector"
     },
     {
@@ -1561,10 +1561,46 @@
       "norm_label": "claim"
     },
     {
+      "label": "expectedRewards",
+      "file_type": "code",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L175",
+      "id": "tests_baserewardbridge_test_expectedrewards",
+      "community": 68,
+      "norm_label": "expectedrewards"
+    },
+    {
+      "label": "freeClaim",
+      "file_type": "code",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L182",
+      "id": "tests_baserewardbridge_test_freeclaim",
+      "community": 68,
+      "norm_label": "freeclaim"
+    },
+    {
+      "label": "proProfile",
+      "file_type": "code",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L194",
+      "id": "tests_baserewardbridge_test_proprofile",
+      "community": 68,
+      "norm_label": "proprofile"
+    },
+    {
+      "label": "proClaim",
+      "file_type": "code",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L195",
+      "id": "tests_baserewardbridge_test_proclaim",
+      "community": 68,
+      "norm_label": "proclaim"
+    },
+    {
       "label": "createBattleResult()",
       "file_type": "code",
       "source_file": "tests/baseRewardBridge.test.mjs",
-      "source_location": "L174",
+      "source_location": "L224",
       "id": "tests_baserewardbridge_test_createbattleresult",
       "community": 68,
       "norm_label": "createbattleresult()"
@@ -2727,7 +2763,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L1",
       "id": "tests_baseupgrademodalmodel_test_mjs",
-      "community": 35,
+      "community": 46,
       "norm_label": "baseupgrademodalmodel.test.mjs"
     },
     {
@@ -2736,7 +2772,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L26",
       "id": "tests_baseupgrademodalmodel_test_modal",
-      "community": 35,
+      "community": 46,
       "norm_label": "modal"
     },
     {
@@ -2745,7 +2781,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L133",
       "id": "tests_baseupgrademodalmodel_test_slots",
-      "community": 35,
+      "community": 46,
       "norm_label": "slots"
     },
     {
@@ -2754,7 +2790,7 @@
       "source_file": "tests/baseUpgradeModalModel.test.mjs",
       "source_location": "L195",
       "id": "tests_baseupgrademodalmodel_test_createslot",
-      "community": 35,
+      "community": 46,
       "norm_label": "createslot()"
     },
     {
@@ -3060,7 +3096,7 @@
       "source_file": "tests/baseLocalization.test.mjs",
       "source_location": "L1",
       "id": "tests_baselocalization_test_mjs",
-      "community": 4,
+      "community": 35,
       "norm_label": "baselocalization.test.mjs"
     },
     {
@@ -3456,7 +3492,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L1",
       "id": "tests_v1quickroundloop_test_mjs",
-      "community": 21,
+      "community": 37,
       "norm_label": "v1quickroundloop.test.mjs"
     },
     {
@@ -3465,7 +3501,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L21",
       "id": "tests_v1quickroundloop_test_heartuse",
-      "community": 21,
+      "community": 37,
       "norm_label": "heartuse"
     },
     {
@@ -3474,7 +3510,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L22",
       "id": "tests_v1quickroundloop_test_match",
-      "community": 21,
+      "community": 37,
       "norm_label": "match"
     },
     {
@@ -3483,7 +3519,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L26",
       "id": "tests_v1quickroundloop_test_result",
-      "community": 21,
+      "community": 37,
       "norm_label": "result"
     },
     {
@@ -3492,7 +3528,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L62",
       "id": "tests_v1quickroundloop_test_hearts",
-      "community": 21,
+      "community": 37,
       "norm_label": "hearts"
     },
     {
@@ -3501,7 +3537,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L66",
       "id": "tests_v1quickroundloop_test_consumed",
-      "community": 21,
+      "community": 37,
       "norm_label": "consumed"
     },
     {
@@ -3510,7 +3546,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L71",
       "id": "tests_v1quickroundloop_test_noheartstart",
-      "community": 21,
+      "community": 37,
       "norm_label": "noheartstart"
     },
     {
@@ -3519,7 +3555,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L72",
       "id": "tests_v1quickroundloop_test_ended",
-      "community": 21,
+      "community": 37,
       "norm_label": "ended"
     },
     {
@@ -3528,7 +3564,7 @@
       "source_file": "tests/v1QuickRoundLoop.test.mjs",
       "source_location": "L82",
       "id": "tests_v1quickroundloop_test_refilled",
-      "community": 21,
+      "community": 37,
       "norm_label": "refilled"
     },
     {
@@ -4923,7 +4959,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L1",
       "id": "src_ui_imagebattlefield_js",
-      "community": 1,
+      "community": 78,
       "norm_label": "imagebattlefield.js"
     },
     {
@@ -4932,7 +4968,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L26",
       "id": "ui_imagebattlefield_map_image",
-      "community": 1,
+      "community": 78,
       "norm_label": "map_image"
     },
     {
@@ -4941,7 +4977,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L27",
       "id": "ui_imagebattlefield_door_sprite_sheet",
-      "community": 1,
+      "community": 78,
       "norm_label": "door_sprite_sheet"
     },
     {
@@ -4950,7 +4986,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L28",
       "id": "ui_imagebattlefield_wall_sprite_sheets",
-      "community": 1,
+      "community": 78,
       "norm_label": "wall_sprite_sheets"
     },
     {
@@ -4959,7 +4995,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L42",
       "id": "ui_imagebattlefield_imagebattlefield",
-      "community": 1,
+      "community": 16,
       "norm_label": "imagebattlefield()"
     },
     {
@@ -4968,7 +5004,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L135",
       "id": "ui_imagebattlefield_wallsprite",
-      "community": 1,
+      "community": 78,
       "norm_label": "wallsprite()"
     },
     {
@@ -4977,7 +5013,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L171",
       "id": "ui_imagebattlefield_placementpreview",
-      "community": 1,
+      "community": 78,
       "norm_label": "placementpreview()"
     },
     {
@@ -4986,7 +5022,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L206",
       "id": "ui_imagebattlefield_wallframe",
-      "community": 1,
+      "community": 78,
       "norm_label": "wallframe()"
     },
     {
@@ -4995,7 +5031,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L225",
       "id": "ui_imagebattlefield_projectiletrail",
-      "community": 1,
+      "community": 78,
       "norm_label": "projectiletrail()"
     },
     {
@@ -5004,7 +5040,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L255",
       "id": "ui_imagebattlefield_specialweaponpickup",
-      "community": 1,
+      "community": 78,
       "norm_label": "specialweaponpickup()"
     },
     {
@@ -5013,7 +5049,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L281",
       "id": "ui_imagebattlefield_doorsignal",
-      "community": 1,
+      "community": 78,
       "norm_label": "doorsignal()"
     },
     {
@@ -5022,7 +5058,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L326",
       "id": "ui_imagebattlefield_getdoorframeindex",
-      "community": 1,
+      "community": 78,
       "norm_label": "getdoorframeindex()"
     },
     {
@@ -5031,7 +5067,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L344",
       "id": "ui_imagebattlefield_enemysprite",
-      "community": 1,
+      "community": 78,
       "norm_label": "enemysprite()"
     },
     {
@@ -5040,7 +5076,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L374",
       "id": "ui_imagebattlefield_corehealthbar",
-      "community": 1,
+      "community": 78,
       "norm_label": "corehealthbar()"
     },
     {
@@ -5049,7 +5085,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L399",
       "id": "ui_imagebattlefield_worldtoscreen",
-      "community": 1,
+      "community": 78,
       "norm_label": "worldtoscreen()"
     },
     {
@@ -5058,7 +5094,7 @@
       "source_file": "src/ui/ImageBattlefield.js",
       "source_location": "L406",
       "id": "ui_imagebattlefield_styles",
-      "community": 1,
+      "community": 78,
       "norm_label": "styles"
     },
     {
@@ -5301,7 +5337,7 @@
       "source_file": "src/game/heroCombat.js",
       "source_location": "L17",
       "id": "game_herocombat_hero_status",
-      "community": 1,
+      "community": 22,
       "norm_label": "hero_status"
     },
     {
@@ -5643,7 +5679,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L12",
       "id": "game_maplayout_player_core_position",
-      "community": 1,
+      "community": 0,
       "norm_label": "player_core_position"
     },
     {
@@ -5697,7 +5733,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L44",
       "id": "game_maplayout_core_areas",
-      "community": 0,
+      "community": 73,
       "norm_label": "core_areas"
     },
     {
@@ -5769,7 +5805,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L205",
       "id": "game_maplayout_major_intersections",
-      "community": 22,
+      "community": 0,
       "norm_label": "major_intersections"
     },
     {
@@ -5787,7 +5823,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L370",
       "id": "game_maplayout_map_blockers",
-      "community": 0,
+      "community": 73,
       "norm_label": "map_blockers"
     },
     {
@@ -5805,7 +5841,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L374",
       "id": "game_maplayout_iswalkablepoint",
-      "community": 0,
+      "community": 87,
       "norm_label": "iswalkablepoint()"
     },
     {
@@ -5814,7 +5850,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L387",
       "id": "game_maplayout_iswalkablebody",
-      "community": 18,
+      "community": 82,
       "norm_label": "iswalkablebody()"
     },
     {
@@ -5823,7 +5859,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L391",
       "id": "game_maplayout_getbodysamplepoints",
-      "community": 18,
+      "community": 82,
       "norm_label": "getbodysamplepoints()"
     },
     {
@@ -5832,7 +5868,7 @@
       "source_file": "src/game/mapLayout.js",
       "source_location": "L406",
       "id": "game_maplayout_isdoorblockingwalkablepath",
-      "community": 0,
+      "community": 87,
       "norm_label": "isdoorblockingwalkablepath()"
     },
     {
@@ -6057,7 +6093,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L50",
       "id": "game_enemybehavior_enemy_stats",
-      "community": 36,
+      "community": 70,
       "norm_label": "enemy_stats"
     },
     {
@@ -6066,7 +6102,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L105",
       "id": "game_enemybehavior_createenemy",
-      "community": 70,
+      "community": 88,
       "norm_label": "createenemy()"
     },
     {
@@ -6075,7 +6111,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L136",
       "id": "game_enemybehavior_createdoorenemyspawns",
-      "community": 19,
+      "community": 88,
       "norm_label": "createdoorenemyspawns()"
     },
     {
@@ -6084,7 +6120,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L174",
       "id": "game_enemybehavior_getdoorenemytypes",
-      "community": 19,
+      "community": 88,
       "norm_label": "getdoorenemytypes()"
     },
     {
@@ -6237,7 +6273,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L605",
       "id": "game_enemybehavior_resolvewalkablemove",
-      "community": 18,
+      "community": 82,
       "norm_label": "resolvewalkablemove()"
     },
     {
@@ -6300,7 +6336,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L813",
       "id": "game_enemybehavior_findenemypath",
-      "community": 18,
+      "community": 82,
       "norm_label": "findenemypath()"
     },
     {
@@ -6309,7 +6345,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L853",
       "id": "game_enemybehavior_getenemypathgrid",
-      "community": 18,
+      "community": 82,
       "norm_label": "getenemypathgrid()"
     },
     {
@@ -6318,7 +6354,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L882",
       "id": "game_enemybehavior_findnearestpathcell",
-      "community": 18,
+      "community": 82,
       "norm_label": "findnearestpathcell()"
     },
     {
@@ -6327,7 +6363,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L905",
       "id": "game_enemybehavior_getpathneighbors",
-      "community": 18,
+      "community": 82,
       "norm_label": "getpathneighbors()"
     },
     {
@@ -6336,7 +6372,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L926",
       "id": "game_enemybehavior_ispathcellwalkable",
-      "community": 18,
+      "community": 82,
       "norm_label": "ispathcellwalkable()"
     },
     {
@@ -6345,7 +6381,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L936",
       "id": "game_enemybehavior_reconstructpathcells",
-      "community": 18,
+      "community": 82,
       "norm_label": "reconstructpathcells()"
     },
     {
@@ -6354,7 +6390,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L948",
       "id": "game_enemybehavior_compresspathcells",
-      "community": 18,
+      "community": 82,
       "norm_label": "compresspathcells()"
     },
     {
@@ -6363,7 +6399,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L981",
       "id": "game_enemybehavior_getpathcellkey",
-      "community": 18,
+      "community": 82,
       "norm_label": "getpathcellkey()"
     },
     {
@@ -6372,7 +6408,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L985",
       "id": "game_enemybehavior_getpathcellpoint",
-      "community": 18,
+      "community": 82,
       "norm_label": "getpathcellpoint()"
     },
     {
@@ -6381,7 +6417,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L992",
       "id": "game_enemybehavior_findnearestwalkablespawn",
-      "community": 18,
+      "community": 88,
       "norm_label": "findnearestwalkablespawn()"
     },
     {
@@ -6390,7 +6426,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1007",
       "id": "game_enemybehavior_getdoorspawnspread",
-      "community": 19,
+      "community": 88,
       "norm_label": "getdoorspawnspread()"
     },
     {
@@ -6399,7 +6435,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1015",
       "id": "game_enemybehavior_getinitialpathreplandelay",
-      "community": 70,
+      "community": 88,
       "norm_label": "getinitialpathreplandelay()"
     },
     {
@@ -6408,7 +6444,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1028",
       "id": "game_enemybehavior_addvectors",
-      "community": 18,
+      "community": 88,
       "norm_label": "addvectors()"
     },
     {
@@ -6417,7 +6453,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1035",
       "id": "game_enemybehavior_scalevector",
-      "community": 18,
+      "community": 88,
       "norm_label": "scalevector()"
     },
     {
@@ -6435,7 +6471,7 @@
       "source_file": "src/game/enemyBehavior.js",
       "source_location": "L1046",
       "id": "game_enemybehavior_normalizeroutepoints",
-      "community": 70,
+      "community": 88,
       "norm_label": "normalizeroutepoints()"
     },
     {
@@ -6534,7 +6570,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L12",
       "id": "game_wallsystem_wall_tool_types",
-      "community": 36,
+      "community": 78,
       "norm_label": "wall_tool_types"
     },
     {
@@ -6552,7 +6588,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L29",
       "id": "game_wallsystem_wall_tool_configs",
-      "community": 3,
+      "community": 78,
       "norm_label": "wall_tool_configs"
     },
     {
@@ -6579,7 +6615,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L82",
       "id": "game_wallsystem_selectwalltool",
-      "community": 9,
+      "community": 3,
       "norm_label": "selectwalltool()"
     },
     {
@@ -6705,7 +6741,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L425",
       "id": "game_wallsystem_ispointblockedbywalls",
-      "community": 18,
+      "community": 82,
       "norm_label": "ispointblockedbywalls()"
     },
     {
@@ -6714,7 +6750,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L433",
       "id": "game_wallsystem_doessegmenthitwall",
-      "community": 3,
+      "community": 18,
       "norm_label": "doessegmenthitwall()"
     },
     {
@@ -6723,7 +6759,7 @@
       "source_file": "src/game/wallSystem.js",
       "source_location": "L458",
       "id": "game_wallsystem_getwallhitatpoint",
-      "community": 3,
+      "community": 87,
       "norm_label": "getwallhitatpoint()"
     },
     {
@@ -7164,7 +7200,7 @@
       "source_file": "src/game/matchState.js",
       "source_location": "L191",
       "id": "game_matchstate_getcorepercent",
-      "community": 1,
+      "community": 16,
       "norm_label": "getcorepercent()"
     },
     {
@@ -7200,7 +7236,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L1",
       "id": "src_game_projectiles_js",
-      "community": 36,
+      "community": 87,
       "norm_label": "projectiles.js"
     },
     {
@@ -7227,7 +7263,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L55",
       "id": "game_projectiles_tickprojectiles",
-      "community": 36,
+      "community": 87,
       "norm_label": "tickprojectiles()"
     },
     {
@@ -7236,7 +7272,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L139",
       "id": "game_projectiles_resolveprojectilesegment",
-      "community": 36,
+      "community": 87,
       "norm_label": "resolveprojectilesegment()"
     },
     {
@@ -7245,7 +7281,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L217",
       "id": "game_projectiles_getprojectileenemyhitindex",
-      "community": 18,
+      "community": 87,
       "norm_label": "getprojectileenemyhitindex()"
     },
     {
@@ -7254,7 +7290,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L239",
       "id": "game_projectiles_damageenemyatindex",
-      "community": 36,
+      "community": 87,
       "norm_label": "damageenemyatindex()"
     },
     {
@@ -7263,7 +7299,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L260",
       "id": "game_projectiles_createprojectiletrail",
-      "community": 36,
+      "community": 87,
       "norm_label": "createprojectiletrail()"
     },
     {
@@ -7272,7 +7308,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L271",
       "id": "game_projectiles_decayprojectiletrails",
-      "community": 36,
+      "community": 87,
       "norm_label": "decayprojectiletrails()"
     },
     {
@@ -7281,7 +7317,7 @@
       "source_file": "src/game/projectiles.js",
       "source_location": "L290",
       "id": "game_projectiles_ispointinsideworld",
-      "community": 36,
+      "community": 87,
       "norm_label": "ispointinsideworld()"
     },
     {
@@ -7488,7 +7524,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L1",
       "id": "src_game_joystick_js",
-      "community": 9,
+      "community": 79,
       "norm_label": "joystick.js"
     },
     {
@@ -7497,7 +7533,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L4",
       "id": "game_joystick_getjoystickradius",
-      "community": 9,
+      "community": 79,
       "norm_label": "getjoystickradius()"
     },
     {
@@ -7506,7 +7542,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L13",
       "id": "game_joystick_calculatejoystickinput",
-      "community": 9,
+      "community": 79,
       "norm_label": "calculatejoystickinput()"
     },
     {
@@ -7515,7 +7551,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L50",
       "id": "game_joystick_ispointinsidejoystickcontrol",
-      "community": 9,
+      "community": 79,
       "norm_label": "ispointinsidejoystickcontrol()"
     },
     {
@@ -7524,7 +7560,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L65",
       "id": "game_joystick_ispointinsidecirclecontrol",
-      "community": 9,
+      "community": 79,
       "norm_label": "ispointinsidecirclecontrol()"
     },
     {
@@ -7533,7 +7569,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L80",
       "id": "game_joystick_smoothjoystickvector",
-      "community": 9,
+      "community": 79,
       "norm_label": "smoothjoystickvector()"
     },
     {
@@ -7542,7 +7578,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L92",
       "id": "game_joystick_createneutralinput",
-      "community": 9,
+      "community": 79,
       "norm_label": "createneutralinput()"
     },
     {
@@ -7551,7 +7587,7 @@
       "source_file": "src/game/joystick.js",
       "source_location": "L100",
       "id": "game_joystick_clamp",
-      "community": 9,
+      "community": 79,
       "norm_label": "clamp()"
     },
     {
@@ -7830,7 +7866,7 @@
       "source_file": "src/game/coreDefense.js",
       "source_location": "L161",
       "id": "game_coredefense_getenemycoreattackdamage",
-      "community": 22,
+      "community": 18,
       "norm_label": "getenemycoreattackdamage()"
     },
     {
@@ -8505,7 +8541,7 @@
       "source_file": "src/base/baseUpgradeModalModel.js",
       "source_location": "L20",
       "id": "base_baseupgrademodalmodel_base_upgrade_challenge_requirement",
-      "community": 35,
+      "community": 46,
       "norm_label": "base_upgrade_challenge_requirement"
     },
     {
@@ -9648,7 +9684,7 @@
       "source_file": "src/base/baseSubscriptionConversion.js",
       "source_location": "L15",
       "id": "base_basesubscriptionconversion_base_pro_touchpoints",
-      "community": 35,
+      "community": 46,
       "norm_label": "base_pro_touchpoints"
     },
     {
@@ -9837,7 +9873,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L1",
       "id": "src_base_baseupgradetimers_js",
-      "community": 66,
+      "community": 77,
       "norm_label": "baseupgradetimers.js"
     },
     {
@@ -9855,7 +9891,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L30",
       "id": "base_baseupgradetimers_startbuildingupgradechallenge",
-      "community": 66,
+      "community": 77,
       "norm_label": "startbuildingupgradechallenge()"
     },
     {
@@ -9864,7 +9900,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L92",
       "id": "base_baseupgradetimers_startupgradetimerafterskillchallenge",
-      "community": 66,
+      "community": 77,
       "norm_label": "startupgradetimerafterskillchallenge()"
     },
     {
@@ -9873,7 +9909,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L156",
       "id": "base_baseupgradetimers_completeupgradetimer",
-      "community": 66,
+      "community": 77,
       "norm_label": "completeupgradetimer()"
     },
     {
@@ -9882,7 +9918,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L201",
       "id": "base_baseupgradetimers_createupgradetimerstatus",
-      "community": 66,
+      "community": 77,
       "norm_label": "createupgradetimerstatus()"
     },
     {
@@ -9891,7 +9927,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L230",
       "id": "base_baseupgradetimers_createupgradetimerviewmodel",
-      "community": 66,
+      "community": 77,
       "norm_label": "createupgradetimerviewmodel()"
     },
     {
@@ -9900,7 +9936,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L249",
       "id": "base_baseupgradetimers_getactiveupgrade",
-      "community": 66,
+      "community": 77,
       "norm_label": "getactiveupgrade()"
     },
     {
@@ -9909,7 +9945,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L268",
       "id": "base_baseupgradetimers_hasactiveupgrade",
-      "community": 66,
+      "community": 77,
       "norm_label": "hasactiveupgrade()"
     },
     {
@@ -9918,7 +9954,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L272",
       "id": "base_baseupgradetimers_rejectupgradestart",
-      "community": 66,
+      "community": 77,
       "norm_label": "rejectupgradestart()"
     },
     {
@@ -9927,7 +9963,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L287",
       "id": "base_baseupgradetimers_rejecttimerstart",
-      "community": 66,
+      "community": 77,
       "norm_label": "rejecttimerstart()"
     },
     {
@@ -9936,7 +9972,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L300",
       "id": "base_baseupgradetimers_assertbuildingrow",
-      "community": 66,
+      "community": 77,
       "norm_label": "assertbuildingrow()"
     },
     {
@@ -9945,7 +9981,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L311",
       "id": "base_baseupgradetimers_assertactiveupgrade",
-      "community": 66,
+      "community": 77,
       "norm_label": "assertactiveupgrade()"
     },
     {
@@ -9954,7 +9990,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L328",
       "id": "base_baseupgradetimers_assertrequiredstring",
-      "community": 66,
+      "community": 77,
       "norm_label": "assertrequiredstring()"
     },
     {
@@ -9963,7 +9999,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L334",
       "id": "base_baseupgradetimers_assertisotimestamp",
-      "community": 66,
+      "community": 77,
       "norm_label": "assertisotimestamp()"
     },
     {
@@ -9972,7 +10008,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L342",
       "id": "base_baseupgradetimers_millisecondstowholeminutes",
-      "community": 66,
+      "community": 77,
       "norm_label": "millisecondstowholeminutes()"
     },
     {
@@ -9981,7 +10017,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L346",
       "id": "base_baseupgradetimers_clampnumber",
-      "community": 66,
+      "community": 77,
       "norm_label": "clampnumber()"
     },
     {
@@ -9990,7 +10026,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L350",
       "id": "base_baseupgradetimers_clampwholenumber",
-      "community": 66,
+      "community": 77,
       "norm_label": "clampwholenumber()"
     },
     {
@@ -9999,7 +10035,7 @@
       "source_file": "src/base/baseUpgradeTimers.js",
       "source_location": "L354",
       "id": "base_baseupgradetimers_normalizewholenumber",
-      "community": 66,
+      "community": 77,
       "norm_label": "normalizewholenumber()"
     },
     {
@@ -10044,7 +10080,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L28",
       "id": "base_baseconfig_base_building_ids",
-      "community": 69,
+      "community": 46,
       "norm_label": "base_building_ids"
     },
     {
@@ -10062,7 +10098,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L48",
       "id": "base_baseconfig_building_states",
-      "community": 35,
+      "community": 65,
       "norm_label": "building_states"
     },
     {
@@ -10071,7 +10107,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L57",
       "id": "base_baseconfig_base_economy_config",
-      "community": 69,
+      "community": 68,
       "norm_label": "base_economy_config"
     },
     {
@@ -10080,7 +10116,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L85",
       "id": "base_baseconfig_base_building_definitions",
-      "community": 69,
+      "community": 74,
       "norm_label": "base_building_definitions"
     },
     {
@@ -10143,7 +10179,7 @@
       "source_file": "src/base/baseConfig.js",
       "source_location": "L168",
       "id": "base_baseconfig_calculatefinalcoins",
-      "community": 2,
+      "community": 68,
       "norm_label": "calculatefinalcoins()"
     },
     {
@@ -10206,7 +10242,7 @@
       "source_file": "src/base/baseSkillTrackSelection.js",
       "source_location": "L1",
       "id": "src_base_baseskilltrackselection_js",
-      "community": 4,
+      "community": 69,
       "norm_label": "baseskilltrackselection.js"
     },
     {
@@ -10242,7 +10278,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L1",
       "id": "src_base_baselocalization_js",
-      "community": 4,
+      "community": 35,
       "norm_label": "baselocalization.js"
     },
     {
@@ -10251,7 +10287,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L1",
       "id": "base_baselocalization_base_languages",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_languages"
     },
     {
@@ -10260,7 +10296,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L6",
       "id": "base_baselocalization_base_copy_keys",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_copy_keys"
     },
     {
@@ -10269,7 +10305,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L94",
       "id": "base_baselocalization_base_building_copy_keys",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_building_copy_keys"
     },
     {
@@ -10278,7 +10314,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L125",
       "id": "base_baselocalization_base_learning_track_copy_keys",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_learning_track_copy_keys"
     },
     {
@@ -10287,7 +10323,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L138",
       "id": "base_baselocalization_base_skill_tier_keys",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_skill_tier_keys"
     },
     {
@@ -10296,7 +10332,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L155",
       "id": "base_baselocalization_base_translations",
-      "community": 4,
+      "community": 35,
       "norm_label": "base_translations"
     },
     {
@@ -10305,7 +10341,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L392",
       "id": "base_baselocalization_getsupportedbaselanguages",
-      "community": 4,
+      "community": 35,
       "norm_label": "getsupportedbaselanguages()"
     },
     {
@@ -10332,7 +10368,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L415",
       "id": "base_baselocalization_hasbasecopykey",
-      "community": 4,
+      "community": 35,
       "norm_label": "hasbasecopykey()"
     },
     {
@@ -10341,7 +10377,7 @@
       "source_file": "src/base/baseLocalization.js",
       "source_location": "L420",
       "id": "base_baselocalization_interpolatecopy",
-      "community": 4,
+      "community": 35,
       "norm_label": "interpolatecopy()"
     },
     {
@@ -18960,6 +18996,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "tests_baserewardbridge_test_mjs",
+      "target": "tests_baserewardbridge_test_expectedrewards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "tests_baserewardbridge_test_mjs",
+      "target": "tests_baserewardbridge_test_freeclaim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "tests_baserewardbridge_test_mjs",
+      "target": "tests_baserewardbridge_test_proprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseRewardBridge.test.mjs",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "tests_baserewardbridge_test_mjs",
+      "target": "tests_baserewardbridge_test_proclaim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/baseRewardBridge.test.mjs",
       "source_location": "L165",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -25104,9 +25180,9 @@
       "source_file": "supabase/.temp/linked-project.json",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supabase_temp_linked_project_json",
-      "target": "temp_linked_project_ref",
-      "confidence_score": 1.0
+      "target": "temp_linked_project_ref"
     },
     {
       "relation": "contains",
@@ -25114,9 +25190,9 @@
       "source_file": "supabase/.temp/linked-project.json",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supabase_temp_linked_project_json",
-      "target": "temp_linked_project_name",
-      "confidence_score": 1.0
+      "target": "temp_linked_project_name"
     },
     {
       "relation": "contains",
@@ -25124,9 +25200,9 @@
       "source_file": "supabase/.temp/linked-project.json",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supabase_temp_linked_project_json",
-      "target": "temp_linked_project_organization_id",
-      "confidence_score": 1.0
+      "target": "temp_linked_project_organization_id"
     },
     {
       "relation": "contains",
@@ -25134,9 +25210,9 @@
       "source_file": "supabase/.temp/linked-project.json",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supabase_temp_linked_project_json",
-      "target": "temp_linked_project_organization_slug",
-      "confidence_score": 1.0
+      "target": "temp_linked_project_organization_slug"
     },
     {
       "relation": "imports_from",
@@ -42895,9 +42971,9 @@
       "source_file": "docs/BASE_BACKEND_COMPLETION_REPORT_2026-05-29.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_base_backend_completion_report_2026_05_29_base_backend_completion_report_2026_05_29",
-      "target": "docs_base_backend_completion_report_2026_05_29_remaining_external_setup",
-      "confidence_score": 1.0
+      "target": "docs_base_backend_completion_report_2026_05_29_remaining_external_setup"
     },
     {
       "relation": "contains",
@@ -46155,9 +46231,9 @@
       "source_file": "docs/SUPABASE_ACCESS_AND_PROJECT_SETUP_CHECK_2026-05-29.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_supabase_access_and_project_setup_check_2026_05_29_supabase_access_and_project_setup_check_2026_05_29",
-      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_remaining_app_environment_setup",
-      "confidence_score": 1.0
+      "target": "docs_supabase_access_and_project_setup_check_2026_05_29_remaining_app_environment_setup"
     },
     {
       "relation": "contains",
@@ -47381,5 +47457,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ed508ca9cf79c03dfd3cc473d72ac0da16cffa91"
+  "built_at_commit": "4a130154c882874acbde3382216641b52234a0e2"
 }

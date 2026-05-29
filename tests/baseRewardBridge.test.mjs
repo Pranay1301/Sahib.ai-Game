@@ -171,6 +171,56 @@ test("claimBattleResultReward applies Pro 3x in the base layer", () => {
   assert.equal(claim.rewardPreview.proUpsell, null);
 });
 
+test("mock BattleResult reward flow awards outcome coins and applies is_pro multiplier", () => {
+  const expectedRewards = [
+    { outcome: "win", baseCoins: 100, freeCoins: 100, proCoins: 300 },
+    { outcome: "draw", baseCoins: 50, freeCoins: 50, proCoins: 150 },
+    { outcome: "loss", baseCoins: 25, freeCoins: 25, proCoins: 75 }
+  ];
+
+  for (const reward of expectedRewards) {
+    const freeClaim = claimBattleResultReward({
+      gameState: createDefaultGameState(USER_ID),
+      existingClaims: [],
+      battleResult: createBattleResult({
+        battleResultId: `mock_free_${reward.outcome}`,
+        outcome: reward.outcome,
+        baseCoins: reward.baseCoins
+      }),
+      userId: USER_ID,
+      isPro: false,
+      claimedAt: CLAIMED_AT
+    });
+    const proProfile = { is_pro: true };
+    const proClaim = claimBattleResultReward({
+      gameState: createDefaultGameState(USER_ID),
+      existingClaims: [],
+      battleResult: createBattleResult({
+        battleResultId: `mock_pro_${reward.outcome}`,
+        outcome: reward.outcome,
+        baseCoins: reward.baseCoins
+      }),
+      userId: USER_ID,
+      isPro: proProfile.is_pro,
+      claimedAt: CLAIMED_AT
+    });
+
+    assert.equal(freeClaim.accepted, true);
+    assert.equal(freeClaim.battleResult.baseCoins, reward.baseCoins);
+    assert.equal(freeClaim.finalCoins, reward.freeCoins);
+    assert.equal(freeClaim.gameState.coins, reward.freeCoins);
+    assert.equal(freeClaim.claim.base_coins, reward.baseCoins);
+    assert.equal(freeClaim.claim.final_coins_awarded, reward.freeCoins);
+
+    assert.equal(proClaim.accepted, true);
+    assert.equal(proClaim.battleResult.baseCoins, reward.baseCoins);
+    assert.equal(proClaim.finalCoins, reward.proCoins);
+    assert.equal(proClaim.gameState.coins, reward.proCoins);
+    assert.equal(proClaim.claim.base_coins, reward.baseCoins);
+    assert.equal(proClaim.claim.final_coins_awarded, reward.proCoins);
+  }
+});
+
 function createBattleResult(overrides = {}) {
   const outcome = overrides.outcome ?? "win";
   const result = {
