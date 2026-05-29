@@ -20,6 +20,13 @@ npm test
 npm start
 ```
 
+For base-building Supabase integration, copy `.env.example` to your local environment and set:
+
+```bash
+EXPO_PUBLIC_SUPABASE_URL=
+EXPO_PUBLIC_SUPABASE_ANON_KEY=
+```
+
 For Android testing:
 
 ```bash

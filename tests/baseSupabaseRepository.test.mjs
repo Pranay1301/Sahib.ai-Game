@@ -16,6 +16,7 @@ import {
   getBaseServerTimestamp,
   initializeBaseUserRows,
   loadBaseUserRows,
+  saveBaseUserRows,
   upsertActiveUpgrade
 } from "../src/base/baseSupabaseRepository.js";
 
@@ -132,6 +133,37 @@ test("active upgrade helpers persist one active upgrade and clear it by user", a
     ]
   );
   assert.equal(supabase.calls[1].filter.value, USER_ID);
+});
+
+test("saveBaseUserRows writes selected base-building state and clears completed active upgrade", async () => {
+  const supabase = new FakeSupabaseClient();
+  const rows = createBaseUserBootstrapRows({
+    userId: USER_ID,
+    gameStateOverrides: { coins: 900 },
+    palaceLevel: 2
+  });
+
+  const saved = await saveBaseUserRows({
+    supabase,
+    profile: rows.profile,
+    gameState: rows.gameState,
+    buildings: rows.buildings,
+    activeUpgrade: null
+  });
+
+  assert.equal(saved.profile.user_id, USER_ID);
+  assert.equal(saved.gameState.coins, 900);
+  assert.equal(saved.buildings.length, 7);
+  assert.equal(saved.activeUpgrade, null);
+  assert.deepEqual(
+    supabase.calls.map((call) => [call.table, call.method, call.options?.onConflict ?? call.filter?.field]),
+    [
+      ["profiles", "upsert", "user_id"],
+      ["user_game_state", "upsert", "user_id"],
+      ["user_buildings", "upsert", "user_id,building_id"],
+      ["active_upgrades", "delete.eq", "user_id"]
+    ]
+  );
 });
 
 test("base server timestamp comes from Supabase RPC instead of device time", async () => {

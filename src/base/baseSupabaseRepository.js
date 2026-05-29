@@ -88,6 +88,45 @@ export async function loadBaseUserRows({ supabase, userId } = {}) {
   };
 }
 
+export async function saveBaseUserRows({
+  supabase,
+  profile = null,
+  gameState = null,
+  buildings = null,
+  activeUpgrade
+} = {}) {
+  assertSupabaseClient(supabase);
+
+  const saved = {
+    profile: null,
+    gameState: null,
+    buildings: null,
+    activeUpgrade: undefined
+  };
+
+  if (profile) {
+    saved.profile = await upsertBaseProfile({ supabase, profile });
+  }
+
+  if (gameState) {
+    saved.gameState = await upsertBaseGameState({ supabase, gameState });
+  }
+
+  if (buildings) {
+    saved.buildings = await upsertBaseBuildings({ supabase, buildings });
+  }
+
+  if (activeUpgrade === null) {
+    const userId = profile?.user_id ?? gameState?.user_id ?? buildings?.[0]?.user_id;
+    assertUserId(userId);
+    saved.activeUpgrade = await clearActiveUpgrade({ supabase, userId });
+  } else if (activeUpgrade) {
+    saved.activeUpgrade = await upsertActiveUpgrade({ supabase, activeUpgrade });
+  }
+
+  return saved;
+}
+
 export async function upsertBaseProfile({ supabase, profile } = {}) {
   assertSupabaseClient(supabase);
   assertUserId(profile?.user_id);
