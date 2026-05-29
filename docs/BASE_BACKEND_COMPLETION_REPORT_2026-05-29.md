@@ -16,6 +16,8 @@
 - Added app Supabase config using:
   - `EXPO_PUBLIC_SUPABASE_URL`
   - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
+- Linked the repo-side Supabase config to project ref `batwwcfqohysmrcosbix` and public URL `https://batwwcfqohysmrcosbix.supabase.co`.
+- Tightened the V1 migration for Supabase Data API usage with authenticated grants, authenticated-only RLS policies, and explicit RPC execute grants.
 - Added base save/load repository helpers for:
   - user bootstrap rows
   - base snapshot loading
@@ -43,8 +45,7 @@
 
 ## External Setup Still Needed
 
-- Apply the migration to the real Supabase project.
-- Add real Supabase values to local/build environment:
-  - `EXPO_PUBLIC_SUPABASE_URL`
-  - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
-- Run Supabase CLI checks once the CLI/project access are available.
+- Run `supabase login` or set `SUPABASE_ACCESS_TOKEN` for CLI access.
+- Apply the migration to Supabase project `batwwcfqohysmrcosbix`.
+- Add the real `EXPO_PUBLIC_SUPABASE_ANON_KEY` to local/build environments.
+- Run a live authenticated save/load and duplicate reward claim smoke test.

@@ -20,12 +20,16 @@ npm test
 npm start
 ```
 
-For base-building Supabase integration, copy `.env.example` to your local environment and set:
+The app repo is linked to GitHub at `https://github.com/Pranay1301/Sahib.ai-Game`.
+
+For base-building Supabase integration, the V1 project ref is `batwwcfqohysmrcosbix` and the public project URL is already documented in `.env.example`. Copy `.env.example` to your local environment and set the anon key from the Supabase dashboard:
 
 ```bash
-EXPO_PUBLIC_SUPABASE_URL=
+EXPO_PUBLIC_SUPABASE_URL=https://batwwcfqohysmrcosbix.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=
 ```
+
+The V1 database migration lives at `supabase/migrations/20260529000000_base_building_v1.sql`. Do not commit real Supabase keys.
 
 For Android testing:
 

@@ -92,84 +92,111 @@ alter table public.user_buildings enable row level security;
 alter table public.active_upgrades enable row level security;
 alter table public.battle_reward_claims enable row level security;
 
+revoke all on table public.profiles from anon, authenticated;
+revoke all on table public.user_game_state from anon, authenticated;
+revoke all on table public.user_buildings from anon, authenticated;
+revoke all on table public.active_upgrades from anon, authenticated;
+revoke all on table public.battle_reward_claims from anon, authenticated;
+
+grant select, insert, update on table public.profiles to authenticated;
+grant select, insert, update on table public.user_game_state to authenticated;
+grant select, insert, update on table public.user_buildings to authenticated;
+grant select, insert, update, delete on table public.active_upgrades to authenticated;
+grant select, insert on table public.battle_reward_claims to authenticated;
+
 create policy "profiles_select_own"
   on public.profiles
   for select
-  using (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id);
 
 create policy "profiles_insert_own"
   on public.profiles
   for insert
-  with check (auth.uid() = user_id);
+  to authenticated
+  with check ((select auth.uid()) = user_id);
 
 create policy "profiles_update_own"
   on public.profiles
   for update
-  using (auth.uid() = user_id)
-  with check (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id)
+  with check ((select auth.uid()) = user_id);
 
 create policy "user_game_state_select_own"
   on public.user_game_state
   for select
-  using (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id);
 
 create policy "user_game_state_insert_own"
   on public.user_game_state
   for insert
-  with check (auth.uid() = user_id);
+  to authenticated
+  with check ((select auth.uid()) = user_id);
 
 create policy "user_game_state_update_own"
   on public.user_game_state
   for update
-  using (auth.uid() = user_id)
-  with check (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id)
+  with check ((select auth.uid()) = user_id);
 
 create policy "user_buildings_select_own"
   on public.user_buildings
   for select
-  using (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id);
 
 create policy "user_buildings_insert_own"
   on public.user_buildings
   for insert
-  with check (auth.uid() = user_id);
+  to authenticated
+  with check ((select auth.uid()) = user_id);
 
 create policy "user_buildings_update_own"
   on public.user_buildings
   for update
-  using (auth.uid() = user_id)
-  with check (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id)
+  with check ((select auth.uid()) = user_id);
 
 create policy "active_upgrades_select_own"
   on public.active_upgrades
   for select
-  using (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id);
 
 create policy "active_upgrades_insert_own"
   on public.active_upgrades
   for insert
-  with check (auth.uid() = user_id);
+  to authenticated
+  with check ((select auth.uid()) = user_id);
 
 create policy "active_upgrades_update_own"
   on public.active_upgrades
   for update
-  using (auth.uid() = user_id)
-  with check (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id)
+  with check ((select auth.uid()) = user_id);
 
 create policy "active_upgrades_delete_own"
   on public.active_upgrades
   for delete
-  using (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id);
 
 create policy "battle_reward_claims_select_own"
   on public.battle_reward_claims
   for select
-  using (auth.uid() = user_id);
+  to authenticated
+  using ((select auth.uid()) = user_id);
 
 create policy "battle_reward_claims_insert_own"
   on public.battle_reward_claims
   for insert
-  with check (auth.uid() = user_id);
+  to authenticated
+  with check ((select auth.uid()) = user_id);
 
 create or replace function public.base_server_now()
 returns timestamptz
@@ -200,7 +227,7 @@ security invoker
 set search_path = public
 as $$
 declare
-  v_user_id uuid := auth.uid();
+  v_user_id uuid := (select auth.uid());
   v_claimed_at timestamptz := now();
   v_coins integer;
   v_is_pro boolean;
@@ -299,3 +326,9 @@ begin
       v_claimed_at;
 end;
 $$;
+
+revoke execute on function public.base_server_now() from public;
+revoke execute on function public.claim_base_battle_reward(text, text, text, integer, integer) from public;
+
+grant execute on function public.base_server_now() to authenticated;
+grant execute on function public.claim_base_battle_reward(text, text, text, integer, integer) to authenticated;

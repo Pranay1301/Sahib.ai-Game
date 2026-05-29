@@ -1,6 +1,7 @@
 node_modules/
 .expo/
 .expo-export-test/
+supabase/.temp/
 dist/
 build/
 builds/

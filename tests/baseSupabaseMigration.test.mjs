@@ -80,18 +80,21 @@ test("Supabase migration constrains documented IDs, states, language, and track 
 test("Supabase migration enables user-owned RLS on every base-building table", () => {
   for (const tableName of Object.values(BASE_BACKEND_TABLES)) {
     assert.match(SQL, new RegExp(`alter table public\\.${tableName} enable row level security;`));
-    assert.match(SQL, new RegExp(`on public\\.${tableName}[\\s\\S]*?using \\(auth\\.uid\\(\\) = user_id\\)`));
+    assert.match(SQL, new RegExp(`on public\\.${tableName}[\\s\\S]*?to authenticated[\\s\\S]*?using \\(\\(select auth\\.uid\\(\\)\\) = user_id\\)`));
   }
 
-  assert.match(SQL, /battle_reward_claims_insert_own[\s\S]*?with check \(auth\.uid\(\) = user_id\)/);
-  assert.match(SQL, /active_upgrades_delete_own[\s\S]*?using \(auth\.uid\(\) = user_id\)/);
+  assert.match(SQL, /battle_reward_claims_insert_own[\s\S]*?with check \(\(select auth\.uid\(\)\) = user_id\)/);
+  assert.match(SQL, /active_upgrades_delete_own[\s\S]*?using \(\(select auth\.uid\(\)\) = user_id\)/);
+  assert.match(SQL, /grant select, insert, update on table public\.profiles to authenticated;/);
+  assert.match(SQL, /grant select, insert, update, delete on table public\.active_upgrades to authenticated;/);
+  assert.match(SQL, /grant select, insert on table public\.battle_reward_claims to authenticated;/);
 });
 
 test("Supabase migration includes server-time and atomic reward-claim RPCs", () => {
   assert.match(SQL, /create or replace function public\.base_server_now\(\)/);
   assert.match(SQL, /select now\(\);/);
   assert.match(SQL, /create or replace function public\.claim_base_battle_reward/);
-  assert.match(SQL, /v_user_id uuid := auth\.uid\(\);/);
+  assert.match(SQL, /v_user_id uuid := \(select auth\.uid\(\)\);/);
   assert.match(SQL, /v_base_coins := case p_outcome/);
   assert.match(SQL, /when 'win' then 100/);
   assert.match(SQL, /when 'draw' then 50/);
@@ -102,6 +105,8 @@ test("Supabase migration includes server-time and atomic reward-claim RPCs", () 
   assert.match(SQL, /update public\.user_game_state as state/);
   assert.match(SQL, /set coins = state\.coins \+ v_final_coins_awarded/);
   assert.match(SQL, /'duplicate_battle_reward_claim'::text/);
+  assert.match(SQL, /revoke execute on function public\.claim_base_battle_reward\(text, text, text, integer, integer\) from public;/);
+  assert.match(SQL, /grant execute on function public\.claim_base_battle_reward\(text, text, text, integer, integer\) to authenticated;/);
 });
 
 function getCreateTableBlock(tableName) {
